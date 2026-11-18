@@ -20,3 +20,15 @@ python ur5e_openvla_one_step.py --prediction prior_colab_prediction.json --outpu
 Read `one_step_result.json` in this order: `requested_ee_delta_m` (candidate target), `actual_ee_delta_m` (what happened in 0.1 s), and `difference_vs_zero_action_control_m` (effect after subtracting natural startup motion). `block_lifted` is only a 5 cm height check for this one step; task success was not evaluated.
 
 The seed is recorded as 7. This scene has fixed initial conditions and no enabled randomization, so changing the seed alone does not create new trials.
+
+## World-axis and gripper command check
+
+`verify_ur5e_controls.py` runs seven fresh MuJoCo scenes for the arm: one zero-command control and six `+x/-x/+y/-y/+z/-z` requests of 10 mm each. It also runs two fresh scenes for gripper commands 0 and 255. Every case lasts 1 s, keeps the other controls fixed, and uses seed 7. It does **not** call OpenVLA.
+
+```bash
+source /home/jw/ur5e-venv/bin/activate
+cd /mnt/c/Users/User/Desktop/vla-experiments/openvla_one_scene/ur5e_sample
+python verify_ur5e_controls.py --seed 7
+```
+
+Read `control_check/arm_directions.csv` for each requested direction. The `baseline_corrected_*_mm` columns subtract the motion seen in the zero-command case, so they isolate the extra movement caused by the command. The coordinates are MuJoCo **world** axes, not left/right/up in the camera image. Read `control_check/control_check.json` for the gripper result: `pad_center_distance_mm` is the distance between two pad **centers**, not a directly measured free opening width. A smaller center distance with command 255 means the pads closed. This checks controller semantics, not grasp success or OpenVLA prediction quality.
