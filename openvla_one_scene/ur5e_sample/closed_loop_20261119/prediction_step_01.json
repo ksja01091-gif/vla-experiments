@@ -1,0 +1,35 @@
+{
+  "step": 1,
+  "input_image": "/content/ur5e_closed_loop_test/step_00.png",
+  "input_sha256": "f67247a71ce604ec49ad6dcafa93f22dd898140c35119d578e12ec32e2104daf",
+  "instruction": "In: What action should the robot take to pick up the orange block?\nOut:",
+  "token_ids": [
+    31913,
+    31976,
+    31859,
+    31999,
+    31909,
+    31940,
+    31744
+  ],
+  "token_valid": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "normalized_action": [
+    -0.32156862745098036,
+    -0.8156862745098039,
+    0.10196078431372557,
+    -0.996078431372549,
+    -0.2901960784313726,
+    -0.5333333333333333,
+    0.996078431372549
+  ],
+  "gripper_applied": "held_open_0_manual_safety",
+  "mapping": "candidate_0.01m_per_unit_5deg_per_unit"
+}

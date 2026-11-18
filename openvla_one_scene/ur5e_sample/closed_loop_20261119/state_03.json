@@ -1,0 +1,36 @@
+{
+  "step": 3,
+  "image": "/content/ur5e_closed_loop_test/step_03.png",
+  "simulation_time_s": 2.999999999999891,
+  "physics_steps_this_action": 500,
+  "initial_pinch_xyz_m": [
+    -0.14042642227385874,
+    0.472080654616441,
+    0.3132499603036382
+  ],
+  "final_pinch_xyz_m": [
+    -0.14230887376988535,
+    0.4689193812589641,
+    0.3002923385882945
+  ],
+  "requested_pinch_xyz_m": [
+    -0.14175975560719206,
+    0.47153163500859785,
+    0.3107401563820696
+  ],
+  "ik_position_error_m": 0.0011525859020411517,
+  "block_xyz_m_before": [
+    0.45,
+    0.0,
+    0.04989224458161516
+  ],
+  "block_xyz_m_after": [
+    0.45,
+    0.0,
+    0.04989224458161902
+  ],
+  "pinch_to_block_center_m": 0.7958739819502781,
+  "block_lifted_5cm": false,
+  "gripper_control": 0,
+  "mapping_status": "unvalidated OpenVLA-to-UR5e candidate; gripper held open"
+}

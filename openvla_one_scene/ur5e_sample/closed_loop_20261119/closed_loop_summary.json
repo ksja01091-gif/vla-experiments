@@ -1,0 +1,370 @@
+{
+  "stop_reason": "completed_bounded_test",
+  "records": [
+    {
+      "prediction": {
+        "step": 1,
+        "input_image": "/content/ur5e_closed_loop_test/step_00.png",
+        "input_sha256": "f67247a71ce604ec49ad6dcafa93f22dd898140c35119d578e12ec32e2104daf",
+        "instruction": "In: What action should the robot take to pick up the orange block?\nOut:",
+        "token_ids": [
+          31913,
+          31976,
+          31859,
+          31999,
+          31909,
+          31940,
+          31744
+        ],
+        "token_valid": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "normalized_action": [
+          -0.32156862745098036,
+          -0.8156862745098039,
+          0.10196078431372557,
+          -0.996078431372549,
+          -0.2901960784313726,
+          -0.5333333333333333,
+          0.996078431372549
+        ],
+        "gripper_applied": "held_open_0_manual_safety",
+        "mapping": "candidate_0.01m_per_unit_5deg_per_unit"
+      },
+      "scene": {
+        "step": 1,
+        "image": "/content/ur5e_closed_loop_test/step_01.png",
+        "simulation_time_s": 1.0000000000000007,
+        "physics_steps_this_action": 500,
+        "initial_pinch_xyz_m": [
+          -0.13399725317860262,
+          0.4919998706957351,
+          0.3322003673210946
+        ],
+        "final_pinch_xyz_m": [
+          -0.13653374301429388,
+          0.48260160664444707,
+          0.3218482261241876
+        ],
+        "requested_pinch_xyz_m": [
+          -0.13721293945311241,
+          0.48384300795063706,
+          0.33321997516423185
+        ],
+        "ik_position_error_m": 0.0008288287700698882,
+        "block_xyz_m_before": [
+          0.45,
+          0.0,
+          0.05
+        ],
+        "block_xyz_m_after": [
+          0.45,
+          0.0,
+          0.0498922445816739
+        ],
+        "pinch_to_block_center_m": 0.8067751845011789,
+        "block_lifted_5cm": false,
+        "gripper_control": 0,
+        "mapping_status": "unvalidated OpenVLA-to-UR5e candidate; gripper held open"
+      }
+    },
+    {
+      "prediction": {
+        "step": 2,
+        "input_image": "/content/ur5e_closed_loop_test/step_01.png",
+        "input_sha256": "3fd8f2508da2c44a67c16e77da20f4a919ae38656e1eefbb6cfb8af5245f8a69",
+        "instruction": "In: What action should the robot take to pick up the orange block?\nOut:",
+        "token_ids": [
+          31935,
+          31997,
+          31845,
+          31872,
+          31911,
+          31922,
+          31744
+        ],
+        "token_valid": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "normalized_action": [
+          -0.49411764705882355,
+          -0.9803921568627452,
+          0.21176470588235285,
+          0.0,
+          -0.3058823529411765,
+          -0.39215686274509803,
+          0.996078431372549
+        ],
+        "gripper_applied": "held_open_0_manual_safety",
+        "mapping": "candidate_0.01m_per_unit_5deg_per_unit"
+      },
+      "scene": {
+        "step": 2,
+        "image": "/content/ur5e_closed_loop_test/step_02.png",
+        "simulation_time_s": 2.0000000000000013,
+        "physics_steps_this_action": 500,
+        "initial_pinch_xyz_m": [
+          -0.13653795244190864,
+          0.48258888984138865,
+          0.3218486773170054
+        ],
+        "final_pinch_xyz_m": [
+          -0.14041982335183095,
+          0.47209513447246076,
+          0.3132468499059179
+        ],
+        "requested_pinch_xyz_m": [
+          -0.14147912891249687,
+          0.4727849682727612,
+          0.3239663243758289
+        ],
+        "ik_position_error_m": 0.00038722019944676273,
+        "block_xyz_m_before": [
+          0.45,
+          0.0,
+          0.0498922445816739
+        ],
+        "block_xyz_m_after": [
+          0.45,
+          0.0,
+          0.04989224458161516
+        ],
+        "pinch_to_block_center_m": 0.8005154788915061,
+        "block_lifted_5cm": false,
+        "gripper_control": 0,
+        "mapping_status": "unvalidated OpenVLA-to-UR5e candidate; gripper held open"
+      }
+    },
+    {
+      "prediction": {
+        "step": 3,
+        "input_image": "/content/ur5e_closed_loop_test/step_02.png",
+        "input_sha256": "a730608f408662c9e68a42808ccd20922240cac4bc0a1c3596628ee2d4ad4b7f",
+        "instruction": "In: What action should the robot take to pick up the orange block?\nOut:",
+        "token_ids": [
+          31889,
+          31879,
+          31904,
+          31900,
+          31828,
+          31862,
+          31744
+        ],
+        "token_valid": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "normalized_action": [
+          -0.1333333333333333,
+          -0.05490196078431375,
+          -0.25098039215686274,
+          -0.2196078431372549,
+          0.34509803921568627,
+          0.07843137254901955,
+          0.996078431372549
+        ],
+        "gripper_applied": "held_open_0_manual_safety",
+        "mapping": "candidate_0.01m_per_unit_5deg_per_unit"
+      },
+      "scene": {
+        "step": 3,
+        "image": "/content/ur5e_closed_loop_test/step_03.png",
+        "simulation_time_s": 2.999999999999891,
+        "physics_steps_this_action": 500,
+        "initial_pinch_xyz_m": [
+          -0.14042642227385874,
+          0.472080654616441,
+          0.3132499603036382
+        ],
+        "final_pinch_xyz_m": [
+          -0.14230887376988535,
+          0.4689193812589641,
+          0.3002923385882945
+        ],
+        "requested_pinch_xyz_m": [
+          -0.14175975560719206,
+          0.47153163500859785,
+          0.3107401563820696
+        ],
+        "ik_position_error_m": 0.0011525859020411517,
+        "block_xyz_m_before": [
+          0.45,
+          0.0,
+          0.04989224458161516
+        ],
+        "block_xyz_m_after": [
+          0.45,
+          0.0,
+          0.04989224458161902
+        ],
+        "pinch_to_block_center_m": 0.7958739819502781,
+        "block_lifted_5cm": false,
+        "gripper_control": 0,
+        "mapping_status": "unvalidated OpenVLA-to-UR5e candidate; gripper held open"
+      }
+    },
+    {
+      "prediction": {
+        "step": 4,
+        "input_image": "/content/ur5e_closed_loop_test/step_03.png",
+        "input_sha256": "f945b1cdc6acb5f65b76409604db3650f8a2e2b3742cad90a5f5e0573cf4ddea",
+        "instruction": "In: What action should the robot take to pick up the orange block?\nOut:",
+        "token_ids": [
+          31920,
+          31999,
+          31848,
+          31916,
+          31891,
+          31943,
+          31744
+        ],
+        "token_valid": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "normalized_action": [
+          -0.3764705882352941,
+          -0.996078431372549,
+          0.18823529411764706,
+          -0.34509803921568627,
+          -0.14901960784313728,
+          -0.5568627450980392,
+          0.996078431372549
+        ],
+        "gripper_applied": "held_open_0_manual_safety",
+        "mapping": "candidate_0.01m_per_unit_5deg_per_unit"
+      },
+      "scene": {
+        "step": 4,
+        "image": "/content/ur5e_closed_loop_test/step_04.png",
+        "simulation_time_s": 3.999999999999781,
+        "physics_steps_this_action": 500,
+        "initial_pinch_xyz_m": [
+          -0.14231214439503692,
+          0.468917952690719,
+          0.30028726311793125
+        ],
+        "final_pinch_xyz_m": [
+          -0.1451281435329836,
+          0.4576906656557545,
+          0.2914920748491008
+        ],
+        "requested_pinch_xyz_m": [
+          -0.14607685027738987,
+          0.4589571683769935,
+          0.3021696160591077
+        ],
+        "ik_position_error_m": 0.0006522484366125361,
+        "block_xyz_m_before": [
+          0.45,
+          0.0,
+          0.04989224458161902
+        ],
+        "block_xyz_m_after": [
+          0.45,
+          0.0,
+          0.0498922445816491
+        ],
+        "pinch_to_block_center_m": 0.7886879805339274,
+        "block_lifted_5cm": false,
+        "gripper_control": 0,
+        "mapping_status": "unvalidated OpenVLA-to-UR5e candidate; gripper held open"
+      }
+    },
+    {
+      "prediction": {
+        "step": 5,
+        "input_image": "/content/ur5e_closed_loop_test/step_04.png",
+        "input_sha256": "daf69cdb9119c9195675aecf56b13e720f32b9d99e5e4db68bf7f1c71c6bc811",
+        "instruction": "In: What action should the robot take to pick up the orange block?\nOut:",
+        "token_ids": [
+          31885,
+          31999,
+          31883,
+          31912,
+          31918,
+          31924,
+          31744
+        ],
+        "token_valid": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "normalized_action": [
+          -0.10196078431372552,
+          -0.996078431372549,
+          -0.0862745098039216,
+          -0.3137254901960784,
+          -0.36078431372549025,
+          -0.40784313725490196,
+          0.996078431372549
+        ],
+        "gripper_applied": "held_open_0_manual_safety",
+        "mapping": "candidate_0.01m_per_unit_5deg_per_unit"
+      },
+      "scene": {
+        "step": 5,
+        "image": "/content/ur5e_closed_loop_test/step_05.png",
+        "simulation_time_s": 4.999999999999671,
+        "physics_steps_this_action": 500,
+        "initial_pinch_xyz_m": [
+          -0.1451330040446818,
+          0.45767555712118085,
+          0.2914941930381626
+        ],
+        "final_pinch_xyz_m": [
+          -0.14561970095786178,
+          0.44638901992336466,
+          0.28075483890096964
+        ],
+        "requested_pinch_xyz_m": [
+          -0.14615261188781906,
+          0.44771477280745536,
+          0.29063144794012336
+        ],
+        "ik_position_error_m": 0.0004916266711653022,
+        "block_xyz_m_before": [
+          0.45,
+          0.0,
+          0.0498922445816491
+        ],
+        "block_xyz_m_after": [
+          0.45,
+          0.0,
+          0.04989224458156396
+        ],
+        "pinch_to_block_center_m": 0.779309644963516,
+        "block_lifted_5cm": false,
+        "gripper_control": 0,
+        "mapping_status": "unvalidated OpenVLA-to-UR5e candidate; gripper held open"
+      }
+    }
+  ]
+}

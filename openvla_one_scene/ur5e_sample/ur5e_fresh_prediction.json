@@ -1,0 +1,24 @@
+{
+  "provenance": "fresh Colab CPU BF16 inference",
+  "model": "openvla/openvla-7b",
+  "quantization": "none",
+  "device": "cpu",
+  "image": "/content/ur5e_scene_fresh.png",
+  "image_sha256": "141849f4896c4214c106aa4e06b4b0e06b77a4d9314490c9a0e44e043b11900c",
+  "instruction": "pick up the orange block",
+  "action_token_ids": [31913, 31976, 31859, 31999, 31909, 31940, 31744],
+  "tokens_clipped_to_action_bins": 1,
+  "normalized_action": [
+    -0.32156862745098036,
+    -0.8156862745098039,
+    0.10196078431372557,
+    -0.996078431372549,
+    -0.2901960784313726,
+    -0.5333333333333333,
+    0.996078431372549
+  ],
+  "normalized_action_shape": [1, 7],
+  "all_values_finite": true,
+  "cpu_inference": true,
+  "transformers_version": "4.40.1"
+}
