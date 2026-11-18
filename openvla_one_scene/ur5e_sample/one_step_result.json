@@ -1,0 +1,63 @@
+{
+  "input_prediction": "prior_colab_prediction.json",
+  "prediction_provenance": "Transcribed from the prior Colab output recorded in this conversation; no fresh inference in this run",
+  "model": "openvla/openvla-7b",
+  "image": "openvla_one_scene/ur5e_sample/scene.png",
+  "instruction": "pick up the orange block",
+  "normalized_action": [
+    -0.3215686,
+    -0.8156863,
+    0.1019608,
+    -0.9960784,
+    -0.2901961,
+    -0.5333333,
+    0.9960784
+  ],
+  "mapping_status": "candidate engineering smoke test; no UR5e action normalization",
+  "position_gain_m_per_normalized_unit": 0.01,
+  "rotation_gain_rad_per_normalized_unit": 0.08726646259971647,
+  "gripper": "held open; clipped token not executed",
+  "duration_s": 0.10000000000000007,
+  "physics_steps": 50,
+  "initial_ee_xyz_m": [
+    -0.13399725317860262,
+    0.4919998706957351,
+    0.3322003673210946
+  ],
+  "requested_ee_xyz_m": [
+    -0.1372129391786026,
+    0.4838430076957351,
+    0.3332199753210946
+  ],
+  "actual_ee_xyz_m": [
+    -0.1346551029515673,
+    0.4894029385747265,
+    0.32829696495849725
+  ],
+  "actual_ee_delta_m": [
+    -0.0006578497729646804,
+    -0.0025969321210085883,
+    -0.0039034023625973413
+  ],
+  "zero_action_control_ee_delta_m": [
+    -1.017104510392386e-05,
+    -0.000836949942501386,
+    -0.004060422899621163
+  ],
+  "difference_vs_zero_action_control_m": [
+    -0.0006476787278607565,
+    -0.0017599821785072023,
+    0.00015702053702382202
+  ],
+  "requested_ee_delta_m": [
+    -0.0032156859999999954,
+    -0.008156863000000014,
+    0.0010196080000000052
+  ],
+  "ik_position_error_m": 0.0008288287259947641,
+  "initial_block_z_m": 0.05,
+  "final_block_z_m": 0.049883813953172,
+  "zero_action_control_final_block_z_m": 0.049883813953172,
+  "block_lifted": false,
+  "task_success_measured": false
+}
