@@ -41,20 +41,24 @@ def predict(image_path: Path, instruction: str) -> dict:
         generated = model.generate(**inputs, max_new_tokens=7, do_sample=False)
 
     ids = generated[0, -7:].cpu().numpy()
-    first_valid_id = model.vocab_size - (len(model.bin_centers))
+    # 256 action tokens are mapped to 255 interval centers. The 256th token
+    # is valid; OpenVLA clips its decoded index to the final center.
+    first_valid_id = model.vocab_size - model.config.n_action_bins
     last_valid_id = model.vocab_size - 1
-    in_nominal_range = (ids >= first_valid_id) & (ids <= last_valid_id)
+    in_action_token_range = (ids >= first_valid_id) & (ids <= last_valid_id)
     # OpenVLA's own predict_action() clips the decoded bin index to the
-    # available centers. Preserve that behavior and report any clipped token.
-    indices = np.clip(model.vocab_size - ids - 1, 0, len(model.bin_centers) - 1)
+    # available centers. Preserve that behavior and report clipping separately.
+    raw_indices = model.vocab_size - ids - 1
+    indices = np.clip(raw_indices, 0, len(model.bin_centers) - 1)
     actions = model.bin_centers[indices]
     result = {
         "model": model_id,
         "image": str(image_path),
         "instruction": instruction,
         "action_token_ids": ids.tolist(),
-        "all_seven_tokens_in_nominal_range": bool(in_nominal_range.all()),
-        "tokens_clipped_to_action_bins": int((~in_nominal_range).sum()),
+        "all_seven_tokens_in_action_range": bool(in_action_token_range.all()),
+        "tokens_outside_action_token_range": int((~in_action_token_range).sum()),
+        "tokens_clipped_to_bin_centers": int((raw_indices != indices).sum()),
         "normalized_action": actions.tolist(),
         "normalized_action_shape": [1, int(actions.shape[0])],
         "all_values_finite": bool(np.isfinite(actions).all()),

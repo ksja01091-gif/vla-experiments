@@ -60,11 +60,12 @@ def predict(output_dir: Path) -> dict:
         generated = model.generate(**inputs, max_new_tokens=7, do_sample=False)
 
     token_ids = generated[0, -7:].cpu().numpy()
-    first_valid = model.vocab_size - len(model.bin_centers)
+    # There are 256 action tokens but only 255 interval centers. The final
+    # token maps to the last center via clipping in official predict_action().
+    first_valid = model.vocab_size - model.config.n_action_bins
     valid = (token_ids >= first_valid) & (token_ids < model.vocab_size)
-    indices = np.clip(
-        model.vocab_size - token_ids - 1, 0, len(model.bin_centers) - 1
-    )
+    raw_indices = model.vocab_size - token_ids - 1
+    indices = np.clip(raw_indices, 0, len(model.bin_centers) - 1)
     action = model.bin_centers[indices]
     result = {
         "provenance": "fresh Colab CPU BF16 inference",
@@ -75,7 +76,10 @@ def predict(output_dir: Path) -> dict:
         "image_sha256": image_sha256,
         "instruction": INSTRUCTION,
         "action_token_ids": token_ids.tolist(),
-        "tokens_clipped_to_action_bins": int((~valid).sum()),
+        "action_token_range": [int(first_valid), int(model.vocab_size - 1)],
+        "token_valid": valid.tolist(),
+        "tokens_outside_action_token_range": int((~valid).sum()),
+        "tokens_clipped_to_bin_centers": int((raw_indices != indices).sum()),
         "normalized_action": action.tolist(),
         "normalized_action_shape": [1, int(action.shape[0])],
         "all_values_finite": bool(np.isfinite(action).all()),

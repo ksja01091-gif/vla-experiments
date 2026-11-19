@@ -1,8 +1,8 @@
 """Bounded OpenVLA -> UR5e loop used for the Colab diagnostic.
 
 The first six action dimensions use an *unvalidated* engineering scale in
-ur5e_colab_sim_worker.py. The gripper is held open because the seventh token
-was not a valid OpenVLA action token in the observed run.
+ur5e_colab_sim_worker.py. The gripper is held open because no OpenVLA-to-UR5e
+gripper calibration has been established.
 """
 
 import argparse
@@ -39,7 +39,9 @@ def predict(model, processor, image_path: Path) -> dict:
     with torch.inference_mode():
         generated = model.generate(**inputs, max_new_tokens=7, do_sample=False)
     ids = generated[0, -7:].detach().cpu().numpy()
-    first_valid = model.vocab_size - len(model.bin_centers)
+    # n_action_bins=256 tokens, while bin_centers has 255 intervals. Token
+    # vocab_size-256 is valid and is clipped to the final interval by OpenVLA.
+    first_valid = model.vocab_size - model.config.n_action_bins
     valid = (ids >= first_valid) & (ids < model.vocab_size)
     indices = np.clip(model.vocab_size - ids - 1, 0, len(model.bin_centers) - 1)
     action = model.bin_centers[indices].astype(float)
@@ -78,8 +80,8 @@ def run(root: Path, output: Path, worker: Path, max_actions: int) -> None:
         prediction["step"] = step
         prediction_path = output / f"prediction_step_{step:02d}.json"
         prediction_path.write_text(json.dumps(prediction, indent=2), encoding="utf-8")
-        if not all(prediction["token_valid"][:6]):
-            stop_reason = f"invalid_arm_token_step_{step}"
+        if not all(prediction["token_valid"]):
+            stop_reason = f"invalid_action_token_step_{step}"
             records.append({"prediction": prediction, "execution": "skipped"})
             break
         completed = subprocess.run(

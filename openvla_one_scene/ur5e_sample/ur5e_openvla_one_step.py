@@ -3,7 +3,8 @@
 This reuses a previously recorded normalized OpenVLA action. The base model
 has no UR5e action statistics, so the position/rotation gains below are
 explicit engineering assumptions, not a validated OpenVLA robot controller.
-The gripper stays open because the old seventh token required clipping.
+The gripper stays open because OpenVLA's gripper value has not been calibrated
+to this UR5e/Robotiq actuator.
 """
 
 import argparse
@@ -31,8 +32,11 @@ def run_one_step(prediction_path: Path, output_path: Path) -> dict:
     action = np.asarray(prediction["normalized_action"], dtype=float)
     if action.shape != (7,) or not np.isfinite(action).all() or np.any(np.abs(action) > 1.0001):
         raise ValueError("Expected seven finite normalized action values within [-1, 1]")
-    if prediction["tokens_clipped_to_action_bins"] != 1:
-        raise ValueError("This smoke test expects the previously reported one clipped gripper token")
+    # Older saved predictions wrongly flagged the 256th action token as
+    # out-of-range. Do not use that stale field to decide gripper behavior.
+    token_ids = prediction.get("action_token_ids", [])
+    if len(token_ids) != 7 or not all(31744 <= int(token) < 32000 for token in token_ids):
+        raise ValueError("Expected seven valid OpenVLA action token IDs")
 
     # Candidate limits for a single *simulated* command; not trained action scales.
     position_gain_m = 0.01
@@ -62,7 +66,7 @@ def run_one_step(prediction_path: Path, output_path: Path) -> dict:
         fraction = (i + 1) / steps
         fraction = fraction * fraction * (3 - 2 * fraction)
         data.ctrl[:6] = initial_joints + fraction * (target_joints - initial_joints)
-        data.ctrl[gripper_id] = 0  # Keep open; the clipped seventh token is untrusted.
+        data.ctrl[gripper_id] = 0  # Keep open; UR5e gripper mapping is uncalibrated.
         mujoco.mj_step(model, data)
 
     final_position = data.site_xpos[site_id].copy()
@@ -94,7 +98,7 @@ def run_one_step(prediction_path: Path, output_path: Path) -> dict:
         "mapping_status": "candidate engineering smoke test; no UR5e action normalization",
         "position_gain_m_per_normalized_unit": position_gain_m,
         "rotation_gain_rad_per_normalized_unit": rotation_gain_rad,
-        "gripper": "held open; clipped token not executed",
+        "gripper": "held open; OpenVLA-to-UR5e gripper mapping uncalibrated",
         "duration_s": float(data.time),
         "physics_steps": steps,
         "initial_ee_xyz_m": initial_position.tolist(),
