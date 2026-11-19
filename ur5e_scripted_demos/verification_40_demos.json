@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "episodes": 40,
+  "unique_start_positions": 40,
+  "photo_action_pairs": 3600,
+  "image_size": [
+    256,
+    256
+  ],
+  "action_type": "six UR5e joint targets plus one Robotiq gripper target",
+  "openvla_training_ready": false,
+  "problems": []
+}

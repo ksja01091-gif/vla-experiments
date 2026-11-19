@@ -16,3 +16,7 @@ This example checks one action prediction. It does **not** run a LIBERO simulati
 - `libero_sample/`: two example scene images.
 
 The full model weights, complete public dataset, checkpoints, and GPU outputs are kept outside Git. The notebook was run in Colab on an A100; rerunning it downloads the model and installs its required packages.
+
+## UR5e scripted demonstration collection
+
+See [`ur5e_scripted_demos/README.md`](ur5e_scripted_demos/README.md) for the code and result of the 40-position MuJoCo block-grasp demonstration run. This is scripted data generation; the data has not yet been converted for OpenVLA training.
