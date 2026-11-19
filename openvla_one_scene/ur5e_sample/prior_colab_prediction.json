@@ -1,8 +1,0 @@
-{
-  "model": "openvla/openvla-7b",
-  "image": "openvla_one_scene/ur5e_sample/scene.png",
-  "instruction": "pick up the orange block",
-  "normalized_action": [-0.3215686, -0.8156863, 0.1019608, -0.9960784, -0.2901961, -0.5333333, 0.9960784],
-  "tokens_clipped_to_action_bins": 1,
-  "provenance": "Transcribed from the prior Colab output recorded in this conversation; no fresh inference in this run"
-}
