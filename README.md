@@ -6,4 +6,6 @@ This repository currently contains the code used to collect and verify 40 script
 
 See [`ur5e_scripted_demos/README.md`](ur5e_scripted_demos/README.md) for the collection procedure and verification record.
 
+For a step-by-step Korean explanation of the simulation and data preparation before Pi 0.5 training, read [`UR5e_Pi05_학습전_과정_설명.md`](UR5e_Pi05_학습전_과정_설명.md).
+
 The demonstration images and actions, Pi 0.5 training notebook, model weights, and checkpoints are stored outside this Git repository. The earlier OpenVLA prediction experiments have been removed from the current repository contents.

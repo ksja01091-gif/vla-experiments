@@ -30,4 +30,4 @@ python verify_ur5e_demos.py /path/to/new_output
 
 `--output` must point to a new directory; the collector refuses to overwrite existing episodes. Use a larger worker count only if your machine can run multiple MuJoCo renderers.
 
-Related OpenVLA one-scene prediction and gripper mapping experiments remain in `openvla_one_scene/ur5e_sample/`.
+The earlier OpenVLA one-scene prediction and gripper mapping experiments have been removed from the current Git repository contents.
