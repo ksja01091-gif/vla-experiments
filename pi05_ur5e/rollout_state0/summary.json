@@ -1,0 +1,11 @@
+{
+  "steps": 90,
+  "simulated_seconds": 8.999999999999675,
+  "wall_seconds": 31.824191161000044,
+  "initial_block_z_m": 0.05,
+  "peak_block_z_m": 0.05089910869377086,
+  "final_block_z_m": 0.04989224457978391,
+  "lift_5cm": false,
+  "gripper_close_steps": 43,
+  "output_dir": "/content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/rollout_pi05_state0_20261122"
+}
