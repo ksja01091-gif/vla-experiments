@@ -1,0 +1,66 @@
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: /content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/pretrained_model
+✓ Loaded state dict from model.safetensors
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.embeddings.patch_embedding.weight
+All keys loaded successfully!
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/verify_fresh_action.py", line 26, in <module>
+    raw_action = policy.select_action(model_input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 1504, in select_action
+    actions = self.predict_action_chunk(batch, noise=noise)[:, : self.config.n_action_steps]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 1541, in predict_action_chunk
+    actions = self.model.sample_actions(
+        images, img_masks, tokens, masks, states=states, state_masks=state_masks, noise=noise, **kwargs
+    )
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 1004, in sample_actions
+    return euler_integrate(
+        lambda input_x_t, current_timestep: self.denoise_step(
+    ...<14 lines>...
+        precompute_times=self.precompute_denoise_times,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/common/flow_matching.py", line 408, in euler_integrate
+    v_t = denoise_step_partial_call(x_t)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/common/flow_matching.py", line 380, in denoise_step_partial_call
+    return velocity(input_x_t, current_timestep, current_step)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/common/flow_matching.py", line 341, in velocity
+    return denoise_fn(x_t, time_tensor, step) if step_aware else denoise_fn(x_t, time_tensor)
+                                                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 1005, in <lambda>
+    lambda input_x_t, current_timestep: self.denoise_step(
+                                        ~~~~~~~~~~~~~~~~~^
+        prefix_pad_masks=prefix_pad_masks,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        timestep=current_timestep,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 1031, in denoise_step
+    suffix_embs, suffix_pad_masks, suffix_att_masks, adarms_cond = self.embed_suffix(x_t, timestep)
+                                                                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 842, in embed_suffix
+    action_emb = self._apply_checkpoint(action_proj_func, noisy_actions)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 723, in _apply_checkpoint
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/lerobot/policies/pi05/modeling_pi05.py", line 840, in action_proj_func
+    return self.action_in_proj(noisy_actions)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 must have the same dtype, but got Float and BFloat16

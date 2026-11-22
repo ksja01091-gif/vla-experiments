@@ -1,0 +1,16 @@
+{
+  "group": "new",
+  "index": 26,
+  "x_m": 0.4918,
+  "y_m": 0.003,
+  "steps": 90,
+  "wall_seconds": 32.01234695900075,
+  "initial_block_z_m": 0.05,
+  "peak_block_z_m": 0.05,
+  "final_block_z_m": 0.043980039387053034,
+  "lift_5cm": false,
+  "final_lift_5cm": false,
+  "min_pinch_block_distance_m": 0.017711619333269993,
+  "gripper_close_steps": 44,
+  "first_close_step": 47
+}

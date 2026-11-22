@@ -1,0 +1,261 @@
+{
+  "checkpoint": "/content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/pretrained_model",
+  "source": "held-out validation episode_000; same input image and state as expert",
+  "independent_first_action_per_frame": true,
+  "seed_per_frame": 7,
+  "count": 10,
+  "mean_joint_l2_rad": 0.05966,
+  "gripper_matches": 9,
+  "rows": [
+    {
+      "frame": 0,
+      "stage": "approach",
+      "joint_l2_rad": 0.03557,
+      "joint_mean_abs_rad": 0.00999,
+      "gripper_matches": true,
+      "predicted_action": [
+        -1.57667,
+        -1.57075,
+        1.55962,
+        -1.55903,
+        -1.5708,
+        0.0311,
+        0.98089
+      ],
+      "expert_action": [
+        -1.57081,
+        -1.5708,
+        1.5708,
+        -1.5708,
+        -1.5708,
+        -1e-05,
+        1.0
+      ]
+    },
+    {
+      "frame": 10,
+      "stage": "approach",
+      "joint_l2_rad": 0.07621,
+      "joint_mean_abs_rad": 0.02662,
+      "gripper_matches": true,
+      "predicted_action": [
+        -2.61407,
+        -1.63186,
+        1.86704,
+        -1.78376,
+        -1.57093,
+        -0.9785,
+        1.00238
+      ],
+      "expert_action": [
+        -2.56345,
+        -1.66241,
+        1.83895,
+        -1.74734,
+        -1.57094,
+        -0.99255,
+        1.0
+      ]
+    },
+    {
+      "frame": 20,
+      "stage": "descend",
+      "joint_l2_rad": 0.10695,
+      "joint_mean_abs_rad": 0.03372,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.49335,
+        -1.70912,
+        2.10651,
+        -1.94801,
+        -1.57113,
+        -1.90427,
+        1.00043
+      ],
+      "expert_action": [
+        -3.55017,
+        -1.75347,
+        2.10549,
+        -1.92283,
+        -1.57107,
+        -1.97916,
+        1.0
+      ]
+    },
+    {
+      "frame": 30,
+      "stage": "descend",
+      "joint_l2_rad": 0.03952,
+      "joint_mean_abs_rad": 0.0143,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.53323,
+        -1.60888,
+        2.2076,
+        -2.16341,
+        -1.57093,
+        -2.00385,
+        1.01605
+      ],
+      "expert_action": [
+        -3.55162,
+        -1.62336,
+        2.22672,
+        -2.17409,
+        -1.57093,
+        -1.98072,
+        1.0
+      ]
+    },
+    {
+      "frame": 38,
+      "stage": "descend",
+      "joint_l2_rad": 0.0661,
+      "joint_mean_abs_rad": 0.01889,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.54694,
+        -1.45983,
+        2.33086,
+        -2.40374,
+        -1.57081,
+        -2.03209,
+        0.97027
+      ],
+      "expert_action": [
+        -3.55298,
+        -1.50115,
+        2.34058,
+        -2.41008,
+        -1.57079,
+        -1.98218,
+        1.0
+      ]
+    },
+    {
+      "frame": 40,
+      "stage": "close",
+      "joint_l2_rad": 0.06639,
+      "joint_mean_abs_rad": 0.02282,
+      "gripper_matches": false,
+      "predicted_action": [
+        -3.53813,
+        -1.45117,
+        2.32269,
+        -2.40792,
+        -1.57081,
+        -2.0209,
+        0.93675
+      ],
+      "expert_action": [
+        -3.55306,
+        -1.49402,
+        2.34722,
+        -2.42384,
+        -1.57079,
+        -1.98226,
+        -1.0
+      ]
+    },
+    {
+      "frame": 41,
+      "stage": "close",
+      "joint_l2_rad": 0.04509,
+      "joint_mean_abs_rad": 0.01426,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.54425,
+        -1.45766,
+        2.35866,
+        -2.41584,
+        -1.57078,
+        -1.96133,
+        -1.03326
+      ],
+      "expert_action": [
+        -3.55306,
+        -1.49402,
+        2.34722,
+        -2.42384,
+        -1.57079,
+        -1.98226,
+        -1.0
+      ]
+    },
+    {
+      "frame": 45,
+      "stage": "close",
+      "joint_l2_rad": 0.04602,
+      "joint_mean_abs_rad": 0.01429,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.55672,
+        -1.46257,
+        2.35458,
+        -2.43754,
+        -1.5708,
+        -2.01181,
+        -1.04949
+      ],
+      "expert_action": [
+        -3.55306,
+        -1.49402,
+        2.34722,
+        -2.42384,
+        -1.57079,
+        -1.98226,
+        -1.0
+      ]
+    },
+    {
+      "frame": 55,
+      "stage": "lift",
+      "joint_l2_rad": 0.06062,
+      "joint_mean_abs_rad": 0.01669,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.55526,
+        -1.47014,
+        2.33688,
+        -2.43378,
+        -1.57079,
+        -2.03606,
+        -1.04394
+      ],
+      "expert_action": [
+        -3.55306,
+        -1.49402,
+        2.34722,
+        -2.42384,
+        -1.57079,
+        -1.98226,
+        -1.0
+      ]
+    },
+    {
+      "frame": 80,
+      "stage": "hold",
+      "joint_l2_rad": 0.05411,
+      "joint_mean_abs_rad": 0.01866,
+      "gripper_matches": true,
+      "predicted_action": [
+        -3.53544,
+        -1.77743,
+        1.95358,
+        -1.74093,
+        -1.57081,
+        -1.9941,
+        -1.02569
+      ],
+      "expert_action": [
+        -3.55288,
+        -1.8043,
+        1.93606,
+        -1.70284,
+        -1.5708,
+        -1.98207,
+        -1.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "seen": {
+    "completed": 40,
+    "planned": 40,
+    "lift_5cm": 1,
+    "final_lift_5cm": 1,
+    "mean_min_distance_m": 0.05017011442828887
+  },
+  "new": {
+    "completed": 50,
+    "planned": 50,
+    "lift_5cm": 0,
+    "final_lift_5cm": 0,
+    "mean_min_distance_m": 0.047264115148805255
+  }
+}

@@ -1,0 +1,9 @@
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: /content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/pretrained_model
+✓ Loaded state dict from model.safetensors
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.embeddings.patch_embedding.weight
+All keys loaded successfully!
+FRESH_PROCESS_ACTION_OK {"checkpoint": "/content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/pretrained_model", "input_file": "/content/drive/MyDrive/VLA_experiments/UR5e_Pi05_40demo_1epoch_seed7/validation_scene_0_input.npz", "task": "pick up the orange block", "image_shape": [3, 256, 256], "state_shape": [7], "raw_action_shape": [1, 7], "output_shape": [1, 7], "all_finite": true, "action": [-1.572938, -1.572381, 1.56022, -1.557188, -1.570797, 0.030292, 0.979761]}
