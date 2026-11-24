@@ -1,0 +1,12 @@
+{
+  "step": 1525,
+  "frames_seen": 6100,
+  "human_frames_seen": 3995,
+  "teacher_frames_seen": 2105,
+  "loss": 3.222865343093872,
+  "action_token_accuracy": 0.3214285671710968,
+  "normalized_action_l1": 0.22408717343119347,
+  "predicted_action_token_fraction": 1.0,
+  "gradient_norm": 12.696772575378418,
+  "gpu_peak_gib": 4.712545394897461
+}

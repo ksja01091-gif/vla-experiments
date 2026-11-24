@@ -1,0 +1,49 @@
+{
+  "trial_executed": true,
+  "model_tag": "epoch8",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "task_id": 0,
+  "init_state_index": 2,
+  "success": false,
+  "termination_reason": "horizon_exhausted",
+  "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+  "policy_steps": 220,
+  "max_policy_steps": 220,
+  "warmup_steps": 10,
+  "environment_seed": 0,
+  "global_seed": 7,
+  "action_shape": [
+    1,
+    7
+  ],
+  "all_actions_finite": true,
+  "action_clipping_used": false,
+  "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+  "worker_original_reference_check_passed": true,
+  "initial_image_sha256": "70610abd48d7156401416d0c713f95846c3ebced2a158e3a00668e83542c1dad",
+  "selected_init_state_sha256": "5a22bed5962664504c91a9c6d1ecec83151f64dcf8a0e86da28be1e2b2e29409",
+  "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+  "reference_sha256": {
+    "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+    "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+  },
+  "simulator_versions": {
+    "mujoco": "2.3.7",
+    "robosuite": "1.4.1",
+    "numpy": "1.26.4",
+    "tensorflow-cpu": "2.15.1"
+  },
+  "initial_eef_position": [
+    -0.2005013414552943,
+    -0.0032684940542503284,
+    1.187241832249189
+  ],
+  "final_eef_position": [
+    0.19793127359771887,
+    0.13998371009740157,
+    1.0914862329655604
+  ],
+  "wall_seconds": 197.96940021589398,
+  "video": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation/epoch8/state_02/episode.mp4",
+  "overview": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation/epoch8/state_02/episode_overview.png"
+}

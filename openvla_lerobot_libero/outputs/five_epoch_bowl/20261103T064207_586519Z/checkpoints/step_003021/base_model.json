@@ -1,0 +1,9 @@
+{
+  "checkpoint": "/home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+  "model_id": "openvla/openvla-7b",
+  "reference_hashes": {
+    "/home/jovyan/projects/openvla/prismatic/vla/action_tokenizer.py": "fdc98fcbf5b0926ef2181db71946d23ffbfa052cf8443dc933d52c42a191352c",
+    "/home/jovyan/projects/openvla/prismatic/models/backbones/llm/prompting/base_prompter.py": "13640ed54b055c0fcd8daf7212be9f4faf76cec779fdd2e0f7ea5a866b0b6d51"
+  },
+  "rank": 8
+}

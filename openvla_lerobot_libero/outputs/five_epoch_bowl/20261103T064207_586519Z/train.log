@@ -1,0 +1,237 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  4.65it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  5.16it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.51it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.35it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/wandb/offline-run-20261103_064556-ksxoyz0m
+TRAIN_PROGRESS 2 1025 72 /4025 loss 2.89042067527771
+TRAIN_PROGRESS 2 1050 172 /4025 loss 2.6909008026123047
+TRAIN_PROGRESS 2 1075 272 /4025 loss 3.084238290786743
+TRAIN_PROGRESS 2 1100 372 /4025 loss 2.2988545894622803
+TRAIN_PROGRESS 2 1125 472 /4025 loss 2.687269926071167
+TRAIN_PROGRESS 2 1150 572 /4025 loss 3.2132277488708496
+TRAIN_PROGRESS 2 1175 672 /4025 loss 3.043936014175415
+TRAIN_PROGRESS 2 1200 772 /4025 loss 2.692361831665039
+TRAIN_PROGRESS 2 1225 872 /4025 loss 3.2892444133758545
+TRAIN_PROGRESS 2 1250 972 /4025 loss 3.4363200664520264
+TRAIN_PROGRESS 2 1275 1072 /4025 loss 2.4975767135620117
+TRAIN_PROGRESS 2 1300 1172 /4025 loss 3.2876789569854736
+TRAIN_PROGRESS 2 1325 1272 /4025 loss 2.458116292953491
+TRAIN_PROGRESS 2 1350 1372 /4025 loss 2.9011287689208984
+TRAIN_PROGRESS 2 1375 1472 /4025 loss 2.61545991897583
+TRAIN_PROGRESS 2 1400 1572 /4025 loss 2.2527616024017334
+TRAIN_PROGRESS 2 1425 1672 /4025 loss 2.5545945167541504
+TRAIN_PROGRESS 2 1450 1772 /4025 loss 3.176600217819214
+TRAIN_PROGRESS 2 1475 1872 /4025 loss 2.4460361003875732
+TRAIN_PROGRESS 2 1500 1972 /4025 loss 2.638394355773926
+TRAIN_PROGRESS 2 1525 2072 /4025 loss 3.008715867996216
+TRAIN_PROGRESS 2 1550 2172 /4025 loss 2.4652700424194336
+TRAIN_PROGRESS 2 1575 2272 /4025 loss 2.7658579349517822
+TRAIN_PROGRESS 2 1600 2372 /4025 loss 2.5519142150878906
+TRAIN_PROGRESS 2 1625 2472 /4025 loss 2.704896926879883
+TRAIN_PROGRESS 2 1650 2572 /4025 loss 3.059969425201416
+TRAIN_PROGRESS 2 1675 2672 /4025 loss 3.102292776107788
+TRAIN_PROGRESS 2 1700 2772 /4025 loss 3.196668863296509
+TRAIN_PROGRESS 2 1725 2872 /4025 loss 2.8937578201293945
+TRAIN_PROGRESS 2 1750 2972 /4025 loss 2.3579437732696533
+TRAIN_PROGRESS 2 1775 3072 /4025 loss 2.911994457244873
+TRAIN_PROGRESS 2 1800 3172 /4025 loss 2.809201717376709
+TRAIN_PROGRESS 2 1825 3272 /4025 loss 2.6764023303985596
+TRAIN_PROGRESS 2 1850 3372 /4025 loss 2.591038465499878
+TRAIN_PROGRESS 2 1875 3472 /4025 loss 3.2010347843170166
+TRAIN_PROGRESS 2 1900 3572 /4025 loss 2.9628632068634033
+TRAIN_PROGRESS 2 1925 3672 /4025 loss 2.0626933574676514
+TRAIN_PROGRESS 2 1950 3772 /4025 loss 2.717153549194336
+TRAIN_PROGRESS 2 1975 3872 /4025 loss 2.6767990589141846
+TRAIN_PROGRESS 2 2000 3972 /4025 loss 2.606752395629883
+TRAIN_PROGRESS 2 2014 4025 /4025 loss 3.4351308345794678
+VALIDATION_PROGRESS 2014 100 / 462
+VALIDATION_PROGRESS 2014 200 / 462
+VALIDATION_PROGRESS 2014 300 / 462
+VALIDATION_PROGRESS 2014 400 / 462
+VALIDATION_PROGRESS 2014 462 / 462
+VALIDATION_COMPLETE {"loss": 3.212144830010154, "action_token_accuracy": 0.3447742759536355, "normalized_action_l1": 0.21836622968347352, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 2014, "seconds": 23.50256778486073, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176}
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+EPOCH_COMPLETE {"epoch": 2, "training_loss_frame_weighted": 2.780234373637608, "epoch_seconds": 507.7433677390218, "loss": 3.212144830010154, "action_token_accuracy": 0.3447742759536355, "normalized_action_l1": 0.21836622968347352, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 2014, "seconds": 23.50256778486073, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_002014"}
+TRAIN_PROGRESS 3 2025 44 /4025 loss 2.8487086296081543
+TRAIN_PROGRESS 3 2050 144 /4025 loss 2.2930474281311035
+TRAIN_PROGRESS 3 2075 244 /4025 loss 2.352907180786133
+TRAIN_PROGRESS 3 2100 344 /4025 loss 2.730884313583374
+TRAIN_PROGRESS 3 2125 444 /4025 loss 2.7884440422058105
+TRAIN_PROGRESS 3 2150 544 /4025 loss 2.306474447250366
+TRAIN_PROGRESS 3 2175 644 /4025 loss 2.3831403255462646
+TRAIN_PROGRESS 3 2200 744 /4025 loss 2.425992250442505
+TRAIN_PROGRESS 3 2225 844 /4025 loss 2.6266560554504395
+TRAIN_PROGRESS 3 2250 944 /4025 loss 3.0649213790893555
+TRAIN_PROGRESS 3 2275 1044 /4025 loss 1.8545511960983276
+TRAIN_PROGRESS 3 2300 1144 /4025 loss 2.621162176132202
+TRAIN_PROGRESS 3 2325 1244 /4025 loss 2.4949545860290527
+TRAIN_PROGRESS 3 2350 1344 /4025 loss 2.211184024810791
+TRAIN_PROGRESS 3 2375 1444 /4025 loss 2.5880184173583984
+TRAIN_PROGRESS 3 2400 1544 /4025 loss 2.4929614067077637
+TRAIN_PROGRESS 3 2425 1644 /4025 loss 2.068546772003174
+TRAIN_PROGRESS 3 2450 1744 /4025 loss 2.541719675064087
+TRAIN_PROGRESS 3 2475 1844 /4025 loss 2.3144915103912354
+TRAIN_PROGRESS 3 2500 1944 /4025 loss 2.3217809200286865
+TRAIN_PROGRESS 3 2525 2044 /4025 loss 2.747474431991577
+TRAIN_PROGRESS 3 2550 2144 /4025 loss 2.8673317432403564
+TRAIN_PROGRESS 3 2575 2244 /4025 loss 2.6002674102783203
+TRAIN_PROGRESS 3 2600 2344 /4025 loss 2.8401851654052734
+TRAIN_PROGRESS 3 2625 2444 /4025 loss 2.6602745056152344
+TRAIN_PROGRESS 3 2650 2544 /4025 loss 2.5365867614746094
+TRAIN_PROGRESS 3 2675 2644 /4025 loss 2.597076892852783
+TRAIN_PROGRESS 3 2700 2744 /4025 loss 2.2489511966705322
+TRAIN_PROGRESS 3 2725 2844 /4025 loss 2.5239124298095703
+TRAIN_PROGRESS 3 2750 2944 /4025 loss 2.4926133155822754
+TRAIN_PROGRESS 3 2775 3044 /4025 loss 1.9553688764572144
+TRAIN_PROGRESS 3 2800 3144 /4025 loss 2.067349433898926
+TRAIN_PROGRESS 3 2825 3244 /4025 loss 2.146912097930908
+TRAIN_PROGRESS 3 2850 3344 /4025 loss 2.379546880722046
+TRAIN_PROGRESS 3 2875 3444 /4025 loss 1.883249282836914
+TRAIN_PROGRESS 3 2900 3544 /4025 loss 2.448800563812256
+TRAIN_PROGRESS 3 2925 3644 /4025 loss 2.0062105655670166
+TRAIN_PROGRESS 3 2950 3744 /4025 loss 2.280489444732666
+TRAIN_PROGRESS 3 2975 3844 /4025 loss 2.1418514251708984
+TRAIN_PROGRESS 3 3000 3944 /4025 loss 2.7572691440582275
+TRAIN_PROGRESS 3 3021 4025 /4025 loss 3.161062240600586
+VALIDATION_PROGRESS 3021 100 / 462
+VALIDATION_PROGRESS 3021 200 / 462
+VALIDATION_PROGRESS 3021 300 / 462
+VALIDATION_PROGRESS 3021 400 / 462
+VALIDATION_PROGRESS 3021 462 / 462
+VALIDATION_COMPLETE {"loss": 3.5229939805480823, "action_token_accuracy": 0.330241187632858, "normalized_action_l1": 0.2015530178969206, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 3021, "seconds": 23.749361779540777, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176}
+EPOCH_COMPLETE {"epoch": 3, "training_loss_frame_weighted": 2.4494854157015404, "epoch_seconds": 515.416867127642, "loss": 3.5229939805480823, "action_token_accuracy": 0.330241187632858, "normalized_action_l1": 0.2015530178969206, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 3021, "seconds": 23.749361779540777, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_003021"}
+TRAIN_PROGRESS 4 3025 16 /4025 loss 1.7469322681427002
+TRAIN_PROGRESS 4 3050 116 /4025 loss 2.4682278633117676
+TRAIN_PROGRESS 4 3075 216 /4025 loss 1.8636945486068726
+TRAIN_PROGRESS 4 3100 316 /4025 loss 1.849091649055481
+TRAIN_PROGRESS 4 3125 416 /4025 loss 2.194748640060425
+TRAIN_PROGRESS 4 3150 516 /4025 loss 2.0536844730377197
+TRAIN_PROGRESS 4 3175 616 /4025 loss 2.0494556427001953
+TRAIN_PROGRESS 4 3200 716 /4025 loss 1.7592555284500122
+TRAIN_PROGRESS 4 3225 816 /4025 loss 1.5533442497253418
+TRAIN_PROGRESS 4 3250 916 /4025 loss 1.7764437198638916
+TRAIN_PROGRESS 4 3275 1016 /4025 loss 2.131300926208496
+TRAIN_PROGRESS 4 3300 1116 /4025 loss 2.3582730293273926
+TRAIN_PROGRESS 4 3325 1216 /4025 loss 1.7227987051010132
+TRAIN_PROGRESS 4 3350 1316 /4025 loss 1.6680474281311035
+TRAIN_PROGRESS 4 3375 1416 /4025 loss 2.176304578781128
+TRAIN_PROGRESS 4 3400 1516 /4025 loss 1.8221123218536377
+TRAIN_PROGRESS 4 3425 1616 /4025 loss 2.310769557952881
+TRAIN_PROGRESS 4 3450 1716 /4025 loss 2.011831760406494
+TRAIN_PROGRESS 4 3475 1816 /4025 loss 2.2766361236572266
+TRAIN_PROGRESS 4 3500 1916 /4025 loss 2.1663014888763428
+TRAIN_PROGRESS 4 3525 2016 /4025 loss 1.9038938283920288
+TRAIN_PROGRESS 4 3550 2116 /4025 loss 1.9560866355895996
+TRAIN_PROGRESS 4 3575 2216 /4025 loss 2.169853687286377
+TRAIN_PROGRESS 4 3600 2316 /4025 loss 2.2938971519470215
+TRAIN_PROGRESS 4 3625 2416 /4025 loss 2.208120584487915
+TRAIN_PROGRESS 4 3650 2516 /4025 loss 1.540663242340088
+TRAIN_PROGRESS 4 3675 2616 /4025 loss 1.810807466506958
+TRAIN_PROGRESS 4 3700 2716 /4025 loss 1.7577567100524902
+TRAIN_PROGRESS 4 3725 2816 /4025 loss 1.7775737047195435
+TRAIN_PROGRESS 4 3750 2916 /4025 loss 2.478541374206543
+TRAIN_PROGRESS 4 3775 3016 /4025 loss 2.5268759727478027
+TRAIN_PROGRESS 4 3800 3116 /4025 loss 1.6299781799316406
+TRAIN_PROGRESS 4 3825 3216 /4025 loss 2.5284204483032227
+TRAIN_PROGRESS 4 3850 3316 /4025 loss 2.2475192546844482
+TRAIN_PROGRESS 4 3875 3416 /4025 loss 1.8552236557006836
+TRAIN_PROGRESS 4 3900 3516 /4025 loss 1.5927783250808716
+TRAIN_PROGRESS 4 3925 3616 /4025 loss 2.052415132522583
+TRAIN_PROGRESS 4 3950 3716 /4025 loss 2.302602767944336
+TRAIN_PROGRESS 4 3975 3816 /4025 loss 2.3385212421417236
+TRAIN_PROGRESS 4 4000 3916 /4025 loss 1.6995609998703003
+TRAIN_PROGRESS 4 4025 4016 /4025 loss 2.491584300994873
+TRAIN_PROGRESS 4 4028 4025 /4025 loss 2.199357509613037
+VALIDATION_PROGRESS 4028 100 / 462
+VALIDATION_PROGRESS 4028 200 / 462
+VALIDATION_PROGRESS 4028 300 / 462
+VALIDATION_PROGRESS 4028 400 / 462
+VALIDATION_PROGRESS 4028 462 / 462
+VALIDATION_COMPLETE {"loss": 4.008708716470958, "action_token_accuracy": 0.3024118754577327, "normalized_action_l1": 0.20109101081233596, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 4028, "seconds": 18.802212920039892, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176}
+EPOCH_COMPLETE {"epoch": 4, "training_loss_frame_weighted": 2.0914951579170937, "epoch_seconds": 425.64111867174506, "loss": 4.008708716470958, "action_token_accuracy": 0.3024118754577327, "normalized_action_l1": 0.20109101081233596, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 4028, "seconds": 18.802212920039892, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_004028"}
+TRAIN_PROGRESS 5 4050 88 /4025 loss 1.3961181640625
+TRAIN_PROGRESS 5 4075 188 /4025 loss 2.0121984481811523
+TRAIN_PROGRESS 5 4100 288 /4025 loss 1.374143362045288
+TRAIN_PROGRESS 5 4125 388 /4025 loss 1.827912449836731
+TRAIN_PROGRESS 5 4150 488 /4025 loss 1.6489897966384888
+TRAIN_PROGRESS 5 4175 588 /4025 loss 1.981117844581604
+TRAIN_PROGRESS 5 4200 688 /4025 loss 2.029147148132324
+TRAIN_PROGRESS 5 4225 788 /4025 loss 1.9988423585891724
+TRAIN_PROGRESS 5 4250 888 /4025 loss 1.3388375043869019
+TRAIN_PROGRESS 5 4275 988 /4025 loss 1.615936040878296
+TRAIN_PROGRESS 5 4300 1088 /4025 loss 1.4553970098495483
+TRAIN_PROGRESS 5 4325 1188 /4025 loss 2.0779197216033936
+TRAIN_PROGRESS 5 4350 1288 /4025 loss 2.3630993366241455
+TRAIN_PROGRESS 5 4375 1388 /4025 loss 1.9778869152069092
+TRAIN_PROGRESS 5 4400 1488 /4025 loss 1.739432692527771
+TRAIN_PROGRESS 5 4425 1588 /4025 loss 1.560196042060852
+TRAIN_PROGRESS 5 4450 1688 /4025 loss 1.8808649778366089
+TRAIN_PROGRESS 5 4475 1788 /4025 loss 2.572293281555176
+TRAIN_PROGRESS 5 4500 1888 /4025 loss 1.8559314012527466
+TRAIN_PROGRESS 5 4525 1988 /4025 loss 1.1301345825195312
+TRAIN_PROGRESS 5 4550 2088 /4025 loss 1.8894315958023071
+TRAIN_PROGRESS 5 4575 2188 /4025 loss 1.852766990661621
+TRAIN_PROGRESS 5 4600 2288 /4025 loss 1.4313170909881592
+TRAIN_PROGRESS 5 4625 2388 /4025 loss 1.864773154258728
+TRAIN_PROGRESS 5 4650 2488 /4025 loss 1.7404534816741943
+TRAIN_PROGRESS 5 4675 2588 /4025 loss 1.8224852085113525
+TRAIN_PROGRESS 5 4700 2688 /4025 loss 1.515131950378418
+TRAIN_PROGRESS 5 4725 2788 /4025 loss 1.52260160446167
+TRAIN_PROGRESS 5 4750 2888 /4025 loss 1.974867582321167
+TRAIN_PROGRESS 5 4775 2988 /4025 loss 2.1529011726379395
+TRAIN_PROGRESS 5 4800 3088 /4025 loss 1.6144760847091675
+TRAIN_PROGRESS 5 4825 3188 /4025 loss 1.7657496929168701
+TRAIN_PROGRESS 5 4850 3288 /4025 loss 1.5816996097564697
+TRAIN_PROGRESS 5 4875 3388 /4025 loss 1.437464952468872
+TRAIN_PROGRESS 5 4900 3488 /4025 loss 1.7731283903121948
+TRAIN_PROGRESS 5 4925 3588 /4025 loss 2.1083149909973145
+TRAIN_PROGRESS 5 4950 3688 /4025 loss 2.2586796283721924
+TRAIN_PROGRESS 5 4975 3788 /4025 loss 1.6485826969146729
+TRAIN_PROGRESS 5 5000 3888 /4025 loss 1.1843080520629883
+TRAIN_PROGRESS 5 5025 3988 /4025 loss 2.076838254928589
+TRAIN_PROGRESS 5 5035 4025 /4025 loss 1.6108211278915405
+VALIDATION_PROGRESS 5035 100 / 462
+VALIDATION_PROGRESS 5035 200 / 462
+VALIDATION_PROGRESS 5035 300 / 462
+VALIDATION_PROGRESS 5035 400 / 462
+VALIDATION_PROGRESS 5035 462 / 462
+VALIDATION_COMPLETE {"loss": 4.5756160769111665, "action_token_accuracy": 0.27643785009652505, "normalized_action_l1": 0.20453971454465694, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 18.645018115639687, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176}
+EPOCH_COMPLETE {"epoch": 5, "training_loss_frame_weighted": 1.7125715509556836, "epoch_seconds": 420.46280462667346, "loss": 4.5756160769111665, "action_token_accuracy": 0.27643785009652505, "normalized_action_l1": 0.20453971454465694, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 18.645018115639687, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035"}
+FIVE_EPOCH_TRAINING_COMPLETE {"training_completed": true, "epochs_completed": 5, "additional_epochs_completed": 4, "frames_seen": 20125, "additional_frames_seen": 16100, "unique_train_frames_per_epoch": 4025, "optimizer_steps": 5035, "selected_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035", "final_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035", "selected_validation": {"epoch": 5, "training_loss_frame_weighted": 1.7125715509556836, "epoch_seconds": 420.46280462667346, "loss": 4.5756160769111665, "action_token_accuracy": 0.27643785009652505, "normalized_action_l1": 0.20453971454465694, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 18.645018115639687, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035"}, "final_validation": {"epoch": 5, "training_loss_frame_weighted": 1.7125715509556836, "epoch_seconds": 420.46280462667346, "loss": 4.5756160769111665, "action_token_accuracy": 0.27643785009652505, "normalized_action_l1": 0.20453971454465694, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 18.645018115639687, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035"}, "baseline_validation": {"epoch": 1, "loss": 3.12671033644573, "action_token_accuracy": 0.359616576399638, "normalized_action_l1": 0.24042052550003445, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 1007, "seconds": 18.51361967995763, "gpu_allocated_gib": 14.153698921203613, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007"}, "best_teacher_validation_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007", "best_teacher_validation_epoch": 1, "primary_evaluation_is_final_epoch5": true, "adapter_changed": true, "frozen_parameter_samples_unchanged": true, "validation_uses_optimizer": false, "full_validation_frames": 462, "additional_training_wall_seconds": 1869.391394307837, "gpu_allocated_gib": 14.153698444366455, "gpu_reserved_gib": 15.046875, "gpu_peak_allocated_gib": 14.924588203430176}
+wandb: 
+wandb: Run history:
+wandb:                            optimizer_step ▁▂▂▂▂▂▂▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇███
+wandb:               train/action_token_accuracy ▃▃▄▄▃▄▃▄▃▅▁▃▄▅▆▅▄▄▅▄▅▃▆█▇▆▅▃▇▅▄▄▅▇▄▆█▆▆▇
+wandb:                        train/batch_frames ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train/elapsed_additional_training_seconds ▁▁▁▁▁▂▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▇▇█████
+wandb:                               train/epoch ▁▁▁▁▁▁▁▁▁▁▃▃▃▃▃▃▃▃▃▃▃▆▆▆▆▆▆▆▆▆▆▆▆▆██████
+wandb:                         train/frames_seen ▁▁▁▁▁▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇█████
+wandb:                   train/gpu_allocated_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:              train/gpu_peak_allocated_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    train/gpu_reserved_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                       train/gradient_norm ▁▁▁▁▁▁▁▁▂▁▁▁▁▁▃▂▂▃▂▂▂▃▂▃▅▃▄▃▃▅▄▆▅█▅▆▄▄▅▅
+wandb:                                       +18 ...
+wandb: 
+wandb: Run summary:
+wandb:                            optimizer_step 5035
+wandb:               train/action_token_accuracy 0.42857
+wandb:                        train/batch_frames 1
+wandb: train/elapsed_additional_training_seconds 1850.42962
+wandb:                               train/epoch 5
+wandb:                         train/frames_seen 20125
+wandb:                   train/gpu_allocated_gib 14.16932
+wandb:              train/gpu_peak_allocated_gib 14.92459
+wandb:                    train/gpu_reserved_gib 15.04688
+wandb:                       train/gradient_norm 23.70629
+wandb:                                       +18 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/wandb/offline-run-20261103_064556-ksxoyz0m
+wandb: Find logs at: ./outputs/five_epoch_bowl/20261103T064207_586519Z/wandb/offline-run-20261103_064556-ksxoyz0m/logs

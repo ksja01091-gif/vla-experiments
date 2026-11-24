@@ -1,0 +1,62 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  4.81it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  5.56it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  6.05it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.81it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 8.126329455024752, "action_token_accuracy": 0.13821892688671747, "normalized_action_l1": 0.3479234176338517, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 0, "seconds": 15.248069524765015, "gpu_allocated_gib": 8.4700288772583, "gpu_reserved_gib": 9.20703125, "gpu_peak_allocated_gib": 14.153027057647705}
+P50_SFT 1 4 6.7692670822143555
+P50_SFT 25 100 4.187691688537598
+P50_SFT 50 200 3.4208223819732666
+P50_SFT 75 300 3.7896971702575684
+P50_SFT 100 400 3.020285129547119
+P50_SFT 125 500 3.374586582183838
+P50_SFT 150 600 2.7425615787506104
+P50_SFT 175 700 2.7124593257904053
+P50_SFT 200 800 2.5288872718811035
+P50_SFT 225 900 3.616267442703247
+P50_SFT 250 1000 3.831850051879883
+P50_SFT 275 1100 2.7048866748809814
+P50_SFT 300 1200 2.532245635986328
+P50_SFT 325 1300 3.5786943435668945
+P50_SFT 350 1400 2.653324842453003
+P50_SFT 375 1500 3.1919994354248047
+P50_SFT 400 1600 2.9240942001342773
+P50_SFT 425 1700 2.8404550552368164
+P50_SFT 450 1800 3.228890895843506
+P50_SFT 475 1900 2.3584342002868652
+P50_SFT 500 2000 3.114450693130493
+P50_SFT 525 2100 2.7534520626068115
+P50_SFT 550 2200 2.5642213821411133
+P50_SFT 575 2300 2.956397294998169
+P50_SFT 600 2400 2.44049334526062
+P50_SFT 625 2500 2.899984836578369
+P50_SFT 650 2600 3.0281083583831787
+P50_SFT 675 2700 3.347980260848999
+P50_SFT 700 2800 2.389263868331909
+P50_SFT 725 2900 2.963515043258667
+P50_SFT 750 3000 2.817215919494629
+P50_SFT 775 3100 2.615318536758423
+P50_SFT 800 3200 3.3617706298828125
+P50_SFT 825 3300 2.8854165077209473
+P50_SFT 850 3400 2.4564661979675293
+P50_SFT 875 3500 2.8607118129730225
+P50_SFT 900 3600 3.2248783111572266
+P50_SFT 925 3700 2.8117101192474365
+P50_SFT 950 3800 2.219759941101074
+P50_SFT 975 3900 2.53546404838562
+P50_SFT 1000 4000 3.4324586391448975
+VALIDATION_PROGRESS 1007 100 / 462
+VALIDATION_PROGRESS 1007 200 / 462
+VALIDATION_PROGRESS 1007 300 / 462
+VALIDATION_PROGRESS 1007 400 / 462
+VALIDATION_PROGRESS 1007 462 / 462
+VALIDATION_COMPLETE {"loss": 3.2830816048048277, "action_token_accuracy": 0.3509585674836006, "normalized_action_l1": 0.2235690210011194, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 1007, "seconds": 14.710352275520563, "gpu_allocated_gib": 8.502346992492676, "gpu_reserved_gib": 9.388671875, "gpu_peak_allocated_gib": 9.271405220031738}
+PHASE_COMPLETE sft p50

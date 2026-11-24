@@ -1,0 +1,11 @@
+model,state_index,maximum_bowl_rise_mm,rise_over_2cm,task_success,replay_eef_max_error_m
+train20,0,7.433826536070831,False,False,0.0
+train20,1,0.0002786076397365278,False,False,0.0
+train20,2,0.0,False,False,0.0
+train20,3,0.0,False,False,0.0
+train20,4,0.0003859514311477241,False,False,0.0
+train40,0,0.0002786076397365278,False,False,0.0
+train40,1,0.9664921067407128,False,False,0.0
+train40,2,68.41796242605147,True,False,0.0
+train40,3,0.0,False,False,0.0
+train40,4,0.0003859514311477241,False,False,0.0

@@ -1,0 +1,41 @@
+{
+  "critic_warmup_steps": 2,
+  "critic_warmup_seconds": 0.17869864404201508,
+  "actor_unchanged_during_critic_warmup": true,
+  "ppo_optimizer_steps": 1,
+  "ppo_transitions": 4,
+  "ppo_update_seconds": 1.534347053617239,
+  "ppo_gradient_norm": 97.27704620361328,
+  "bc_training_only_loss": 0.9098650217056274,
+  "actor_changed": true,
+  "frozen_samples_unchanged": true,
+  "rows": [
+    {
+      "ratio": 1.0,
+      "actor_loss": 1.4341071844100952,
+      "value_loss": 0.015222364105284214,
+      "entropy": 1.2618322372436523
+    },
+    {
+      "ratio": 1.0,
+      "actor_loss": 1.073751449584961,
+      "value_loss": 0.00015065599291119725,
+      "entropy": 0.969925582408905
+    },
+    {
+      "ratio": 1.0,
+      "actor_loss": 0.6905983686447144,
+      "value_loss": 6.619593477807939e-05,
+      "entropy": 1.5878758430480957
+    },
+    {
+      "ratio": 1.0,
+      "actor_loss": 0.2832052707672119,
+      "value_loss": 7.781860767863691e-05,
+      "entropy": 1.758158802986145
+    }
+  ],
+  "allocated_gib": 14.185165882110596,
+  "reserved_gib": 14.724609375,
+  "peak_gib": 14.33823537826538
+}

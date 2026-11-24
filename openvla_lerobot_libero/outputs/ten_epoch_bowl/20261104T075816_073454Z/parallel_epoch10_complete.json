@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "epochs": [
+    10
+  ],
+  "new_trials": 5
+}

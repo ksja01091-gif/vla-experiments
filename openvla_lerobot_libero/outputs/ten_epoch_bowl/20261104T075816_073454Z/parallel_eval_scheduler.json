@@ -1,0 +1,7 @@
+{
+  "used": true,
+  "status": "done",
+  "returncode": 0,
+  "no_training_running_during_parallel_rollouts": true,
+  "ready_marker_restored": true
+}

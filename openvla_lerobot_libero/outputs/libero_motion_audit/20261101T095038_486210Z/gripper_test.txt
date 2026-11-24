@@ -1,0 +1,1 @@
+Six boundary/representative values matched official conversion. Input preserved.

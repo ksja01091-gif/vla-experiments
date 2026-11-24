@@ -1,0 +1,85 @@
+40개 시범 추가 학습 실험 결과 — 2026-11-03
+
+무엇을 바꿨나?
+- 공개 LIBERO 데이터에서 선택·전처리한 학습용 전체 시범을 20개에서 40개로 늘렸다.
+- 검증용 전체 시범 5개(462장면)는 그대로 두고 학습에 사용하지 않았다.
+- 학습용은 4,025장면이며, 전체를 한 번씩 사용했다. 시범 40개는 사진 40장이 아니다.
+- 이전 학습 모델을 이어 학습하지 않고 같은 기본 openvla/openvla-7b에서 새로 시작했다.
+- 기존 파일·환경·실험 결과는 보존했다.
+
+실제 결과
+- 검증 loss: 이전 20개 모델 3.2220 -> 새 40개 모델 3.1267
+- 행동 토큰 정확도: 35.50% -> 35.96%
+- 정규화 행동 L1 오차: 0.240810 -> 0.240421
+- 같은 초기 상태 5개에서 최종 그릇 옮기기: 기본 모델 0/5, 이전 20개 모델 0/5, 새 40개 모델 0/5
+- 평균 실행 단계: 새 모델 220.0단계.
+- 목표 그릇의 높이 증가가 2cm를 넘은 시도: 이전 0/5, 새 모델 1/5.
+  이 값은 '그릇의 위치가 올라간 관찰'이며 '양손가락으로 안정적으로 잡음'의 성공률이 아니다.
+- 세 번째 시도(내부 상태 번호 2): 최대 높이 증가 6.84cm.
+  영상에서는 그릇이 올라갔다 다시 내려왔다. 기록된 제어 단계의 양손가락 패드 동시 접촉 판정은 0회.
+  따라서 안정적으로 잡고 들어 올렸다고 확정하지 않는다. 놓기까지의 최종 작업에도 실패했다.
+- 시뮬레이션 실행 오류 0개. 원래 행동 재현 시 손 위치와 성공 판정의 일치를 확인했다.
+- 별도 공개 LIBERO-Spatial 추가 학습 모델의 기존 참고 결과 4/5는 위 기본 모델 결과와 구분한다.
+
+영상 보는 순서
+1. 01_같은 시작상태_20개 학습 vs 40개 학습_느린 비교.mp4
+   왼쪽은 이전 20개 모델, 오른쪽은 이번 40개 모델. 같은 초기 상태, 같은 단계끼리 비교.
+   저장된 제어 장면을 초당 10장으로 재생하며 실제 계산 시간 영상이 아니다.
+2. 02_40개 학습_그릇이 올라갔다 내려오는 순간_느리게.mp4
+   세 번째 시도의 25~60단계, 초당 5장으로 재생.
+3. 전체 시도 영상 1~5: 새 모델의 다섯 초기 상태 결과. 초당 20장.
+
+학습 조건
+- 1 epoch / batch 4 / learning rate 0.0001 / AdamW / seed 7
+- optimizer update 1,007회 (이전은 482회).
+- LoRA rank 8 / alpha 8 / dropout 0 / 언어 모델 q_proj, v_proj만 변경.
+- 기본 가중치는 BF16, LoRA 가중치는 FP32.
+- 행동 정규화는 이전 학습용 20개에서 구한 값을 고정해 비교 기준을 유지했다.
+- 학습 루프 시간 438.7초, 최대 GPU 메모리 14.92GiB.
+- 검증 loss가 가장 낮은 별도 체크포인트를 선택했다.
+- 새 Python 프로세스에서 정확한 LoRA 재로딩, 행동 (1,7) 형태, NaN/무한대 없음 확인.
+
+무엇까지 말할 수 있나?
+- 데이터를 늘렸을 때 예측 loss는 조금 낮아졌고, 한 시도에서 목표 그릇이 크게 움직이는 변화가 있었다.
+- 최종 작업 성공률은 개선되지 않았으며 안정적 파지 성공도 확인하지 못했다.
+- 1 epoch를 유지했기 때문에 데이터와 함께 총 가중치 수정 횟수도 늘었다.
+  동일 계산량에서 데이터 개수만 바꾼 실험은 아니다.
+- 초기 상태 5개만 평가했으므로 전체 LIBERO 성능으로 일반화할 수 없다.
+- 학습 시범과 평가 초기 상태의 완전한 분리는 확인되지 않았다.
+- 양손가락 접촉은 제어 단계 끝에서 검사했다. 모든 물리 내부 순간을 연속 관찰한 판정은 아니다.
+- loss는 시범 장면의 다음 행동 예측 오차이며 로봇 작업 성공률과 다르다.
+
+원격 Linux 경로
+실험 폴더:
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z
+데이터 분할:
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/data/split_manifest.json
+학습 설정:
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/training_config.json
+선택 체크포인트:
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007
+실행 코드:
+ /home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py
+학습·평가 코드:
+ /home/jovyan/projects/lerobot-openvla/examples/openvla_bowl40_experiment.py
+LeRobot 정책 클래스:
+ /home/jovyan/projects/lerobot-openvla/src/lerobot/policies/openvla/full_experiment_openvla.py
+그릇 위치·접촉 진단 코드:
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/analyze_motion_no_camera.py
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/check_grasp_contacts.py
+
+저장 모델 재확인 명령 (원격 터미널)
+conda activate lerobot312
+export OPENVLA_BOWL40_DATA_ROOT=/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/data
+python /home/jovyan/projects/lerobot-openvla/examples/openvla_bowl40_experiment.py check --run /home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z
+
+새 실험 재실행 방법 (기존 결과를 덮어쓰지 않음)
+python /home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py prepare
+위 명령이 출력한 새 PREPARED_RUN 경로를 RUN으로 사용:
+python /home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py calibrate --run RUN
+python /home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py finish --run RUN
+
+W&B
+offline로 기록했으며 웹 업로드는 하지 않았다. CSV·PNG·체크포인트·영상은 원격에 보관했다.
+
+Reporting issue resolved: lerobot312 lacks matplotlib; used existing openvla310 for reports. No packages were changed. Windows viewing folder creation permission was corrected.

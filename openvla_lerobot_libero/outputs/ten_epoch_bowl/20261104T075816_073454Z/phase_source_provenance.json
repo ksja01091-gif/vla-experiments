@@ -1,0 +1,8 @@
+{
+  "training_and_evaluation_source_at_launch": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/training_source_snapshot.py",
+  "launch_source_hash": "fa5323192493aafc2b84750b9dbf1c1e04a2d6016a82d3ae1aa8d10b6d584100",
+  "snapshot_matches_launch_hash": true,
+  "post_training_check_source": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/ten_epoch_experiment.py",
+  "post_training_check_source_hash": "e7e02d433cae21c0d6a6762ec1af75da745b9fa4ad97a3fb11acd79c909e2417",
+  "change_after_launch": "Added isolated final inference benchmark called only by later check subprocess; training/evaluation functions unchanged."
+}

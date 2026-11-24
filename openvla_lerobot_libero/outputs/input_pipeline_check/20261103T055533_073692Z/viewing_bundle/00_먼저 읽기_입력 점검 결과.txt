@@ -1,0 +1,80 @@
+사진 처리 일치 점검 — 2026-11-03
+
+무엇을 확인했나?
+같은 학습 결과를 제대로 실행하는지 보려면, 먼저 학습과 실행에서 모델에 들어가는 사진·지시·가중치를 맞춰야 한다.
+이번에는 저장된 40개 시범 학습 모델을 그대로 쓰고 사진 처리 경로만 다르게 했다. 재학습하지 않았다.
+
+1. 코드에서 확인한 차이
+- 학습: 공개 데이터에서 선택·전처리한 256x256 RGB 사진을 native HF 이미지 처리기에 직접 입력.
+- 이전 실행: 시뮬레이터 사진 방향 보정 후 JPEG 변환, 외부 크기 변경, 면적 90% 중앙 자르기 후 native HF 이미지 처리기.
+- 새 진단 실행: 방향을 바로잡은 원본 256x256 RGB 사진을 native HF 이미지 처리기에 직접 입력.
+- native 처리기는 실제 모델 입력을 224x224로 만든다. '원본 256'이 최종 신경망 입력 크기라는 뜻은 아니다.
+- 이번 시험은 사진 처리 경로 전체를 맞춘 것이며, 자르기 하나만 바꾼 실험은 아니다.
+
+2. 모델 입력 확인
+- 검증 사진 8장 검사. 새 처리의 실제 pixel_values가 학습 때 값과 8/8장 정확히 일치.
+- 사진 이외의 작업 지시 토큰도 학습 시 행동 예측 직전의 입력과 8/8 일치.
+- 이전 사진 처리 입력은 0/8 일치.
+  입력이 다르다는 사실만으로 이전 방식이 실패 원인이라고 확정할 수는 없다.
+- 저장된 같은 LoRA를 정확히 불러왔고 실행 전후 LoRA 해시가 같았다.
+- 기존 지시·행동 정규화·집게 명령 변환·초기 상태·seed·220단계 제한·10단계 안정화는 그대로.
+
+3. 실제 로봇 확인: 같은 초기 상태 하나(내부 번호 2)
+- 이전 사진 처리: 최종 성공 False, 220단계, 그릇 최대 높이 증가 68.42mm.
+- 학습과 같은 처리: 최종 성공 False, 220단계, 그릇 최대 높이 증가 0.00mm.
+- 양손가락 패드 동시 접촉: 이전 0개 단계, 새 처리 0개 단계.
+- 이번 진단에서도 잡고 옮기는 작업은 성공하지 못했다.
+- 초기 상태는 이전에 그릇이 올라간 사례를 골랐다. 무작위 표본이나 전체 성공률 평가가 아니다.
+- 입력을 맞추는 것은 점검 항목 하나이지, 학습이 충분하거나 잡기에 성공했다는 보장은 아니다.
+- 두 조건 모두 실패했다고 사진 차이의 영향이 없다는 뜻도 아니다. 움직임 자체는 달라졌다.
+
+4. 시범 사진에서 스스로 예측한 행동도 비교
+- 같은 8개 검증 사진에서 7개 행동 전체를 스스로 생성해 시범 행동과 비교했다.
+- 정규화 행동 L1 오차: 이전 0.4366 -> 학습 일치 처리 0.3573.
+- 이것은 소수 사진 진단이며 전체 462장 검증 결과가 아니다.
+- 앞서 학습 중 기록한 teacher-forced loss/L1과 계산 방식이 다르므로 서로 같은 지표로 비교하면 안 된다.
+- 시범 사진에서 예측 오차가 줄어도 실제 실행 시 작업 성공으로 이어지지는 않았다.
+
+이번에 이해할 개념 두 가지
+1) 입력 전처리: 모델에게 사진을 보여주기 전에 방향·크기·자르기·숫자 변환을 정리하는 과정.
+2) 조건을 맞춘 비교: 같은 모델·같은 시작 상태를 유지하고 원인 후보인 사진 처리만 바꿔 결과가 달라지는지 보는 것.
+
+영상·이미지 보는 법
+01: 왼쪽 기존 처리, 오른쪽 학습과 같은 처리. 같은 초기 상태, 같은 단계. 초당 10장으로 느리게 재생.
+02: 같은 시범 사진의 모델 처리기 전 RGB 미리보기. 왼쪽 기존 외부 처리, 오른쪽 학습과 같은 원본 경로.
+    이 PNG는 신경망의 6채널 정규화 텐서 전체를 시각화한 것이 아니다. 정확한 일치는 photo_audit.json에서 확인했다.
+03: 새 진단 실행의 전체 영상. 초당 20장, 실제 벽시계 속도와 다름.
+
+확인 결과와 남은 일
+- 입력·프롬프트 일치 검사와 저장 모델 재사용 확인은 통과.
+- 로봇의 안정적 잡기와 접시 위에 놓기는 미해결.
+- 사진 처리의 차이가 유일한 실패 원인이라고 볼 근거는 없다.
+- 다음에는 전체 검증 사진에서 스스로 생성한 행동을 점검하고, 같은 처리 기준에서 추가 학습량 등을 비교할 수 있다.
+- 기존 코드 292개와 openvla310·lerobot312·eval310의 패키지 목록은 변경 없음.
+
+실제 확인에 사용한 코드
+exact_pixels = torch.equal(train_batch["pixel_values"], matched["pixel_values"])
+torch.equal은 PyTorch 기능으로 두 텐서의 값이 모두 같은지 확인한다. 여기서는 실제 모델 입력의 일치를 검사한다.
+정확한 원격 실행 코드:
+/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/audit_and_compare.py
+입력 검사 결과:
+/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/photo_audit.json
+최종 요약:
+/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/diagnostic_summary.json
+사진 처리만 바꾼 로봇 실행:
+/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/matched_rollout_function.py
+사용 체크포인트:
+/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007
+
+원격에서 결과 다시 확인
+cat /home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/diagnostic_summary.json
+
+같은 진단을 새 폴더에서 재실행 (기존 결과 보존)
+conda activate lerobot312
+NEW_RUN="/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/$(date -u +%Y%m%dT%H%M%S)_manual"
+mkdir "$NEW_RUN"
+cp "/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/audit_and_compare.py" "$NEW_RUN/"
+python "$NEW_RUN/audit_and_compare.py"
+
+오류
+이번 진단에서 실행 오류는 없었다. 패키지 설치·버전 변경·가중치 업데이트·기존 평가 결과 덮어쓰기를 하지 않았다.

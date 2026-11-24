@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_003021",
+  "adapter_hash": "d5db4d346b7e96071b9226639b5350646f20c84cf69ea1d69128ad676d74658f",
+  "fresh_python_process": true,
+  "same_validation_batch_loss": 2.644516944885254,
+  "original_validation_batch_loss": 2.644516944885254,
+  "action_shape": [
+    1,
+    7
+  ],
+  "all_finite": true
+}

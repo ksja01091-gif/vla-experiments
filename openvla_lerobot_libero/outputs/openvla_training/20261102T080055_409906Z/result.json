@@ -1,0 +1,43 @@
+{
+  "training_connection_passed": true,
+  "optimizer_steps": 20,
+  "trainable_parameters": 4194304,
+  "changed_lora_tensors": 128,
+  "total_lora_tensors": 128,
+  "max_parameter_delta": 0.0023193359375,
+  "before": {
+    "train_probe": {
+      "loss": 12.400081634521484,
+      "action_token_accuracy": 0.1428571492433548,
+      "normalized_action_l1": 0.388235294117647
+    },
+    "validation_probe": {
+      "loss": 10.877019882202148,
+      "action_token_accuracy": 0.02857142984867096,
+      "normalized_action_l1": 0.3811764705882353
+    }
+  },
+  "after": {
+    "train_probe": {
+      "loss": 7.069498062133789,
+      "action_token_accuracy": 0.1428571492433548,
+      "normalized_action_l1": 0.3904761904761904
+    },
+    "validation_probe": {
+      "loss": 8.895844650268554,
+      "action_token_accuracy": 0.1428571492433548,
+      "normalized_action_l1": 0.30162464985994397
+    }
+  },
+  "adapter_reload_weights_exact": true,
+  "adapter_reload_loss_before": 7.915459156036377,
+  "adapter_reload_loss_after": 7.915459156036377,
+  "frozen_parameter_samples_unchanged": true,
+  "existing_sources_unchanged": true,
+  "packages_unchanged": true,
+  "peak_allocated_gpu_gib": 14.314154624938965,
+  "full_training_experiment_completed": false,
+  "simulator_evaluation_performed": false,
+  "wandb_connected": false,
+  "output": "/home/jovyan/projects/lerobot-openvla/outputs/openvla_training/20261102T080055_409906Z"
+}

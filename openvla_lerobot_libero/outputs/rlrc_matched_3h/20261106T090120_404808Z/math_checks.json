@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "zero_recovery_matches_unmerged_start_exactly": true,
+  "attention_max_error": 0.0,
+  "mlp_max_error": 0.0,
+  "attention_shape": [
+    16,
+    32
+  ],
+  "attention_output_shape": [
+    2,
+    5,
+    32
+  ],
+  "meaning": "Compact attention and MLP match dense references with the same removed contributions. Not equivalent to the original unpruned model."
+}

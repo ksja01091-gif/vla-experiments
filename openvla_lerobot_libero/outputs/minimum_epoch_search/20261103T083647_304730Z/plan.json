@@ -1,0 +1,28 @@
+{
+  "primary_criterion": "at least the prior epoch5 performance: 3 successes out of same 5 states",
+  "required_successes": 3,
+  "secondary_criterion": "at least one success out of same five states",
+  "candidate_epochs_in_order": [
+    2,
+    3,
+    4
+  ],
+  "known_epoch1_successes": 0,
+  "known_epoch5_successes": 3,
+  "stop_rule": "complete all five trials per candidate; stop higher-epoch evaluation at first candidate with >=3 successes",
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seed": 7,
+  "environment_seed": 0,
+  "warmup_steps": 10,
+  "horizon": 220,
+  "preprocessing": "same training-matched upright 256 RGB and native HF processor",
+  "training_performed": false,
+  "reference_results_reused_from": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z",
+  "scope": "minimum among integer epochs 1..5 in this saved training trajectory and fixed five states; not a universal minimum or unseen-state guarantee"
+}

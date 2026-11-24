@@ -1,0 +1,8 @@
+{
+  "source": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/action_statistics_train_only.json",
+  "sha256": "e45d96e5e1df3423657146fd9f1fd1e1d1106222a6fc3d4f761ba1d892e43d90",
+  "calibration_episodes": 20,
+  "training_episodes": 40,
+  "validation_used": false,
+  "reason": "hold action normalization fixed against the original experiment"
+}

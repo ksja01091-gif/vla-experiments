@@ -1,0 +1,16 @@
+{
+  "file": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/ten_epoch_experiment.py",
+  "functions": {
+    "write": 21,
+    "digest": 25,
+    "load": 27,
+    "old_result": 30,
+    "prepare": 32,
+    "train": 61,
+    "audit": 146,
+    "check": 154,
+    "benchmark_final": 160,
+    "simulate_all": 188,
+    "main": 224
+  }
+}

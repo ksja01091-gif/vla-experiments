@@ -1,0 +1,23 @@
+{
+  "mode": "offline",
+  "run_id": "q714nuto",
+  "directory": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_092837-q714nuto/files",
+  "uploaded": false,
+  "logged": [
+    "training loss",
+    "validation loss",
+    "action token accuracy",
+    "normalized action L1",
+    "GPU memory",
+    "elapsed time",
+    "checkpoint step"
+  ],
+  "local_only": [
+    "base model",
+    "LoRA checkpoint",
+    "optimizer state",
+    "source snapshots",
+    "raw data",
+    "simulator frames and videos"
+  ]
+}

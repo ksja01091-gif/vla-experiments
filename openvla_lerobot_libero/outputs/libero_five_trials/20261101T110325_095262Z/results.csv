@@ -1,0 +1,6 @@
+init_state_index,status,success,policy_steps,termination_reason,returncode,result_path,log_path
+0,success,True,85,task_success,0,/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T110334_253252Z/result.json,/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T110325_095262Z/state_0.log
+1,task_failure,False,220,horizon_exhausted,0,/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T110523_400390Z/result.json,/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T110325_095262Z/state_1.log
+2,success,True,79,task_success,0,/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T110853_792909Z/result.json,/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T110325_095262Z/state_2.log
+3,success,True,102,task_success,0,/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T111043_606212Z/result.json,/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T110325_095262Z/state_3.log
+4,success,True,74,task_success,0,/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T111245_472028Z/result.json,/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T110325_095262Z/state_4.log

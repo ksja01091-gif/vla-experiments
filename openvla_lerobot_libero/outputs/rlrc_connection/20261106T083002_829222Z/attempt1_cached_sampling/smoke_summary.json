@@ -1,0 +1,522 @@
+{
+  "connection_passed": true,
+  "not_full_RLRC_reproduction": true,
+  "no_full_training_started": true,
+  "no_success_rate_evaluated": true,
+  "accepted_choices": {
+    "matched_dense_control": true,
+    "scope": "structured pruning + SFT + PPO recovery; only smoke calibration authorized before joint runtime cap decision",
+    "target_internal_pruning": 0.9,
+    "protect_layers": [
+      0,
+      31
+    ],
+    "starting_model": "ordinary LoRA rank8, 5epoch",
+    "reference_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+    "environment": "/home/jovyan/projects/venvs/rlrc-smoke312",
+    "environment_inherits_existing_packages_read_only": true,
+    "package_installation": false,
+    "long_training_budget": "pending after measured smoke"
+  },
+  "pruning": {
+    "complete": true,
+    "target_internal_pruning": 0.9,
+    "before": {
+      "model_parameters": 7549625792,
+      "recovery_parameters": 4194304,
+      "model_tensor_bytes": 15149591424,
+      "critic_parameters": 4097
+    },
+    "after": {
+      "model_parameters": 2064631232,
+      "recovery_parameters": 2412544,
+      "model_tensor_bytes": 4172475264,
+      "critic_parameters": 4097
+    },
+    "whole_model_parameter_reduction": 0.7265253551788227,
+    "dense_checkpoint_bytes": 16794424,
+    "dense_checkpoint_is_adapter_only": true,
+    "pruned_full_model_file_bytes": 4139073648,
+    "actual_target_heads_removed": 0.90625,
+    "actual_target_mlp_removed": 0.9011627906976745,
+    "importance_frames": 8,
+    "importance_seconds": 4.780824206769466,
+    "importance_memory": {
+      "allocated_gib": 14.138107776641846,
+      "reserved_gib": 26.787109375,
+      "peak_gib": 25.95064926147461
+    },
+    "pruned_initial_finite_actions": true,
+    "pruned_initial_actions": [
+      [
+        [
+          0.0636061578989029,
+          0.27753621339797974,
+          0.49794644117355347,
+          0.0035634476225823164,
+          -0.025246424600481987,
+          -0.039124876260757446,
+          -0.054901961237192154
+        ]
+      ],
+      [
+        [
+          0.13553157448768616,
+          0.13345219194889069,
+          -0.030709033831954002,
+          -0.03264831751585007,
+          0.005323575809597969,
+          0.008838149718940258,
+          0.10980392247438431
+        ]
+      ],
+      [
+        [
+          -0.0658595934510231,
+          0.19468790292739868,
+          -0.052736345678567886,
+          0.010805800557136536,
+          -0.028157852590084076,
+          -0.039124876260757446,
+          -0.054901961237192154
+        ]
+      ],
+      [
+        [
+          0.16430173814296722,
+          0.3459761440753937,
+          -0.030709033831954002,
+          0.01714286021888256,
+          0.018425004556775093,
+          -0.16862504184246063,
+          0.4000000059604645
+        ]
+      ]
+    ],
+    "not_a_quality_or_success_rate_evaluation": true
+  },
+  "branches": {
+    "dense": {
+      "complete": true,
+      "branch": "dense",
+      "load_seconds": 8.23280694335699,
+      "load_memory": {
+        "allocated_gib": 14.121761798858643,
+        "reserved_gib": 14.162109375,
+        "peak_gib": 14.121761798858643
+      },
+      "parameters": {
+        "model_parameters": 7549625792,
+        "recovery_parameters": 4194304,
+        "model_tensor_bytes": 15149591424,
+        "critic_parameters": 4097
+      },
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_connection/20261106T083002_829222Z/dense/disposable_after_ppo",
+      "saved_file_bytes": 16794424,
+      "sft": {
+        "updates": 4,
+        "training_frames": 16,
+        "batch_size": 4,
+        "lr": 0.0001,
+        "rank": 8,
+        "not_full_training": true,
+        "mean_update_seconds_excluding_first": 0.36047523903350037,
+        "all_update_seconds": [
+          1.0886225253343582,
+          0.3630716819316149,
+          0.35829161293804646,
+          0.36006242223083973
+        ],
+        "validation_four_frame_seconds": 0.16789384000003338,
+        "memory": {
+          "allocated_gib": 14.1845064163208,
+          "reserved_gib": 15.25,
+          "peak_gib": 14.939771175384521
+        },
+        "frozen_samples_unchanged": true,
+        "rows": [
+          {
+            "optimizer_step": 1,
+            "train_indices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "seconds": 1.0886225253343582,
+            "gradient_norm": 10.7653169631958,
+            "loss": 1.411818504333496,
+            "action_token_accuracy": 0.6071428656578064,
+            "normalized_action_l1": 0.07889978848084682,
+            "predicted_action_token_fraction": 1.0
+          },
+          {
+            "optimizer_step": 2,
+            "train_indices": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "seconds": 0.3630716819316149,
+            "gradient_norm": 8.470292091369629,
+            "loss": 0.9334890246391296,
+            "action_token_accuracy": 0.7142857313156128,
+            "normalized_action_l1": 0.01646406568732919,
+            "predicted_action_token_fraction": 1.0
+          },
+          {
+            "optimizer_step": 3,
+            "train_indices": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "seconds": 0.35829161293804646,
+            "gradient_norm": 7.5750508308410645,
+            "loss": 0.8076562285423279,
+            "action_token_accuracy": 0.7142857313156128,
+            "normalized_action_l1": 0.016360265300387433,
+            "predicted_action_token_fraction": 1.0
+          },
+          {
+            "optimizer_step": 4,
+            "train_indices": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "seconds": 0.36006242223083973,
+            "gradient_norm": 9.848670959472656,
+            "loss": 0.6840919852256775,
+            "action_token_accuracy": 0.8214285969734192,
+            "normalized_action_l1": 0.015276155526898495,
+            "predicted_action_token_fraction": 1.0
+          }
+        ]
+      },
+      "inference_seconds": 0.29134348640218377,
+      "inference_peak_gib": 14.460162162780762,
+      "rollout": {
+        "steps": 8,
+        "max_steps": 8,
+        "success_rate_not_evaluated": true,
+        "truncated": true,
+        "bootstrap": 0.0,
+        "mean_sample_and_score_seconds": 0.4309686361812055,
+        "mean_transition_wall_seconds": 0.8539551999419928,
+        "worker_initialization_seconds": 29.079463850706816,
+        "total_rollout_wall_seconds": 37.03895450383425,
+        "max_generation_teacher_logp_difference": 0.23615503311157227,
+        "reward": "task success +1, step penalty -0.001; smoke adaptation, not a verified paper coefficient",
+        "sampler": "on-policy categorical over 256 action tokens; seven autoregressive tokens; temperature1",
+        "gamma": 0.99,
+        "gae_lambda": 0.95
+      },
+      "ppo": {
+        "critic_warmup_steps": 2,
+        "critic_warmup_seconds": 0.18141579255461693,
+        "actor_unchanged_during_critic_warmup": true,
+        "ppo_optimizer_steps": 1,
+        "ppo_transitions": 4,
+        "ppo_update_seconds": 1.4912624452263117,
+        "ppo_gradient_norm": 139.719482421875,
+        "bc_training_only_loss": 0.8691034317016602,
+        "actor_changed": true,
+        "frozen_samples_unchanged": true,
+        "rows": [
+          {
+            "ratio": 1.0,
+            "actor_loss": 1.4341071844100952,
+            "value_loss": 0.017288874834775925,
+            "entropy": 1.3459599018096924
+          },
+          {
+            "ratio": 1.0,
+            "actor_loss": 1.073751449584961,
+            "value_loss": 3.128364551230334e-05,
+            "entropy": 1.3192572593688965
+          },
+          {
+            "ratio": 1.0,
+            "actor_loss": 0.6905983686447144,
+            "value_loss": 0.0001418581377947703,
+            "entropy": 1.6654696464538574
+          },
+          {
+            "ratio": 1.0,
+            "actor_loss": 0.2832052707672119,
+            "value_loss": 9.700924238131847e-06,
+            "entropy": 1.4771348237991333
+          }
+        ],
+        "allocated_gib": 14.185165882110596,
+        "reserved_gib": 14.724609375,
+        "peak_gib": 14.33823537826538
+      },
+      "not_a_full_episode_or_quality_test": true,
+      "original_start_adapter_unchanged": true
+    },
+    "pruned": {
+      "complete": true,
+      "branch": "pruned",
+      "load_seconds": 14.639747817069292,
+      "load_memory": {
+        "allocated_gib": 3.9107327461242676,
+        "reserved_gib": 3.9765625,
+        "peak_gib": 14.129577159881592
+      },
+      "parameters": {
+        "model_parameters": 2064631232,
+        "recovery_parameters": 2412544,
+        "model_tensor_bytes": 4172475264,
+        "critic_parameters": 4097
+      },
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_connection/20261106T083002_829222Z/pruned/disposable_after_ppo",
+      "saved_file_bytes": 4139073648,
+      "sft": {
+        "updates": 4,
+        "training_frames": 16,
+        "batch_size": 4,
+        "lr": 0.0001,
+        "rank": 8,
+        "not_full_training": true,
+        "mean_update_seconds_excluding_first": 0.2972246129065752,
+        "all_update_seconds": [
+          1.037095008417964,
+          0.2980381101369858,
+          0.2997211441397667,
+          0.29391458444297314
+        ],
+        "validation_four_frame_seconds": 0.11255589500069618,
+        "memory": {
+          "allocated_gib": 3.9535646438598633,
+          "reserved_gib": 4.982421875,
+          "peak_gib": 4.712316036224365
+        },
+        "frozen_samples_unchanged": true,
+        "rows": [
+          {
+            "optimizer_step": 1,
+            "train_indices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "seconds": 1.037095008417964,
+            "gradient_norm": 165.54844665527344,
+            "loss": 10.758514404296875,
+            "action_token_accuracy": 0.0714285746216774,
+            "normalized_action_l1": 0.5504784764946342,
+            "predicted_action_token_fraction": 1.0
+          },
+          {
+            "optimizer_step": 2,
+            "train_indices": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "seconds": 0.2980381101369858,
+            "gradient_norm": 161.28030395507812,
+            "loss": 10.863863945007324,
+            "action_token_accuracy": 0.0,
+            "normalized_action_l1": 0.4894865027328833,
+            "predicted_action_token_fraction": 1.0
+          },
+          {
+            "optimizer_step": 3,
+            "train_indices": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "seconds": 0.2997211441397667,
+            "gradient_norm": 136.3227081298828,
+            "loss": 10.426338195800781,
+            "action_token_accuracy": 0.0,
+            "normalized_action_l1": 0.5939786195087164,
+            "predicted_action_token_fraction": 1.0
+          },
+          {
+            "optimizer_step": 4,
+            "train_indices": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "seconds": 0.29391458444297314,
+            "gradient_norm": 113.29254913330078,
+            "loss": 9.894192695617676,
+            "action_token_accuracy": 0.0714285746216774,
+            "normalized_action_l1": 0.4911645582493614,
+            "predicted_action_token_fraction": 1.0
+          }
+        ]
+      },
+      "inference_seconds": 0.29448119457811117,
+      "inference_peak_gib": 4.010069847106934,
+      "rollout": {
+        "steps": 8,
+        "max_steps": 8,
+        "success_rate_not_evaluated": true,
+        "truncated": true,
+        "bootstrap": 0.0,
+        "mean_sample_and_score_seconds": 0.42135420721024275,
+        "mean_transition_wall_seconds": 0.8403721491340548,
+        "worker_initialization_seconds": 22.033824490383267,
+        "total_rollout_wall_seconds": 29.733412755653262,
+        "max_generation_teacher_logp_difference": 0.14957284927368164,
+        "reward": "task success +1, step penalty -0.001; smoke adaptation, not a verified paper coefficient",
+        "sampler": "on-policy categorical over 256 action tokens; seven autoregressive tokens; temperature1",
+        "gamma": 0.99,
+        "gae_lambda": 0.95
+      },
+      "ppo": {
+        "critic_warmup_steps": 2,
+        "critic_warmup_seconds": 0.16252451576292515,
+        "actor_unchanged_during_critic_warmup": true,
+        "ppo_optimizer_steps": 1,
+        "ppo_transitions": 4,
+        "ppo_update_seconds": 1.5225865561515093,
+        "ppo_gradient_norm": 98.32145690917969,
+        "bc_training_only_loss": 6.0878496170043945,
+        "actor_changed": true,
+        "frozen_samples_unchanged": true,
+        "rows": [
+          {
+            "ratio": 1.0,
+            "actor_loss": 1.4341071844100952,
+            "value_loss": 0.0006375500233843923,
+            "entropy": 4.658778667449951
+          },
+          {
+            "ratio": 1.0,
+            "actor_loss": 1.073751449584961,
+            "value_loss": 0.0002048634341917932,
+            "entropy": 4.178567886352539
+          },
+          {
+            "ratio": 1.0,
+            "actor_loss": 0.6905983686447144,
+            "value_loss": 0.00017841729277279228,
+            "entropy": 4.307252407073975
+          },
+          {
+            "ratio": 1.0,
+            "actor_loss": 0.2832052707672119,
+            "value_loss": 0.00016232579946517944,
+            "entropy": 3.6331217288970947
+          }
+        ],
+        "allocated_gib": 3.954224109649658,
+        "reserved_gib": 4.2265625,
+        "peak_gib": 4.120896816253662
+      },
+      "not_a_full_episode_or_quality_test": true,
+      "original_start_adapter_unchanged": true
+    }
+  },
+  "runtime_options": [
+    {
+      "sft_epochs_each": 1,
+      "rl_iterations_each": 1,
+      "episodes_per_iteration_each": 4,
+      "max_steps": 220,
+      "ppo_passes": 2,
+      "matched_models": 2,
+      "estimate_minutes_30pct_margin": 77.5017075403366,
+      "not_a_guarantee_or_permission_to_start": true,
+      "components": {
+        "dense": {
+          "sft_seconds": 362.9985657067349,
+          "validation_seconds": 58.427056320011616,
+          "rl_seconds": 1407.6360518485308,
+          "four_episode_rollout_seconds_per_iteration": 751.4805759489536,
+          "ppo_updates_seconds_per_iteration": 656.1554758995771
+        },
+        "pruned": {
+          "sft_seconds": 299.30518519692123,
+          "validation_seconds": 39.16945146024227,
+          "rl_seconds": 1409.4655759446323,
+          "four_episode_rollout_seconds_per_iteration": 739.5274912379682,
+          "ppo_updates_seconds_per_iteration": 669.9380847066641
+        }
+      }
+    },
+    {
+      "sft_epochs_each": 3,
+      "rl_iterations_each": 3,
+      "episodes_per_iteration_each": 4,
+      "max_steps": 220,
+      "ppo_passes": 2,
+      "matched_models": 2,
+      "estimate_minutes_30pct_margin": 229.6856679518024,
+      "not_a_guarantee_or_permission_to_start": true,
+      "components": {
+        "dense": {
+          "sft_seconds": 1088.9956971202046,
+          "validation_seconds": 97.37842720001936,
+          "rl_seconds": 4222.908155545592,
+          "four_episode_rollout_seconds_per_iteration": 751.4805759489536,
+          "ppo_updates_seconds_per_iteration": 656.1554758995771
+        },
+        "pruned": {
+          "sft_seconds": 897.9155555907637,
+          "validation_seconds": 65.28241910040379,
+          "rl_seconds": 4228.396727833897,
+          "four_episode_rollout_seconds_per_iteration": 739.5274912379682,
+          "ppo_updates_seconds_per_iteration": 669.9380847066641
+        }
+      }
+    },
+    {
+      "sft_epochs_each": 5,
+      "rl_iterations_each": 5,
+      "episodes_per_iteration_each": 4,
+      "max_steps": 220,
+      "ppo_passes": 2,
+      "matched_models": 2,
+      "estimate_minutes_30pct_margin": 381.8696283632682,
+      "not_a_guarantee_or_permission_to_start": true,
+      "components": {
+        "dense": {
+          "sft_seconds": 1814.9928285336744,
+          "validation_seconds": 136.3297980800271,
+          "rl_seconds": 7038.180259242654,
+          "four_episode_rollout_seconds_per_iteration": 751.4805759489536,
+          "ppo_updates_seconds_per_iteration": 656.1554758995771
+        },
+        "pruned": {
+          "sft_seconds": 1496.5259259846061,
+          "validation_seconds": 91.3953867405653,
+          "rl_seconds": 7047.3278797231615,
+          "four_episode_rollout_seconds_per_iteration": 739.5274912379682,
+          "ppo_updates_seconds_per_iteration": 669.9380847066641
+        }
+      }
+    }
+  ],
+  "projection_limits": [
+    "Only 4 SFT updates, 8 inference images and 8 RL transitions per branch were measured.",
+    "Full220-step episodes projected assuming same per-step cost; actual task lengths and throughput may differ.",
+    "This single-task 4-episode PPO collection is much smaller than paper training.",
+    "Final calibration will use160 train frames instead of the8 smoke frames."
+  ],
+  "preservation": {
+    "protected_files": 300,
+    "changed_files": [],
+    "environments_unchanged": {
+      "lerobot312": true,
+      "openvla310": true,
+      "eval310": true
+    },
+    "used_sources_unchanged": true
+  }
+}

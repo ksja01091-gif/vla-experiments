@@ -1,0 +1,17 @@
+{
+  "epoch": 1,
+  "training_loss_frame_weighted": 3.222758625249685,
+  "training_total_loss": 3.222758625249685,
+  "epoch_seconds": 780.9132524076849,
+  "loss": 3.142583569406947,
+  "action_token_accuracy": 0.3571428597231448,
+  "normalized_action_l1": 0.23426836260853956,
+  "predicted_action_token_fraction": 1.0,
+  "frames": 462,
+  "optimizer_step": 1007,
+  "seconds": 33.8369319550693,
+  "gpu_allocated_gib": 14.85795259475708,
+  "gpu_reserved_gib": 15.9921875,
+  "gpu_peak_allocated_gib": 15.746029376983643,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/checkpoints/step_001007"
+}

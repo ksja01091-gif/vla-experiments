@@ -1,0 +1,46 @@
+{
+  "minimum_any": 4,
+  "minimum_matching_3_of_5": 5,
+  "representative_video": "02_4회vs5회_같은시작상태4.mp4",
+  "baseline_comparison_video": "03_1회vs최소5회_같은시작상태4.mp4",
+  "first_success_comparison_video": "05_1회vs최초성공4회_같은시작상태0.mp4",
+  "state": 4,
+  "evaluated_epochs": [
+    2,
+    3,
+    4
+  ],
+  "results": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 3
+  },
+  "comparison_videos": [
+    {
+      "file": "02_4회vs5회_같은시작상태4.mp4",
+      "left_epoch": 4,
+      "right_epoch": 5,
+      "state": 4,
+      "frames": 221,
+      "fps": 10
+    },
+    {
+      "file": "03_1회vs최소5회_같은시작상태4.mp4",
+      "left_epoch": 1,
+      "right_epoch": 5,
+      "state": 4,
+      "frames": 221,
+      "fps": 10
+    },
+    {
+      "file": "05_1회vs최초성공4회_같은시작상태0.mp4",
+      "left_epoch": 1,
+      "right_epoch": 4,
+      "state": 0,
+      "frames": 221,
+      "fps": 10
+    }
+  ]
+}

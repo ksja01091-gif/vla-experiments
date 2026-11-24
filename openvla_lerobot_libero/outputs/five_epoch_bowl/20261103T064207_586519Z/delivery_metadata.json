@@ -1,0 +1,9 @@
+{
+  "representative_state": 0,
+  "representative_video": "02_1회vs5회_같은시작상태0.mp4",
+  "epoch1_successes": 0,
+  "epoch5_successes": 3,
+  "epoch1_free_validation_l1": 0.2842743744340404,
+  "epoch5_free_validation_l1": 0.251941234777769,
+  "files": 23
+}

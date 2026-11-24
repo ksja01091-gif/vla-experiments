@@ -1,0 +1,10 @@
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  89%|████████▉ | 100/112 [00:00<00:00, 980.75 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 903.35 examples/s]
+EXPORTED train 1 / 20 frames 112
+Map:   0%|          | 0/79 [00:00<?, ? examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 876.76 examples/s]
+EXPORTED train 2 / 20 frames 79
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 934.38 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 858.63 examples/s]
+EXPORTED train 3 / 20 frames 95
+Map:   0%|          | 0/90 [00:00<?, ? examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 857.30 examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 839.61 examples/s]
+EXPORTED train 4 / 20 frames 90
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  89%|████████▉ | 96/108 [00:00<00:00, 938.70 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 851.07 examples/s]
+EXPORTED train 5 / 20 frames 108

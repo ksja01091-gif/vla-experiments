@@ -1,0 +1,5 @@
+{
+  "path": "/home/jovyan/projects/LIBERO/libero/libero/bddl_files/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+  "sha256": "9b59eb1287802868ad9bc78d58e6d36d4ba31134e679cfdbdf4b0feb660c959b",
+  "goal": "(:goal\n    (And (On akita_black_bowl_1 plate_1))\n  )\n\n)\n"
+}

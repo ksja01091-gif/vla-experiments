@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "epochs": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "new_trials": 25
+}

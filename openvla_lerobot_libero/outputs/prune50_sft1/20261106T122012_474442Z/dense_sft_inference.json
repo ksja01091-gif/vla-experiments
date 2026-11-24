@@ -1,0 +1,20 @@
+{
+  "samples": 32,
+  "warmup": 3,
+  "mean_seconds": 0.29495468124514446,
+  "median_seconds": 0.29453270975500345,
+  "all_finite_1x7": true,
+  "memory": {
+    "allocated_gib": 14.1296968460083,
+    "reserved_gib": 14.53515625,
+    "peak_gib": 14.452722549438477
+  },
+  "parameters": {
+    "model_parameters": 7549625792,
+    "recovery_parameters": 4194304,
+    "model_tensor_bytes": 15149591424,
+    "critic_parameters": 4097
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/dense/after_sft",
+  "fresh_process": true
+}

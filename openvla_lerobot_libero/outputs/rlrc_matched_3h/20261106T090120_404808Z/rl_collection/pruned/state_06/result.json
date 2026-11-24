@@ -1,0 +1,13 @@
+{
+  "state": 6,
+  "steps": 220,
+  "success": false,
+  "bootstrap": 0.0,
+  "truncated": true,
+  "reward_sum": -0.22,
+  "seconds": 253.77622057683766,
+  "mean_transition_seconds": 0.9917743461291221,
+  "max_sampling_logp_difference": 0.0,
+  "video": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/rl_collection/pruned/state_06/episode.mp4",
+  "training_rollout_not_final_evaluation": true
+}

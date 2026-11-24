@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "tag": "dense_sft",
+      "decoded_without_error": true,
+      "sha256": "ee65f7d8d7141b35660a4df223402cb529a466afe38e8472808c8ccbb2988998",
+      "bytes": 74881
+    },
+    {
+      "tag": "p50",
+      "decoded_without_error": true,
+      "sha256": "84f69f77ea556722dc10e394660cce446f279ebaf26462f6c48905ee196222a0",
+      "bytes": 121565
+    }
+  ]
+}

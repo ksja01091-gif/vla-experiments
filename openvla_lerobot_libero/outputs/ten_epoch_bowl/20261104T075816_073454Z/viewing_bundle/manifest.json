@@ -1,0 +1,90 @@
+{
+  "04_epoch5_vs_epoch10_state_03.mp4": {
+    "bytes": 393631,
+    "sha256": "891fc16ecee1ffb36ab9315e0138bdd4f5550fad85e1d2025d3f2804f458bd78"
+  },
+  "paper_provenance.json": {
+    "bytes": 232,
+    "sha256": "c0de50ab9f36eb794a7abb1640af8ede228794d46d0ca434ceaffb1714f6ffce"
+  },
+  "pipeline.py": {
+    "bytes": 1257,
+    "sha256": "5129c4fbc0b793113f1224213d9ddcdd2662dec67e61e39b724d2642b6399202"
+  },
+  "training_config.json": {
+    "bytes": 3163,
+    "sha256": "ca29115ef09946828cb69b7f1901c73236c61310a1044d3b9ad94b337608b9de"
+  },
+  "training_source_snapshot.py": {
+    "bytes": 13102,
+    "sha256": "fa5323192493aafc2b84750b9dbf1c1e04a2d6016a82d3ae1aa8d10b6d584100"
+  },
+  "04_epoch5_vs_epoch10_state_00.mp4": {
+    "bytes": 268569,
+    "sha256": "f359305bdaa2c04af07ba60c7fe5fbf7ad17c96334bd8876ebb72fcf8a8b5b74"
+  },
+  "ten_epoch_experiment.py": {
+    "bytes": 14960,
+    "sha256": "e7e02d433cae21c0d6a6762ec1af75da745b9fa4ad97a3fb11acd79c909e2417"
+  },
+  "00_START_HERE_KO.txt": {
+    "bytes": 3007,
+    "sha256": "51b7b31f1c0027c4eb829db5b68974472b59415268e8830809b8c8276200a3a6"
+  },
+  "reproduce.py": {
+    "bytes": 1970,
+    "sha256": "e5b31b1fb9dea18db22917ea6447639513ac87a7cae5b1183d21a933c14caa1c"
+  },
+  "04_epoch5_vs_epoch10_state_02.mp4": {
+    "bytes": 664106,
+    "sha256": "66b5b80143db3454e175b62f9a678b2fdc223ef94a1ade5df59bcd68fb574b4a"
+  },
+  "04_epoch5_vs_epoch10_state_01.mp4": {
+    "bytes": 469830,
+    "sha256": "71c32b83cb52d90ab6dfa319cf300d8e3b0b4f1cabe47e02a045834d601c73f0"
+  },
+  "phase_source_provenance.json": {
+    "bytes": 694,
+    "sha256": "95e96a893ddf1d5668999d533f221704569aa259c843a9140fb8c8959eb28ad8"
+  },
+  "03_epoch_curves.png": {
+    "bytes": 158006,
+    "sha256": "bd5b6179e883f4a199d873eb91c9671e66c4e977219b13a5ace59486f748edd2"
+  },
+  "lora_sp_threshold_boundary_check.json": {
+    "bytes": 512,
+    "sha256": "f94aff8a62372b20646eecf0579c02cea739dfc1186b258c239de86b320b6733"
+  },
+  "01_epoch_comparison.csv": {
+    "bytes": 3378,
+    "sha256": "c4bd0d191b4b747826a9fa4d2376f09dc7a86c0d94cf2336d0265b0fbb535a76"
+  },
+  "05_NEXT_LORA_SP_PLAN_KO.txt": {
+    "bytes": 2937,
+    "sha256": "a0f613badcef2d6f8b6b2c453e10ef5c67f1f9fc517ac99fb212cb67ca1bf982"
+  },
+  "code_locations.json": {
+    "bytes": 360,
+    "sha256": "09ebeb5c218036ccd7338767f58875dc8acacabf597873647a893c5539e877f5"
+  },
+  "parallel_eval_scheduler.py": {
+    "bytes": 3721,
+    "sha256": "8f3ec0975e9624a27b6c48bc872c36776543dca42bf15cb037489e14c0a12101"
+  },
+  "04_epoch5_vs_epoch10_state_04.mp4": {
+    "bytes": 249453,
+    "sha256": "eb4f4daabe5d3253c54ab8f8d39e04b97d576d1bd801566f74180f06e8f098f0"
+  },
+  "lora_sp_preparation.json": {
+    "bytes": 1941,
+    "sha256": "aea860432d594cb18fe837ebdf4571bdc93d50645f88b014528ec266fa9c66e4"
+  },
+  "summary.json": {
+    "bytes": 9293,
+    "sha256": "de12d51c4d601528b940ba4ef52d16de056d2f0fe7422a3c547a8c699adc4a21"
+  },
+  "02_all_trials.csv": {
+    "bytes": 11178,
+    "sha256": "9afe8ce3b40febe6aebf5aa2f6d310d13f179c286f62c39559c42606a84ae074"
+  }
+}

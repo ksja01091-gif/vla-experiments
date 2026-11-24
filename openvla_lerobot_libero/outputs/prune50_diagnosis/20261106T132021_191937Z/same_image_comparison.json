@@ -1,0 +1,404 @@
+{
+  "complete": true,
+  "no_training": true,
+  "all_parameters_frozen": true,
+  "same_image_same_instruction": true,
+  "own_recorded_actions_reproduced": true,
+  "images": 14,
+  "seconds": 38.38144872710109,
+  "rows": [
+    {
+      "source_tag": "dense_sft",
+      "frame": 0,
+      "image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+      "dense_controller_action": [
+        0.725320041179657,
+        0.41441604495048523,
+        0.16019432246685028,
+        -5.7728906540432945e-05,
+        0.14507214725017548,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "p50_controller_action": [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "translation_command_L2_difference": 0.8517124453691838,
+      "rotation_command_L2_difference": 0.14557142840931192,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.8505833535873337,
+      "p50_translation_magnitude": 0.0017588702057813271
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 30,
+      "image_sha256": "e91e3fd1831f275898c2cdb87c5d4356ca4b1afc7a08ba82a22d8e29657dd071",
+      "dense_controller_action": [
+        -0.7275734543800354,
+        0.039797574281692505,
+        -0.9338287711143494,
+        0.02076403610408306,
+        -0.04562642425298691,
+        0.002842771587893367,
+        -1.0
+      ],
+      "p50_controller_action": [
+        -0.893001914024353,
+        0.00017446554556954652,
+        -0.9338287711143494,
+        0.03343815356492996,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "translation_command_L2_difference": 0.17010751307983504,
+      "rotation_command_L2_difference": 0.04693445884112774,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 1.1844758976856136,
+      "p50_translation_magnitude": 1.2920869253460932
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 60,
+      "image_sha256": "15659ddf8e5bbe40a0e6b096ef28dec518aa5f4d402e27a869187ce418ffc529",
+      "dense_controller_action": [
+        -0.15936264395713806,
+        0.18027950823307037,
+        -0.19958508014678955,
+        -5.7728906540432945e-05,
+        -0.1839192807674408,
+        0.00044462032383307815,
+        1.0
+      ],
+      "p50_controller_action": [
+        -0.5549524426460266,
+        0.00017446554556954652,
+        -0.9338287711143494,
+        0.06874462217092514,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.8532543073163167,
+      "rotation_command_L2_difference": 0.19589961656444657,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.3126201490546757,
+      "p50_translation_magnitude": 1.086281923718679
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 68,
+      "image_sha256": "b3613054be48ff3982e789369b20b07e3aa70babf688ea95c0aed97c0e08b0e5",
+      "dense_controller_action": [
+        0.14272411167621613,
+        0.23070891201496124,
+        0.43186450004577637,
+        -0.029932435601949692,
+        0.04462786018848419,
+        -0.06430546194314957,
+        1.0
+      ],
+      "p50_controller_action": [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        0.16753676533699036,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        -0.11346756666898727,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.37908883402470045,
+      "rotation_command_L2_difference": 0.07311545341047335,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.510003647571937,
+      "p50_translation_magnitude": 0.1675406448461903
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 69,
+      "image_sha256": "57d22093da876a7e34d7e456226eedb5013e733b50159955c9a071f7a1b26c4b",
+      "dense_controller_action": [
+        0.09956886619329453,
+        0.23431101441383362,
+        0.17487919330596924,
+        -0.03536419942975044,
+        -0.0004992811591364443,
+        -0.018740590661764145,
+        1.0
+      ],
+      "p50_controller_action": [
+        -0.0011267198715358973,
+        0.21269841492176056,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        -0.0858888253569603,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.20410697724001192,
+      "rotation_command_L2_difference": 0.07586456540103187,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.30886622159440563,
+      "p50_translation_magnitude": 0.21270561557326972
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 76,
+      "image_sha256": "cca381f41fc879876b7d36ac713127073d8f25091ffdabdefca79ffcaa92db6e",
+      "dense_controller_action": [
+        0.32973021268844604,
+        0.19829000532627106,
+        0.9311501979827881,
+        -0.01725831627845764,
+        -0.0004992811591364443,
+        -0.1146666407585144,
+        1.0
+      ],
+      "p50_controller_action": [
+        0.2578047811985016,
+        0.00017446554556954652,
+        0.8063287734985352,
+        -5.7728906540432945e-05,
+        0.16690786182880402,
+        -0.1350509226322174,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.24495596095602873,
+      "rotation_command_L2_difference": 0.16951852605786272,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 1.0075125957402449,
+      "p50_translation_magnitude": 0.8465396781124237
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 90,
+      "image_sha256": "cf2ea8ba22743fb2695e2cc5d592b15397e8793f7c873ec1020ea654c02bb2cf",
+      "dense_controller_action": [
+        0.5526990294456482,
+        -0.12950116395950317,
+        -0.6107615828514099,
+        0.09861932694911957,
+        -0.08929785341024399,
+        -0.16023151576519012,
+        1.0
+      ],
+      "p50_controller_action": [
+        0.6749722361564636,
+        -0.2879936099052429,
+        -0.3464338183403015,
+        0.05154403671622276,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.33157165076744577,
+      "rotation_command_L2_difference": 0.18952068513184767,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.8338324050456346,
+      "p50_translation_magnitude": 0.8115073810004141
+    },
+    {
+      "source_tag": "dense_sft",
+      "frame": 103,
+      "image_sha256": "f21c862bdf9b766aa444b18a877a455d9cd2b12a97d0bc1f9b81abe75df4f702",
+      "dense_controller_action": [
+        -0.7347660064697266,
+        -0.10428645461797714,
+        -0.8824317455291748,
+        0.062407564371824265,
+        0.01260214764624834,
+        0.00044462032383307815,
+        1.0
+      ],
+      "p50_controller_action": [
+        -0.893001914024353,
+        0.00017446554556954652,
+        -0.9338287711143494,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.19644933321356492,
+      "rotation_command_L2_difference": 0.06382444908571229,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 1.1530145421450346,
+      "p50_translation_magnitude": 1.2920869253460932
+    },
+    {
+      "source_tag": "p50",
+      "frame": 0,
+      "image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+      "dense_controller_action": [
+        0.725320041179657,
+        0.41441604495048523,
+        0.16019432246685028,
+        -5.7728906540432945e-05,
+        0.14507214725017548,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "p50_controller_action": [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "translation_command_L2_difference": 0.8517124453691838,
+      "rotation_command_L2_difference": 0.14557142840931192,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.8505833535873337,
+      "p50_translation_magnitude": 0.0017588702057813271
+    },
+    {
+      "source_tag": "p50",
+      "frame": 30,
+      "image_sha256": "6c89521f0367c6f32512638a49a9afaa5a8379b2eb9b91150e9cb776c0c59f5b",
+      "dense_controller_action": [
+        0.4088481664657593,
+        0.27753621339797974,
+        0.20424894988536835,
+        -5.7728906540432945e-05,
+        0.0679192915558815,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "p50_controller_action": [
+        0.9339037537574768,
+        0.4324265718460083,
+        -0.0013392865657806396,
+        -0.09782949090003967,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "translation_command_L2_difference": 0.5847571426271788,
+      "rotation_command_L2_difference": 0.11933322477698179,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.5346969295769126,
+      "p50_translation_magnitude": 1.0291602183378943
+    },
+    {
+      "source_tag": "p50",
+      "frame": 60,
+      "image_sha256": "a9d0be462f5f47fd431f0b9dda0122df24de4fd1c8588794af023d3efd7ca540",
+      "dense_controller_action": [
+        -0.11620739102363586,
+        0.11904378980398178,
+        -0.40517333149909973,
+        -5.7728906540432945e-05,
+        0.08102072030305862,
+        0.025625208392739296,
+        1.0
+      ],
+      "p50_controller_action": [
+        -0.5549524426460266,
+        -0.2879936099052429,
+        -0.9338287711143494,
+        0.1321152150630951,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "translation_command_L2_difference": 0.7985319273015791,
+      "rotation_command_L2_difference": 0.15731897460730107,
+      "gripper_command_disagrees": true,
+      "dense_translation_magnitude": 0.4379965869473119,
+      "p50_translation_magnitude": 1.1238099068374423
+    },
+    {
+      "source_tag": "p50",
+      "frame": 120,
+      "image_sha256": "d7e3a788c79ea1e4cdf38dd5c3b1d205ce93f75831f75331e2d8a18f94f189d4",
+      "dense_controller_action": [
+        0.26499733328819275,
+        0.237913116812706,
+        0.20424894988536835,
+        -0.044417139142751694,
+        0.003867861581966281,
+        -0.0942823514342308,
+        1.0
+      ],
+      "p50_controller_action": [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        -0.11346756666898727,
+        1.0
+      ],
+      "translation_command_L2_difference": 0.41183516234480605,
+      "rotation_command_L2_difference": 0.04852732937046487,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.4105409496392114,
+      "p50_translation_magnitude": 0.0017588702057813271
+    },
+    {
+      "source_tag": "p50",
+      "frame": 180,
+      "image_sha256": "c536554e319cbac6daed97cbaef7ce717c825803c49cbb2e367786cb3047bf78",
+      "dense_controller_action": [
+        0.07079870253801346,
+        0.00017446554556954652,
+        0.2923581898212433,
+        0.027101093903183937,
+        0.02715929038822651,
+        -0.039124876260757446,
+        1.0
+      ],
+      "p50_controller_action": [
+        0.2506122589111328,
+        0.00017446554556954652,
+        0.40249475836753845,
+        0.03977521136403084,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        -1.0
+      ],
+      "translation_command_L2_difference": 0.2108624641483205,
+      "rotation_command_L2_difference": 0.04991367441302895,
+      "gripper_command_disagrees": true,
+      "dense_translation_magnitude": 0.30080857347297607,
+      "p50_translation_magnitude": 0.47413981615986484
+    },
+    {
+      "source_tag": "p50",
+      "frame": 219,
+      "image_sha256": "41c75a86752aef5d97afc62ad0be0c812a0fc0a89bd69606e6e1352c654f8421",
+      "dense_controller_action": [
+        -0.08024468272924423,
+        0.003776566358283162,
+        -0.2803518772125244,
+        0.04792286083102226,
+        -0.0004992811591364443,
+        -0.0738980695605278,
+        1.0
+      ],
+      "p50_controller_action": [
+        0.10676141083240509,
+        0.15506480634212494,
+        0.7329044342041016,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        -0.11946294456720352,
+        1.0
+      ],
+      "translation_command_L2_difference": 1.0414162295702056,
+      "rotation_command_L2_difference": 0.06616868463206964,
+      "gripper_command_disagrees": false,
+      "dense_translation_magnitude": 0.29163444003814426,
+      "p50_translation_magnitude": 0.7566980921641606
+    }
+  ],
+  "scope": "Counterfactual action comparison on the same observations; does not establish which weight or head caused an error."
+}

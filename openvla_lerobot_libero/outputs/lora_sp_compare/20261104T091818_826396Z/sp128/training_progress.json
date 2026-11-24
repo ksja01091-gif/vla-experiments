@@ -1,0 +1,13 @@
+{
+  "epoch": 5,
+  "frames_this_epoch": 4025,
+  "epoch_frames": 4025,
+  "optimizer_step": 5035,
+  "target_steps": 5035,
+  "elapsed_seconds": 4583.959926867858,
+  "last_task_loss": 0.9015909433364868,
+  "method": "sp128",
+  "gpu_allocated_gib": 15.276538848876953,
+  "gpu_reserved_gib": 18.03515625,
+  "gpu_peak_allocated_gib": 17.43280029296875
+}

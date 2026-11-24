@@ -1,0 +1,13 @@
+{
+  "transitions_each": 596,
+  "source_counts": {
+    "dense": 599,
+    "pruned": 880
+  },
+  "passes": 2,
+  "accumulated_transitions_per_update": 4,
+  "optimizer_updates_each": 298,
+  "bc_train_frames_per_update": 1,
+  "reason": "Equal actor updates and transition count despite different episode lengths",
+  "selection": "deterministic uniformly spaced subset, without replacement; last <=3 unmatched transitions excluded"
+}

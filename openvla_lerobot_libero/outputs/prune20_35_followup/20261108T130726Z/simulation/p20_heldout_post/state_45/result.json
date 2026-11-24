@@ -1,0 +1,49 @@
+{
+  "trial_executed": true,
+  "model_tag": "p20_heldout_post",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "task_id": 0,
+  "init_state_index": 45,
+  "success": true,
+  "termination_reason": "task_success",
+  "failure_detail": null,
+  "policy_steps": 85,
+  "max_policy_steps": 220,
+  "warmup_steps": 10,
+  "environment_seed": 0,
+  "global_seed": 7,
+  "action_shape": [
+    1,
+    7
+  ],
+  "all_actions_finite": true,
+  "action_clipping_used": false,
+  "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+  "worker_original_reference_check_passed": true,
+  "initial_image_sha256": "174faffd5f6af01ffe28d4943edd5d230b9cd939b7b1b5b672b10f36fe03a166",
+  "selected_init_state_sha256": "862d65c2a179b0546e71619290d6309053f9eb977b20b4b20e937fd51196cb4a",
+  "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+  "reference_sha256": {
+    "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+    "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+  },
+  "simulator_versions": {
+    "mujoco": "2.3.7",
+    "robosuite": "1.4.1",
+    "numpy": "1.26.4",
+    "tensorflow-cpu": "2.15.1"
+  },
+  "initial_eef_position": [
+    -0.21711943256873967,
+    -0.0057820936566630975,
+    1.1628343509221506
+  ],
+  "final_eef_position": [
+    0.0743652404930957,
+    0.14778760999967808,
+    0.9514517477104136
+  ],
+  "wall_seconds": 93.08229697495699,
+  "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/simulation/p20_heldout_post/state_45/episode.mp4",
+  "overview": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/simulation/p20_heldout_post/state_45/episode_overview.png"
+}

@@ -1,0 +1,112 @@
+{
+  "status": "motion_connection_passed",
+  "scope": "short_closed_loop_demo_not_benchmark",
+  "steps": 30,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "task_id": 0,
+  "seed": 7,
+  "initial_state": {
+    "step": 0,
+    "frame": "/home/jovyan/projects/lerobot-openvla/outputs/libero_motion/20261101T095054_721636Z/frames/0000.png",
+    "eef_position": [
+      -0.20846466056582366,
+      2.489065006250401e-12,
+      1.17327947572964
+    ],
+    "joint_positions": [
+      1.480311306594176e-12,
+      -0.16103738899999961,
+      3.7464310617978085e-12,
+      -2.44459747,
+      1.80265476780286e-12,
+      2.2267522,
+      0.7853981633977812
+    ],
+    "sim_time": 0.5000000000000003,
+    "done_signal": false,
+    "reward_signal": 0.0,
+    "type": "ready",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "action_low": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "action_high": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "control_frequency": 20.0,
+    "initialization": "seeded reset, then 10 no-op steps; not benchmark initial states"
+  },
+  "final_state": {
+    "step": 30,
+    "frame": "/home/jovyan/projects/lerobot-openvla/outputs/libero_motion/20261101T095054_721636Z/frames/0030.png",
+    "eef_position": [
+      -0.030534795263646327,
+      0.13559602755857758,
+      0.9811073825228995
+    ],
+    "joint_positions": [
+      0.07671363525494063,
+      0.6759548525041701,
+      0.13203958443234123,
+      -1.8216308079077637,
+      -0.01794516144453026,
+      2.4772139921836103,
+      0.9454823908067935
+    ],
+    "sim_time": 2.0000000000000013,
+    "done_signal": false,
+    "reward_signal": 0.0,
+    "type": "observation"
+  },
+  "max_eef_displacement_m": 0.29491597627612964,
+  "max_joint_change_rad": 0.8369922415041697,
+  "simulated_seconds_after_warmup": 1.5000000000000009,
+  "control_frequency": 20.0,
+  "video_playback_fps": 5,
+  "all_action_shapes": [
+    1,
+    7
+  ],
+  "all_actions_finite": true,
+  "clipped_step_count": 0,
+  "gripper_conversion": "-sign(2 * raw_gripper - 1), matching official LIBERO conversion",
+  "policy_class": "OpenVLAPolicy",
+  "checkpoint_path": "/home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b-finetuned-libero-spatial/snapshots/962318cec55ac10993ff0f5f43eda9a270b4c873",
+  "preprocessing": "180-degree camera rotation in worker; PIL bilinear resize to 224; RGB CHW float /255",
+  "official_benchmark_preprocessing": false,
+  "benchmark_initial_states_used": false,
+  "training_run": false,
+  "benchmark_success_rate_measured": false,
+  "wandb_used": false,
+  "inference_versions": {
+    "lerobot": "0.4.0",
+    "torch": "2.7.1",
+    "transformers": "4.40.1",
+    "timm": "0.9.10",
+    "peft": "0.11.1",
+    "diffusers": "0.29.2",
+    "numpy": "2.2.6"
+  },
+  "simulator_versions": {
+    "mujoco": "2.3.7",
+    "robosuite": "1.4.1",
+    "numpy": "1.26.4"
+  },
+  "source_sha256": {
+    "examples/openvla_libero_motion.py": "c597c63a979b93bfabfd053adbf266a38c306440a16c72037c9c6cd33e038ee9",
+    "examples/libero_motion_worker.py": "9900a52882e3009f07557986ee6e67069b673d21be20be05b51a6bf03346d656",
+    "src/lerobot/policies/openvla/modeling_openvla.py": "155207fa01dd607c093339a8816609d4032bdddd64d4b7880584a2a7e5e36b09"
+  }
+}

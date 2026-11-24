@@ -1,0 +1,123 @@
+{
+  "scope": "one_task_five_predeclared_initial_states",
+  "task_id": 0,
+  "initial_states": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "planned_trials": 5,
+  "finished_records": 5,
+  "valid_trials": 5,
+  "technical_errors": 0,
+  "successful_trials": 4,
+  "observed_success_rate": 0.8,
+  "all_five_trials_finished": true,
+  "trials": [
+    {
+      "init_state_index": 0,
+      "returncode": 0,
+      "log_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T104237_824617Z/state_0.log",
+      "elapsed_wall_seconds": 107.93426300026476,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104246_331756Z/result.json",
+      "policy_steps": 85,
+      "termination_reason": "task_success",
+      "success": true,
+      "status": "success",
+      "selected_init_state_sha256": "2db16a59a2cee33333ebbc16619a35fc2f28a892e467da4465b661329fdd4f54"
+    },
+    {
+      "init_state_index": 1,
+      "returncode": 0,
+      "log_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T104237_824617Z/state_1.log",
+      "elapsed_wall_seconds": 192.2145865485072,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104434_402280Z/result.json",
+      "policy_steps": 220,
+      "termination_reason": "horizon_exhausted",
+      "success": false,
+      "status": "task_failure",
+      "selected_init_state_sha256": "dc07820a5a4f658d4a5bf944be479ca58a901d881ecd3b6c84cf0a69da4adffb"
+    },
+    {
+      "init_state_index": 2,
+      "returncode": 0,
+      "log_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T104237_824617Z/state_2.log",
+      "elapsed_wall_seconds": 101.03860880620778,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104746_649991Z/result.json",
+      "policy_steps": 79,
+      "termination_reason": "task_success",
+      "success": true,
+      "status": "success",
+      "selected_init_state_sha256": "5a22bed5962664504c91a9c6d1ecec83151f64dcf8a0e86da28be1e2b2e29409"
+    },
+    {
+      "init_state_index": 3,
+      "returncode": 0,
+      "log_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T104237_824617Z/state_3.log",
+      "elapsed_wall_seconds": 116.15489005669951,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104927_840207Z/result.json",
+      "policy_steps": 102,
+      "termination_reason": "task_success",
+      "success": true,
+      "status": "success",
+      "selected_init_state_sha256": "5187dd15c07c8e048aa84e3893802111de17692873b5162bcb3168162440c45e"
+    },
+    {
+      "init_state_index": 4,
+      "returncode": 0,
+      "log_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_five_trials/20261101T104237_824617Z/state_4.log",
+      "elapsed_wall_seconds": 98.16077723912895,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T105124_053076Z/result.json",
+      "policy_steps": 74,
+      "termination_reason": "task_success",
+      "success": true,
+      "status": "success",
+      "selected_init_state_sha256": "43c0066709942b2c3d4c0162c92a2b24aea5997f832ed46945ca49669bd4737a"
+    }
+  ],
+  "manifest": {
+    "declared_before_trials": true,
+    "fresh_trials_only": true,
+    "task_id": 0,
+    "initial_states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "global_seed": 7,
+    "environment_seed": 0,
+    "max_policy_steps": 220,
+    "warmup_steps": 10,
+    "model_id": "openvla/openvla-7b-finetuned-libero-spatial",
+    "existing_source_sha256": {
+      "/home/jovyan/projects/lerobot-openvla/examples/openvla_libero_single_task.py": "f18737dbd46bdcfbefcadee81da6510cd1a05352e7539a7a275d3423a7e03407",
+      "/home/jovyan/projects/lerobot-openvla/examples/libero_eval_worker.py": "b3dbf3ff2151e28660f607d86c4e3b50210c4e7d00906188fc072cbb041f3628",
+      "/home/jovyan/projects/lerobot-openvla/examples/openvla_eval_preprocessing.py": "2575b66f5f3542cbc6d23d91020d272d58d0e8df899dc064aea45cf45bd74101",
+      "/home/jovyan/projects/lerobot-openvla/src/lerobot/policies/openvla/modeling_openvla.py": "155207fa01dd607c093339a8816609d4032bdddd64d4b7880584a2a7e5e36b09",
+      "/home/jovyan/projects/lerobot-openvla/src/lerobot/policies/openvla/configuration_openvla.py": "985e3c0cf9f417b37bf0415671e9e215c8bcde7cabe4316b0da114204036e068",
+      "/home/jovyan/projects/lerobot-openvla/src/lerobot/policies/groot/__init__.py": "d0f4d2da71fbba018a3d4cfb4ddf37f28a48aefd4899d336f4fdaba9540fa5d0",
+      "/home/jovyan/projects/lerobot-openvla/src/lerobot/policies/pi0/__init__.py": "7ee61066cd42b055490facae8afd0e02483bdbe725d86ad43b8b0f7e8fa1d139",
+      "/home/jovyan/projects/lerobot-openvla/src/lerobot/policies/pi05/__init__.py": "05d99911df2bd7c2af774e5a210e93cb3d82333f26bed9df143f3ff2787ff630"
+    },
+    "batch_script_sha256": "deb6f5fba116f1bbc3e4cf3f6ee170ecd8b629ea2e04ed16dad80f8030a29cce",
+    "inference_versions": {
+      "lerobot": "0.4.0",
+      "torch": "2.7.1",
+      "transformers": "4.40.1",
+      "timm": "0.9.10",
+      "peft": "0.11.1",
+      "numpy": "2.2.6"
+    },
+    "checkpoint_path": "/home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b-finetuned-libero-spatial/snapshots/962318cec55ac10993ff0f5f43eda9a270b4c873",
+    "reference_eval_sha256": "369d9fc3d59067998ebfadafbd516872c7ff6f9f06a0a48cda8b6ca48051de77",
+    "existing_sources_unchanged": true,
+    "environment_packages_unchanged": true
+  },
+  "benchmark_wide_success_rate_measured": false,
+  "training_run": false,
+  "wandb_used": false
+}

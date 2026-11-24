@@ -1,0 +1,6 @@
+{
+  "two_training_processes_on_one_A100": true,
+  "measured_peak_sum_gib": 33.179030895233154,
+  "isolated_profile_times_are_primary_speed_comparison": true,
+  "isolated_final_inference_before_threshold_rollouts": true
+}

@@ -1,0 +1,13 @@
+{
+  "source_adapter": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "source_adapter_sha256": "382beb8e3c3508280bcf5ba44d6863b64e8af55efaef99785f555c49d956b57c",
+  "physical_full_model_saved": true,
+  "actor_hash": "6d3edee5cfd6908043a93d8cdb0bd6785f88d59a2da6c200d368b9aee8b10f87",
+  "weights_sha256": "3a515ccdaed64b75c718e76b58d501ba684f08bc1ccba1d857dd753eb09c9eaa",
+  "parameters": {
+    "model_parameters": 6359655872,
+    "recovery_parameters": 3825664,
+    "model_tensor_bytes": 12768177024,
+    "critic_parameters": 4097
+  }
+}

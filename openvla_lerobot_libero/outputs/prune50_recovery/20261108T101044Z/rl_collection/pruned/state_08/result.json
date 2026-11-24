@@ -1,0 +1,13 @@
+{
+  "state": 8,
+  "steps": 97,
+  "success": true,
+  "bootstrap": 0.0,
+  "truncated": false,
+  "reward_sum": 0.903,
+  "seconds": 126.76210595481098,
+  "mean_transition_seconds": 0.9915461799072236,
+  "max_sampling_logp_difference": 0.0,
+  "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_recovery/20261108T101044Z/rl_collection/pruned/state_08/episode.mp4",
+  "training_rollout_not_final_evaluation": true
+}

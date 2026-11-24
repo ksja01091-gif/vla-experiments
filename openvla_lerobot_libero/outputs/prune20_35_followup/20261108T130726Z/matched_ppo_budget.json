@@ -1,0 +1,9 @@
+{
+  "transitions_each": 12540,
+  "source_counts": {
+    "p20": 12540
+  },
+  "passes": 2,
+  "optimizer_updates_each": 6270,
+  "selection": "all 100 training episodes, dropping at most three final transitions"
+}

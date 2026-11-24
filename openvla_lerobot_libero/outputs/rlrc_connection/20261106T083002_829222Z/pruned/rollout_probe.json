@@ -1,0 +1,16 @@
+{
+  "steps": 8,
+  "max_steps": 8,
+  "success_rate_not_evaluated": true,
+  "truncated": true,
+  "bootstrap": 0.0,
+  "mean_sample_and_score_seconds": 0.5683831151109189,
+  "mean_transition_wall_seconds": 0.9922974256332964,
+  "worker_initialization_seconds": 21.99513199366629,
+  "total_rollout_wall_seconds": 31.013480277732015,
+  "max_generation_teacher_logp_difference": 0.0,
+  "reward": "task success +1, step penalty -0.001; smoke adaptation, not a verified paper coefficient",
+  "sampler": "identical-shape uncached autoregressive sampling over256 action tokens; temperature1; per-rollout generator seed71000",
+  "gamma": 0.99,
+  "gae_lambda": 0.95
+}

@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "episodes": 4,
+  "transitions": 599,
+  "successes": 2,
+  "trials": [
+    {
+      "state": 5,
+      "steps": 74,
+      "success": true,
+      "bootstrap": 0.0,
+      "truncated": false,
+      "reward_sum": 0.926,
+      "seconds": 103.35031008347869,
+      "mean_transition_seconds": 1.017203841182227,
+      "max_sampling_logp_difference": 0.0,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/rl_collection/dense/state_05/episode.mp4",
+      "training_rollout_not_final_evaluation": true
+    },
+    {
+      "state": 6,
+      "steps": 220,
+      "success": false,
+      "bootstrap": 0.0,
+      "truncated": true,
+      "reward_sum": -0.22,
+      "seconds": 253.2480012048036,
+      "mean_transition_seconds": 0.9913509684530172,
+      "max_sampling_logp_difference": 0.0,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/rl_collection/dense/state_06/episode.mp4",
+      "training_rollout_not_final_evaluation": true
+    },
+    {
+      "state": 7,
+      "steps": 220,
+      "success": false,
+      "bootstrap": 0.0,
+      "truncated": true,
+      "reward_sum": -0.22,
+      "seconds": 250.9703316371888,
+      "mean_transition_seconds": 0.9801359824497592,
+      "max_sampling_logp_difference": 0.0,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/rl_collection/dense/state_07/episode.mp4",
+      "training_rollout_not_final_evaluation": true
+    },
+    {
+      "state": 8,
+      "steps": 85,
+      "success": true,
+      "bootstrap": 0.0,
+      "truncated": false,
+      "reward_sum": 0.915,
+      "seconds": 112.97267393767834,
+      "mean_transition_seconds": 0.9997224983047036,
+      "max_sampling_logp_difference": 0.0,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/rl_collection/dense/state_08/episode.mp4",
+      "training_rollout_not_final_evaluation": true
+    }
+  ],
+  "actor_unchanged": true
+}

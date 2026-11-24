@@ -1,0 +1,11 @@
+model,initial_state,success,policy_steps,termination_reason,source_video
+1epoch,0,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_00/episode.mp4
+5epochs,0,True,86,task_success,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_00/episode.mp4
+1epoch,1,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_01/episode.mp4
+5epochs,1,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_01/episode.mp4
+1epoch,2,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_02/episode.mp4
+5epochs,2,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_02/episode.mp4
+1epoch,3,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_03/episode.mp4
+5epochs,3,True,83,task_success,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_03/episode.mp4
+1epoch,4,False,220,horizon_exhausted,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_04/episode.mp4
+5epochs,4,True,70,task_success,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_04/episode.mp4

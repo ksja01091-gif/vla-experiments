@@ -1,0 +1,21 @@
+{
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_connection/20261106T083002_829222Z/dense/disposable_after_ppo",
+  "actor_hash": "7eb647803fea71e2eb0e0b0b79db6fe5d97d3f19d7c0af88a8d5283e338682e6",
+  "validation_index": 0,
+  "action": [
+    [
+      0.797245442867279,
+      0.38199713826179504,
+      0.16019432246685028,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ]
+  ],
+  "shape": [
+    1,
+    7
+  ],
+  "finite": true
+}

@@ -1,0 +1,82 @@
+{
+  "01_RESULTS_KO.txt": {
+    "bytes": 2948,
+    "sha256": "7c107fcf9bae81bf6f54440ab2f5e8b299bda796a489be58a93b2f7c93d8b778"
+  },
+  "preservation_report.json": {
+    "bytes": 154,
+    "sha256": "d5167c3bddd083dfb8aa88854717f0af0ce13a48cb212b9484eeb2c2fe77e130"
+  },
+  "04_results.png": {
+    "bytes": 121412,
+    "sha256": "40822a1a08285ded9ea0723ac50b6251027ef97a2625bf416fbdc1f8e0c8551a"
+  },
+  "run_phase.py": {
+    "bytes": 10572,
+    "sha256": "1514ab3781876aaeb4462c107719ac6782d7872817c06f4e78d700275dea4153"
+  },
+  "06_compare_state_00.mp4": {
+    "bytes": 452740,
+    "sha256": "99450618b8b43792cc89b0c7bcea0d2cdbfc98b9e828019da42aee9663238a5a"
+  },
+  "unit_checks.json": {
+    "bytes": 906,
+    "sha256": "4888c9f312daf90dce769052bf123efcd511ff0a7907efc740805c4892596bad"
+  },
+  "05_physical_shapes.txt": {
+    "bytes": 281,
+    "sha256": "8372df5839582d0c6d28edc3707c33e13a477706c0e0a56f9779f068161167d5"
+  },
+  "summary.json": {
+    "bytes": 8623,
+    "sha256": "a1f5d02142d68ca170b247c5fff4386efeb2288063eaa1b6f000254136ea18e7"
+  },
+  "06_compare_state_04.mp4": {
+    "bytes": 617414,
+    "sha256": "b802eb0c9137c2d91cacd9ba87ad59567e9ff43e27c5fbf9010c66901d404a96"
+  },
+  "replay_action.py": {
+    "bytes": 624,
+    "sha256": "3094cfef6c5610e7ca4e9e647126708acc223113cbc8478bf89fdd1177a09588"
+  },
+  "06_compare_state_03.mp4": {
+    "bytes": 384656,
+    "sha256": "41b8f121055b769346c9e63d50047f90b4a6b548d82cd79286c69b70a1d65aea"
+  },
+  "calibration_complete.json": {
+    "bytes": 922,
+    "sha256": "18e5fe8f234d2d3855665243e1bf51f2f08e599d866c6fad3c80caee92826a18"
+  },
+  "experiment_config.json": {
+    "bytes": 1489,
+    "sha256": "4244860ebd3a1f8783cf1b4db547f913284b8a09d2c39bccc42784bade8ff531"
+  },
+  "06_compare_state_02.mp4": {
+    "bytes": 753748,
+    "sha256": "0c2b5ed687e149cc51bd2314bc87cf8d4938a752563c2fb8dfbce99be649fca1"
+  },
+  "02_comparison.csv": {
+    "bytes": 1808,
+    "sha256": "5ff89668272c1085b9446cde52fdc5924be66e5956dd11fa156744a1ff5a28fc"
+  },
+  "driver.py": {
+    "bytes": 2862,
+    "sha256": "b80620bd8cf6fb93cdc30765730527fce1a2ee14c941a6fe88b677fa93286515"
+  },
+  "06_compare_state_01.mp4": {
+    "bytes": 364171,
+    "sha256": "f0c8de6fd963619a210dac967d437db1d7a556696d98d7f179c9c855efd0ba1b"
+  },
+  "pruned_policy.py": {
+    "bytes": 9364,
+    "sha256": "e970bb51b29c9acd07a9d078e62c98f9afd573146e5b42075a24e80102098890"
+  },
+  "03_trials.csv": {
+    "bytes": 2605,
+    "sha256": "a4309072be290cc650aaa7a4aa6b7489d6c8baa2f057cceeb4eb9345fc00a7ea"
+  },
+  "check_compact.py": {
+    "bytes": 2378,
+    "sha256": "b3666d5345b8edfd295d2354c66dafdedaa2437624de50ab9ebdf24357b2a371"
+  }
+}

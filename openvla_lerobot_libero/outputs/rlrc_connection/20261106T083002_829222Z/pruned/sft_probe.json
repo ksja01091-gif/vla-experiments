@@ -1,0 +1,84 @@
+{
+  "updates": 4,
+  "training_frames": 16,
+  "batch_size": 4,
+  "lr": 0.0001,
+  "rank": 8,
+  "not_full_training": true,
+  "mean_update_seconds_excluding_first": 0.29831047045687836,
+  "all_update_seconds": [
+    0.9450487177819014,
+    0.30123131163418293,
+    0.2976758796721697,
+    0.2960242200642824
+  ],
+  "validation_four_frame_seconds": 0.11281977966427803,
+  "memory": {
+    "allocated_gib": 3.9535646438598633,
+    "reserved_gib": 4.982421875,
+    "peak_gib": 4.712316036224365
+  },
+  "frozen_samples_unchanged": true,
+  "rows": [
+    {
+      "optimizer_step": 1,
+      "train_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "seconds": 0.9450487177819014,
+      "gradient_norm": 165.55088806152344,
+      "loss": 10.758514404296875,
+      "action_token_accuracy": 0.0714285746216774,
+      "normalized_action_l1": 0.5504784764946342,
+      "predicted_action_token_fraction": 1.0
+    },
+    {
+      "optimizer_step": 2,
+      "train_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "seconds": 0.30123131163418293,
+      "gradient_norm": 162.6992950439453,
+      "loss": 10.96198844909668,
+      "action_token_accuracy": 0.0,
+      "normalized_action_l1": 0.49901031225669285,
+      "predicted_action_token_fraction": 1.0
+    },
+    {
+      "optimizer_step": 3,
+      "train_indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "seconds": 0.2976758796721697,
+      "gradient_norm": 134.5768280029297,
+      "loss": 10.415117263793945,
+      "action_token_accuracy": 0.0,
+      "normalized_action_l1": 0.661765734354655,
+      "predicted_action_token_fraction": 1.0
+    },
+    {
+      "optimizer_step": 4,
+      "train_indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "seconds": 0.2960242200642824,
+      "gradient_norm": 113.09345245361328,
+      "loss": 9.899468421936035,
+      "action_token_accuracy": 0.0714285746216774,
+      "normalized_action_l1": 0.500408255728353,
+      "predicted_action_token_fraction": 1.0
+    }
+  ]
+}

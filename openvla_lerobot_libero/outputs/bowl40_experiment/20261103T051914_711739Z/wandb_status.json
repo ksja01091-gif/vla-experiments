@@ -1,0 +1,23 @@
+{
+  "mode": "offline",
+  "run_id": "x7janpdh",
+  "directory": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/wandb/offline-run-20261103_052259-x7janpdh/files",
+  "uploaded": false,
+  "logged": [
+    "training loss",
+    "validation loss",
+    "action token accuracy",
+    "normalized action L1",
+    "GPU memory",
+    "elapsed time",
+    "checkpoint step"
+  ],
+  "local_only": [
+    "base model",
+    "LoRA checkpoint",
+    "optimizer state",
+    "source snapshots",
+    "raw data",
+    "simulator frames and videos"
+  ]
+}

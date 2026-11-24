@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "before": {
+    "model_parameters": 7549625792,
+    "recovery_parameters": 4194304,
+    "model_tensor_bytes": 15149591424,
+    "critic_parameters": 4097
+  },
+  "after": {
+    "model_parameters": 2064631232,
+    "recovery_parameters": 2412544,
+    "model_tensor_bytes": 4172475264,
+    "critic_parameters": 4097
+  },
+  "importance_frames": 160,
+  "importance_seconds": 107.80596122331917,
+  "importance_memory": {
+    "allocated_gib": 14.137821674346924,
+    "reserved_gib": 26.458984375,
+    "peak_gib": 25.950363159179688
+  },
+  "pruned_weights_bytes": 4139073648,
+  "target_internal_pruning": 0.9,
+  "actual_target_heads_removed": 0.90625,
+  "actual_target_mlp_removed": 0.9011627906976745,
+  "whole_parameter_reduction": 0.7265253551788227
+}

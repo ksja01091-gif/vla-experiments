@@ -1,0 +1,38 @@
+{
+  "paper": "Adaptive Capacity Allocation for Vision Language Action Fine-tuning (arXiv:2603.07404v1)",
+  "confirmed_user_source_pdf": "C:/Users/User/Desktop/\uacf5\ubd80/VLA_study/Adaptive Capacity Allocation for Vision Language Action Fine-tuning.pdf",
+  "official_repository": "https://github.com/dhkim-furiosa/LoRA-SP",
+  "official_commit": "dfbf57d1fae902a3796e4d6b76823ce49331b9be",
+  "paper_setup": {
+    "backbones": [
+      "pi0",
+      "SmolVLA"
+    ],
+    "robot": "AgileX PiPER",
+    "real_demonstrations": 480,
+    "tasks": 4,
+    "initial_rank": 128,
+    "energy_target": 0.9
+  },
+  "our_setup": {
+    "backbone": "OpenVLA-7B",
+    "benchmark": "one LIBERO Spatial task",
+    "train_demonstrations": 40,
+    "rank": 8,
+    "targets": [
+      "language q_proj",
+      "language v_proj"
+    ]
+  },
+  "code_inspection_findings": [
+    "Official code has pi0/SmolVLA wrappers; no native OpenVLA integration inspected.",
+    "LoraMSPLinear A/B width is num_experts*r: rank labels alone are not enough; inspect actual config.",
+    "_threshold_mask uses cumsum <= threshold*total and forces first entry; paper specifies smallest k with cumulative energy >= threshold. Boundary behavior requires reconciliation.",
+    "Default router is signed one-layer Linear; paper describes nonnegative scores from two-layer router. router_projection settings may differ.",
+    "Forward masks scores but uses full-width dense einsum. Active rank is not proof of lower dense FLOPs or lower allocated memory.",
+    "Current rank8 LoRA and paper rank128 SP have different capacities. Fair comparisons need controlled module coverage and parameter/capacity budget.",
+    "Implementing paper-faithful adjustments must be labeled separately from unmodified official-code reproduction."
+  ],
+  "comparison_not_run": true,
+  "next_step": "Finish epoch10 baseline first; review baseline results and agree SP comparison settings before full SP training."
+}

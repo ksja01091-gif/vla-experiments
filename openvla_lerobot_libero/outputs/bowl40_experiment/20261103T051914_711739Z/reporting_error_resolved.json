@@ -1,0 +1,6 @@
+{
+  "error": "ModuleNotFoundError(\"No module named 'matplotlib'\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py\", line 214, in main\n    else:finish(args.run)\n         ^^^^^^^^^^^^^^^^\n  File \"/home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py\", line 135, in finish\n    summarize(run)\n  File \"/home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py\", line 140, in summarize\n    import matplotlib\nModuleNotFoundError: No module named 'matplotlib'\n",
+  "resolved": true,
+  "resolution": "Existing openvla310 generates reports; training and evaluation unchanged; completed report and CSV/PNG."
+}

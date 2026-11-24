@@ -1,0 +1,345 @@
+{
+  "run": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z",
+  "completion_evidence": {
+    "training": true,
+    "reload": true,
+    "simulator": true,
+    "preservation": true
+  },
+  "simulator_evaluation_completed": true,
+  "training": {
+    "training_completed": true,
+    "epochs_completed": 1,
+    "frames_seen": 1928,
+    "unique_train_frames_per_epoch": 1928,
+    "optimizer_steps": 482,
+    "baseline_validation": {
+      "loss": 11.827245295305788,
+      "action_token_accuracy": 0.09029066517497554,
+      "normalized_action_l1": 0.46049829614697724,
+      "predicted_action_token_fraction": 1.0,
+      "frames": 462,
+      "optimizer_step": 0,
+      "seconds": 21.58679212257266,
+      "gpu_allocated_gib": 14.11405611038208,
+      "gpu_reserved_gib": 14.8515625,
+      "gpu_peak_allocated_gib": 14.583821773529053
+    },
+    "final_validation": {
+      "loss": 3.222014300234906,
+      "action_token_accuracy": 0.35497835723610666,
+      "normalized_action_l1": 0.2408098010338772,
+      "predicted_action_token_fraction": 1.0,
+      "frames": 462,
+      "optimizer_step": 482,
+      "seconds": 18.958869241178036,
+      "gpu_allocated_gib": 14.153698921203613,
+      "gpu_reserved_gib": 15.046875,
+      "gpu_peak_allocated_gib": 14.924588203430176,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/checkpoints/step_000482"
+    },
+    "selected_validation": {
+      "loss": 3.222014300234906,
+      "action_token_accuracy": 0.35497835723610666,
+      "normalized_action_l1": 0.2408098010338772,
+      "predicted_action_token_fraction": 1.0,
+      "frames": 462,
+      "optimizer_step": 482,
+      "seconds": 18.958869241178036,
+      "gpu_allocated_gib": 14.153698921203613,
+      "gpu_reserved_gib": 15.046875,
+      "gpu_peak_allocated_gib": 14.924588203430176,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/checkpoints/step_000482"
+    },
+    "selected_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/checkpoints/step_000482",
+    "final_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/checkpoints/step_000482",
+    "training_loop_wall_seconds": 232.62142640911043,
+    "adapter_changed": true,
+    "frozen_parameter_samples_unchanged": true,
+    "validation_uses_optimizer": false,
+    "full_validation_frames": 462,
+    "simulator_evaluation_completed": false,
+    "gpu_allocated_gib": 14.153698444366455,
+    "gpu_reserved_gib": 15.046875,
+    "gpu_peak_allocated_gib": 14.924588203430176
+  },
+  "paired_initial_states_and_initial_images": true,
+  "cohorts": {
+    "base": {
+      "model_tag": "base",
+      "model_id": "openvla/openvla-7b",
+      "checkpoint": null,
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "technical_errors": 0,
+      "executed_trials": 5,
+      "valid_trial_success_rate": 0.0,
+      "mean_policy_steps": 220.0,
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "horizon": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_normalization": "shared training-only bowl-20 statistics; identical for base and LoRA",
+      "scope": "one task, five fixed initial states; not a LIBERO-wide benchmark or evidence of unseen-state generalization"
+    },
+    "lora": {
+      "model_tag": "lora",
+      "model_id": "openvla/openvla-7b",
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/checkpoints/step_000482",
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "technical_errors": 0,
+      "executed_trials": 5,
+      "valid_trial_success_rate": 0.0,
+      "mean_policy_steps": 220.0,
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "horizon": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_normalization": "shared training-only bowl-20 statistics; identical for base and LoRA",
+      "scope": "one task, five fixed initial states; not a LIBERO-wide benchmark or evidence of unseen-state generalization"
+    },
+    "reference": {
+      "model_tag": "reference",
+      "model_id": "openvla/openvla-7b-finetuned-libero-spatial",
+      "checkpoint": null,
+      "successes": 4,
+      "attempts": 5,
+      "success_rate": 0.8,
+      "technical_errors": 0,
+      "executed_trials": 5,
+      "valid_trial_success_rate": 0.8,
+      "mean_policy_steps": 112.0,
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "horizon": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_normalization": "published libero_spatial checkpoint statistics",
+      "scope": "one task, five fixed initial states; not a LIBERO-wide benchmark or evidence of unseen-state generalization"
+    }
+  },
+  "reload_check": {
+    "fresh_python_process_reload": true,
+    "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/checkpoints/step_000482",
+    "adapter_hash_exact": true,
+    "same_validation_batch_loss_matches": true,
+    "loss": 2.8128724098205566,
+    "action_shape": [
+      1,
+      7
+    ],
+    "all_actions_finite": true,
+    "action": [
+      [
+        0.9339037537574768,
+        0.48645806312561035,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "metrics": {
+      "loss": 2.8128724098205566,
+      "action_token_accuracy": 0.4285714328289032,
+      "normalized_action_l1": 0.16782197406312,
+      "predicted_action_token_fraction": 1.0
+    },
+    "simulator_rollout": false
+  },
+  "preservation": {
+    "original_source_files": 284,
+    "changed_original_sources": [],
+    "existing_sources_unchanged": true,
+    "environments": {
+      "openvla310": {
+        "packages_unchanged": true
+      },
+      "lerobot312": {
+        "packages_unchanged": true
+      },
+      "eval310": {
+        "packages_unchanged": true
+      }
+    }
+  },
+  "media_files": [
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_00/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_01/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_02/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_03/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_04/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_00/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_01/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_02/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_03/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_04/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_00/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_01/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_02/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_03/episode.mp4",
+    "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_04/episode.mp4"
+  ],
+  "motion_diagnostics": [
+    {
+      "model_tag": "lora",
+      "init_state_index": 0,
+      "goal_bowl": "akita_black_bowl_1",
+      "goal_plate": "plate_1",
+      "success": false,
+      "replayed_policy_steps": 220,
+      "original_actions_unchanged": true,
+      "maximum_eef_replay_error_m": 0.0,
+      "success_flags_match_original": true,
+      "maximum_bowl_height_increase_m": 0.007433826536070831,
+      "maximum_bowl_xy_displacement_m": 0.0033134622435805785,
+      "minimum_eef_to_bowl_center_distance_m": 0.10103732883631966,
+      "initial_bowl_plate_xy_distance_m": 0.11693418981041075,
+      "final_bowl_plate_xy_distance_m": 0.12016352231167589,
+      "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+      "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+    },
+    {
+      "model_tag": "base",
+      "init_state_index": 0,
+      "goal_bowl": "akita_black_bowl_1",
+      "goal_plate": "plate_1",
+      "success": false,
+      "replayed_policy_steps": 220,
+      "original_actions_unchanged": true,
+      "maximum_eef_replay_error_m": 0.0,
+      "success_flags_match_original": true,
+      "maximum_bowl_height_increase_m": 2.786076397365278e-07,
+      "maximum_bowl_xy_displacement_m": 2.3510671999212513e-11,
+      "minimum_eef_to_bowl_center_distance_m": 0.3760689651650021,
+      "initial_bowl_plate_xy_distance_m": 0.11693418981041075,
+      "final_bowl_plate_xy_distance_m": 0.11693418980419833,
+      "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+      "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+    },
+    {
+      "model_tag": "base",
+      "init_state_index": 3,
+      "goal_bowl": "akita_black_bowl_1",
+      "goal_plate": "plate_1",
+      "success": false,
+      "replayed_policy_steps": 220,
+      "original_actions_unchanged": true,
+      "maximum_eef_replay_error_m": 0.0,
+      "success_flags_match_original": true,
+      "maximum_bowl_height_increase_m": 0.0,
+      "maximum_bowl_xy_displacement_m": 0.0003636482314816826,
+      "minimum_eef_to_bowl_center_distance_m": 0.3560537398353683,
+      "initial_bowl_plate_xy_distance_m": 0.11140371834867623,
+      "final_bowl_plate_xy_distance_m": 0.11178643512013611,
+      "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+      "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+    },
+    {
+      "model_tag": "base",
+      "init_state_index": 1,
+      "goal_bowl": "akita_black_bowl_1",
+      "goal_plate": "plate_1",
+      "success": false,
+      "replayed_policy_steps": 220,
+      "original_actions_unchanged": true,
+      "maximum_eef_replay_error_m": 0.0,
+      "success_flags_match_original": true,
+      "maximum_bowl_height_increase_m": 2.786076397365278e-07,
+      "maximum_bowl_xy_displacement_m": 2.3510671999212513e-11,
+      "minimum_eef_to_bowl_center_distance_m": 0.37469097227088144,
+      "initial_bowl_plate_xy_distance_m": 0.12562364843987184,
+      "final_bowl_plate_xy_distance_m": 0.1256236484313662,
+      "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+      "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+    },
+    {
+      "model_tag": "base",
+      "init_state_index": 4,
+      "goal_bowl": "akita_black_bowl_1",
+      "goal_plate": "plate_1",
+      "success": false,
+      "replayed_policy_steps": 220,
+      "original_actions_unchanged": true,
+      "maximum_eef_replay_error_m": 0.0,
+      "success_flags_match_original": true,
+      "maximum_bowl_height_increase_m": 3.859514311477241e-07,
+      "maximum_bowl_xy_displacement_m": 1.1430633360647653e-09,
+      "minimum_eef_to_bowl_center_distance_m": 0.31918287293004033,
+      "initial_bowl_plate_xy_distance_m": 0.1188188074558699,
+      "final_bowl_plate_xy_distance_m": 0.11881880800257455,
+      "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+      "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+    },
+    {
+      "model_tag": "base",
+      "init_state_index": 2,
+      "goal_bowl": "akita_black_bowl_1",
+      "goal_plate": "plate_1",
+      "success": false,
+      "replayed_policy_steps": 220,
+      "original_actions_unchanged": true,
+      "maximum_eef_replay_error_m": 0.0,
+      "success_flags_match_original": true,
+      "maximum_bowl_height_increase_m": 0.0,
+      "maximum_bowl_xy_displacement_m": 0.000499605908590988,
+      "minimum_eef_to_bowl_center_distance_m": 0.3581400646326018,
+      "initial_bowl_plate_xy_distance_m": 0.1684512057908586,
+      "final_bowl_plate_xy_distance_m": 0.16795162775319097,
+      "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+      "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+    }
+  ],
+  "full_training_coverage_verified": true,
+  "full_validation_coverage_verified": true,
+  "optimizer_iteration_seconds_sum": 187.85609598085284,
+  "selected_validation_loss_change": -8.605230995070883,
+  "base_vs_lora_success_rate_change": 0.0,
+  "wandb": {
+    "mode": "offline",
+    "run_id": "q714nuto",
+    "directory": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_092837-q714nuto/files",
+    "uploaded": false,
+    "logged": [
+      "training loss",
+      "validation loss",
+      "action token accuracy",
+      "normalized action L1",
+      "GPU memory",
+      "elapsed time",
+      "checkpoint step"
+    ],
+    "local_only": [
+      "base model",
+      "LoRA checkpoint",
+      "optimizer state",
+      "source snapshots",
+      "raw data",
+      "simulator frames and videos"
+    ]
+  }
+}

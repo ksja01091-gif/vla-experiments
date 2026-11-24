@@ -1,0 +1,33 @@
+{
+  "purpose": "Dense 7B teacher simulator rollouts for 2.064B structured-pruned student distillation",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "teacher_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "student_start_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/pruned/after_ppo",
+  "source_human_train_frames": 4025,
+  "source_human_validation_frames": 462,
+  "teacher_rollout_states": "0..49, one deterministic rollout per official initial state",
+  "distillation_training_states": "5..44, successful teacher rollouts only",
+  "evaluation_only_states": "0..4 and 45..49",
+  "evaluation_states": "0..49, reported separately for distillation-used 40 and evaluation-only 10",
+  "max_policy_actions_per_episode": 220,
+  "warmup_steps": 10,
+  "new_training_data_format": "one images.npy uint8 [N,256,256,3] and actions.npy float32 [N,7] per successful episode; metadata.json with hashes",
+  "training_mix": "all 4025 original human frames once and all successful teacher frames once, shuffled together",
+  "student_trainable_weights": "recovery LoRA rank 8 on language_model q_proj/v_proj; compressed backbone and starting LoRA frozen",
+  "epochs": 1,
+  "batch_size": 4,
+  "learning_rate": 0.00003,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0,
+  "gradient_clip": 1.0,
+  "checkpoint_selection": "final epoch, fixed before evaluation",
+  "validation": "original 462 human frames only; no optimizer update on these frames",
+  "offline_logging": true,
+  "not_exact_rlrc_paper_replication": true,
+  "known_limitations": [
+    "Fixed official 50 initial states cannot yield unlimited distinct starts",
+    "Only ten states are excluded from new distillation data",
+    "The original human demonstrations may overlap official initial states; not audited",
+    "Success-only teacher rollouts may yield few or biased samples"
+  ]
+}

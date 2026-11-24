@@ -1,0 +1,137 @@
+[
+  {
+    "model": "base",
+    "state": 0,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_00/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "6dac0e3090976a7b134628f4260634295adc086258dc19707c2f05d79f4ce3e8"
+  },
+  {
+    "model": "base",
+    "state": 1,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_01/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "467fca204fc0adfb568b3abbefa16559aea0a5627399f5070cd862d09615b747"
+  },
+  {
+    "model": "base",
+    "state": 2,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_02/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "733d1188a3ce9d4004f823b3ec386d846eab8136201b92ddc05448172049b2af"
+  },
+  {
+    "model": "base",
+    "state": 3,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_03/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "9881d549215c1e0fa98db6df07ab5c4d6aed602d02d3c73178386d332f70b5b9"
+  },
+  {
+    "model": "base",
+    "state": 4,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_04/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "3b4bb4a74d0fd0079a6385bcd266e556c4413fa15a46efedc0f5ff13412044c9"
+  },
+  {
+    "model": "lora",
+    "state": 0,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_00/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "8d70658448514133783f34ac24f690594d8f8672f5dc6129a9bc60d7fd6aeae7"
+  },
+  {
+    "model": "lora",
+    "state": 1,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_01/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "ad973d4c5e9ebd3e5a67339c7cf47ecdf7e114d382fd38aa4700ddb7b9ac6a49"
+  },
+  {
+    "model": "lora",
+    "state": 2,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_02/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "83c5ad8c5dfce8f37dfe3a8f75a8e62393f53e734e8437f7d112210324f0ec26"
+  },
+  {
+    "model": "lora",
+    "state": 3,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_03/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "a9654b2eaba2998e71d470fa095428e6445dd66548699ff8240316992bf88c01"
+  },
+  {
+    "model": "lora",
+    "state": 4,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_04/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "b25ac50aa8cab86cc38c6a43cf665a0f70847859b84700b601c502e5a6b9e404"
+  },
+  {
+    "model": "reference",
+    "state": 0,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_00/episode.mp4",
+    "frames": 86,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "e1fa8087663a93d5377422c78d53602d0d27f8e4aecd5edc7f985ebf6fefcfa6"
+  },
+  {
+    "model": "reference",
+    "state": 1,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_01/episode.mp4",
+    "frames": 221,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "43e4cb56d00139087722a306a9849702904b3ca2bfc91361ed7d0a0f6c03938a"
+  },
+  {
+    "model": "reference",
+    "state": 2,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_02/episode.mp4",
+    "frames": 80,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "a89f5dd97e151d76ace5ba93275e2b45b9d1e203f7c83f048a6986a17758dd40"
+  },
+  {
+    "model": "reference",
+    "state": 3,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_03/episode.mp4",
+    "frames": 103,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "7a84819b8350730ae2ec5b516325aaf255b43516b429f4261f047600781bbf08"
+  },
+  {
+    "model": "reference",
+    "state": 4,
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/reference/state_04/episode.mp4",
+    "frames": 75,
+    "fps": 20.0,
+    "first_last_frame_decode": true,
+    "sha256": "6aed91cfb03f5fe5d06dd7dff155cbe3d65aa498b1fd8c60b30eda4a3eb47248"
+  }
+]

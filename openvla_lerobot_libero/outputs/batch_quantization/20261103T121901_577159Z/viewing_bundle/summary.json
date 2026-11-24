@@ -1,0 +1,62 @@
+{
+  "batch_size_4": {
+    "wall_seconds": 12.541784843429923,
+    "frames_per_second": 10.205883899136847,
+    "peak_allocated_gib": 14.924129962921143,
+    "estimated_five_epoch_train_minutes_excluding_validation": 32.865028642451456
+  },
+  "batch_size_8": {
+    "wall_seconds": 11.098114652559161,
+    "frames_per_second": 11.533490507820979,
+    "peak_allocated_gib": 15.68898868560791,
+    "estimated_five_epoch_train_minutes_excluding_validation": 29.08197361754598
+  },
+  "batch8_throughput_ratio": 1.1300824722096254,
+  "batch_measurement_caveat": "128 measured training frames after 16 warmup frames, one run per batch; not full retraining or quality assessment",
+  "inference": {
+    "bf16": {
+      "mean_action_seconds": 0.28348136343993247,
+      "median_action_seconds": 0.2829257342964411,
+      "allocated_gib": 14.11405611038208,
+      "peak_allocated_gib": 14.437081813812256,
+      "peak_reserved_gib": 14.51953125,
+      "model_tensor_footprint_bytes": 15132814208,
+      "quantized_linear_count": 0,
+      "sample_count": 32,
+      "all_actions_finite": true
+    },
+    "int8": {
+      "mean_action_seconds": 0.7991359849111177,
+      "median_action_seconds": 0.7965805139392614,
+      "allocated_gib": 8.184457302093506,
+      "peak_allocated_gib": 8.51369857788086,
+      "peak_reserved_gib": 8.603515625,
+      "model_tensor_footprint_bytes": 8656808832,
+      "quantized_linear_count": 224,
+      "sample_count": 32,
+      "all_actions_finite": true
+    }
+  },
+  "int8_peak_allocated_reduction_fraction": 0.4102895108805419,
+  "int8_latency_ratio": 2.8190071305355793,
+  "simulation": {
+    "bf16": {
+      "successes": 3,
+      "attempts": 5,
+      "success_rate": 0.6,
+      "mean_policy_steps": 135.8
+    },
+    "int8": {
+      "successes": 3,
+      "attempts": 5,
+      "success_rate": 0.6,
+      "mean_policy_steps": 151.2
+    }
+  },
+  "quantization_scope": "language model linear layers except lm_head; vision/projector remain BF16; adapter FP32",
+  "base_files_compressed_or_overwritten": false,
+  "parameter_count_reduction": false,
+  "adapter_checkpoint_unchanged": true,
+  "baseline_simulation_reused_with_initial_image_state_reference_version_checks": true,
+  "generalization": "same five previously used initial states; not an independent held-out simulator test"
+}

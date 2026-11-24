@@ -1,0 +1,81 @@
+diff --git a/src/lerobot/policies/groot/__init__.py b/src/lerobot/policies/groot/__init__.py
+index c8933ff..f60c63e 100644
+--- a/src/lerobot/policies/groot/__init__.py
++++ b/src/lerobot/policies/groot/__init__.py
+@@ -15,7 +15,19 @@
+ # limitations under the License.
+ 
+ from .configuration_groot import GrootConfig
+-from .modeling_groot import GrootPolicy
+ from .processor_groot import make_groot_pre_post_processors
+ 
+ __all__ = ["GrootConfig", "GrootPolicy", "make_groot_pre_post_processors"]
++
++
++_LAZY_MODELS = {'GrootPolicy': ('.modeling_groot', 'GrootPolicy')}
++
++def __getattr__(name):
++    from importlib import import_module
++
++    if name not in _LAZY_MODELS:
++        raise AttributeError(name)
++    module_name, attribute = _LAZY_MODELS[name]
++    value = getattr(import_module(module_name, __name__), attribute)
++    globals()[name] = value
++    return value
+diff --git a/src/lerobot/policies/pi0/__init__.py b/src/lerobot/policies/pi0/__init__.py
+index ea3095b..ec5ba60 100644
+--- a/src/lerobot/policies/pi0/__init__.py
++++ b/src/lerobot/policies/pi0/__init__.py
+@@ -15,7 +15,19 @@
+ # limitations under the License.
+ 
+ from .configuration_pi0 import PI0Config
+-from .modeling_pi0 import PI0Policy
+ from .processor_pi0 import make_pi0_pre_post_processors
+ 
+ __all__ = ["PI0Config", "PI0Policy", "make_pi0_pre_post_processors"]
++
++
++_LAZY_MODELS = {'PI0Policy': ('.modeling_pi0', 'PI0Policy')}
++
++def __getattr__(name):
++    from importlib import import_module
++
++    if name not in _LAZY_MODELS:
++        raise AttributeError(name)
++    module_name, attribute = _LAZY_MODELS[name]
++    value = getattr(import_module(module_name, __name__), attribute)
++    globals()[name] = value
++    return value
+diff --git a/src/lerobot/policies/pi05/__init__.py b/src/lerobot/policies/pi05/__init__.py
+index 4f9a9de..5e4d559 100644
+--- a/src/lerobot/policies/pi05/__init__.py
++++ b/src/lerobot/policies/pi05/__init__.py
+@@ -15,7 +15,24 @@
+ # limitations under the License.
+ 
+ from .configuration_pi05 import PI05Config
+-from .modeling_pi05 import PI05Policy
+-from .processor_pi05 import make_pi05_pre_post_processors
++
+ 
+ __all__ = ["PI05Config", "PI05Policy", "make_pi05_pre_post_processors"]
++
++
++_LAZY_MODELS = {'PI05Policy': ('.modeling_pi05', 'PI05Policy')}
++
++def __getattr__(name):
++    from importlib import import_module
++
++    if name not in _LAZY_MODELS:
++        raise AttributeError(name)
++    module_name, attribute = _LAZY_MODELS[name]
++    value = getattr(import_module(module_name, __name__), attribute)
++    globals()[name] = value
++    return value
++
++_LAZY_MODELS["make_pi05_pre_post_processors"] = (
++    ".processor_pi05",
++    "make_pi05_pre_post_processors",
++)

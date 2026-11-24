@@ -1,0 +1,11 @@
+{
+  "source_run": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "no_training": true,
+  "states": [0, 1, 2, 3, 4],
+  "tags": ["p20_e3"],
+  "target_object": "akita_black_bowl_1",
+  "goal_object": "plate_1",
+  "lift_criterion_m": 0.05,
+  "scope": "Exact action replay of existing p20 epoch3 rollouts"
+}

@@ -1,0 +1,202 @@
+전체 흐름부터 보고, SP 수식은 그다음에 읽기
+
+이번 실험은 모두 원격 Linux에서 실행한다.
+로컬 사본은 읽기·영상 보기용이다.
+
+가장 먼저 읽을 순서
+1) train_and_profile.py: train_full() — 전체 학습 순서
+2) comparison_common.py: step() — 한 묶음을 실제로 학습하는 과정
+3) evaluate.py: infer(), simulate() — 학습 후 검사와 로봇 움직임
+4) sp_policy.py — 위 흐름을 이해한 다음 SP 내부 수식 읽기
+
+전체 지도
+공개 시범 읽기
+ -> 사진·지시·정답 행동을 4개씩 묶기
+ -> 모델에 입력
+ -> 예측과 정답의 task loss 계산
+ -> backward로 수정 방향 계산
+ -> optimizer.step으로 LoRA/SP 값 수정
+ -> 별도 검증 자료로 확인
+ -> checkpoint 저장
+ -> 새 프로세스에서 불러오기
+ -> 로봇 시뮬레이터에서 실제 행동 생성·수행
+
+1. 자료 읽기: train_full()에서 시작
+실제 코드:
+    train, val, stats = exp.get_data()
+    policy = make_policy(method, stats)
+
+[Python 문법] 쉼표로 받은 값 세 개를 각각 train, val, stats에 넣는다.
+[우리 함수] exp.get_data()는 같은 데이터 분할을 읽는다.
+- train: 학습 시범 전체 40개에서 나온 4,025개 장면
+- val: 별도 시범 전체 5개에서 나온 462개 장면
+- stats: 행동 숫자를 정규화하는 기준. 이번 비교에서는 기존 기준을 고정한다.
+- policy: LoRA8 / LoRA128 / SP128 중 이번에 시험하는 모델
+
+전체 시범 40개는 사진 40장이 아니다. 로봇이 작업하는 전체 과정 40개다.
+
+2. 실제 한 장면을 보자: one_demo_frame.png
+작업 지시:
+pick up the black bowl between the plate and the ramekin and place it on the plate
+
+시범에 저장된 정답 행동(모델의 예측이 아님):
+[0.4446, 0.1232, 0.3509, 0, 0.1393, 0, 1]
+
+이 숫자들을 바로 cm나 절대 좌표로 읽으면 안 된다.
+시뮬레이터 제어에 사용하는 행동 값이며, 정해진 변환 과정을 거친다.
+
+실제 전처리 기록(one_sample_flow.json):
+- 원본 사진 tensor: [3, 256, 256]
+- 사진 처리기 출력 pixel_values: [1, 6, 224, 224]
+- 글·행동 token input_ids: [1, 43]
+- 정답 token labels: [1, 43]
+- 정답 행동 token 7개:
+  [31813, 31885, 31824, 31891, 31764, 31843, 31744]
+- 마지막 EOS(문장 끝) token: 2
+
+이 예제는 실제 데이터와 실제 전처리 함수를 사용했다.
+큰 모델 가중치를 불러오거나 행동을 예측한 예제가 아니다.
+
+3. 한 번에 네 장면 묶기: train_full()의 반복문
+실제 코드:
+    for offset in range(0, len(order), 4):
+        indices = order[offset:offset+4]
+        metrics = step(policy, optimizer, train, indices)
+
+[Python 문법] range(..., 4)는 네 칸씩 진행한다.
+[Python 문법] [offset:offset+4]는 이번에 쓸 네 장면의 번호를 잘라 가져온다.
+[우리 함수] step(...)으로 그 네 장면을 넘긴다.
+
+배우는 순서를 섞지만, 세 모델은 같은 seed와 같은 순서를 사용한다.
+한 epoch에서는 4,025개 장면을 모두 본다. 마지막 묶음은 한 장면이다.
+
+4. 모델에 넣고 loss 계산: comparison_common.py의 step()
+실제 코드:
+    loss, metrics = policy(exp.batch_from(policy, data, indices))
+
+exp.batch_from() -> collate_samples() -> prepare_training_batch() 순서로 들어간다.
+- 사진과 지시를 처리한다.
+- 시범의 행동 7개를 정규화하고 행동 token으로 바꾼다.
+- 사진 tensor, 글 token, 정답 labels를 묶어서 모델에 준다.
+policy(...)를 호출하면 PyTorch가 policy.forward()를 실행한다.
+
+실제 코드(기존 training_openvla.py):
+    labels[:, :-8] = -100
+
+[Python 문법] 마지막 8개 앞쪽의 위치들을 고른다.
+[Transformers 규칙] -100인 정답 위치는 loss 계산에서 제외한다.
+행동 token 7개와 EOS 1개를 학습 대상으로 삼는다.
+
+학습 중에는 정답의 앞 token을 이용해 다음 token을 예측하는 teacher forcing을 쓴다.
+실제 로봇 평가에서는 정답 행동을 주지 않고 모델이 직접 행동 token을 생성한다.
+
+5. 값을 고치는 순간: step()
+실제 코드:
+    loss.backward()
+    optimizer.step()
+
+[PyTorch 기능] backward(): 어떤 학습 파라미터를 어느 방향으로 바꾸면 좋을지 계산한다.
+[PyTorch 기능] optimizer.step(): 그 결과로 실제 파라미터 값을 수정한다.
+
+수정 대상
+- LoRA8: 약 419만 개
+- LoRA128: 약 6,711만 개
+- 이번 SP128: 약 7,577만 개
+기본 OpenVLA 가중치는 고정한다.
+
+SP는 task loss에 보조 항목을 더한다.
+    total = task_loss + 0.01 * spectral_loss + 0.001 * router_loss
+일반 LoRA와 비교할 때는 task loss를 따로 비교한다.
+SP의 total loss와 LoRA의 task loss만 직접 비교하면 기준이 다르다.
+
+6. 검증과 저장: epoch가 끝난 뒤
+실제 코드:
+    validation = exp.evaluate(policy, val, ...)
+    checkpoint = exp.save_checkpoint(policy, optimizer, ...)
+
+검증 함수는 gradient 계산을 끄고 평가한다.
+검증 자료로 optimizer.step()을 하지 않는다.
+전체 검증 462개 장면을 매 epoch 확인한다.
+
+checkpoint에는 배운 수정 값과 학습 재개 기록을 저장한다.
+기본 OpenVLA 원본 파일에 덮어쓰지 않는다.
+새 Python 프로세스에서 다시 불러와 같은 결과가 나오는지도 검사한다.
+
+7. 로봇 평가: evaluate.py의 simulate()
+반복 흐름:
+현재 사진 + 같은 작업 지시
+ -> 모델이 행동 7개 예측
+ -> 제어 값으로 변환
+ -> MuJoCo 로봇 한 번 움직임
+ -> 바뀐 사진 받기
+ -> 같은 과정을 반복
+
+최대 220번 행동 안에 LIBERO의 그릇-접시 목표 조건을 달성하면 성공이다.
+loss가 줄었다는 것과 이 작업 성공은 별도 결과다.
+같은 초기 상태 5개를 모든 모델에 사용한다.
+이 5개만으로 새로운 환경의 성능까지 확정할 수는 없다.
+
+8. SP와 선택 기준 실험
+SP는 초기 방향 128개를 준비한다.
+각 입력에서 점수를 계산해 누적 점수 에너지가 eta 이상이 되는 최소 개수를 선택한다.
+기본 학습 eta=0.9.
+그다음 같은 checkpoint에서 eta=0.8, 0.7로 바꿔 추론만 비교한다.
+이 단계에서는 다시 학습하지 않는다.
+
+주의해서 읽을 점
+- 이번 것은 OpenVLA에 적용한 SP 구현이다. 논문의 pi0/SmolVLA/PiPER 전체 실험 재현은 아니다.
+- paper에서 명시하지 않은 router hidden32, SiLU+Softplus, 초기화와 scale을 설정 파일에 기록했다.
+- 선택 경계는 논문 규칙을 따르고 공개 코드의 경계 차이를 기록했다.
+- 초기 방향 전체를 보관하고 dense 행렬 계산을 하므로,
+  활성 rank가 줄어도 실제 저장 공간·GPU 메모리가 자동으로 줄지는 않는다.
+- 점수 에너지 비율을 실제 가중치 행렬의 정확한 SVD 오차 보장으로 해석하지 않는다.
+
+네가 우선 가져갈 두 가지
+1) 함수 이름을 따라가며 데이터가 어디로 이동하는지 읽기.
+   train_full -> step -> batch_from/forward -> backward/optimizer.step.
+2) 코드에서 '학습', '검증', '실제 로봇 평가'를 구분하기.
+   학습은 값을 수정하고, 검증/로봇 평가는 결과를 확인한다.
+
+
+추가: 헷갈리기 쉬운 세 가지 반복 단위
+- 학습 step: 보통 장면 4개를 묶어 가중치를 한 번 수정한다.
+- epoch: 학습 장면 4,025개를 한 바퀴 본다.
+  마지막 묶음은 한 장면이라, 한 epoch에 1,007번 수정한다.
+  5 epoch에는 5,035번 수정하고 장면을 총 20,125번 본다.
+- 시뮬레이터 step: 사진을 보고 행동 7개를 예측해서 로봇을 한 번 움직인다.
+  이때는 모델 가중치를 수정하지 않는다.
+
+실제 코드에서의 학습 반복문:
+    for epoch in range(1, 6):
+        for offset in range(0, len(order), 4):
+            indices = order[offset:offset+4]
+            metrics = step(policy, optimizer, train, indices)
+
+실제 로봇 반복문(matched_rollout_function.py):
+    for step in range(1, horizon+1):
+        action = policy.select_action(...)
+        send(process, {"type": "step", "action": command.tolist()})
+        current = read_observation(process)
+
+함수의 역할을 요약하기 위해 생략한 인자는 ...로 표시했다.
+전체 실제 루프는 결과 폴더의 simulation_loop_reference.py 읽기용 사본에서 볼 수 있다.
+
+환경 간 자료 이동
+- lerobot312: 큰 모델과 학습을 실행한다.
+- 시뮬레이터 전용 eval310: LIBERO/MuJoCo를 실행한다.
+- 모델이 만든 행동값을 시뮬레이터에 보내고, 새 사진 파일과 관측 정보를 받는다.
+서로 다른 환경을 쓰는 것은 기존 패키지 충돌을 피하면서 역할을 나누기 위해서다.
+
+어떤 결과 파일을 읽을까?
+- lora128/training_result.json, sp128/training_result.json:
+  실제 5 epoch 본 학습의 최종 checkpoint 경로.
+- profile_initial, profile_smoke:
+  연결/속도 시험용 임시 모델. 최종 성능 비교에 쓰지 않는다.
+- inference/*.json:
+  학습 후 단독으로 잰 예측 속도·메모리·유효 rank.
+- simulation_*.json:
+  실제 로봇 성공 횟수와 각 시도의 영상 경로.
+
+전처리 과정을 직접 다시 확인하고 싶다면, 원격 Linux 터미널에서:
+python /home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/trace_one_sample.py
+이 명령은 사진과 정답을 학습 입력으로 바꾸는 CPU 예제이며, 큰 모델을 학습하지 않는다.

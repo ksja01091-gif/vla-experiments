@@ -1,0 +1,18 @@
+{
+  "trial": "01_gripper_swap",
+  "arm": "p50",
+  "gripper": "dense_sft",
+  "state": 0,
+  "initial_image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+  "both_initial_model_actions_match_previous": true,
+  "first_both_pads_step": null,
+  "max_bowl_rise_cm": 0.8479469429507946,
+  "max_consecutive_grasp_lift_steps": 0,
+  "stable_grasp_and_lift": false,
+  "first_stable_grasp_lift_step": null,
+  "libero_task_success": false,
+  "both_pads_at_final_step": false,
+  "final_bowl_plate_xy_cm": 11.56736565334676,
+  "steps": 220,
+  "wall_seconds": 260.4725657515228
+}

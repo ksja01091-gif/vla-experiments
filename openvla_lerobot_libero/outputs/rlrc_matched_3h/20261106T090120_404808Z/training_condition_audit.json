@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "states": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "evaluation_states_excluded": true,
+  "rows": [
+    {
+      "state": 5,
+      "all_conditions_equal": true,
+      "initial_image_sha256": "d2bd75692f92d3289228aac71aa222a00e12040ee7bd8c0a577b8f64a5a50cf8",
+      "selected_init_state_sha256": "678aa25f84c405228908ba057fed51462f8222237bc2ae3841b916f9578f31c3"
+    },
+    {
+      "state": 6,
+      "all_conditions_equal": true,
+      "initial_image_sha256": "8ed4bec548053c663756d716a407a1e6b09404d0fb5cb9f0c8971a231f50ea56",
+      "selected_init_state_sha256": "999fd9aba435bcb50bc1db77a46c0beea45e549f737653df06146737bc0ac25e"
+    },
+    {
+      "state": 7,
+      "all_conditions_equal": true,
+      "initial_image_sha256": "0dd18bb4d9838d996c76fc78b4e2625a2166f99eb628b8b72fc10da8c1529d2c",
+      "selected_init_state_sha256": "843f7e9f8a5c8b37a42c5fef56b37baa4192e91585e9882b4fe3e7fcf716a538"
+    },
+    {
+      "state": 8,
+      "all_conditions_equal": true,
+      "initial_image_sha256": "7a8bb02e6bfa5b90fc6b257aebb9e04f2c03f8ceef5834f2532f285db03d0789",
+      "selected_init_state_sha256": "bdec5baa16eb03f4a030d536ef973a5cfcc63c6163fd111f0f0e8b62b6bf4e7e"
+    }
+  ]
+}

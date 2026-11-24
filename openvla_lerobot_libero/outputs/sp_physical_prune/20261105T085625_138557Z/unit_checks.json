@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "rank": 128,
+      "max_abs_error_against_dense_removed_components": 0.0,
+      "A_shape": [
+        128,
+        24
+      ],
+      "B_shape": [
+        20,
+        128
+      ],
+      "A_B_parameter_count": 5632
+    },
+    {
+      "rank": 96,
+      "max_abs_error_against_dense_removed_components": 0.0,
+      "A_shape": [
+        96,
+        24
+      ],
+      "B_shape": [
+        20,
+        96
+      ],
+      "A_B_parameter_count": 4224
+    },
+    {
+      "rank": 64,
+      "max_abs_error_against_dense_removed_components": 0.0,
+      "A_shape": [
+        64,
+        24
+      ],
+      "B_shape": [
+        20,
+        64
+      ],
+      "A_B_parameter_count": 2816
+    }
+  ],
+  "meaning": "Compact multiplication equals the full-bank reference with the same permanently removed components. It is not guaranteed equivalent to the original unpruned policy."
+}

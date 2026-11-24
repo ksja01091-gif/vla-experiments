@@ -1,0 +1,28 @@
+RLRC 본체 압축 비교 결과
+
+원본과 압축 모델은 같은 기존 5epoch LoRA8 모델에서 출발했다.
+각각 학습 장면4025개를1epoch 추가 학습하고, 상태5~8에서4번 시도한 뒤 같은 수의 PPO 업데이트를 했다.
+검증 시범5개/462장면은 가중치 업데이트에 쓰지 않았다. 평가 상태0~4도 강화학습에서 제외했다.
+공개 LIBERO 데이터에서 우리가 선택·전처리한 실험용 분할이다.
+논문 전체 재현이 아니라 한 작업에 적용한 작은 비교 실험이다.
+
+모델 | 크기 B | 성공/5 | 예측ms | 시범학습 GPU GiB | PPO GPU GiB
+dense | 7.550 | 2/5 | 290.8 | 14.94 | 14.37
+pruned | 2.065 | 0/5 | 290.3 | 4.71 | 4.14
+
+검증loss: 시작 → 시범학습 후 → 강화학습 후
+dense: 4.5756 → 6.4057 → 6.5680
+pruned: 21.5634 → 3.2670 → 3.2556
+
+성공 판정: LIBERO check_success()가220행동 이내에 참이 되었는지.
+실패 원인은 먼저 제한 시간 내 성공하지 못했다는 사실만 기록. 집기/놓기 진단은 영상을 본 뒤 판단한다.
+이전부터 반복 사용한5상태이므로 새로운 환경 일반화 성능으로 해석하지 않는다.
+크기 감소, GPU 메모리 감소, 속도 개선, 작업 성공은 각각 구분해서 본다.
+
+코드 읽는 순서: experiment_config.json → driver.py → worker.py → policy.py.
+worker.py: sft(시범학습), collect_episode(직접시도), ppo(보상학습), evaluate(최종시험).
+policy.py: score_and_plan(제거할 구조 선택), apply_plan(실제 제거), save_checkpoint/load_checkpoint(저장/재로딩).
+simulation/dense 와 simulation/pruned: 상태별 영상 episode.mp4, 결과 result.json.
+checkpoints/*/after_ppo: 최종 모델. dense는 원본 모델과 기존 adapter에 의존하는 추가 adapter만 저장한다.
+비교표 comparison.csv / 상세 final_results.json / 보존 검사 preservation_report.json.
+기존 환경3개와 보호 대상 파일은 변경하지 않았다.

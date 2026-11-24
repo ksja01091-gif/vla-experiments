@@ -1,0 +1,20 @@
+BEGIN replay_after_sft
+DONE replay_after_sft 743.0
+BEGIN collect_pruned
+DONE collect_pruned 899.6
+BEGIN collect_dense
+DONE collect_dense 982.4
+BEGIN matched_budget
+DONE matched_budget 11.8
+BEGIN ppo_pruned
+DONE ppo_pruned 622.0
+BEGIN ppo_dense
+DONE ppo_dense 584.1
+BEGIN rl_eval_pruned
+DONE rl_eval_pruned 949.3
+BEGIN rl_eval_dense
+DONE rl_eval_dense 775.1
+BEGIN replay_after_rl
+DONE replay_after_rl 720.4
+BEGIN summary
+DONE summary 11.7

@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "epoch1",
+    "state": 0,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_00/episode.mp4"
+  },
+  {
+    "tag": "epoch1",
+    "state": 1,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_01/episode.mp4"
+  },
+  {
+    "tag": "epoch1",
+    "state": 2,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_02/episode.mp4"
+  },
+  {
+    "tag": "epoch1",
+    "state": 3,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_03/episode.mp4"
+  },
+  {
+    "tag": "epoch1",
+    "state": 4,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch1/state_04/episode.mp4"
+  },
+  {
+    "tag": "epoch5",
+    "state": 0,
+    "frames": 87,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_00/episode.mp4"
+  },
+  {
+    "tag": "epoch5",
+    "state": 1,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_01/episode.mp4"
+  },
+  {
+    "tag": "epoch5",
+    "state": 2,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_02/episode.mp4"
+  },
+  {
+    "tag": "epoch5",
+    "state": 3,
+    "frames": 84,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_03/episode.mp4"
+  },
+  {
+    "tag": "epoch5",
+    "state": 4,
+    "frames": 71,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_04/episode.mp4"
+  }
+]

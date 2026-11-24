@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "branch": "p20",
+  "stage": "epoch3",
+  "samples": 32,
+  "warmup": 3,
+  "mean_seconds": 0.29155270202318206,
+  "median_seconds": 0.29167887289077044,
+  "all_finite_1x7": true,
+  "memory": {
+    "allocated_gib": 11.911831855773926,
+    "reserved_gib": 14.17578125,
+    "peak_gib": 12.202824592590332
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/checkpoints/p20/epoch3"
+}

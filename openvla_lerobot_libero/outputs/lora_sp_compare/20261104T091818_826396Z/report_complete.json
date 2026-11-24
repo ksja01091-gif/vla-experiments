@@ -1,0 +1,106 @@
+{
+  "complete": true,
+  "files": 32,
+  "videos": [
+    {
+      "file": "07_three_methods_state_00.mp4",
+      "state": 0,
+      "decoded_frames": 115,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "07_three_methods_state_01.mp4",
+      "state": 1,
+      "decoded_frames": 221,
+      "successes": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "07_three_methods_state_02.mp4",
+      "state": 2,
+      "decoded_frames": 221,
+      "successes": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "file": "07_three_methods_state_03.mp4",
+      "state": 3,
+      "decoded_frames": 221,
+      "successes": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "file": "07_three_methods_state_04.mp4",
+      "state": 4,
+      "decoded_frames": 112,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "08_eta_comparison_state_00.mp4",
+      "state": 0,
+      "decoded_frames": 115,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "08_eta_comparison_state_01.mp4",
+      "state": 1,
+      "decoded_frames": 100,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "08_eta_comparison_state_02.mp4",
+      "state": 2,
+      "decoded_frames": 221,
+      "successes": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "file": "08_eta_comparison_state_03.mp4",
+      "state": 3,
+      "decoded_frames": 109,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "08_eta_comparison_state_04.mp4",
+      "state": 4,
+      "decoded_frames": 98,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

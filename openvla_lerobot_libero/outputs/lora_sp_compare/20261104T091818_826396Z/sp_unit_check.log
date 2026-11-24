@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/check_sp_math.py", line 21, in <module>
+    assert ((k==1)|(previous<eta*sorted_sq.sum(-1)+1e-6)).all()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

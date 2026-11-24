@@ -1,0 +1,16 @@
+{
+  "steps": 8,
+  "max_steps": 8,
+  "success_rate_not_evaluated": true,
+  "truncated": true,
+  "bootstrap": 0.0,
+  "mean_sample_and_score_seconds": 0.42135420721024275,
+  "mean_transition_wall_seconds": 0.8403721491340548,
+  "worker_initialization_seconds": 22.033824490383267,
+  "total_rollout_wall_seconds": 29.733412755653262,
+  "max_generation_teacher_logp_difference": 0.14957284927368164,
+  "reward": "task success +1, step penalty -0.001; smoke adaptation, not a verified paper coefficient",
+  "sampler": "on-policy categorical over 256 action tokens; seven autoregressive tokens; temperature1",
+  "gamma": 0.99,
+  "gae_lambda": 0.95
+}

@@ -1,0 +1,56 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  4.72it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  5.38it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.86it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.63it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+TRANSLATION_DISTILL 4 /4025
+TRANSLATION_DISTILL 100 /4025
+TRANSLATION_DISTILL 200 /4025
+TRANSLATION_DISTILL 300 /4025
+TRANSLATION_DISTILL 400 /4025
+TRANSLATION_DISTILL 500 /4025
+TRANSLATION_DISTILL 600 /4025
+TRANSLATION_DISTILL 700 /4025
+TRANSLATION_DISTILL 800 /4025
+TRANSLATION_DISTILL 900 /4025
+TRANSLATION_DISTILL 1000 /4025
+TRANSLATION_DISTILL 1100 /4025
+TRANSLATION_DISTILL 1200 /4025
+TRANSLATION_DISTILL 1300 /4025
+TRANSLATION_DISTILL 1400 /4025
+TRANSLATION_DISTILL 1500 /4025
+TRANSLATION_DISTILL 1600 /4025
+TRANSLATION_DISTILL 1700 /4025
+TRANSLATION_DISTILL 1800 /4025
+TRANSLATION_DISTILL 1900 /4025
+TRANSLATION_DISTILL 2000 /4025
+TRANSLATION_DISTILL 2100 /4025
+TRANSLATION_DISTILL 2200 /4025
+TRANSLATION_DISTILL 2300 /4025
+TRANSLATION_DISTILL 2400 /4025
+TRANSLATION_DISTILL 2500 /4025
+TRANSLATION_DISTILL 2600 /4025
+TRANSLATION_DISTILL 2700 /4025
+TRANSLATION_DISTILL 2800 /4025
+TRANSLATION_DISTILL 2900 /4025
+TRANSLATION_DISTILL 3000 /4025
+TRANSLATION_DISTILL 3100 /4025
+TRANSLATION_DISTILL 3200 /4025
+TRANSLATION_DISTILL 3300 /4025
+TRANSLATION_DISTILL 3400 /4025
+TRANSLATION_DISTILL 3500 /4025
+TRANSLATION_DISTILL 3600 /4025
+TRANSLATION_DISTILL 3700 /4025
+TRANSLATION_DISTILL 3800 /4025
+TRANSLATION_DISTILL 3900 /4025
+TRANSLATION_DISTILL 4000 /4025
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 5.0521305051200835, "action_token_accuracy": 0.27798392307577713, "normalized_action_l1": 0.21065877568100616, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 0, "seconds": 20.97480933740735, "gpu_allocated_gib": 11.96252155303955, "gpu_reserved_gib": 14.794921875, "gpu_peak_allocated_gib": 12.719120979309082}
+TRANSLATION_DISTILL_COMPLETE

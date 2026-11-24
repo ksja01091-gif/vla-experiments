@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "no_training": true,
+  "actor_hashes_unchanged": {
+    "p50": "fb88c46904457defd665beaf367bed3e8215b55e13fe1efe307b3d4cb9db2284",
+    "dense_sft": "af778bd5da57b2cf18f28f6fbf8ce2f59735781fca389e2c5626a430a24995e7"
+  },
+  "same_state_and_first_image_verified": true,
+  "same_observation_to_both_models_per_step": true,
+  "checkpoints": {
+    "p50": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/after_sft",
+    "dense_sft": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/dense/after_sft"
+  },
+  "criteria": {
+    "both_fingerpads": true,
+    "rise_cm": 5,
+    "consecutive_control_steps": 3
+  },
+  "peak_allocated_gib": 22.914701461791992,
+  "wall_seconds": 531.8237242363393,
+  "trials": [
+    {
+      "trial": "01_position_only",
+      "translation": "dense_sft",
+      "rotation": "p50",
+      "gripper": "p50",
+      "state": 0,
+      "initial_image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+      "both_initial_model_actions_match_previous": true,
+      "first_both_pads_step": 54,
+      "max_bowl_rise_cm": 11.996737614598828,
+      "max_consecutive_grasp_lift_steps": 22,
+      "stable_grasp_and_lift": true,
+      "first_stable_grasp_lift_step": 61,
+      "libero_task_success": false,
+      "both_pads_at_final_step": false,
+      "final_bowl_plate_xy_cm": 5.053547643456068,
+      "steps": 220,
+      "wall_seconds": 248.43505264259875
+    },
+    {
+      "trial": "02_angle_only",
+      "translation": "p50",
+      "rotation": "dense_sft",
+      "gripper": "p50",
+      "state": 0,
+      "initial_image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+      "both_initial_model_actions_match_previous": true,
+      "first_both_pads_step": null,
+      "max_bowl_rise_cm": 18.341920002546086,
+      "max_consecutive_grasp_lift_steps": 0,
+      "stable_grasp_and_lift": false,
+      "first_stable_grasp_lift_step": null,
+      "libero_task_success": false,
+      "both_pads_at_final_step": false,
+      "final_bowl_plate_xy_cm": 10.489686943460828,
+      "steps": 220,
+      "wall_seconds": 252.8778118006885
+    }
+  ]
+}

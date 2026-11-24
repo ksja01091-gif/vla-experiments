@@ -1,0 +1,3350 @@
+{
+  "variant": "sp_pruned70",
+  "physical_bank_rank": 70,
+  "original_router_width": 128,
+  "eta": 0.9,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/checkpoints/sp_pruned70",
+  "fresh_process_reload": true,
+  "adapter_hash_unchanged": true,
+  "adapter_hash": "4c21ce0b1d92d6a8dd70a1797b47ab88c714d81313ab3c6e0b4653d95c8797d3",
+  "source_baseline_actions_match": null,
+  "adapter_file_bytes": 181494952,
+  "adapter_parameters": 45361152,
+  "mean_action_seconds": 0.4927853755458879,
+  "median_action_seconds": 0.4924670644104481,
+  "round_means_seconds": [
+    0.4929223035578616,
+    0.49344320537056774,
+    0.49199061770923436
+  ],
+  "round_mean_std_seconds": 0.0006008686427785462,
+  "validation": {
+    "loss": 4.917074761865459,
+    "action_token_accuracy": 0.2683982707205273,
+    "normalized_action_l1": 0.20384654732149576,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 5035,
+    "seconds": 21.329729260876775,
+    "gpu_allocated_gib": 14.273754596710205,
+    "gpu_reserved_gib": 14.998046875,
+    "gpu_peak_allocated_gib": 14.736226558685303
+  },
+  "rank_statistics": {
+    "mean_active_rank": 43.208621041140574,
+    "rows": [
+      {
+        "module": "language_model.model.layers.0.self_attn.q_proj",
+        "mean": 59.863320707070706,
+        "min": 56,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4229446053504944,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.0.self_attn.v_proj",
+        "mean": 69.98989898989899,
+        "min": 69,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5429678559303284,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.1.self_attn.q_proj",
+        "mean": 46.06702441077441,
+        "min": 36,
+        "max": 70,
+        "minimum_retained_score_energy": 0.32020118832588196,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.1.self_attn.v_proj",
+        "mean": 68.03924663299664,
+        "min": 63,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5830736756324768,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.2.self_attn.q_proj",
+        "mean": 24.98179713804714,
+        "min": 18,
+        "max": 67,
+        "minimum_retained_score_energy": 0.446370005607605,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.2.self_attn.v_proj",
+        "mean": 30.026409932659934,
+        "min": 19,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4913581609725952,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.3.self_attn.q_proj",
+        "mean": 29.13594276094276,
+        "min": 19,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4614504277706146,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.3.self_attn.v_proj",
+        "mean": 34.941708754208754,
+        "min": 24,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5028554201126099,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.4.self_attn.q_proj",
+        "mean": 25.44412878787879,
+        "min": 16,
+        "max": 68,
+        "minimum_retained_score_energy": 0.4444083571434021,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.4.self_attn.v_proj",
+        "mean": 50.503261784511785,
+        "min": 38,
+        "max": 70,
+        "minimum_retained_score_energy": 0.48223936557769775,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.5.self_attn.q_proj",
+        "mean": 31.194444444444443,
+        "min": 21,
+        "max": 70,
+        "minimum_retained_score_energy": 0.43763741850852966,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.5.self_attn.v_proj",
+        "mean": 50.47569444444444,
+        "min": 39,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4068197011947632,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.6.self_attn.q_proj",
+        "mean": 37.743160774410775,
+        "min": 29,
+        "max": 70,
+        "minimum_retained_score_energy": 0.43644097447395325,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.6.self_attn.v_proj",
+        "mean": 58.3805765993266,
+        "min": 48,
+        "max": 70,
+        "minimum_retained_score_energy": 0.49869590997695923,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.7.self_attn.q_proj",
+        "mean": 31.464751683501685,
+        "min": 23,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4333249032497406,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.7.self_attn.v_proj",
+        "mean": 50.90540824915825,
+        "min": 38,
+        "max": 70,
+        "minimum_retained_score_energy": 0.47553279995918274,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.8.self_attn.q_proj",
+        "mean": 34.535458754208754,
+        "min": 22,
+        "max": 70,
+        "minimum_retained_score_energy": 0.43625810742378235,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.8.self_attn.v_proj",
+        "mean": 54.93834175084175,
+        "min": 42,
+        "max": 69,
+        "minimum_retained_score_energy": 0.4566989243030548,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.9.self_attn.q_proj",
+        "mean": 54.82449494949495,
+        "min": 42,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4374295175075531,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.9.self_attn.v_proj",
+        "mean": 66.8699494949495,
+        "min": 51,
+        "max": 68,
+        "minimum_retained_score_energy": 0.5060140490531921,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.10.self_attn.q_proj",
+        "mean": 61.05460858585859,
+        "min": 50,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5061405897140503,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.10.self_attn.v_proj",
+        "mean": 65.43150252525253,
+        "min": 34,
+        "max": 70,
+        "minimum_retained_score_energy": 0.518821120262146,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.11.self_attn.q_proj",
+        "mean": 67.5440867003367,
+        "min": 58,
+        "max": 70,
+        "minimum_retained_score_energy": 0.44439980387687683,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.11.self_attn.v_proj",
+        "mean": 67.01462542087542,
+        "min": 53,
+        "max": 70,
+        "minimum_retained_score_energy": 0.517676830291748,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.12.self_attn.q_proj",
+        "mean": 61.57849326599327,
+        "min": 50,
+        "max": 70,
+        "minimum_retained_score_energy": 0.43521201610565186,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.12.self_attn.v_proj",
+        "mean": 63.70496632996633,
+        "min": 56,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5124396085739136,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.13.self_attn.q_proj",
+        "mean": 64.87247474747475,
+        "min": 59,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4671887159347534,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.13.self_attn.v_proj",
+        "mean": 59.82575757575758,
+        "min": 41,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4750361442565918,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.14.self_attn.q_proj",
+        "mean": 41.99905303030303,
+        "min": 28,
+        "max": 70,
+        "minimum_retained_score_energy": 0.482141375541687,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.14.self_attn.v_proj",
+        "mean": 62.17350589225589,
+        "min": 55,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5109404921531677,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.15.self_attn.q_proj",
+        "mean": 56.762521043771045,
+        "min": 52,
+        "max": 70,
+        "minimum_retained_score_energy": 0.48425599932670593,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.15.self_attn.v_proj",
+        "mean": 65.5753367003367,
+        "min": 59,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5015048980712891,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.16.self_attn.q_proj",
+        "mean": 53.24642255892256,
+        "min": 46,
+        "max": 70,
+        "minimum_retained_score_energy": 0.48023614287376404,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.16.self_attn.v_proj",
+        "mean": 60.47706228956229,
+        "min": 40,
+        "max": 69,
+        "minimum_retained_score_energy": 0.4975080192089081,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.17.self_attn.q_proj",
+        "mean": 36.19328703703704,
+        "min": 21,
+        "max": 70,
+        "minimum_retained_score_energy": 0.45827239751815796,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.17.self_attn.v_proj",
+        "mean": 56.164036195286194,
+        "min": 47,
+        "max": 69,
+        "minimum_retained_score_energy": 0.43937966227531433,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.18.self_attn.q_proj",
+        "mean": 32.75526094276094,
+        "min": 18,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4847685992717743,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.18.self_attn.v_proj",
+        "mean": 52.733901515151516,
+        "min": 44,
+        "max": 70,
+        "minimum_retained_score_energy": 0.49582093954086304,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.19.self_attn.q_proj",
+        "mean": 37.226536195286194,
+        "min": 24,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5006965398788452,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.19.self_attn.v_proj",
+        "mean": 54.373526936026934,
+        "min": 44,
+        "max": 69,
+        "minimum_retained_score_energy": 0.49483612179756165,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.20.self_attn.q_proj",
+        "mean": 41.261258417508415,
+        "min": 27,
+        "max": 70,
+        "minimum_retained_score_energy": 0.5090357661247253,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.20.self_attn.v_proj",
+        "mean": 49.1233164983165,
+        "min": 38,
+        "max": 70,
+        "minimum_retained_score_energy": 0.45168864727020264,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.21.self_attn.q_proj",
+        "mean": 32.97327441077441,
+        "min": 19,
+        "max": 70,
+        "minimum_retained_score_energy": 0.3966977298259735,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.21.self_attn.v_proj",
+        "mean": 51.1065867003367,
+        "min": 36,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4829287528991699,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.22.self_attn.q_proj",
+        "mean": 31.403935185185187,
+        "min": 16,
+        "max": 70,
+        "minimum_retained_score_energy": 0.3954651951789856,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.22.self_attn.v_proj",
+        "mean": 47.82607323232323,
+        "min": 36,
+        "max": 70,
+        "minimum_retained_score_energy": 0.47818633913993835,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.23.self_attn.q_proj",
+        "mean": 18.42676767676768,
+        "min": 4,
+        "max": 70,
+        "minimum_retained_score_energy": 0.2539493441581726,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.23.self_attn.v_proj",
+        "mean": 24.056818181818183,
+        "min": 7,
+        "max": 70,
+        "minimum_retained_score_energy": 0.23792868852615356,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.24.self_attn.q_proj",
+        "mean": 24.679503367003367,
+        "min": 7,
+        "max": 70,
+        "minimum_retained_score_energy": 0.32563069462776184,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.24.self_attn.v_proj",
+        "mean": 36.52588383838384,
+        "min": 21,
+        "max": 69,
+        "minimum_retained_score_energy": 0.4774816930294037,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.25.self_attn.q_proj",
+        "mean": 26.94034090909091,
+        "min": 11,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4603835642337799,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.25.self_attn.v_proj",
+        "mean": 24.5552398989899,
+        "min": 9,
+        "max": 70,
+        "minimum_retained_score_energy": 0.3472088873386383,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.26.self_attn.q_proj",
+        "mean": 24.913299663299664,
+        "min": 7,
+        "max": 70,
+        "minimum_retained_score_energy": 0.33596763014793396,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.26.self_attn.v_proj",
+        "mean": 25.77283249158249,
+        "min": 11,
+        "max": 70,
+        "minimum_retained_score_energy": 0.28426796197891235,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.27.self_attn.q_proj",
+        "mean": 23.088068181818183,
+        "min": 4,
+        "max": 70,
+        "minimum_retained_score_energy": 0.1852889508008957,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.27.self_attn.v_proj",
+        "mean": 26.28188131313131,
+        "min": 13,
+        "max": 69,
+        "minimum_retained_score_energy": 0.35427457094192505,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.28.self_attn.q_proj",
+        "mean": 22.378998316498315,
+        "min": 6,
+        "max": 70,
+        "minimum_retained_score_energy": 0.2993178963661194,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.28.self_attn.v_proj",
+        "mean": 27.08449074074074,
+        "min": 13,
+        "max": 70,
+        "minimum_retained_score_energy": 0.3819262981414795,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.29.self_attn.q_proj",
+        "mean": 27.198021885521886,
+        "min": 8,
+        "max": 70,
+        "minimum_retained_score_energy": 0.27380967140197754,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.29.self_attn.v_proj",
+        "mean": 36.61542508417509,
+        "min": 19,
+        "max": 70,
+        "minimum_retained_score_energy": 0.37750500440597534,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.30.self_attn.q_proj",
+        "mean": 28.752104377104377,
+        "min": 10,
+        "max": 70,
+        "minimum_retained_score_energy": 0.38258129358291626,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.30.self_attn.v_proj",
+        "mean": 20.598590067340066,
+        "min": 2,
+        "max": 70,
+        "minimum_retained_score_energy": 0.11588443070650101,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.31.self_attn.q_proj",
+        "mean": 32.5307239057239,
+        "min": 12,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4654805064201355,
+        "tokens": 9504
+      },
+      {
+        "module": "language_model.model.layers.31.self_attn.v_proj",
+        "mean": 30.226325757575758,
+        "min": 13,
+        "max": 70,
+        "minimum_retained_score_energy": 0.4683516323566437,
+        "tokens": 9504
+      }
+    ],
+    "initial_bank_rank": 128,
+    "eta": 0.9
+  },
+  "matrix_shapes": [
+    {
+      "module": "language_model.model.layers.0.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.0.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.1.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.1.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.2.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.2.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.3.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.3.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.4.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.4.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.5.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.5.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.6.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.6.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.7.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.7.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.8.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.8.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.9.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.9.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.10.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.10.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.11.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.11.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.12.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.12.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.13.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.13.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.14.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.14.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.15.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.15.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.16.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.16.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.17.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.17.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.18.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.18.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.19.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.19.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.20.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.20.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.21.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.21.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.22.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.22.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.23.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.23.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.24.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.24.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.25.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.25.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.26.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.26.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.27.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.27.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.28.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.28.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.29.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.29.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.30.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.30.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.31.self_attn.q_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    },
+    {
+      "module": "language_model.model.layers.31.self_attn.v_proj",
+      "A": [
+        70,
+        4096
+      ],
+      "B": [
+        4096,
+        70
+      ],
+      "router_out": 128
+    }
+  ],
+  "samples_per_round": 32,
+  "rounds": 3,
+  "warmup_calls": 3,
+  "timing_excludes_validation_and_rank_instrumentation": true,
+  "inference_autocast": "unchanged prior matched_select_action",
+  "rows": [
+    {
+      "round": 0,
+      "index": 0,
+      "seconds": 0.49867927096784115,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.1010332852602005,
+          -0.0013392865657806396,
+          -0.015447729267179966,
+          0.018425004556775093,
+          -0.017541514709591866,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 14,
+      "seconds": 0.4914376102387905,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          0.4648454785346985,
+          -0.5593644976615906,
+          -0.05075420066714287,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 29,
+      "seconds": 0.48976684734225273,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.5477598905563354,
+          -0.06826545298099518,
+          -0.9338287711143494,
+          0.06150227040052414,
+          -0.026702137663960457,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 44,
+      "seconds": 0.49060886166989803,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.37288546562194824,
+          0.00017446554556954652,
+          0.7843014597892761,
+          -0.025405963882803917,
+          0.07228643447160721,
+          -0.12545831501483917,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 59,
+      "seconds": 0.4927236568182707,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          -0.025040239095687866,
+          0.12348214536905289,
+          -5.7728906540432945e-05,
+          0.01551357563585043,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 74,
+      "seconds": 0.4901829231530428,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.17081785202026367,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 89,
+      "seconds": 0.48937637731432915,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6965498328208923,
+          0.3747929334640503,
+          0.057400207966566086,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.03432857245206833,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 104,
+      "seconds": 0.49741690047085285,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.042028531432151794,
+          0.1154416874051094,
+          -0.22895483672618866,
+          0.04520697891712189,
+          -0.0747407078742981,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 118,
+      "seconds": 0.4904235452413559,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          0.006279329769313335,
+          -0.05872785300016403,
+          -0.11706478893756866,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 133,
+      "seconds": 0.4896003492176533,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.5526990294456482,
+          -0.07907175272703171,
+          0.69619220495224,
+          -5.7728906540432945e-05,
+          0.07228643447160721,
+          -0.10387495905160904,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 148,
+      "seconds": 0.4970459546893835,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.10867126286029816,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 163,
+      "seconds": 0.4923229683190584,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.86197829246521,
+          0.3603845536708832,
+          0.13082458078861237,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 178,
+      "seconds": 0.4965459983795881,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.41604071855545044,
+          0.11904378980398178,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.10967785120010376,
+          -0.03552765026688576,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 193,
+      "seconds": 0.4920521713793278,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.5549524426460266,
+          -0.025040239095687866,
+          -0.9338287711143494,
+          0.06602874398231506,
+          -0.026702137663960457,
+          -0.0331294983625412,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 208,
+      "seconds": 0.49192369170486927,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6030467748641968,
+          0.00017446554556954652,
+          0.8063287734985352,
+          -0.021784787997603416,
+          0.04608357697725296,
+          -0.11706478893756866,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 223,
+      "seconds": 0.49121400713920593,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.20026445388793945,
+          0.00017446554556954652,
+          0.6301102638244629,
+          -5.7728906540432945e-05,
+          0.14943929016590118,
+          -0.14943982660770416,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 237,
+      "seconds": 0.4970705918967724,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.018184969201683998,
+          0.27767330408096313,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.17342135310173035,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 252,
+      "seconds": 0.49296266213059425,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.8044379949569702,
+          0.00017446554556954652,
+          0.2483035773038864,
+          -5.7728906540432945e-05,
+          -0.03689213842153549,
+          -0.06910176575183868,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 267,
+      "seconds": 0.4924214668571949,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.3679463565349579,
+          0.010980768129229546,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.07765214145183563,
+          -0.006749833468347788,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 282,
+      "seconds": 0.4920445065945387,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.2850157618522644,
+          -5.7728906540432945e-05,
+          0.035893574357032776,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 297,
+      "seconds": 0.4920108560472727,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          0.5008664727210999,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.034437861293554306,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 312,
+      "seconds": 0.49250724352896214,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.2847404181957245,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.049993567168712616,
+          -0.0331294983625412,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 327,
+      "seconds": 0.4965553842484951,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.15936264395713806,
+          0.14065639674663544,
+          -0.5373371839523315,
+          -5.7728906540432945e-05,
+          -0.03543642535805702,
+          -0.00914798490703106,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 342,
+      "seconds": 0.4932071194052696,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6030467748641968,
+          0.00017446554556954652,
+          0.4832615554332733,
+          -0.025405963882803917,
+          -0.0004992811591364443,
+          -0.12545831501483917,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 356,
+      "seconds": 0.49174682050943375,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.042028531432151794,
+          0.00017446554556954652,
+          -0.8236922025680542,
+          0.025290505960583687,
+          -0.11113356798887253,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 371,
+      "seconds": 0.4921883028000593,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.03483599051833153,
+          -0.014233937487006187,
+          0.7549317479133606,
+          -5.7728906540432945e-05,
+          0.08102072030305862,
+          -0.03073134645819664,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 386,
+      "seconds": 0.49256611056625843,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9267112016677856,
+          0.4900601804256439,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 401,
+      "seconds": 0.49288839660584927,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.32076144218444824,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.0936649963259697,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 416,
+      "seconds": 0.4926911201328039,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          -0.025040239095687866,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.014057861641049385,
+          -0.06670361757278442,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 431,
+      "seconds": 0.49259114637970924,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.509543776512146,
+          0.00017446554556954652,
+          0.8136712312698364,
+          -0.024500669911503792,
+          0.07374214380979538,
+          -0.11106941103935242,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 446,
+      "seconds": 0.4925250355154276,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.14497755467891693,
+          -0.13310326635837555,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.08638642728328705,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "index": 461,
+      "seconds": 0.4962158165872097,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          -0.02143813855946064,
+          0.8136712312698364,
+          0.02076403610408306,
+          0.1246921494603157,
+          -0.02833319455385208,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 0,
+      "seconds": 0.49306632578372955,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.1010332852602005,
+          -0.0013392865657806396,
+          -0.015447729267179966,
+          0.018425004556775093,
+          -0.017541514709591866,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 14,
+      "seconds": 0.4922051914036274,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          0.4648454785346985,
+          -0.5593644976615906,
+          -0.05075420066714287,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 29,
+      "seconds": 0.4958981890231371,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.5477598905563354,
+          -0.06826545298099518,
+          -0.9338287711143494,
+          0.06150227040052414,
+          -0.026702137663960457,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 44,
+      "seconds": 0.4923608284443617,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.37288546562194824,
+          0.00017446554556954652,
+          0.7843014597892761,
+          -0.025405963882803917,
+          0.07228643447160721,
+          -0.12545831501483917,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 59,
+      "seconds": 0.49263332039117813,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          -0.025040239095687866,
+          0.12348214536905289,
+          -5.7728906540432945e-05,
+          0.01551357563585043,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 74,
+      "seconds": 0.4926258251070976,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.17081785202026367,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 89,
+      "seconds": 0.4960739593952894,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6965498328208923,
+          0.3747929334640503,
+          0.057400207966566086,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.03432857245206833,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 104,
+      "seconds": 0.49153573624789715,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.042028531432151794,
+          0.1154416874051094,
+          -0.22895483672618866,
+          0.04520697891712189,
+          -0.0747407078742981,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 118,
+      "seconds": 0.49188161455094814,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          0.006279329769313335,
+          -0.05872785300016403,
+          -0.11706478893756866,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 133,
+      "seconds": 0.4928590655326843,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.5526990294456482,
+          -0.07907175272703171,
+          0.69619220495224,
+          -5.7728906540432945e-05,
+          0.07228643447160721,
+          -0.10387495905160904,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 148,
+      "seconds": 0.4922733772546053,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.10867126286029816,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 163,
+      "seconds": 0.49192751199007034,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.86197829246521,
+          0.3603845536708832,
+          0.13082458078861237,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 178,
+      "seconds": 0.4918348677456379,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.41604071855545044,
+          0.11904378980398178,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.10967785120010376,
+          -0.03552765026688576,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 193,
+      "seconds": 0.49218575842678547,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.5549524426460266,
+          -0.025040239095687866,
+          -0.9338287711143494,
+          0.06602874398231506,
+          -0.026702137663960457,
+          -0.0331294983625412,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 208,
+      "seconds": 0.4918649811297655,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6030467748641968,
+          0.00017446554556954652,
+          0.8063287734985352,
+          -0.021784787997603416,
+          0.04608357697725296,
+          -0.11706478893756866,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 223,
+      "seconds": 0.4929290674626827,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.20026445388793945,
+          0.00017446554556954652,
+          0.6301102638244629,
+          -5.7728906540432945e-05,
+          0.14943929016590118,
+          -0.14943982660770416,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 237,
+      "seconds": 0.4962258078157902,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.018184969201683998,
+          0.27767330408096313,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.17342135310173035,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 252,
+      "seconds": 0.4916892908513546,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.8044379949569702,
+          0.00017446554556954652,
+          0.2483035773038864,
+          -5.7728906540432945e-05,
+          -0.03689213842153549,
+          -0.06910176575183868,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 267,
+      "seconds": 0.4930480122566223,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.3679463565349579,
+          0.010980768129229546,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.07765214145183563,
+          -0.006749833468347788,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 282,
+      "seconds": 0.49548050202429295,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.2850157618522644,
+          -5.7728906540432945e-05,
+          0.035893574357032776,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 297,
+      "seconds": 0.49929284304380417,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          0.5008664727210999,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.034437861293554306,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 312,
+      "seconds": 0.4945769142359495,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.2847404181957245,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.049993567168712616,
+          -0.0331294983625412,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 327,
+      "seconds": 0.4947789330035448,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.15936264395713806,
+          0.14065639674663544,
+          -0.5373371839523315,
+          -5.7728906540432945e-05,
+          -0.03543642535805702,
+          -0.00914798490703106,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 342,
+      "seconds": 0.49563077092170715,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6030467748641968,
+          0.00017446554556954652,
+          0.4832615554332733,
+          -0.025405963882803917,
+          -0.0004992811591364443,
+          -0.12545831501483917,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 356,
+      "seconds": 0.4929484073072672,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.042028531432151794,
+          0.00017446554556954652,
+          -0.8236922025680542,
+          0.025290505960583687,
+          -0.11113356798887253,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 371,
+      "seconds": 0.4921126049011946,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.03483599051833153,
+          -0.014233937487006187,
+          0.7549317479133606,
+          -5.7728906540432945e-05,
+          0.08102072030305862,
+          -0.03073134645819664,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 386,
+      "seconds": 0.49562788009643555,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9267112016677856,
+          0.4900601804256439,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 401,
+      "seconds": 0.4916517436504364,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.32076144218444824,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.0936649963259697,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 416,
+      "seconds": 0.492345729842782,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          -0.025040239095687866,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.014057861641049385,
+          -0.06670361757278442,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 431,
+      "seconds": 0.495364461094141,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.509543776512146,
+          0.00017446554556954652,
+          0.8136712312698364,
+          -0.024500669911503792,
+          0.07374214380979538,
+          -0.11106941103935242,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 446,
+      "seconds": 0.49292686954140663,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.14497755467891693,
+          -0.13310326635837555,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.08638642728328705,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "index": 461,
+      "seconds": 0.49232618138194084,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          -0.02143813855946064,
+          0.8136712312698364,
+          0.02076403610408306,
+          0.1246921494603157,
+          -0.02833319455385208,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 0,
+      "seconds": 0.49184498377144337,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.1010332852602005,
+          -0.0013392865657806396,
+          -0.015447729267179966,
+          0.018425004556775093,
+          -0.017541514709591866,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 14,
+      "seconds": 0.4910754542797804,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          0.4648454785346985,
+          -0.5593644976615906,
+          -0.05075420066714287,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 29,
+      "seconds": 0.492426885291934,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.5477598905563354,
+          -0.06826545298099518,
+          -0.9338287711143494,
+          0.06150227040052414,
+          -0.026702137663960457,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 44,
+      "seconds": 0.49577103182673454,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.37288546562194824,
+          0.00017446554556954652,
+          0.7843014597892761,
+          -0.025405963882803917,
+          0.07228643447160721,
+          -0.12545831501483917,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 59,
+      "seconds": 0.4928277637809515,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          -0.025040239095687866,
+          0.12348214536905289,
+          -5.7728906540432945e-05,
+          0.01551357563585043,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 74,
+      "seconds": 0.49237731844186783,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.17081785202026367,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 89,
+      "seconds": 0.49305457063019276,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6965498328208923,
+          0.3747929334640503,
+          0.057400207966566086,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.03432857245206833,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 104,
+      "seconds": 0.49589783884584904,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.042028531432151794,
+          0.1154416874051094,
+          -0.22895483672618866,
+          0.04520697891712189,
+          -0.0747407078742981,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 118,
+      "seconds": 0.493352796882391,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          0.006279329769313335,
+          -0.05872785300016403,
+          -0.11706478893756866,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 133,
+      "seconds": 0.4945752676576376,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.5526990294456482,
+          -0.07907175272703171,
+          0.69619220495224,
+          -5.7728906540432945e-05,
+          0.07228643447160721,
+          -0.10387495905160904,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 148,
+      "seconds": 0.4939044211059809,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.10867126286029816,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 163,
+      "seconds": 0.49541654996573925,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.86197829246521,
+          0.3603845536708832,
+          0.13082458078861237,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 178,
+      "seconds": 0.49291239865124226,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.41604071855545044,
+          0.11904378980398178,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.10967785120010376,
+          -0.03552765026688576,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 193,
+      "seconds": 0.49186783097684383,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.5549524426460266,
+          -0.025040239095687866,
+          -0.9338287711143494,
+          0.06602874398231506,
+          -0.026702137663960457,
+          -0.0331294983625412,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 208,
+      "seconds": 0.4925695303827524,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6030467748641968,
+          0.00017446554556954652,
+          0.8063287734985352,
+          -0.021784787997603416,
+          0.04608357697725296,
+          -0.11706478893756866,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 223,
+      "seconds": 0.49204821698367596,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.20026445388793945,
+          0.00017446554556954652,
+          0.6301102638244629,
+          -5.7728906540432945e-05,
+          0.14943929016590118,
+          -0.14943982660770416,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 237,
+      "seconds": 0.4955265764147043,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.018184969201683998,
+          0.27767330408096313,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.17342135310173035,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 252,
+      "seconds": 0.4934988785535097,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.8044379949569702,
+          0.00017446554556954652,
+          0.2483035773038864,
+          -5.7728906540432945e-05,
+          -0.03689213842153549,
+          -0.06910176575183868,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 267,
+      "seconds": 0.4901162888854742,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.3679463565349579,
+          0.010980768129229546,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.07765214145183563,
+          -0.006749833468347788,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 282,
+      "seconds": 0.4897557981312275,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.2850157618522644,
+          -5.7728906540432945e-05,
+          0.035893574357032776,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 297,
+      "seconds": 0.4894647914916277,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9339037537574768,
+          0.5008664727210999,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.034437861293554306,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 312,
+      "seconds": 0.4887414053082466,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.2847404181957245,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.049993567168712616,
+          -0.0331294983625412,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 327,
+      "seconds": 0.4889665599912405,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.15936264395713806,
+          0.14065639674663544,
+          -0.5373371839523315,
+          -5.7728906540432945e-05,
+          -0.03543642535805702,
+          -0.00914798490703106,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 342,
+      "seconds": 0.48893213644623756,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.6030467748641968,
+          0.00017446554556954652,
+          0.4832615554332733,
+          -0.025405963882803917,
+          -0.0004992811591364443,
+          -0.12545831501483917,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 356,
+      "seconds": 0.4889479000121355,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.042028531432151794,
+          0.00017446554556954652,
+          -0.8236922025680542,
+          0.025290505960583687,
+          -0.11113356798887253,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 371,
+      "seconds": 0.4935203716158867,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.03483599051833153,
+          -0.014233937487006187,
+          0.7549317479133606,
+          -5.7728906540432945e-05,
+          0.08102072030305862,
+          -0.03073134645819664,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 386,
+      "seconds": 0.48993142880499363,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.9267112016677856,
+          0.4900601804256439,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 401,
+      "seconds": 0.4886495806276798,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.32076144218444824,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.0936649963259697,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 416,
+      "seconds": 0.4904220048338175,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          -0.025040239095687866,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.014057861641049385,
+          -0.06670361757278442,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 431,
+      "seconds": 0.4947836510837078,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          0.509543776512146,
+          0.00017446554556954652,
+          0.8136712312698364,
+          -0.024500669911503792,
+          0.07374214380979538,
+          -0.11106941103935242,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 446,
+      "seconds": 0.4912918843328953,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.14497755467891693,
+          -0.13310326635837555,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.08638642728328705,
+          0.00044462032383307815,
+          0.0
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "index": 461,
+      "seconds": 0.4892276506870985,
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true,
+      "action": [
+        [
+          -0.0011267198715358973,
+          -0.02143813855946064,
+          0.8136712312698364,
+          0.02076403610408306,
+          0.1246921494603157,
+          -0.02833319455385208,
+          0.9960784316062927
+        ]
+      ]
+    }
+  ],
+  "peak_allocated_gib": 14.59628438949585,
+  "peak_reserved_gib": 14.671875,
+  "allocated_after_benchmark_gib": 14.273754596710205,
+  "model_tensor_bytes": 15297517440,
+  "load_peak_allocated_gib": 14.266887664794922
+}

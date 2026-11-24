@@ -1,0 +1,582 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run 7ba92d4e9740
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044648-7ba92d4e9740
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-1epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/7ba92d4e9740
+wandb: updating run metadata; uploading artifact run-7ba92d4e9740-simulationtrials-DnfLvg
+wandb: uploading artifact run-7ba92d4e9740-simulationtrials-DnfLvg
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 1
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 220
+wandb:                simulation/success_rate 0
+wandb:                   simulation/successes 0
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.35962
+wandb:  validation/final_normalized_action_l1 0.24042
+wandb:             validation/final_task_loss 3.12671
+wandb: 
+wandb: 🚀 View run LoRA-r8-1epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/7ba92d4e9740
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044648-7ba92d4e9740/logs
+HISTORY_VERIFIED 1 /16 LoRA-r8-1epoch-train40
+wandb: setting up run a8644a3d6976
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044656-a8644a3d6976
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-2epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/a8644a3d6976
+wandb: updating run metadata; uploading artifact run-a8644a3d6976-simulationtrials-PnfEfg
+wandb: uploading artifact run-a8644a3d6976-simulationtrials-PnfEfg
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 2
+wandb:            epoch_metrics/training_loss 2.78023
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 220
+wandb:                simulation/success_rate 0
+wandb:                   simulation/successes 0
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.34477
+wandb:  validation/final_normalized_action_l1 0.21837
+wandb:             validation/final_task_loss 3.21214
+wandb: 
+wandb: 🚀 View run LoRA-r8-2epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/a8644a3d6976
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044656-a8644a3d6976/logs
+HISTORY_VERIFIED 2 /16 LoRA-r8-2epoch-train40
+wandb: setting up run 4820db7ad442
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044702-4820db7ad442
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-3epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/4820db7ad442
+wandb: updating run metadata; uploading artifact run-4820db7ad442-simulationtrials-9prPQQ
+wandb: uploading artifact run-4820db7ad442-simulationtrials-9prPQQ
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 3
+wandb:            epoch_metrics/training_loss 2.44949
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 220
+wandb:                simulation/success_rate 0
+wandb:                   simulation/successes 0
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.33024
+wandb:  validation/final_normalized_action_l1 0.20155
+wandb:             validation/final_task_loss 3.52299
+wandb: 
+wandb: 🚀 View run LoRA-r8-3epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/4820db7ad442
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044702-4820db7ad442/logs
+HISTORY_VERIFIED 3 /16 LoRA-r8-3epoch-train40
+wandb: setting up run 354d946b72ab
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044709-354d946b72ab
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-4epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/354d946b72ab
+wandb: updating run metadata; uploading artifact run-354d946b72ab-simulationtrials-xCwd7g
+wandb: uploading artifact run-354d946b72ab-simulationtrials-xCwd7g
+wandb: uploading media/table/simulation/trials_1_fa387c7c6719f54f22f0.table.json; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 4
+wandb:            epoch_metrics/training_loss 2.0915
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 161.6
+wandb:                simulation/success_rate 0.4
+wandb:                   simulation/successes 2
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.30241
+wandb:  validation/final_normalized_action_l1 0.20109
+wandb:             validation/final_task_loss 4.00871
+wandb: 
+wandb: 🚀 View run LoRA-r8-4epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/354d946b72ab
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044709-354d946b72ab/logs
+HISTORY_VERIFIED 4 /16 LoRA-r8-4epoch-train40
+wandb: setting up run a623baacbc79
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044716-a623baacbc79
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-6epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/a623baacbc79
+wandb: updating run metadata; uploading artifact run-a623baacbc79-simulationtrials-cB9oKg
+wandb: uploading artifact run-a623baacbc79-simulationtrials-cB9oKg
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 6
+wandb:            epoch_metrics/training_loss 1.30888
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 161.4
+wandb:                simulation/success_rate 0.4
+wandb:                   simulation/successes 2
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.26623
+wandb:  validation/final_normalized_action_l1 0.20344
+wandb:             validation/final_task_loss 5.32569
+wandb: 
+wandb: 🚀 View run LoRA-r8-6epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/a623baacbc79
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044716-a623baacbc79/logs
+HISTORY_VERIFIED 5 /16 LoRA-r8-6epoch-train40
+wandb: setting up run 396bdaff04cb
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044724-396bdaff04cb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-7epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/396bdaff04cb
+wandb: updating run metadata; uploading artifact run-396bdaff04cb-simulationtrials-yUkzvQ
+wandb: uploading artifact run-396bdaff04cb-simulationtrials-yUkzvQ
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 7
+wandb:            epoch_metrics/training_loss 0.93133
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 192.8
+wandb:                simulation/success_rate 0.2
+wandb:                   simulation/successes 1
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.26098
+wandb:  validation/final_normalized_action_l1 0.20468
+wandb:             validation/final_task_loss 6.28314
+wandb: 
+wandb: 🚀 View run LoRA-r8-7epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/396bdaff04cb
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044724-396bdaff04cb/logs
+HISTORY_VERIFIED 6 /16 LoRA-r8-7epoch-train40
+wandb: setting up run 3c91e57092f3
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044732-3c91e57092f3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-8epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/3c91e57092f3
+wandb: updating run metadata; uploading artifact run-3c91e57092f3-simulationtrials-IwhcjA
+wandb: uploading artifact run-3c91e57092f3-simulationtrials-IwhcjA
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 8
+wandb:            epoch_metrics/training_loss 0.64132
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 137.8
+wandb:                simulation/success_rate 0.6
+wandb:                   simulation/successes 3
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.24985
+wandb:  validation/final_normalized_action_l1 0.2077
+wandb:             validation/final_task_loss 7.73536
+wandb: 
+wandb: 🚀 View run LoRA-r8-8epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/3c91e57092f3
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044732-3c91e57092f3/logs
+HISTORY_VERIFIED 7 /16 LoRA-r8-8epoch-train40
+wandb: setting up run fd4e05318ae6
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044739-fd4e05318ae6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-9epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/fd4e05318ae6
+wandb: updating run metadata; uploading artifact run-fd4e05318ae6-simulationtrials-8J97AQ
+wandb: uploading artifact run-fd4e05318ae6-simulationtrials-8J97AQ
+wandb: uploading media/table/simulation/trials_1_2d482cda74770ab41d13.table.json; uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 9
+wandb:            epoch_metrics/training_loss 0.4355
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 164.6
+wandb:                simulation/success_rate 0.4
+wandb:                   simulation/successes 2
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.24583
+wandb:  validation/final_normalized_action_l1 0.21276
+wandb:             validation/final_task_loss 8.56361
+wandb: 
+wandb: 🚀 View run LoRA-r8-9epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/fd4e05318ae6
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044739-fd4e05318ae6/logs
+HISTORY_VERIFIED 8 /16 LoRA-r8-9epoch-train40
+wandb: setting up run f2ee3a673c4a
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044745-f2ee3a673c4a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-10epoch-train40
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f2ee3a673c4a
+wandb: updating run metadata; uploading artifact run-f2ee3a673c4a-simulationtrials-yfkHcA
+wandb: uploading artifact run-f2ee3a673c4a-simulationtrials-yfkHcA
+wandb: uploading config.yaml; uploading media/table/simulation/trials_1_50a3c74c3341d12e4ca8.table.json; uploading wandb-summary.json
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:                                  epoch ▁
+wandb:            epoch_metrics/training_loss ▁
+wandb:               inference/mean_action_ms ▁
+wandb:                 inference/peak_gpu_gib ▁
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb:                     storage/adapter_mb ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:                                     +2 ...
+wandb: 
+wandb: Run summary:
+wandb:                                  epoch 10
+wandb:            epoch_metrics/training_loss 0.29941
+wandb:               inference/mean_action_ms 285.10684
+wandb:                 inference/peak_gpu_gib 14.43687
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 138.4
+wandb:                simulation/success_rate 0.6
+wandb:                   simulation/successes 3
+wandb:                     storage/adapter_mb 16.79612
+wandb: validation/final_action_token_accuracy 0.25232
+wandb:                                     +2 ...
+wandb: 
+wandb: 🚀 View run LoRA-r8-10epoch-train40 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f2ee3a673c4a
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044745-f2ee3a673c4a/logs
+HISTORY_VERIFIED 9 /16 LoRA-r8-10epoch-train40
+wandb: setting up run f7dc24dba3b2
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044753-f7dc24dba3b2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Batch4-128frames-speed-only
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f7dc24dba3b2
+wandb: updating run metadata; uploading summary
+wandb: 
+wandb: Run history:
+wandb: benchmark/train_128_frame_seconds ▁
+wandb: benchmark/train_frames_per_second ▁
+wandb:      benchmark/train_peak_gpu_gib ▁
+wandb: 
+wandb: Run summary:
+wandb: benchmark/train_128_frame_seconds 12.54178
+wandb: benchmark/train_frames_per_second 10.20588
+wandb:      benchmark/train_peak_gpu_gib 14.92413
+wandb: 
+wandb: 🚀 View run Batch4-128frames-speed-only at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f7dc24dba3b2
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044753-f7dc24dba3b2/logs
+HISTORY_VERIFIED 10 /16 Batch4-128frames-speed-only
+wandb: setting up run f02dcb60756f
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044757-f02dcb60756f
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Batch8-128frames-speed-only
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f02dcb60756f
+wandb: updating run metadata; uploading summary
+wandb: uploading history steps 0-0, summary
+wandb: 
+wandb: Run history:
+wandb: benchmark/train_128_frame_seconds ▁
+wandb: benchmark/train_frames_per_second ▁
+wandb:      benchmark/train_peak_gpu_gib ▁
+wandb: 
+wandb: Run summary:
+wandb: benchmark/train_128_frame_seconds 11.09811
+wandb: benchmark/train_frames_per_second 11.53349
+wandb:      benchmark/train_peak_gpu_gib 15.68899
+wandb: 
+wandb: 🚀 View run Batch8-128frames-speed-only at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f02dcb60756f
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044757-f02dcb60756f/logs
+HISTORY_VERIFIED 11 /16 Batch8-128frames-speed-only
+wandb: setting up run c75cd5c4d8a8
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044800-c75cd5c4d8a8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-5epoch-BF16-quant-comparison
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/c75cd5c4d8a8
+wandb: updating run metadata; uploading artifact run-c75cd5c4d8a8-simulationtrials-CoP8uw
+wandb: uploading artifact run-c75cd5c4d8a8-simulationtrials-CoP8uw
+wandb: uploading media/table/simulation/trials_1_0a6267ddbb7ac74d9093.table.json; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:      inference/mean_action_ms ▁
+wandb:        inference/peak_gpu_gib ▁
+wandb:  model/in_memory_tensor_bytes ▁
+wandb:  model/quantized_linear_count ▁
+wandb:           simulation/attempts ▁
+wandb: simulation/mean_episode_steps ▁
+wandb:       simulation/success_rate ▁
+wandb:          simulation/successes ▁
+wandb: 
+wandb: Run summary:
+wandb:      inference/mean_action_ms 283.48136
+wandb:        inference/peak_gpu_gib 14.43708
+wandb:  model/in_memory_tensor_bytes 15132814208
+wandb:  model/quantized_linear_count 0
+wandb:           simulation/attempts 5
+wandb: simulation/mean_episode_steps 135.8
+wandb:       simulation/success_rate 0.6
+wandb:          simulation/successes 3
+wandb: 
+wandb: 🚀 View run LoRA-r8-5epoch-BF16-quant-comparison at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/c75cd5c4d8a8
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044800-c75cd5c4d8a8/logs
+HISTORY_VERIFIED 12 /16 LoRA-r8-5epoch-BF16-quant-comparison
+wandb: setting up run d51781d74a53
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044807-d51781d74a53
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-5epoch-INT8-quant-comparison
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/d51781d74a53
+wandb: updating run metadata; uploading artifact run-d51781d74a53-simulationtrials-GCp8Bw
+wandb: uploading artifact run-d51781d74a53-simulationtrials-GCp8Bw
+wandb: uploading media/table/simulation/trials_1_6d2fdd0646d81cba5c45.table.json; uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:      inference/mean_action_ms ▁
+wandb:        inference/peak_gpu_gib ▁
+wandb:  model/in_memory_tensor_bytes ▁
+wandb:  model/quantized_linear_count ▁
+wandb:           simulation/attempts ▁
+wandb: simulation/mean_episode_steps ▁
+wandb:       simulation/success_rate ▁
+wandb:          simulation/successes ▁
+wandb: 
+wandb: Run summary:
+wandb:      inference/mean_action_ms 799.13598
+wandb:        inference/peak_gpu_gib 8.5137
+wandb:  model/in_memory_tensor_bytes 8656808832
+wandb:  model/quantized_linear_count 224
+wandb:           simulation/attempts 5
+wandb: simulation/mean_episode_steps 151.2
+wandb:       simulation/success_rate 0.6
+wandb:          simulation/successes 3
+wandb: 
+wandb: 🚀 View run LoRA-r8-5epoch-INT8-quant-comparison at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/d51781d74a53
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044807-d51781d74a53/logs
+HISTORY_VERIFIED 13 /16 LoRA-r8-5epoch-INT8-quant-comparison
+wandb: setting up run 046a46f638e1
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044814-046a46f638e1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run OpenVLA-base-no-finetuning
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/046a46f638e1
+wandb: updating run metadata; uploading artifact run-046a46f638e1-simulationtrials-lN_K-g
+wandb: uploading artifact run-046a46f638e1-simulationtrials-lN_K-g
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 220
+wandb:                simulation/success_rate 0
+wandb:                   simulation/successes 0
+wandb: validation/final_action_token_accuracy 0.09029
+wandb:  validation/final_normalized_action_l1 0.4605
+wandb:             validation/final_task_loss 11.82725
+wandb: 
+wandb: 🚀 View run OpenVLA-base-no-finetuning at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/046a46f638e1
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044814-046a46f638e1/logs
+HISTORY_VERIFIED 14 /16 OpenVLA-base-no-finetuning
+wandb: setting up run 067ccc33df5d
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044822-067ccc33df5d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LoRA-r8-1epoch-train20
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/067ccc33df5d
+wandb: updating run metadata; uploading artifact run-067ccc33df5d-simulationtrials-cNXyRQ
+wandb: uploading artifact run-067ccc33df5d-simulationtrials-cNXyRQ
+wandb: uploading wandb-summary.json; uploading config.yaml; uploading media/table/simulation/trials_1_748d7f12f7aa37d208cb.table.json
+wandb: 
+wandb: Run history:
+wandb:                    simulation/attempts ▁
+wandb:          simulation/mean_episode_steps ▁
+wandb:                simulation/success_rate ▁
+wandb:                   simulation/successes ▁
+wandb: validation/final_action_token_accuracy ▁
+wandb:  validation/final_normalized_action_l1 ▁
+wandb:             validation/final_task_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                    simulation/attempts 5
+wandb:          simulation/mean_episode_steps 220
+wandb:                simulation/success_rate 0
+wandb:                   simulation/successes 0
+wandb: validation/final_action_token_accuracy 0.35498
+wandb:  validation/final_normalized_action_l1 0.24081
+wandb:             validation/final_task_loss 3.22201
+wandb: 
+wandb: 🚀 View run LoRA-r8-1epoch-train20 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/067ccc33df5d
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044822-067ccc33df5d/logs
+HISTORY_VERIFIED 15 /16 LoRA-r8-1epoch-train20
+wandb: setting up run bd04c61c3f75
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_044829-bd04c61c3f75
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run REFERENCE-published-LIBERO-Spatial
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/bd04c61c3f75
+wandb: updating run metadata; uploading artifact run-bd04c61c3f75-simulationtrials-Wc0JMA
+wandb: uploading artifact run-bd04c61c3f75-simulationtrials-Wc0JMA
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:           simulation/attempts ▁
+wandb: simulation/mean_episode_steps ▁
+wandb:       simulation/success_rate ▁
+wandb:          simulation/successes ▁
+wandb: 
+wandb: Run summary:
+wandb:           simulation/attempts 5
+wandb: simulation/mean_episode_steps 112
+wandb:       simulation/success_rate 0.8
+wandb:          simulation/successes 4
+wandb: 
+wandb: 🚀 View run REFERENCE-published-LIBERO-Spatial at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/bd04c61c3f75
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_044829-bd04c61c3f75/logs
+HISTORY_VERIFIED 16 /16 REFERENCE-published-LIBERO-Spatial

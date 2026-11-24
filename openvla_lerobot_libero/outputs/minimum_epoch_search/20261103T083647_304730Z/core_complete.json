@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "new_epoch_evaluations": [
+    2,
+    3,
+    4
+  ],
+  "minimum_any": 4,
+  "minimum_target": 5,
+  "videos_verified": 15,
+  "original_sources_environments_checkpoints_preserved": true
+}

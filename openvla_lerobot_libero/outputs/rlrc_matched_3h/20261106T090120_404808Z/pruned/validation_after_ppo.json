@@ -1,0 +1,12 @@
+{
+  "loss": 3.255575705400277,
+  "action_token_accuracy": 0.3423005591481279,
+  "normalized_action_l1": 0.2779169757816871,
+  "predicted_action_token_fraction": 0.9990723562152133,
+  "frames": 462,
+  "optimizer_step": 0,
+  "seconds": 12.592292409390211,
+  "gpu_allocated_gib": 3.945188522338867,
+  "gpu_reserved_gib": 4.712890625,
+  "gpu_peak_allocated_gib": 4.411574363708496
+}

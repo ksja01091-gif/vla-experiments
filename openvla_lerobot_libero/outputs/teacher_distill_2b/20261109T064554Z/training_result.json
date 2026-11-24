@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "student_start": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/pruned/after_ppo",
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/checkpoints/student_after_distill",
+  "checkpoint_weight_bytes": 4139073648,
+  "human_frames": 4025,
+  "teacher_frames": 2129,
+  "batch_size": 4,
+  "epochs": 1,
+  "lr": 3e-05,
+  "optimizer": "AdamW",
+  "gradient_clip": 1.0,
+  "trainable_parameters": 2412544,
+  "frozen_backbone_unchanged": true,
+  "before_validation": {
+    "loss": 3.255575705400277,
+    "action_token_accuracy": 0.3423005591481279,
+    "normalized_action_l1": 0.2779169757816871,
+    "predicted_action_token_fraction": 0.9990723562152133,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 14.581120369955897,
+    "gpu_allocated_gib": 3.918667793273926,
+    "gpu_reserved_gib": 4.65625,
+    "gpu_peak_allocated_gib": 14.129577159881592
+  },
+  "after_validation": {
+    "loss": 3.2290248148369067,
+    "action_token_accuracy": 0.3546691420790437,
+    "normalized_action_l1": 0.2239444665036459,
+    "predicted_action_token_fraction": 0.9990723562152133,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 13.886449757963419,
+    "gpu_allocated_gib": 3.9540233612060547,
+    "gpu_reserved_gib": 4.822265625,
+    "gpu_peak_allocated_gib": 4.712545394897461
+  },
+  "training_seconds": 574.6994756497443,
+  "gpu_peak_gib": 4.712545394897461
+}

@@ -1,0 +1,198 @@
+총 5 epochs 학습과 동일 조건 비교 — 2026-11-03
+
+먼저 볼 결론
+같은 초기 상태 5개에서 1회 모델은 0/5, 5회 모델은 3/5 성공했다.
+멈춤에 가까운 팔 예측은 91/453에서 3/453로 줄었다.
+반복 학습 후 실제 목표 달성은 개선됐지만, 모든 초기 상태에서 성공하거나 항상 같은 방식으로 안정적으로 잡는다는 뜻은 아니다.
+검증 loss는 3.127에서 4.576로 높아졌다. 행동 오차·토큰 확률 손실·실제 작업 성공은 서로 다른 지표이므로 하나로 대체하지 않는다.
+
+무엇을 했나?
+- 공개 LIBERO 데이터에서 선택·전처리한 같은 시범 40개, 4,025장면을 사용.
+- 기존 1회 학습 가중치·AdamW 모멘텀·난수 상태를 복원해 4회를 추가. 총 5회.
+- 총 학습 장면 사용 횟수 20,125, 총 optimizer update 5,035. 새로 본 사진이 20,125장 생긴 것은 아님.
+- 검증용 전체 시범 5개에서 나온 462장면은 가중치 수정에 사용하지 않음.
+- 로봇 평가의 초기 상태 5개는 검증 시범 5개와 다른 개념. 시범을 그대로 재생한 평가가 아님.
+
+동일하게 유지한 것
+batch 4 / learning rate 0.0001 / AdamW / weight decay 0 / gradient clip 1 /
+LoRA rank 8, alpha 8, dropout 0, 언어모델 q_proj·v_proj /
+기본 가중치 BF16, LoRA FP32 / 원본 256 RGB를 native HF 처리기에 입력 /
+기존 학습용 20개에서 계산해 고정한 행동 정규화 / task / seed / initial states 0~4 /
+warmup 10 / 최대 정책 단계 220 / 집게 변환 -sign(2*g-1).
+
+핵심 결과
+[1 epoch -> 5 epochs]
+같은 462장면 teacher-forced validation loss:
+3.126710 -> 4.575616
+행동 7개를 스스로 생성한 검증 오차(normalized L1):
+0.284274 -> 0.251941
+자유 생성 행동 토큰 정확도:
+34.14% -> 26.47%
+검증 사진 집게 열기·닫기 정확도:
+87.88% -> 88.53%
+팔 활동 명령이 있는데 거의 0으로 예측한 장면:
+91/453 -> 3/453
+학습 사진 동일 표본 480장의 자유 생성 오차:
+0.235372 -> 0.062472
+학습 사진 480장의 집게 정확도:
+93.75% -> 97.29%
+
+로봇 실제 실행 (두 모델 모두 native 학습 일치 사진 처리로 새로 평가)
+1회 모델: 0/5, 성공률 0.0%, 평균 220.0단계
+5회 모델: 3/5, 성공률 60.0%, 평균 135.8단계
+기술 오류: 두 모델 모두 0.
+각 상태의 처음 이미지·초기 상태 해시가 완전히 같은지 확인.
+예전 중앙 자르기 처리 영상의 성공률과 이번 native 입력 성공률은 같은 비교에 섞지 않음.
+공개 LIBERO Spatial 추가 학습 모델 4/5 결과도 이번 두 모델 결과와 섞지 않음.
+
+물체 움직임·접촉 진단
+{
+  "epoch1": [
+    {
+      "state": 0,
+      "rise_mm": 0.0002786076397365278,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 1,
+      "rise_mm": 0.0002786076397365278,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 2,
+      "rise_mm": 0.0,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 3,
+      "rise_mm": 1.6905456978181244,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 4,
+      "rise_mm": 0.7838751324990012,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    }
+  ],
+  "epoch5": [
+    {
+      "state": 0,
+      "rise_mm": 152.44094363475003,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": true
+    },
+    {
+      "state": 1,
+      "rise_mm": 3.6466363226751453,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 2,
+      "rise_mm": 0.0,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 3,
+      "rise_mm": 129.9859295092596,
+      "bilateral_contact_frames": 33,
+      "simultaneous_contact_and_rise_frames": 31,
+      "success": true
+    },
+    {
+      "state": 4,
+      "rise_mm": 104.84574674807234,
+      "bilateral_contact_frames": 26,
+      "simultaneous_contact_and_rise_frames": 21,
+      "success": true
+    }
+  ]
+}
+rise_mm는 목표 그릇의 높이 증가. 그릇이 튀거나 기울어도 증가할 수 있으므로 이 값만으로 잡기 성공이라 하지 않음.
+bilateral_contact_frames는 양쪽 손가락 패드의 동시 접촉을 제어 단계 끝에서 관찰한 횟수.
+simultaneous_contact_and_rise_frames는 동시 접촉과 2cm 초과 높이 증가가 함께 나온 단계 수.
+이 진단은 지속적 안정 파지의 완전한 증명이나 공식 작업 성공률을 대신하지 않음.
+공식 성공 판정은 LIBERO goal predicate이며, 성공 방식은 영상으로 함께 확인해야 함.
+첫 성공(초기 상태 0)의 추가 접촉 검사: 목표 그릇이 올라간 동안 한쪽 손가락(finger2)과 손바닥 형상이 함께 물체를 지지한 단계가 40개 기록됐다. 양손가락 동시 접촉이 없어도 이 방식으로 그릇을 운반해 목표를 달성했다. 작업 성공과 양손가락 집기는 같은 지표가 아니다. 실제 접촉 쌍은 /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation/epoch5/state_00/actual_contact_pair_audit.json에 저장했다.
+
+이번에 비교한 것은 무엇인가?
+데이터 개수나 LoRA 범위를 바꾸지 않고 같은 학습을 네 번 더 이어갔다.
+가중치가 바뀌지 않은 1회 모델과, 총 5회 학습한 최종 모델을 같은 입력·초기 상태에서 비교했다.
+추가 학습 중 검증을 매 epoch 수행했으나 주 비교에는 최저 loss 모델을 몰래 고르지 않고 epoch5를 사용했다.
+최저 teacher validation loss 체크포인트:
+epoch 1: /home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007
+최종 epoch5 체크포인트:
+/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035
+
+해석할 때 구분할 것
+- loss/사진별 행동 오차 감소는 실제 작업 성공률 증가와 다르다.
+- 같은 시범 40개를 반복한 결과이지 데이터가 더 다양해진 실험이 아니다.
+- 초기 상태 5개, 특정 작업 1개 결과이므로 LIBERO 전체 성능이나 보지 않은 상태 일반화를 보장하지 않는다.
+- 학습 시범과 시뮬레이터 초기 상태의 완전한 분리는 확인되지 않았다.
+- 각 방향의 행동 bin 정확도와 집게 열기·닫기 정확도는 서로 다른 지표다.
+- 이번 결과만으로 모든 실패 원인을 학습 횟수 하나에 귀속할 수는 없다.
+
+영상 보기
+- 왼쪽 1회 모델 / 오른쪽 5회 모델. 같은 초기 상태와 같은 정책 단계를 나란히 비교.
+- 비교 영상은 초당 10장으로 재생. 실제 계산 시간 영상은 아님.
+- 한 모델이 먼저 성공하면 그쪽 마지막 화면을 유지하고 다른 모델은 계속 재생.
+- 대표 비교 영상: 02_1회vs5회_같은시작상태0.mp4
+  이 영상은 결과를 본 뒤 대표 사례로 선택한 것이며 무작위 표본은 아님.
+- 원본영상 폴더에는 각각의 20fps 원본 10개가 있음.
+
+저장·검증
+- epoch2·3·4·5 체크포인트와 optimizer 상태를 별도 폴더에 저장.
+- 5회 모델을 새 Python 프로세스에서 다시 로드, 동일 validation batch loss, (1,7) 행동, NaN/무한대 없음 확인.
+- 추가 4회 각각 4,025장면이 빠짐없이 정확히 한 번씩 사용됐는지 확인.
+- 기존 프로젝트 코드와 openvla310·lerobot312·eval310 패키지 목록 변경 없음.
+- 원본 1회 체크포인트·데이터 보호 해시 변경 없음.
+- 원본 영상 10개와 비교 영상 5개 프레임 수·첫/마지막 디코드 확인.
+- 추가 학습 시간 1869.4초.
+- 학습 과정 GPU 최대 할당량 14.92GiB (프로세스 기준).
+  학습 중 1회 기준 평가를 병행했으므로 벽시계 학습 시간은 이전 단독 실행 속도와 직접 비교하면 안 됨.
+- W&B는 오프라인 기록. 원격 CSV·PNG·체크포인트·영상이 먼저 저장됨.
+
+두 개념
+1) epoch: 같은 학습 데이터 전체를 한 번씩 사용하는 단위.
+2) 공정한 대조: epoch 외 조건을 맞춰, 반복 학습 증가와 결과 변화의 관련성을 확인.
+
+원격 핵심 파일
+학습·검증·평가 코드: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/five_epoch_experiment.py
+단계 실행 드라이버: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/run_pipeline.py
+시뮬레이션 물체 진단: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/motion_worker.py
+학습 설정: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/training_config.json
+재시작 상태 확인: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/resume_check.json
+매 회차 coverage: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/training_coverage.json
+teacher validation history: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/validation_history.json
+사진별 자유 예측: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/validation_free_predictions.jsonl
+전체 결과: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/experiment_summary.json
+기존 환경·코드 보존: /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/preservation_report.json
+
+결과 다시 확인
+cat /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/experiment_summary.json
+
+최종 체크포인트 새 프로세스 재확인
+conda activate lerobot312
+python /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/five_epoch_experiment.py check
+
+새 폴더에서 전체 실험 재현 (기존 결과 보존)
+conda activate lerobot312
+NEW_RUN="/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/$(date -u +%Y%m%dT%H%M%S)_manual"
+mkdir "$NEW_RUN"
+cp "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/five_epoch_experiment.py" "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/run_pipeline.py" "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/motion_worker.py" "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/build_report.py" "$NEW_RUN/"
+python "$NEW_RUN/run_pipeline.py"
+/home/jovyan/anaconda3/envs/openvla310/bin/python "$NEW_RUN/build_report.py"

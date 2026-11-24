@@ -1,0 +1,45 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  4.95it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  5.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  6.16it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.94it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+PPO pruned 1 / 298 0.41700832545757294
+PPO pruned 10 / 298 -2.4152064099907875
+PPO pruned 20 / 298 0.3671122044324875
+PPO pruned 30 / 298 0.05213319510221481
+PPO pruned 40 / 298 0.3651837781071663
+PPO pruned 50 / 298 -0.20121121406555176
+PPO pruned 60 / 298 0.4393693432211876
+PPO pruned 70 / 298 0.3919804319739342
+PPO pruned 80 / 298 -0.4089416116476059
+PPO pruned 90 / 298 -0.34803107008337975
+PPO pruned 100 / 298 0.1207028180360794
+PPO pruned 110 / 298 0.34237051755189896
+PPO pruned 120 / 298 -1.0950275510549545
+PPO pruned 130 / 298 -1.1416782587766647
+PPO pruned 140 / 298 0.17672090977430344
+PPO pruned 150 / 298 0.23706239834427834
+PPO pruned 160 / 298 0.10934300720691681
+PPO pruned 170 / 298 0.0248136967420578
+PPO pruned 180 / 298 -0.0958615094423294
+PPO pruned 190 / 298 0.19228477776050568
+PPO pruned 200 / 298 -0.4212474599480629
+PPO pruned 210 / 298 0.3658456578850746
+PPO pruned 220 / 298 0.26358709670603275
+PPO pruned 230 / 298 -0.2637756019830704
+PPO pruned 240 / 298 0.3736390322446823
+PPO pruned 250 / 298 -0.01228291541337967
+PPO pruned 260 / 298 -0.3577239438891411
+PPO pruned 270 / 298 0.304358784109354
+PPO pruned 280 / 298 0.4375578910112381
+PPO pruned 290 / 298 0.2669117860496044
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 3.255575705400277, "action_token_accuracy": 0.3423005591481279, "normalized_action_l1": 0.2779169757816871, "predicted_action_token_fraction": 0.9990723562152133, "frames": 462, "optimizer_step": 0, "seconds": 12.592292409390211, "gpu_allocated_gib": 3.945188522338867, "gpu_reserved_gib": 4.712890625, "gpu_peak_allocated_gib": 4.411574363708496}
+PHASE_COMPLETE ppo pruned

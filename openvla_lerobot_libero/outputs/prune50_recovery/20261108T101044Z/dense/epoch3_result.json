@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "branch": "dense",
+  "total_epochs": 3,
+  "additional_epoch": 2,
+  "frames": 4025,
+  "order_sha256": "6cb1cadbdafe826547695e5f4fe78d5bbf7858e8ffd21a4bc8503ea9815ee331",
+  "training_metrics": {
+    "loss": 0.3349758167444549,
+    "action_token_accuracy": 0.893522625398932,
+    "normalized_action_l1": 0.008954117659788086,
+    "predicted_action_token_fraction": 1.0
+  },
+  "validation": {
+    "loss": 9.419970359637107,
+    "action_token_accuracy": 0.2452071774831582,
+    "normalized_action_l1": 0.20918575582585,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 19.043406918644905,
+    "gpu_allocated_gib": 14.1845064163208,
+    "gpu_reserved_gib": 15.25,
+    "gpu_peak_allocated_gib": 14.939770698547363
+  },
+  "seconds": 433.20877404138446,
+  "memory": {
+    "allocated_gib": 14.184505939483643,
+    "reserved_gib": 15.25,
+    "peak_gib": 14.939770698547363
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_recovery/20261108T101044Z/checkpoints/dense/after_sft",
+  "checkpoint_bytes": 16794424,
+  "frozen_samples_unchanged": true
+}

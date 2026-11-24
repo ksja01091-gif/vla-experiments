@@ -1,0 +1,33 @@
+{
+  "source_run": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z",
+  "source_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/sp128/checkpoints/step_005035",
+  "source_trained_epochs": 5,
+  "additional_training": false,
+  "base_model": "openvla/openvla-7b",
+  "variants": [
+    "sp_full128",
+    "sp_pruned96",
+    "sp_pruned64"
+  ],
+  "eta": 0.9,
+  "pruning": "fixed per-layer A rows/B columns physically removed after train-only activation calibration; original 128-score router retained",
+  "calibration": "4 evenly spaced frames from each of 40 training demonstrations; 160 train-only images, native autoregressive inference",
+  "importance": "sum over calibration tokens of (A*x * selected_score)^2 times squared L2 norm of B column; heuristic, not exact SVD energy",
+  "selection_fixed_before_validation": true,
+  "validation_frames": 462,
+  "simulation_states": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "simulation_horizon": 220,
+  "benchmark": "same 32 fixed validation images, batch1, 3 warmup calls, 3 rounds, CUDA synchronized, one process at a time",
+  "baseline_simulation": "reuse preserved full-SP eta0.9 five trials, check state/image hashes on newly executed variants",
+  "new_simulation_trials": 10,
+  "baseline_simulation_trials_reused": 5,
+  "static_pruning_changes_policy": true,
+  "score_energy_90pct_not_guaranteed_after_static_removal": true,
+  "packages_changed": false
+}

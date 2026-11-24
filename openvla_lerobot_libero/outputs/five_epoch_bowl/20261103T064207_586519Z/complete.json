@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "core_evidence": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/core_complete.json",
+  "viewing_bundle": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/viewing_bundle",
+  "original_videos_verified": 10,
+  "comparison_videos_verified": 5
+}

@@ -1,0 +1,62 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  5.01it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  5.70it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  6.19it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.96it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 21.563353030712573, "action_token_accuracy": 0.005256648348781453, "normalized_action_l1": 0.45114825115991736, "predicted_action_token_fraction": 0.9996907854050712, "frames": 462, "optimizer_step": 0, "seconds": 13.13522575981915, "gpu_allocated_gib": 3.918667793273926, "gpu_reserved_gib": 4.65625, "gpu_peak_allocated_gib": 14.129577159881592}
+SFT pruned 1 4 / 4025 loss 18.316368103027344
+SFT pruned 25 100 / 4025 loss 6.374910354614258
+SFT pruned 50 200 / 4025 loss 5.141778469085693
+SFT pruned 75 300 / 4025 loss 4.590479850769043
+SFT pruned 100 400 / 4025 loss 4.167309284210205
+SFT pruned 125 500 / 4025 loss 4.046183109283447
+SFT pruned 150 600 / 4025 loss 3.7831900119781494
+SFT pruned 175 700 / 4025 loss 3.6997363567352295
+SFT pruned 200 800 / 4025 loss 3.3762009143829346
+SFT pruned 225 900 / 4025 loss 4.220697402954102
+SFT pruned 250 1000 / 4025 loss 4.18204927444458
+SFT pruned 275 1100 / 4025 loss 3.4555864334106445
+SFT pruned 300 1200 / 4025 loss 3.0763070583343506
+SFT pruned 325 1300 / 4025 loss 3.9550905227661133
+SFT pruned 350 1400 / 4025 loss 3.2182457447052
+SFT pruned 375 1500 / 4025 loss 3.5774765014648438
+SFT pruned 400 1600 / 4025 loss 3.5078659057617188
+SFT pruned 425 1700 / 4025 loss 3.3682544231414795
+SFT pruned 450 1800 / 4025 loss 3.5071980953216553
+SFT pruned 475 1900 / 4025 loss 2.7390685081481934
+SFT pruned 500 2000 / 4025 loss 3.5204060077667236
+SFT pruned 525 2100 / 4025 loss 3.586886167526245
+SFT pruned 550 2200 / 4025 loss 3.5324325561523438
+SFT pruned 575 2300 / 4025 loss 3.4395129680633545
+SFT pruned 600 2400 / 4025 loss 3.107903242111206
+SFT pruned 625 2500 / 4025 loss 3.8234333992004395
+SFT pruned 650 2600 / 4025 loss 3.506361246109009
+SFT pruned 675 2700 / 4025 loss 4.096203804016113
+SFT pruned 700 2800 / 4025 loss 2.79805588722229
+SFT pruned 725 2900 / 4025 loss 3.5127222537994385
+SFT pruned 750 3000 / 4025 loss 3.5643534660339355
+SFT pruned 775 3100 / 4025 loss 3.058880567550659
+SFT pruned 800 3200 / 4025 loss 3.8693854808807373
+SFT pruned 825 3300 / 4025 loss 3.4169812202453613
+SFT pruned 850 3400 / 4025 loss 3.0209972858428955
+SFT pruned 875 3500 / 4025 loss 3.177114486694336
+SFT pruned 900 3600 / 4025 loss 3.3954927921295166
+SFT pruned 925 3700 / 4025 loss 3.080657482147217
+SFT pruned 950 3800 / 4025 loss 2.856015205383301
+SFT pruned 975 3900 / 4025 loss 3.2573962211608887
+SFT pruned 1000 4000 / 4025 loss 3.9534406661987305
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 3.267037112991531, "action_token_accuracy": 0.3444650604740366, "normalized_action_l1": 0.28186728327601607, "predicted_action_token_fraction": 0.9990723562152133, "frames": 462, "optimizer_step": 0, "seconds": 12.857830170542002, "gpu_allocated_gib": 3.945034980773926, "gpu_reserved_gib": 4.8203125, "gpu_peak_allocated_gib": 4.7125444412231445}
+PHASE_COMPLETE sft pruned

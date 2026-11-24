@@ -1,0 +1,38 @@
+{
+  "batch_comparison.csv": {
+    "bytes": 322,
+    "sha256": "9036ea174aae033f3cbfd55d5eaf99fba25c7db24dfb4fcefd22e544c287695b"
+  },
+  "00_READ_ME.txt": {
+    "bytes": 3004,
+    "sha256": "7fae0984029736287fb959205ba9b41a208a77cb324d07530dcc861594672940"
+  },
+  "summary.json": {
+    "bytes": 2301,
+    "sha256": "4f725fd740fb048dbf2f840fc910a4582b2f173eeb8a083de310bf15d3b74c37"
+  },
+  "00_START_HERE_KO.txt": {
+    "bytes": 6580,
+    "sha256": "fb0861f982fd3a7d0b3adfa96977d792c45d162b8b5ea61f3e45611ce51a919e"
+  },
+  "inference_comparison.csv": {
+    "bytes": 274,
+    "sha256": "01bf009bf1e3b599745766959198722b63a68dc03995177e703110586b3aab1b"
+  },
+  "02_BF16_vs_INT8_state_04.mp4": {
+    "bytes": 452302,
+    "sha256": "d5c16b83f64ea2cd2ab9dfb28d01226237797a93b147ff86160da15d7d4ab6a4"
+  },
+  "simulation_comparison.csv": {
+    "bytes": 829,
+    "sha256": "82a3e1b0f80bb3ee4eef7e4c26d01bf1db774078e1a21870d7064c0697d9367e"
+  },
+  "02_BF16_vs_INT8_state_01.mp4": {
+    "bytes": 576203,
+    "sha256": "356f10e43861d1d6cda2fb37ee817cb8d56fb46eb4d4c55ea32c44b82fad0338"
+  },
+  "01_comparison.png": {
+    "bytes": 105117,
+    "sha256": "08509016cd2bbc7a685d8c192147b221903106090a3a174177f06b5ae61a8cd2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "state": 18,
+  "episode_index": 13,
+  "steps": 93,
+  "success": true,
+  "bootstrap": 0.0,
+  "truncated": false,
+  "reward_sum": 0.907,
+  "seconds": 143.220662266016,
+  "mean_transition_seconds": 1.198830643768913,
+  "max_sampling_logp_difference": 0.0,
+  "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/rl_collection/p20/episode_013_state_18/episode.mp4",
+  "training_rollout_not_final_evaluation": true
+}

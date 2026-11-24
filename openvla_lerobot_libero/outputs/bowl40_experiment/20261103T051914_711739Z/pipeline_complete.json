@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "evidence": [
+    "full training coverage",
+    "fresh reload",
+    "five no-error simulator trials",
+    "five verified videos",
+    "motion replay parity",
+    "source and environment preservation"
+  ]
+}

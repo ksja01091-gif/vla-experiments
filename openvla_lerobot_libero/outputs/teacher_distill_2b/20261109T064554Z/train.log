@@ -1,0 +1,82 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.23s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.36s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.58s/it]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 3.255575705400277, "action_token_accuracy": 0.3423005591481279, "normalized_action_l1": 0.2779169757816871, "predicted_action_token_fraction": 0.9990723562152133, "frames": 462, "optimizer_step": 0, "seconds": 14.581120369955897, "gpu_allocated_gib": 3.918667793273926, "gpu_reserved_gib": 4.65625, "gpu_peak_allocated_gib": 14.129577159881592}
+TRAIN 1 4 6154 loss 3.327279806137085
+TRAIN 25 100 6154 loss 3.2170302867889404
+TRAIN 50 200 6154 loss 3.1670444011688232
+TRAIN 75 300 6154 loss 2.105051040649414
+TRAIN 100 400 6154 loss 2.7045655250549316
+TRAIN 125 500 6154 loss 2.6929736137390137
+TRAIN 150 600 6154 loss 3.391749620437622
+TRAIN 175 700 6154 loss 3.0888397693634033
+TRAIN 200 800 6154 loss 2.8364946842193604
+TRAIN 225 900 6154 loss 3.8482654094696045
+TRAIN 250 1000 6154 loss 2.639014959335327
+TRAIN 275 1100 6154 loss 2.8038740158081055
+TRAIN 300 1200 6154 loss 3.1597254276275635
+TRAIN 325 1300 6154 loss 2.6714229583740234
+TRAIN 350 1400 6154 loss 2.712738513946533
+TRAIN 375 1500 6154 loss 3.6322438716888428
+TRAIN 400 1600 6154 loss 3.633321762084961
+TRAIN 425 1700 6154 loss 3.039790153503418
+TRAIN 450 1800 6154 loss 2.742647886276245
+TRAIN 475 1900 6154 loss 3.2576212882995605
+TRAIN 500 2000 6154 loss 3.193875551223755
+TRAIN 525 2100 6154 loss 2.9158225059509277
+TRAIN 550 2200 6154 loss 3.177833318710327
+TRAIN 575 2300 6154 loss 2.6706833839416504
+TRAIN 600 2400 6154 loss 2.927354335784912
+TRAIN 625 2500 6154 loss 3.306363105773926
+TRAIN 650 2600 6154 loss 3.1732265949249268
+TRAIN 675 2700 6154 loss 1.9956144094467163
+TRAIN 700 2800 6154 loss 3.1610419750213623
+TRAIN 725 2900 6154 loss 3.434173345565796
+TRAIN 750 3000 6154 loss 2.8171825408935547
+TRAIN 775 3100 6154 loss 2.6907553672790527
+TRAIN 800 3200 6154 loss 2.286285400390625
+TRAIN 825 3300 6154 loss 3.210360288619995
+TRAIN 850 3400 6154 loss 3.1147472858428955
+TRAIN 875 3500 6154 loss 2.9976744651794434
+TRAIN 900 3600 6154 loss 2.5675559043884277
+TRAIN 925 3700 6154 loss 2.604168653488159
+TRAIN 950 3800 6154 loss 2.638709545135498
+TRAIN 975 3900 6154 loss 3.023383378982544
+TRAIN 1000 4000 6154 loss 2.7603824138641357
+TRAIN 1025 4100 6154 loss 1.8644812107086182
+TRAIN 1050 4200 6154 loss 2.7678873538970947
+TRAIN 1075 4300 6154 loss 2.356586456298828
+TRAIN 1100 4400 6154 loss 2.729557752609253
+TRAIN 1125 4500 6154 loss 2.7102534770965576
+TRAIN 1150 4600 6154 loss 3.2890889644622803
+TRAIN 1175 4700 6154 loss 2.6907551288604736
+TRAIN 1200 4800 6154 loss 3.282357931137085
+TRAIN 1225 4900 6154 loss 2.840327262878418
+TRAIN 1250 5000 6154 loss 2.254213333129883
+TRAIN 1275 5100 6154 loss 3.655787467956543
+TRAIN 1300 5200 6154 loss 2.53692364692688
+TRAIN 1325 5300 6154 loss 3.1446104049682617
+TRAIN 1350 5400 6154 loss 2.9156382083892822
+TRAIN 1375 5500 6154 loss 3.0641918182373047
+TRAIN 1400 5600 6154 loss 2.6335082054138184
+TRAIN 1425 5700 6154 loss 2.7503302097320557
+TRAIN 1450 5800 6154 loss 2.499828338623047
+TRAIN 1475 5900 6154 loss 3.134634256362915
+TRAIN 1500 6000 6154 loss 3.297797679901123
+TRAIN 1525 6100 6154 loss 3.222865343093872
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 3.2290248148369067, "action_token_accuracy": 0.3546691420790437, "normalized_action_l1": 0.2239444665036459, "predicted_action_token_fraction": 0.9990723562152133, "frames": 462, "optimizer_step": 0, "seconds": 13.886449757963419, "gpu_allocated_gib": 3.9540233612060547, "gpu_reserved_gib": 4.822265625, "gpu_peak_allocated_gib": 4.712545394897461}

@@ -1,0 +1,78 @@
+{
+  "after_ppo": {
+    "tag": "p20_rl",
+    "attempts": 5,
+    "stable_grasp_and_lift": 4,
+    "official_success": 4,
+    "by_state": [
+      {
+        "state": 0,
+        "stable_grasp_and_lift": false,
+        "official_success": false,
+        "max_lift_m": 2.786076397365278e-07
+      },
+      {
+        "state": 1,
+        "stable_grasp_and_lift": true,
+        "official_success": true,
+        "max_lift_m": 0.11152165013561333
+      },
+      {
+        "state": 2,
+        "stable_grasp_and_lift": true,
+        "official_success": true,
+        "max_lift_m": 0.10608193042794156
+      },
+      {
+        "state": 3,
+        "stable_grasp_and_lift": true,
+        "official_success": true,
+        "max_lift_m": 0.11725500161156632
+      },
+      {
+        "state": 4,
+        "stable_grasp_and_lift": true,
+        "official_success": true,
+        "max_lift_m": 0.13923089728306381
+      }
+    ]
+  },
+  "after_translation_distill": {
+    "tag": "p20_distill_old",
+    "attempts": 5,
+    "stable_grasp_and_lift": 2,
+    "official_success": 1,
+    "by_state": [
+      {
+        "state": 0,
+        "stable_grasp_and_lift": true,
+        "official_success": false,
+        "max_lift_m": 0.1153666965172977
+      },
+      {
+        "state": 1,
+        "stable_grasp_and_lift": false,
+        "official_success": false,
+        "max_lift_m": 0.00033077634150047164
+      },
+      {
+        "state": 2,
+        "stable_grasp_and_lift": false,
+        "official_success": false,
+        "max_lift_m": 0.007051541640596515
+      },
+      {
+        "state": 3,
+        "stable_grasp_and_lift": true,
+        "official_success": true,
+        "max_lift_m": 0.10880164728499775
+      },
+      {
+        "state": 4,
+        "stable_grasp_and_lift": false,
+        "official_success": false,
+        "max_lift_m": 0.004190231092811025
+      }
+    ]
+  }
+}

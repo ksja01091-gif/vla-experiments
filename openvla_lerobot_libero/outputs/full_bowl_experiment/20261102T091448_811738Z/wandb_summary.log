@@ -1,0 +1,38 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_101714-bzrd4ivu
+wandb: 
+wandb: Run history:
+wandb:           simulation/base/attempts ▁
+wandb: simulation/base/mean_episode_steps ▁
+wandb:       simulation/base/success_rate ▁
+wandb:          simulation/base/successes ▁
+wandb:   simulation/base/technical_errors ▁
+wandb:           simulation/lora/attempts ▁
+wandb: simulation/lora/mean_episode_steps ▁
+wandb:       simulation/lora/success_rate ▁
+wandb:          simulation/lora/successes ▁
+wandb:   simulation/lora/technical_errors ▁
+wandb:                                 +8 ...
+wandb: 
+wandb: Run summary:
+wandb:           simulation/base/attempts 5
+wandb: simulation/base/mean_episode_steps 220
+wandb:       simulation/base/success_rate 0
+wandb:          simulation/base/successes 0
+wandb:   simulation/base/technical_errors 0
+wandb:           simulation/lora/attempts 5
+wandb: simulation/lora/mean_episode_steps 220
+wandb:       simulation/lora/success_rate 0
+wandb:          simulation/lora/successes 0
+wandb:   simulation/lora/technical_errors 0
+wandb:                                 +8 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_101714-bzrd4ivu
+wandb: Find logs at: ./outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_101714-bzrd4ivu/logs
+WANDB_OFFLINE_COMPARISON_COMPLETE {"mode": "offline", "uploaded": false, "comparison_directory": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_101714-bzrd4ivu/files", "local_only_files": ["checkpoints", "optimizer states", "source snapshots", "datasets", "simulator videos"], "sync_instructions": "After user login, use wandb sync on each offline-run directory under the experiment wandb folder"}

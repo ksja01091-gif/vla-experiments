@@ -1,0 +1,6 @@
+{
+  "complete": true,
+  "new_simulation_trials": 10,
+  "reused_baseline_trials": 5,
+  "no_training": true
+}

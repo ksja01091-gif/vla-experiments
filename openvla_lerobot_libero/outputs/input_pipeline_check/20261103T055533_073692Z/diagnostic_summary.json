@@ -1,0 +1,27 @@
+{
+  "training_performed": false,
+  "checkpoint_unchanged": true,
+  "paired_initial_state_exact": true,
+  "photo_samples": 8,
+  "all_matched_model_inputs_exact": true,
+  "all_prompt_prefixes_match": true,
+  "original_model_input_exact_count": 0,
+  "previous_success": false,
+  "training_matched_success": false,
+  "previous_steps": 220,
+  "training_matched_steps": 220,
+  "previous_bowl_rise_mm": 68.41796242605147,
+  "training_matched_bowl_rise_mm": 0.0,
+  "previous_bilateral_contact_steps": [],
+  "training_matched_bilateral_contact_steps": [],
+  "training_matched_contact_and_rise_steps": [],
+  "previous_free_generation_sample_l1": 0.43663383927196264,
+  "matched_free_generation_sample_l1": 0.35725575033575296,
+  "limitations": [
+    "one state selected after prior observation, not an unbiased success-rate estimate",
+    "whole image pipeline changed, not crop alone",
+    "eight demonstration images are a diagnostic sample, not full validation",
+    "bilateral contact checked at control-step boundaries",
+    "matched pixels do not establish sufficient training or successful closed-loop control"
+  ]
+}

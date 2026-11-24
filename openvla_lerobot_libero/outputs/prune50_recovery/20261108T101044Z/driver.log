@@ -1,0 +1,15 @@
+BEGIN sft_pruned
+DONE sft_pruned 848.2
+BEGIN sft_dense
+DONE sft_dense 889.5
+BEGIN sft_eval_pruned
+DONE sft_eval_pruned 790.5
+BEGIN sft_eval_dense
+DONE sft_eval_dense 959.0
+BEGIN replay_after_sft
+Traceback (most recent call last):
+  File "/home/jovyan/projects/lerobot-openvla/outputs/prune50_recovery/20261108T101044Z/driver.py", line 50, in <module>
+    call("replay_after_sft", [EVAL_PY, "-u", "replay.py", "--tags", "pruned_sft3", "dense_sft3"])
+  File "/home/jovyan/projects/lerobot-openvla/outputs/prune50_recovery/20261108T101044Z/driver.py", line 35, in call
+    raise RuntimeError(label + " failed; see " + label + ".log")
+RuntimeError: replay_after_sft failed; see replay_after_sft.log

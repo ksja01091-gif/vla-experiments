@@ -1,0 +1,163 @@
+{
+  "trial_executed": true,
+  "scope": "one_task_one_official_initial_state",
+  "task_suite": "libero_spatial",
+  "task_id": 0,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "init_state_index": 2,
+  "success": true,
+  "termination_reason": "task_success",
+  "policy_steps": 79,
+  "max_policy_steps": 220,
+  "warmup_steps": 10,
+  "official_initial_state_used": true,
+  "reference_preprocessing_pixel_parity": true,
+  "all_tensor_roundtrips_exact": true,
+  "all_actions_finite": true,
+  "action_shape": [
+    1,
+    7
+  ],
+  "action_clipping_used": false,
+  "environment_seed": 0,
+  "global_seed": 7,
+  "initialization": {
+    "step": 0,
+    "frame": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104746_649991Z/frames/0000.png",
+    "policy_frame": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104746_649991Z/policy_frames/0000.png",
+    "eef_position": [
+      -0.2005013414552943,
+      -0.0032684940542503284,
+      1.187241832249189
+    ],
+    "joint_positions": [
+      -0.003234382083715982,
+      -0.15994007662907034,
+      -0.0040541648866319144,
+      -2.403691794001313,
+      0.00017596973581679692,
+      2.188804341282758,
+      0.7813601675326391
+    ],
+    "sim_time": 0.5000000000000003,
+    "done_signal": false,
+    "task_success": false,
+    "reward_signal": 0.0,
+    "type": "ready",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "task_id": 0,
+    "init_state_index": 2,
+    "available_init_states": 50,
+    "init_state_file": "/home/jovyan/projects/LIBERO/libero/libero/init_files/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.pruned_init",
+    "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+    "selected_init_state_sha256": "5a22bed5962664504c91a9c6d1ecec83151f64dcf8a0e86da28be1e2b2e29409",
+    "action_low": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "action_high": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "control_frequency": 20.0,
+    "warmup_steps": 10,
+    "environment_seed": 0,
+    "global_seed": 7,
+    "reference_preprocessing_tests": [
+      {
+        "shape": [
+          224,
+          224,
+          3
+        ],
+        "max_pixel_error": 0,
+        "processed_sha256": "0a3f0ee9e3cbab26f89ed53b7b20e22cb985b650fd4c52ef57e4aeb27560d773"
+      },
+      {
+        "shape": [
+          224,
+          224,
+          3
+        ],
+        "max_pixel_error": 0,
+        "processed_sha256": "7ee1d9486a67241782a2f86db5b58c7c9c284ed4f6fb9e1fdd1b24628909dd62"
+      }
+    ],
+    "actual_initial_image_reference_check": {
+      "shape": [
+        224,
+        224,
+        3
+      ],
+      "max_pixel_error": 0,
+      "processed_sha256": "9b755725ade9dcfa01c87934a8fd79b60b844c5dbaa77930b393c352a0a02ee4"
+    },
+    "reference_sha256": {
+      "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+      "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+    },
+    "simulator_versions": {
+      "mujoco": "2.3.7",
+      "robosuite": "1.4.1",
+      "numpy": "1.26.4",
+      "tensorflow-cpu": "2.15.1"
+    }
+  },
+  "final_state": {
+    "step": 79,
+    "frame": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104746_649991Z/frames/0079.png",
+    "policy_frame": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104746_649991Z/policy_frames/0079.png",
+    "eef_position": [
+      0.06235770825340225,
+      0.162971444717309,
+      0.9429323644414255
+    ],
+    "joint_positions": [
+      0.11389833217356424,
+      1.088728331481487,
+      0.11374049927319196,
+      -1.1379035810891311,
+      0.07941696818907244,
+      2.117370902790224,
+      1.108775281501246
+    ],
+    "sim_time": 4.449999999999732,
+    "done_signal": true,
+    "task_success": true,
+    "reward_signal": 1.0,
+    "type": "observation"
+  },
+  "model_id": "openvla/openvla-7b-finetuned-libero-spatial",
+  "checkpoint_path": "/home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b-finetuned-libero-spatial/snapshots/962318cec55ac10993ff0f5f43eda9a270b4c873",
+  "attention_backend": "sdpa",
+  "model_dtype": "torch.bfloat16",
+  "inference_versions": {
+    "lerobot": "0.4.0",
+    "torch": "2.7.1",
+    "transformers": "4.40.1",
+    "timm": "0.9.10",
+    "peft": "0.11.1",
+    "numpy": "2.2.6"
+  },
+  "reference_eval_sha256": "369d9fc3d59067998ebfadafbd516872c7ff6f9f06a0a48cda8b6ca48051de77",
+  "source_sha256": {
+    "openvla_libero_single_task.py": "f18737dbd46bdcfbefcadee81da6510cd1a05352e7539a7a275d3423a7e03407",
+    "libero_eval_worker.py": "b3dbf3ff2151e28660f607d86c4e3b50210c4e7d00906188fc072cbb041f3628",
+    "openvla_eval_preprocessing.py": "2575b66f5f3542cbc6d23d91020d272d58d0e8df899dc064aea45cf45bd74101"
+  },
+  "simulated_seconds_after_warmup": 3.9499999999997315,
+  "video_fps": 20,
+  "benchmark_wide_success_rate_measured": false,
+  "training_run": false,
+  "wandb_used": false
+}

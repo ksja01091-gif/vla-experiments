@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "branch": "p20",
+  "stage": "epoch3",
+  "validation_frames": 462,
+  "mean_absolute_error_by_coordinate": [
+    0.25244927619436747,
+    0.13942046238199426,
+    0.2815791087878215,
+    0.03701924693485212,
+    0.06079154246115303,
+    0.03323392087121966,
+    0.1205670145940987
+  ],
+  "mean_signed_error_by_coordinate": [
+    0.014509810640242805,
+    -0.03237753621224683,
+    0.049115874526369105,
+    -0.00014733363796394416,
+    0.007177979170442539,
+    -0.005706722619066426,
+    -0.03432645774506903
+  ],
+  "translation_mae": 0.2244829491213944,
+  "rotation_mae": 0.04368157008907494,
+  "gripper_mae": 0.1205670145940987,
+  "seconds": 156.8237704373896,
+  "warning": "Action coordinates use different scales; compare the same coordinate across stages, not translation versus rotation magnitude directly."
+}

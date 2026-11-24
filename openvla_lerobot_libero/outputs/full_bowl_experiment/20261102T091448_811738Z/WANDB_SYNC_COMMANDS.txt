@@ -1,0 +1,4 @@
+conda activate lerobot312
+wandb login
+wandb sync /home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_092837-q714nuto
+wandb sync /home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_101714-bzrd4ivu

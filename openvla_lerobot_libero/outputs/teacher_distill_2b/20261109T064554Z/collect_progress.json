@@ -1,0 +1,7 @@
+{
+  "complete": false,
+  "trials": 50,
+  "successes": 32,
+  "successful_training_episodes": 25,
+  "successful_training_frames": 2129
+}

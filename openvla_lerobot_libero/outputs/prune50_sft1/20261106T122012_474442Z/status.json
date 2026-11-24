@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "experiment_complete": true,
+  "elapsed_seconds": 3185.1723086833954,
+  "cap_seconds": 3600,
+  "new_reinforcement_learning": false,
+  "wandb_verified": true
+}

@@ -1,0 +1,11 @@
+{
+  "state": 12,
+  "frames": 87,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "teacher_success": true,
+  "source_result": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/teacher/state_12/result.json",
+  "image_sha256": "a6956c9b6be1fc0b73a014e7092adfd291b75c0529f28f3b0fac4057924f196a",
+  "action_sha256": "a86c2d3398b76f98f68c4e710e8a83ae4523216f3ac33e40cb22936f92dc45f9",
+  "teacher_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "student_training_only": true
+}

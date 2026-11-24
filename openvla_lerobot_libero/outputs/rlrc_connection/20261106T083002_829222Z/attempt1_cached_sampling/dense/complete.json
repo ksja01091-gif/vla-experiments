@@ -1,0 +1,163 @@
+{
+  "complete": true,
+  "branch": "dense",
+  "load_seconds": 8.23280694335699,
+  "load_memory": {
+    "allocated_gib": 14.121761798858643,
+    "reserved_gib": 14.162109375,
+    "peak_gib": 14.121761798858643
+  },
+  "parameters": {
+    "model_parameters": 7549625792,
+    "recovery_parameters": 4194304,
+    "model_tensor_bytes": 15149591424,
+    "critic_parameters": 4097
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_connection/20261106T083002_829222Z/dense/disposable_after_ppo",
+  "saved_file_bytes": 16794424,
+  "sft": {
+    "updates": 4,
+    "training_frames": 16,
+    "batch_size": 4,
+    "lr": 0.0001,
+    "rank": 8,
+    "not_full_training": true,
+    "mean_update_seconds_excluding_first": 0.36047523903350037,
+    "all_update_seconds": [
+      1.0886225253343582,
+      0.3630716819316149,
+      0.35829161293804646,
+      0.36006242223083973
+    ],
+    "validation_four_frame_seconds": 0.16789384000003338,
+    "memory": {
+      "allocated_gib": 14.1845064163208,
+      "reserved_gib": 15.25,
+      "peak_gib": 14.939771175384521
+    },
+    "frozen_samples_unchanged": true,
+    "rows": [
+      {
+        "optimizer_step": 1,
+        "train_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seconds": 1.0886225253343582,
+        "gradient_norm": 10.7653169631958,
+        "loss": 1.411818504333496,
+        "action_token_accuracy": 0.6071428656578064,
+        "normalized_action_l1": 0.07889978848084682,
+        "predicted_action_token_fraction": 1.0
+      },
+      {
+        "optimizer_step": 2,
+        "train_indices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "seconds": 0.3630716819316149,
+        "gradient_norm": 8.470292091369629,
+        "loss": 0.9334890246391296,
+        "action_token_accuracy": 0.7142857313156128,
+        "normalized_action_l1": 0.01646406568732919,
+        "predicted_action_token_fraction": 1.0
+      },
+      {
+        "optimizer_step": 3,
+        "train_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 0.35829161293804646,
+        "gradient_norm": 7.5750508308410645,
+        "loss": 0.8076562285423279,
+        "action_token_accuracy": 0.7142857313156128,
+        "normalized_action_l1": 0.016360265300387433,
+        "predicted_action_token_fraction": 1.0
+      },
+      {
+        "optimizer_step": 4,
+        "train_indices": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "seconds": 0.36006242223083973,
+        "gradient_norm": 9.848670959472656,
+        "loss": 0.6840919852256775,
+        "action_token_accuracy": 0.8214285969734192,
+        "normalized_action_l1": 0.015276155526898495,
+        "predicted_action_token_fraction": 1.0
+      }
+    ]
+  },
+  "inference_seconds": 0.29134348640218377,
+  "inference_peak_gib": 14.460162162780762,
+  "rollout": {
+    "steps": 8,
+    "max_steps": 8,
+    "success_rate_not_evaluated": true,
+    "truncated": true,
+    "bootstrap": 0.0,
+    "mean_sample_and_score_seconds": 0.4309686361812055,
+    "mean_transition_wall_seconds": 0.8539551999419928,
+    "worker_initialization_seconds": 29.079463850706816,
+    "total_rollout_wall_seconds": 37.03895450383425,
+    "max_generation_teacher_logp_difference": 0.23615503311157227,
+    "reward": "task success +1, step penalty -0.001; smoke adaptation, not a verified paper coefficient",
+    "sampler": "on-policy categorical over 256 action tokens; seven autoregressive tokens; temperature1",
+    "gamma": 0.99,
+    "gae_lambda": 0.95
+  },
+  "ppo": {
+    "critic_warmup_steps": 2,
+    "critic_warmup_seconds": 0.18141579255461693,
+    "actor_unchanged_during_critic_warmup": true,
+    "ppo_optimizer_steps": 1,
+    "ppo_transitions": 4,
+    "ppo_update_seconds": 1.4912624452263117,
+    "ppo_gradient_norm": 139.719482421875,
+    "bc_training_only_loss": 0.8691034317016602,
+    "actor_changed": true,
+    "frozen_samples_unchanged": true,
+    "rows": [
+      {
+        "ratio": 1.0,
+        "actor_loss": 1.4341071844100952,
+        "value_loss": 0.017288874834775925,
+        "entropy": 1.3459599018096924
+      },
+      {
+        "ratio": 1.0,
+        "actor_loss": 1.073751449584961,
+        "value_loss": 3.128364551230334e-05,
+        "entropy": 1.3192572593688965
+      },
+      {
+        "ratio": 1.0,
+        "actor_loss": 0.6905983686447144,
+        "value_loss": 0.0001418581377947703,
+        "entropy": 1.6654696464538574
+      },
+      {
+        "ratio": 1.0,
+        "actor_loss": 0.2832052707672119,
+        "value_loss": 9.700924238131847e-06,
+        "entropy": 1.4771348237991333
+      }
+    ],
+    "allocated_gib": 14.185165882110596,
+    "reserved_gib": 14.724609375,
+    "peak_gib": 14.33823537826538
+  },
+  "not_a_full_episode_or_quality_test": true,
+  "original_start_adapter_unchanged": true
+}

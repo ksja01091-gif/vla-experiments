@@ -1,0 +1,30 @@
+{
+  "fresh_python_process_reload": true,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007",
+  "adapter_hash_exact": true,
+  "same_validation_batch_loss_matches": true,
+  "loss": 2.5676510334014893,
+  "action_shape": [
+    1,
+    7
+  ],
+  "all_actions_finite": true,
+  "action": [
+    [
+      -0.0011267198715358973,
+      0.00017446554556954652,
+      -0.0013392865657806396,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ]
+  ],
+  "metrics": {
+    "loss": 2.5676510334014893,
+    "action_token_accuracy": 0.4285714328289032,
+    "normalized_action_l1": 0.07851724629642584,
+    "predicted_action_token_fraction": 1.0
+  },
+  "simulator_rollout": false
+}

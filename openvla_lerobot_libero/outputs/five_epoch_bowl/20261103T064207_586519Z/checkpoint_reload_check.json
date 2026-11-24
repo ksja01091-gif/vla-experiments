@@ -1,0 +1,30 @@
+{
+  "fresh_python_process_reload": true,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "adapter_hash_exact": true,
+  "same_validation_batch_loss_matches": true,
+  "loss": 2.9203903675079346,
+  "action_shape": [
+    1,
+    7
+  ],
+  "all_actions_finite": true,
+  "action": [
+    [
+      0.49515867233276367,
+      0.3711908459663391,
+      0.13082458078861237,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ]
+  ],
+  "metrics": {
+    "loss": 2.9203903675079346,
+    "action_token_accuracy": 0.3214285671710968,
+    "normalized_action_l1": 0.11914210180942415,
+    "predicted_action_token_fraction": 1.0
+  },
+  "simulator_rollout": false
+}

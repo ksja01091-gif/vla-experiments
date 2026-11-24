@@ -1,0 +1,54 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  4.84it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  5.60it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  6.07it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.84it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+PHOTO_AUDITED 0 exact_input True prefix True old_input_difference 0.10722503811120987
+PHOTO_AUDITED 65 exact_input True prefix True old_input_difference 0.15415047109127045
+PHOTO_AUDITED 131 exact_input True prefix True old_input_difference 0.13908037543296814
+PHOTO_AUDITED 197 exact_input True prefix True old_input_difference 0.13881482183933258
+PHOTO_AUDITED 263 exact_input True prefix True old_input_difference 0.14964476227760315
+PHOTO_AUDITED 329 exact_input True prefix True old_input_difference 0.1444464772939682
+PHOTO_AUDITED 395 exact_input True prefix True old_input_difference 0.11933080106973648
+PHOTO_AUDITED 461 exact_input True prefix True old_input_difference 0.15941239893436432
+SIM_STEP training_matched 2 1 success False
+SIM_STEP training_matched 2 25 success False
+SIM_STEP training_matched 2 50 success False
+SIM_STEP training_matched 2 75 success False
+SIM_STEP training_matched 2 100 success False
+SIM_STEP training_matched 2 125 success False
+SIM_STEP training_matched 2 150 success False
+SIM_STEP training_matched 2 175 success False
+SIM_STEP training_matched 2 200 success False
+SIM_TRIAL_COMPLETE {"trial_executed": true, "model_tag": "training_matched", "task": "pick up the black bowl between the plate and the ramekin and place it on the plate", "task_id": 0, "init_state_index": 2, "success": false, "termination_reason": "horizon_exhausted", "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis", "policy_steps": 220, "max_policy_steps": 220, "warmup_steps": 10, "environment_seed": 0, "global_seed": 7, "action_shape": [1, 7], "all_actions_finite": true, "action_clipping_used": false, "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training", "worker_original_reference_check_passed": true, "initial_image_sha256": "70610abd48d7156401416d0c713f95846c3ebced2a158e3a00668e83542c1dad", "selected_init_state_sha256": "5a22bed5962664504c91a9c6d1ecec83151f64dcf8a0e86da28be1e2b2e29409", "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a", "reference_sha256": {"/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d", "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"}, "simulator_versions": {"mujoco": "2.3.7", "robosuite": "1.4.1", "numpy": "1.26.4", "tensorflow-cpu": "2.15.1"}, "initial_eef_position": [-0.2005013414552943, -0.0032684940542503284, 1.187241832249189], "final_eef_position": [-0.19182856579602187, 0.0050538264782088, 1.1871125480778308], "wall_seconds": 191.8702478557825, "video": "/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/simulation/training_matched/state_02/episode.mp4", "overview": "/home/jovyan/projects/lerobot-openvla/outputs/input_pipeline_check/20261103T055533_073692Z/simulation/training_matched/state_02/episode_overview.png"}
+PRESERVATION_COMPLETE {"original_source_files": 292, "changed_original_sources": [], "existing_sources_unchanged": true, "environments": {"openvla310": {"packages_unchanged": true}, "lerobot312": {"packages_unchanged": true}, "eval310": {"packages_unchanged": true}}}
+DIAGNOSTIC_COMPLETE {
+  "training_performed": false,
+  "checkpoint_unchanged": true,
+  "paired_initial_state_exact": true,
+  "photo_samples": 8,
+  "all_matched_model_inputs_exact": true,
+  "all_prompt_prefixes_match": true,
+  "original_model_input_exact_count": 0,
+  "previous_success": false,
+  "training_matched_success": false,
+  "previous_steps": 220,
+  "training_matched_steps": 220,
+  "previous_bowl_rise_mm": 68.41796242605147,
+  "training_matched_bowl_rise_mm": 0.0,
+  "previous_bilateral_contact_steps": [],
+  "training_matched_bilateral_contact_steps": [],
+  "training_matched_contact_and_rise_steps": [],
+  "previous_free_generation_sample_l1": 0.43663383927196264,
+  "matched_free_generation_sample_l1": 0.35725575033575296,
+  "limitations": [
+    "one state selected after prior observation, not an unbiased success-rate estimate",
+    "whole image pipeline changed, not crop alone",
+    "eight demonstration images are a diagnostic sample, not full validation",
+    "bilateral contact checked at control-step boundaries",
+    "matched pixels do not establish sufficient training or successful closed-loop control"
+  ]
+}

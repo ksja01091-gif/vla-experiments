@@ -1,0 +1,73 @@
+{
+  "base_model": "openvla/openvla-7b",
+  "epochs_of_source_checkpoint": 5,
+  "rank": 8,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "train_data": "public LIBERO selected/preprocessed split: 40 demonstrations, 4025 frames",
+  "validation_data": "5 separate demonstrations, 462 frames; no validation optimization",
+  "batch_benchmark": {
+    "batch_sizes": [
+      4,
+      8
+    ],
+    "warmup_frames_each": 16,
+    "measured_frames_each": 128,
+    "sampling_seed": 713,
+    "lr": 0.0001,
+    "optimizer": "fresh AdamW; weight_decay=0",
+    "gradient_clip": 1.0,
+    "save_trained_weights": false,
+    "single_measurement_each": true,
+    "full_retraining": false
+  },
+  "inference": {
+    "modes": [
+      "BF16",
+      "LLM.int8"
+    ],
+    "samples": 32,
+    "warmup_predictions": 3,
+    "quantize": "language_model linear layers except lm_head",
+    "preserve": "vision_backbone/projector BF16 and LoRA FP32",
+    "llm_int8_threshold": 6.0,
+    "source_weights_remain_on_disk": true
+  },
+  "simulation": {
+    "init_states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "horizon": 220,
+    "initial_state_seed": 0,
+    "global_seed": 7,
+    "baseline": "reuse existing BF16 epoch5 with initial state/image/reference/version checks",
+    "independent_heldout_states": false
+  },
+  "packages": {
+    "torch": "2.7.1",
+    "numpy": "2.2.6",
+    "transformers": "4.40.1",
+    "peft": "0.11.1",
+    "accelerate": "1.15.0"
+  },
+  "isolated_dependency": {
+    "name": "bitsandbytes",
+    "version": "0.45.5",
+    "path": "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/deps",
+    "checks": [
+      {
+        "requirement": "torch<3,>=2.0",
+        "installed": "2.7.1",
+        "satisfied": true
+      },
+      {
+        "requirement": "numpy>=1.17",
+        "installed": "2.2.6",
+        "satisfied": true
+      }
+    ]
+  }
+}

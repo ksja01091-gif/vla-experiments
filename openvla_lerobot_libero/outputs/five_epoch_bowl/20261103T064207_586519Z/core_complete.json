@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "total_epochs": 5,
+  "paired_trials": 10,
+  "videos_verified": 10,
+  "validation_frames": 462,
+  "train_sample_frames": 480,
+  "sources_and_environments_preserved": true
+}

@@ -1,0 +1,158 @@
+{
+  "training_performed": false,
+  "checkpoint_unchanged": true,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007",
+  "training_sample": {
+    "frames": 480,
+    "episodes": 40,
+    "token_accuracy": 0.3470238095238095,
+    "normalized_action_l1": 0.2353723999178933,
+    "l1_per_dimension": [
+      0.2518868669438995,
+      0.25646692623792156,
+      0.27076384588345576,
+      0.2713651268510463,
+      0.2754301122050076,
+      0.25727398666340334,
+      0.06441993464052287
+    ],
+    "gripper_accuracy": 0.9375,
+    "expert_active_frames": 463,
+    "active_predicted_near_zero": 86,
+    "active_predicted_near_zero_fraction": 0.1857451403887689,
+    "gripper_confusion": {
+      "open": {
+        "open": 251,
+        "close": 14,
+        "neutral": 0
+      },
+      "close": {
+        "open": 16,
+        "close": 199,
+        "neutral": 0
+      }
+    }
+  },
+  "validation_matched_phase_sample": {
+    "frames": 60,
+    "episodes": 5,
+    "token_accuracy": 0.34523809523809523,
+    "normalized_action_l1": 0.2679460389473859,
+    "l1_per_dimension": [
+      0.33067438359743634,
+      0.2939086936618767,
+      0.345366778778874,
+      0.27213881996721995,
+      0.28154592086287106,
+      0.23362166269152757,
+      0.11836601307189541
+    ],
+    "gripper_accuracy": 0.8833333333333333,
+    "expert_active_frames": 57,
+    "active_predicted_near_zero": 11,
+    "active_predicted_near_zero_fraction": 0.19298245614035087,
+    "gripper_confusion": {
+      "open": {
+        "open": 30,
+        "close": 3,
+        "neutral": 0
+      },
+      "close": {
+        "open": 4,
+        "close": 23,
+        "neutral": 0
+      }
+    }
+  },
+  "validation_all": {
+    "frames": 462,
+    "episodes": 5,
+    "token_accuracy": 0.34137291280148424,
+    "normalized_action_l1": 0.2842743744340404,
+    "l1_per_dimension": [
+      0.36211034218895405,
+      0.3200680612222555,
+      0.37253649926642957,
+      0.24573414024275894,
+      0.30037102552355194,
+      0.26637752398895503,
+      0.12272302860538085
+    ],
+    "gripper_accuracy": 0.8787878787878788,
+    "expert_active_frames": 453,
+    "active_predicted_near_zero": 91,
+    "active_predicted_near_zero_fraction": 0.20088300220750552,
+    "gripper_confusion": {
+      "open": {
+        "open": 207,
+        "close": 27,
+        "neutral": 0
+      },
+      "close": {
+        "open": 29,
+        "close": 199,
+        "neutral": 0
+      }
+    }
+  },
+  "baseline_diagnostics": {
+    "training_frames": 4025,
+    "per_dimension_mode_token_ids": [
+      31875,
+      31919,
+      31999,
+      31891,
+      31860,
+      31843,
+      31744
+    ],
+    "per_dimension_mode_normalized_actions": [
+      -0.02352941176470591,
+      -0.3686274509803922,
+      -0.996078431372549,
+      -0.14901960784313728,
+      0.09411764705882353,
+      0.22745098039215694,
+      0.996078431372549
+    ],
+    "fixed_mode_validation_token_accuracy": 0.2850958565244279,
+    "fixed_mode_validation_normalized_l1": 0.42290297907358926,
+    "actual_model_validation_normalized_l1": 0.2842743744340404,
+    "actual_model_validation_token_accuracy": 0.34137291280148424,
+    "shuffle_pairing": {
+      "permutations": 500,
+      "seed": 7,
+      "shuffled_l1_mean": 0.47411383447623584,
+      "shuffled_l1_min": 0.4547075157618443,
+      "shuffled_l1_max": 0.49518344188995,
+      "note": "Descriptive association check only; correlated frames and shared task prevent an independent-sample causal claim."
+    },
+    "training_mode_frequency_per_dimension": [
+      0.0862111801242236,
+      0.2181366459627329,
+      0.20173913043478262,
+      0.28645962732919256,
+      0.2146583850931677,
+      0.30906832298136644,
+      0.5195031055900621
+    ],
+    "model_validation_mode_frequency_per_dimension": [
+      0.40476190476190477,
+      0.7965367965367965,
+      0.2987012987012987,
+      0.9329004329004329,
+      0.9177489177489178,
+      0.8593073593073594,
+      0.5108225108225108
+    ],
+    "encoding_control": "Normalization and token mapping are the exact training functions; no semantic relabeling."
+  },
+  "comparison_limitations": [
+    "480/4025 training frames sampled, not full training evaluation",
+    "12 equally spaced photos per episode for the main train-vs-validation comparison; 40 versus 5 episodes",
+    "a train/validation gap alone is not a unique cause or proof of underfitting/generalization",
+    "no simulator rollout, extra training, or controlled capacity/training-duration intervention in this audit"
+  ],
+  "wall_seconds": 151.11358782462776,
+  "gpu_peak_allocated_gib": 14.437081813812256
+}

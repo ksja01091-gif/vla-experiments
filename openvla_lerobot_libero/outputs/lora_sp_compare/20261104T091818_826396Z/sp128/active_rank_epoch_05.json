@@ -1,0 +1,519 @@
+{
+  "mean_active_rank": 62.12323964531845,
+  "rows": [
+    {
+      "module": "language_model.model.layers.0.self_attn.q_proj",
+      "mean": 77.74237356846052,
+      "min": 65,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000002145767212,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.0.self_attn.v_proj",
+      "mean": 114.54515774080991,
+      "min": 114,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.1.self_attn.q_proj",
+      "mean": 52.51195181629964,
+      "min": 37,
+      "max": 114,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.1.self_attn.v_proj",
+      "mean": 83.58784693567303,
+      "min": 66,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.2.self_attn.q_proj",
+      "mean": 24.387677539851452,
+      "min": 18,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.2.self_attn.v_proj",
+      "mean": 32.030549160983945,
+      "min": 19,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000001549720764,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.3.self_attn.q_proj",
+      "mean": 29.383247187595014,
+      "min": 19,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.3.self_attn.v_proj",
+      "mean": 37.997220171133215,
+      "min": 25,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.4.self_attn.q_proj",
+      "mean": 26.836113162200117,
+      "min": 16,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.4.self_attn.v_proj",
+      "mean": 53.931155800721015,
+      "min": 38,
+      "max": 116,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.5.self_attn.q_proj",
+      "mean": 32.17787285178589,
+      "min": 21,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.5.self_attn.v_proj",
+      "mean": 55.10776180341398,
+      "min": 39,
+      "max": 116,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.6.self_attn.q_proj",
+      "mean": 39.028413615370134,
+      "min": 28,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.6.self_attn.v_proj",
+      "mean": 65.89031982510244,
+      "min": 48,
+      "max": 116,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.7.self_attn.q_proj",
+      "mean": 32.20806005588614,
+      "min": 22,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.7.self_attn.v_proj",
+      "mean": 59.834440921397444,
+      "min": 41,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.8.self_attn.q_proj",
+      "mean": 35.74482763613199,
+      "min": 22,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999165534973,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.8.self_attn.v_proj",
+      "mean": 76.28302856563727,
+      "min": 48,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.9.self_attn.q_proj",
+      "mean": 57.60184742793439,
+      "min": 41,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.9.self_attn.v_proj",
+      "mean": 94.91161012900143,
+      "min": 80,
+      "max": 116,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.10.self_attn.q_proj",
+      "mean": 78.33543992239645,
+      "min": 54,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.10.self_attn.v_proj",
+      "mean": 89.94460611851916,
+      "min": 36,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999165534973,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.11.self_attn.q_proj",
+      "mean": 82.98726635683157,
+      "min": 62,
+      "max": 116,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.11.self_attn.v_proj",
+      "mean": 96.33135704874836,
+      "min": 68,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.12.self_attn.q_proj",
+      "mean": 74.29553055640012,
+      "min": 52,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.12.self_attn.v_proj",
+      "mean": 96.0210152166674,
+      "min": 81,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.13.self_attn.q_proj",
+      "mean": 79.4912840782406,
+      "min": 64,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.13.self_attn.v_proj",
+      "mean": 90.07543181456225,
+      "min": 52,
+      "max": 116,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.14.self_attn.q_proj",
+      "mean": 69.85259667868364,
+      "min": 48,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.14.self_attn.v_proj",
+      "mean": 104.5703933747412,
+      "min": 94,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.15.self_attn.q_proj",
+      "mean": 80.91984102853668,
+      "min": 68,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.15.self_attn.v_proj",
+      "mean": 101.53440038222647,
+      "min": 79,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.16.self_attn.q_proj",
+      "mean": 74.6857562727128,
+      "min": 58,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.16.self_attn.v_proj",
+      "mean": 94.88090894612634,
+      "min": 63,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.17.self_attn.q_proj",
+      "mean": 60.256721539330236,
+      "min": 40,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.17.self_attn.v_proj",
+      "mean": 88.36926841274668,
+      "min": 72,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.18.self_attn.q_proj",
+      "mean": 55.07229002881177,
+      "min": 31,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000002145767212,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.18.self_attn.v_proj",
+      "mean": 73.5401627358149,
+      "min": 53,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.19.self_attn.q_proj",
+      "mean": 55.34558919341528,
+      "min": 32,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.19.self_attn.v_proj",
+      "mean": 68.69594897855768,
+      "min": 47,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.20.self_attn.q_proj",
+      "mean": 63.408381473598865,
+      "min": 46,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.20.self_attn.v_proj",
+      "mean": 79.76865163821685,
+      "min": 61,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999761581421,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.21.self_attn.q_proj",
+      "mean": 62.190490668751536,
+      "min": 43,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.21.self_attn.v_proj",
+      "mean": 76.50853494331756,
+      "min": 39,
+      "max": 116,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.22.self_attn.q_proj",
+      "mean": 56.56235793192315,
+      "min": 36,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999165534973,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.22.self_attn.v_proj",
+      "mean": 78.67103186668405,
+      "min": 58,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.23.self_attn.q_proj",
+      "mean": 37.93876413441631,
+      "min": 13,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.23.self_attn.v_proj",
+      "mean": 49.95517525952309,
+      "min": 25,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.24.self_attn.q_proj",
+      "mean": 41.673840652101525,
+      "min": 19,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.24.self_attn.v_proj",
+      "mean": 59.535493492015235,
+      "min": 35,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.25.self_attn.q_proj",
+      "mean": 41.80251632425546,
+      "min": 21,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000003337860107,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.25.self_attn.v_proj",
+      "mean": 47.35285004850222,
+      "min": 21,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000001549720764,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.26.self_attn.q_proj",
+      "mean": 40.72954581650234,
+      "min": 18,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.26.self_attn.v_proj",
+      "mean": 52.683019878672056,
+      "min": 30,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.27.self_attn.q_proj",
+      "mean": 40.900715226802184,
+      "min": 18,
+      "max": 115,
+      "minimum_retained_score_energy": 0.8999999165534973,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.27.self_attn.v_proj",
+      "mean": 54.40273494621321,
+      "min": 32,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.28.self_attn.q_proj",
+      "mean": 43.93685300207039,
+      "min": 17,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000001549720764,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.28.self_attn.v_proj",
+      "mean": 52.28352806613676,
+      "min": 30,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.29.self_attn.q_proj",
+      "mean": 47.86075518684214,
+      "min": 25,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.29.self_attn.v_proj",
+      "mean": 61.0987345987346,
+      "min": 42,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.30.self_attn.q_proj",
+      "mean": 44.869565217391305,
+      "min": 23,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.30.self_attn.v_proj",
+      "mean": 42.92734077516686,
+      "min": 15,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000953674316,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.31.self_attn.q_proj",
+      "mean": 51.01733773472904,
+      "min": 23,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    },
+    {
+      "module": "language_model.model.layers.31.self_attn.v_proj",
+      "mean": 50.86183381835556,
+      "min": 22,
+      "max": 115,
+      "minimum_retained_score_energy": 0.9000000357627869,
+      "tokens": 138138
+    }
+  ],
+  "initial_bank_rank": 128,
+  "eta": 0.9
+}

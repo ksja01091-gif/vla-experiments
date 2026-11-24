@@ -1,0 +1,6 @@
+Collecting bitsandbytes==0.45.5
+  Using cached bitsandbytes-0.45.5-py3-none-manylinux_2_24_x86_64.whl.metadata (5.0 kB)
+Downloading bitsandbytes-0.45.5-py3-none-manylinux_2_24_x86_64.whl (76.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 76.1/76.1 MB 95.3 MB/s  0:00:00
+Installing collected packages: bitsandbytes
+Successfully installed bitsandbytes-0.45.5

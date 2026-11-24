@@ -1,0 +1,32 @@
+{
+  "comparison_common.py": {
+    "write": 18,
+    "load_module": 21,
+    "make_policy": 24,
+    "checkpoint_path": 30,
+    "clear_aux": 33,
+    "prepare_inference": 35,
+    "sample_action": 40,
+    "step": 45,
+    "configure": 55
+  },
+  "train_and_profile.py": {
+    "profile": 5,
+    "reload_smoke": 47,
+    "train_full": 59,
+    "main": 127
+  },
+  "evaluate.py": {
+    "tag_for": 4,
+    "load_final": 6,
+    "infer": 11,
+    "simulate": 43,
+    "audit": 73,
+    "main": 85
+  },
+  "sp_policy.py": {
+    "energy_mask": 15,
+    "SPLinear": 30,
+    "SPOPenvlaPolicy": 77
+  }
+}

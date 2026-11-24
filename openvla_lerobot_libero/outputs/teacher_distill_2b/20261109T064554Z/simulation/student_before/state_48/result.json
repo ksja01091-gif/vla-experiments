@@ -1,0 +1,49 @@
+{
+  "trial_executed": true,
+  "model_tag": "student_before",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "task_id": 0,
+  "init_state_index": 48,
+  "success": false,
+  "termination_reason": "horizon_exhausted",
+  "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+  "policy_steps": 220,
+  "max_policy_steps": 220,
+  "warmup_steps": 10,
+  "environment_seed": 0,
+  "global_seed": 7,
+  "action_shape": [
+    1,
+    7
+  ],
+  "all_actions_finite": true,
+  "action_clipping_used": false,
+  "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+  "worker_original_reference_check_passed": true,
+  "initial_image_sha256": "fd1923437d0f88558e5e69cec87ac37a7909e141941a89a18840cea0db5d62cb",
+  "selected_init_state_sha256": "e768d29eaf554fc3b34c1e65bf5c1821181c065b54c9b4ce4820ee8cdc459a07",
+  "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+  "reference_sha256": {
+    "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+    "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+  },
+  "simulator_versions": {
+    "mujoco": "2.3.7",
+    "robosuite": "1.4.1",
+    "numpy": "1.26.4",
+    "tensorflow-cpu": "2.15.1"
+  },
+  "initial_eef_position": [
+    -0.20665096573938033,
+    0.008731183395628082,
+    1.176055981935502
+  ],
+  "final_eef_position": [
+    -0.08028952020245489,
+    0.11747028264781381,
+    0.9584659856734992
+  ],
+  "wall_seconds": 190.56650783121586,
+  "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_48/episode.mp4",
+  "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_48/episode_overview.png"
+}

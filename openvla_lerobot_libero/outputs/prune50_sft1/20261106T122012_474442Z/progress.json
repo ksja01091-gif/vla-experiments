@@ -1,0 +1,8 @@
+{
+  "phase": "evaluation",
+  "updated_unix": 1793970623.475537,
+  "model": "dense_sft",
+  "state": 4,
+  "completed_trials": 4,
+  "total_trials": 5
+}

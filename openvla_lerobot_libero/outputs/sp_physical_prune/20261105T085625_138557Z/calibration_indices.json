@@ -1,0 +1,367 @@
+{
+  "split": "train",
+  "validation_used": false,
+  "frames": 160,
+  "episodes": [
+    {
+      "episode_index": 0,
+      "indices": [
+        0,
+        37,
+        74,
+        111
+      ]
+    },
+    {
+      "episode_index": 1,
+      "indices": [
+        112,
+        138,
+        164,
+        190
+      ]
+    },
+    {
+      "episode_index": 2,
+      "indices": [
+        191,
+        222,
+        253,
+        285
+      ]
+    },
+    {
+      "episode_index": 3,
+      "indices": [
+        286,
+        315,
+        345,
+        375
+      ]
+    },
+    {
+      "episode_index": 4,
+      "indices": [
+        376,
+        411,
+        447,
+        483
+      ]
+    },
+    {
+      "episode_index": 5,
+      "indices": [
+        484,
+        514,
+        544,
+        575
+      ]
+    },
+    {
+      "episode_index": 6,
+      "indices": [
+        576,
+        605,
+        634,
+        663
+      ]
+    },
+    {
+      "episode_index": 7,
+      "indices": [
+        664,
+        694,
+        725,
+        756
+      ]
+    },
+    {
+      "episode_index": 8,
+      "indices": [
+        757,
+        787,
+        817,
+        847
+      ]
+    },
+    {
+      "episode_index": 9,
+      "indices": [
+        848,
+        876,
+        905,
+        934
+      ]
+    },
+    {
+      "episode_index": 10,
+      "indices": [
+        935,
+        964,
+        993,
+        1023
+      ]
+    },
+    {
+      "episode_index": 11,
+      "indices": [
+        1024,
+        1054,
+        1084,
+        1115
+      ]
+    },
+    {
+      "episode_index": 12,
+      "indices": [
+        1116,
+        1145,
+        1174,
+        1204
+      ]
+    },
+    {
+      "episode_index": 13,
+      "indices": [
+        1205,
+        1260,
+        1316,
+        1372
+      ]
+    },
+    {
+      "episode_index": 14,
+      "indices": [
+        1373,
+        1404,
+        1435,
+        1467
+      ]
+    },
+    {
+      "episode_index": 15,
+      "indices": [
+        1468,
+        1498,
+        1528,
+        1559
+      ]
+    },
+    {
+      "episode_index": 16,
+      "indices": [
+        1560,
+        1591,
+        1623,
+        1655
+      ]
+    },
+    {
+      "episode_index": 17,
+      "indices": [
+        1656,
+        1688,
+        1720,
+        1752
+      ]
+    },
+    {
+      "episode_index": 18,
+      "indices": [
+        1753,
+        1782,
+        1812,
+        1842
+      ]
+    },
+    {
+      "episode_index": 19,
+      "indices": [
+        1843,
+        1871,
+        1899,
+        1927
+      ]
+    },
+    {
+      "episode_index": 20,
+      "indices": [
+        1928,
+        1961,
+        1994,
+        2027
+      ]
+    },
+    {
+      "episode_index": 21,
+      "indices": [
+        2028,
+        2065,
+        2102,
+        2140
+      ]
+    },
+    {
+      "episode_index": 22,
+      "indices": [
+        2141,
+        2183,
+        2225,
+        2268
+      ]
+    },
+    {
+      "episode_index": 23,
+      "indices": [
+        2269,
+        2300,
+        2332,
+        2364
+      ]
+    },
+    {
+      "episode_index": 24,
+      "indices": [
+        2365,
+        2398,
+        2432,
+        2466
+      ]
+    },
+    {
+      "episode_index": 25,
+      "indices": [
+        2467,
+        2497,
+        2528,
+        2559
+      ]
+    },
+    {
+      "episode_index": 26,
+      "indices": [
+        2560,
+        2604,
+        2648,
+        2693
+      ]
+    },
+    {
+      "episode_index": 27,
+      "indices": [
+        2694,
+        2723,
+        2752,
+        2782
+      ]
+    },
+    {
+      "episode_index": 28,
+      "indices": [
+        2783,
+        2823,
+        2863,
+        2903
+      ]
+    },
+    {
+      "episode_index": 29,
+      "indices": [
+        2904,
+        2954,
+        3004,
+        3054
+      ]
+    },
+    {
+      "episode_index": 30,
+      "indices": [
+        3055,
+        3084,
+        3113,
+        3142
+      ]
+    },
+    {
+      "episode_index": 31,
+      "indices": [
+        3143,
+        3173,
+        3203,
+        3234
+      ]
+    },
+    {
+      "episode_index": 32,
+      "indices": [
+        3235,
+        3269,
+        3304,
+        3339
+      ]
+    },
+    {
+      "episode_index": 33,
+      "indices": [
+        3340,
+        3367,
+        3395,
+        3423
+      ]
+    },
+    {
+      "episode_index": 34,
+      "indices": [
+        3424,
+        3456,
+        3488,
+        3521
+      ]
+    },
+    {
+      "episode_index": 35,
+      "indices": [
+        3522,
+        3553,
+        3585,
+        3617
+      ]
+    },
+    {
+      "episode_index": 36,
+      "indices": [
+        3618,
+        3652,
+        3687,
+        3722
+      ]
+    },
+    {
+      "episode_index": 37,
+      "indices": [
+        3723,
+        3764,
+        3805,
+        3846
+      ]
+    },
+    {
+      "episode_index": 38,
+      "indices": [
+        3847,
+        3877,
+        3907,
+        3938
+      ]
+    },
+    {
+      "episode_index": 39,
+      "indices": [
+        3939,
+        3967,
+        3995,
+        4024
+      ]
+    }
+  ]
+}

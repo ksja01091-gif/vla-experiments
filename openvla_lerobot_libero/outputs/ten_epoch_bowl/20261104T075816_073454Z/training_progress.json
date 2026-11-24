@@ -1,0 +1,13 @@
+{
+  "epoch": 10,
+  "target_epoch": 10,
+  "optimizer_step": 10070,
+  "target_step": 10070,
+  "frames_this_epoch": 4025,
+  "epoch_frames": 4025,
+  "additional_training_seconds": 2465.848880212754,
+  "last_loss": 0.12106677889823914,
+  "gpu_allocated_gib": 14.169323921203613,
+  "gpu_reserved_gib": 15.046875,
+  "gpu_peak_allocated_gib": 14.924588203430176
+}

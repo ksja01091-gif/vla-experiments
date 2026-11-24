@@ -1,0 +1,10 @@
+{
+  "file": "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/experiment.py",
+  "functions": {
+    "batch_benchmark": 33,
+    "make_inference": 68,
+    "infer": 125,
+    "audit": 182
+  },
+  "note": "new experiment only; original policy modules untouched"
+}

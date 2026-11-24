@@ -1,0 +1,80 @@
+최소 epoch 확인 — 2026-11-03
+
+먼저 볼 답
+- 5회 모델 수준인 3/5 이상 성공을 처음 달성한 정수 epoch: 5회.
+- 같은 5개 초기 상태 중 한 번이라도 성공한 최초 epoch: 4회.
+- '최소'는 이번 저장 학습 경로의 1~5회 정수 체크포인트와 고정된 초기 상태 5개에 한정한다.
+- 다른 데이터·seed·초기 상태나 1.5회 같은 중간 학습 시점까지 포함한 보편적 최소값은 아니다.
+
+실제 결과
+1회: 0/5, 성공률 0.0%, 평균 220.0단계 (기존 동일조건 결과 재사용)
+2회: 0/5, 성공률 0.0%, 평균 220.0단계 (이번에 새로 평가)
+3회: 0/5, 성공률 0.0%, 평균 220.0단계 (이번에 새로 평가)
+4회: 2/5, 성공률 40.0%, 평균 161.6단계 (이번에 새로 평가)
+5회: 3/5, 성공률 60.0%, 평균 135.8단계 (기존 동일조건 결과 재사용)
+
+무엇을 했나?
+저장해둔 2회 모델부터 5개 초기 상태에서 차례대로 실행했다.
+각 후보에서 5회 모두 끝내고 결과를 집계했다.
+3/5 이상이 처음 나온 후보 이후의 더 높은 epoch 추가 평가는 멈췄다.
+1회 0/5와 5회 3/5는 앞선 실험의 동일 입력·동일 상태 결과를 재사용했다.
+실제로 이번에 새로 평가한 epoch: [2, 3, 4].
+이번에 추가 학습은 하지 않았다. 각 epoch가 끝났을 때의 LoRA 저장본을 불러와 시험한 것이다.
+
+공정한 비교 조건
+같은 공개 LIBERO 실험용 분할(학습 전체 시범 40개·4,025장면, 검증 전체 시범 5개·462장면)에서 얻은 체크포인트.
+같은 기본 OpenVLA와 LoRA 구조·학습률·batch·정규화. 바뀐 것은 저장 시점(epoch).
+같은 초기 상태 0~4, env seed 0, global seed 7, warmup 10, 최대 정책 단계 220.
+같은 원본 upright 256 RGB -> native HF 사진 처리.
+시작 이미지와 초기 상태 SHA가 앞선 기준 평가와 정확히 같은지 확인.
+새 Python 프로세스에서 각 LoRA를 정확히 불러와 같은 검증 batch loss와 (1,7) 유한 행동을 확인.
+기술 오류를 작업 실패로 세지 않았으며, 이번 최종 집계에 기술 오류는 없다.
+
+성공의 의미
+LIBERO가 목표 그릇이 접시 위에 놓였다고 판정한 경우다.
+모든 방향에서 안정적인 파지나 두 손가락으로 마주 집는 자세를 따로 보장하는 지표는 아니다.
+각 초기 상태는 한 번씩 실행했다. 3/5 같은 값은 이 다섯 사례의 관측 결과이며 전체 환경 성공 확률의 보장은 아니다.
+학습 시범과 평가 초기 상태의 완전한 분리는 확인되지 않았다.
+성공률이 epoch에 따라 반드시 계속 증가한다고 가정하지 않았다. 실제 관측값으로 최소를 정했다.
+
+영상 보기
+02: 왼쪽 4회 / 오른쪽 5회, 같은 초기 상태 4.
+03: 왼쪽 1회 / 오른쪽 기준을 충족한 최소 5회, 같은 초기 상태 4.
+처음 한 번이라도 성공한 모델의 비교 영상: 05_1회vs최초성공4회_같은시작상태0.mp4
+원본영상 폴더: 이번에 새로 실행한 후보들의 원본 영상.
+1회·5회 전체 원본은 앞선 08_총5회학습_1회와비교_20261103 폴더에 있다.
+비교 영상은 초당 10장으로 재생한다. 실제 계산 시간과 다르다.
+한쪽이 먼저 종료되면 그쪽의 마지막 화면을 유지하고 다른 쪽은 계속 재생한다.
+대표 상태는 두 모델의 공통 성공 사례를 우선 선택한 것이며 무작위 표본이 아니다.
+전체 판단은 대표 영상 하나가 아니라 다섯 상태의 결과표를 사용했다.
+
+남은 일
+다른 초기 상태와 seed에서도 같은 epoch가 충분한지 확인하는 일반화·반복성 검증은 이번 범위에 포함하지 않았다.
+더 큰 epoch가 더 높은 최고 성능을 내는지 찾는 실험과, 주어진 기준을 충족하는 최소 epoch를 찾는 실험은 다르다.
+
+이해할 개념 두 가지
+1) 체크포인트: 각 학습 시점의 가중치를 저장해둔 것. 재학습하지 않고도 그 시점의 실력을 시험할 수 있다.
+2) 조건부 최소값: 특정 시험 조건과 기준을 만족한 가장 작은 값. 모든 상황에서의 최소값이라는 뜻은 아니다.
+
+실제 원격 코드·결과
+검사 코드: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/search_epochs.py
+사전 기준: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/plan.json
+체크포인트 목록: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/checkpoints.json
+시도별 폴더: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation
+최종 요약: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/summary.json
+영상 검사: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/video_verification.json
+소스·환경 보존: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/preservation_report.json
+원본 체크포인트 보존: /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/protected_preservation.json
+
+결과 확인 명령
+cat /home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/summary.json
+
+같은 검색을 새 폴더에서 재실행
+conda activate lerobot312
+NEW_RUN="/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/$(date -u +%Y%m%dT%H%M%S)_manual"
+mkdir "$NEW_RUN"
+cp "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/search_epochs.py" "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/build_report.py" "$NEW_RUN/"
+python "$NEW_RUN/search_epochs.py"
+/home/jovyan/anaconda3/envs/openvla310/bin/python "$NEW_RUN/build_report.py"
+
+기존 프로젝트 코드·세 환경·원본 체크포인트·이전 결과를 보존했다.

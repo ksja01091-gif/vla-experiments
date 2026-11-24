@@ -1,0 +1,4 @@
+Actual adapter matrix dimensions (first of 64 language q/v modules)
+sp_full128: A=[128, 4096], B=[4096, 128], router=128; params=75,769,856
+sp_pruned96: A=[96, 4096], B=[4096, 96], router=128; params=58,992,640
+sp_pruned64: A=[64, 4096], B=[4096, 64], router=128; params=42,215,424

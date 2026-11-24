@@ -1,0 +1,3 @@
+conda activate lerobot312
+wandb login
+wandb sync /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/wandb/offline-run-20261103_064556-ksxoyz0m

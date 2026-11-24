@@ -1,0 +1,25 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run 5b56994b908a
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_045701-5b56994b908a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run 00-ALL-EXPERIMENTS-COMPARISON
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a
+wandb: updating run metadata; uploading artifact run-5b56994b908a-comparisonall_experiments-DCN6Mg; uploading artifact run-5b56994b908a-historyepoch_table-igZbUQ; uploading artifact run-5b56994b908a-historybatch_table-RcR4qA; uploading artifact run-5b56994b908a-historyquantization_table-m12Uxw
+wandb: uploading artifact run-5b56994b908a-comparisonall_experiments-DCN6Mg; uploading artifact run-5b56994b908a-historyepoch_table-igZbUQ; uploading artifact run-5b56994b908a-historybatch_table-RcR4qA; uploading artifact run-5b56994b908a-historyquantization_table-m12Uxw
+wandb: uploading artifact run-5b56994b908a-historyquantization_table-m12Uxw
+wandb: uploading wandb-summary.json; uploading config.yaml; uploading media/table/comparison/all_experiments_6_c6a38b55d555c0d19f18.table.json; uploading media/table/history/epoch_table_6_33179bf278701a6fb224.table.json; uploading media/table/history/batch_table_6_d344e29e13f8f5bb4f29.table.json (+ 1 more)
+wandb: uploading history steps 6-6, summary
+wandb: 
+wandb: Run summary:
+wandb: verification/completed_experiments 27
+wandb: 
+wandb: 🚀 View run 00-ALL-EXPERIMENTS-COMPARISON at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 4 media file(s), 8 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_045701-5b56994b908a/logs
+ALL_27_EXPERIMENTS_VERIFIED https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a
+PRESERVATION_COMPLETE
+ALL_REQUESTED_WORK_COMPLETE

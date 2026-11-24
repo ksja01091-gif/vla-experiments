@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "transitions_each": 12540,
+  "source_transitions": 12540,
+  "unused_source_transitions": 0,
+  "passes": 2,
+  "updates": 6270,
+  "first_update_ratios": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "critic_warmup_updates": 2,
+  "warmup_actor_unchanged": true,
+  "frozen_samples_unchanged": true,
+  "final_validation": {
+    "loss": 7.299824004565482,
+    "action_token_accuracy": 0.2578849753131082,
+    "normalized_action_l1": 0.2099367601860474,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 20.91171479038894,
+    "gpu_allocated_gib": 11.949811935424805,
+    "gpu_reserved_gib": 14.810546875,
+    "gpu_peak_allocated_gib": 12.418890953063965
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/checkpoints/p20/after_ppo",
+  "checkpoint_weight_bytes": 12734777216,
+  "seconds": 9665.299552172422,
+  "memory": {
+    "allocated_gib": 11.964078903198242,
+    "reserved_gib": 14.30859375,
+    "peak_gib": 12.148430347442627
+  },
+  "normalized_advantage_std": 0.9999998211860657,
+  "return_min": -0.01680669954611007,
+  "return_max": 0.999
+}

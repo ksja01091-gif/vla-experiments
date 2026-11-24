@@ -1,0 +1,33 @@
+{
+  "frames": 480,
+  "episodes": 40,
+  "token_accuracy": 0.5407738095238095,
+  "normalized_action_l1": 0.06247210107221991,
+  "l1_per_dimension": [
+    0.04623999094067052,
+    0.06439636955755992,
+    0.07737152463616494,
+    0.0711771792343823,
+    0.08313519128251311,
+    0.06584229499150322,
+    0.02914215686274509
+  ],
+  "gripper_accuracy": 0.9729166666666667,
+  "expert_active_frames": 463,
+  "active_predicted_near_zero": 1,
+  "active_predicted_near_zero_fraction": 0.0021598272138228943,
+  "gripper_confusion": {
+    "open": {
+      "open": 256,
+      "close": 9,
+      "neutral": 0
+    },
+    "close": {
+      "open": 4,
+      "close": 211,
+      "neutral": 0
+    }
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "epoch": 5
+}

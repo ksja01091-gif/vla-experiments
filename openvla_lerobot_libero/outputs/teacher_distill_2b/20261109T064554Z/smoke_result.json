@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "student_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/pruned/after_ppo",
+  "student_parameters": 2064631232,
+  "one_human_frame_loss": 3.3782036304473877,
+  "one_human_frame_metrics": {
+    "loss": 3.3782036304473877,
+    "action_token_accuracy": 0.4285714328289032,
+    "normalized_action_l1": 0.3762434648198574,
+    "predicted_action_token_fraction": 1.0
+  },
+  "available_teacher_frames": 72,
+  "one_teacher_frame_loss": 6.329996109008789,
+  "one_teacher_frame_metrics": {
+    "loss": 6.329996109008789,
+    "action_token_accuracy": 0.1428571492433548,
+    "normalized_action_l1": 0.2151260210018532,
+    "predicted_action_token_fraction": 1.0
+  },
+  "action_shape": [
+    1,
+    7
+  ],
+  "action_finite": true,
+  "gpu_peak_gib": 14.129577159881592
+}

@@ -1,0 +1,6 @@
+{
+  "old20_rise_over_2cm": 0,
+  "new40_rise_over_2cm": 1,
+  "new40_bilateral_contact_state2": [],
+  "not_a_stable_grasp_success_metric": true
+}

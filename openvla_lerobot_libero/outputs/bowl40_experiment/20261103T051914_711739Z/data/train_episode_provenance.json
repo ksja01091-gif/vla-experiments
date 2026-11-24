@@ -1,0 +1,922 @@
+[
+  {
+    "lerobot_episode_index": 0,
+    "content_id": "5e9924ac1fa218f2ca4d12501542c67bed6fd21ab24b0b0e363bdde07154732c",
+    "source_ordinal": 83,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 112,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/5e9924ac1fa218f2ca4d12501542c67bed6fd21ab24b0b0e363bdde07154732c.npz",
+    "archive_sha256": "82b02af55acc10263d1a8010b784c73c6ffaf25bb5f8e1847653c172691bc370",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 1,
+    "content_id": "c51bab2a46df8f47bd41b7dfa3dbb8c8374ab6342317df9fce8c351fc5e4a856",
+    "source_ordinal": 245,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 79,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/c51bab2a46df8f47bd41b7dfa3dbb8c8374ab6342317df9fce8c351fc5e4a856.npz",
+    "archive_sha256": "361203de381459bda6dee171dc50b523f91e79e49ab5568aec076fdee7e3f407",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 2,
+    "content_id": "cfcc03b693f19a4759ae43f731d886e3ec35e89b5530e9b3ad579ba1e48379f5",
+    "source_ordinal": 136,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 95,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/cfcc03b693f19a4759ae43f731d886e3ec35e89b5530e9b3ad579ba1e48379f5.npz",
+    "archive_sha256": "4cec58677305ba8755e4e1195c42d34b7e0270de39d2ee29bff8a7e975d91121",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 3,
+    "content_id": "ec35ea22eccdb2ff120ae4eb59505a073d99e6bfa6738cf08d3f27e9efb25d4d",
+    "source_ordinal": 381,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 90,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/ec35ea22eccdb2ff120ae4eb59505a073d99e6bfa6738cf08d3f27e9efb25d4d.npz",
+    "archive_sha256": "7143e0c20d89441f93deed60413697e52cd2a3d6ce2b06af11edb2e6bcf94d7e",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 4,
+    "content_id": "dc9deb7b6399cd1a7f6fc0058c17bb36c24d15e510712b62e3e4b01d1b30c0a4",
+    "source_ordinal": 318,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 108,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/dc9deb7b6399cd1a7f6fc0058c17bb36c24d15e510712b62e3e4b01d1b30c0a4.npz",
+    "archive_sha256": "b193d1a7de002f90ad96d3cee4b025a14618ddba03cc1b8cc922be00f33e6756",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 5,
+    "content_id": "ef897ff134c8ec170ad5b4e4c6d5463b7f11b1248bc9ca10795eba30c160cfda",
+    "source_ordinal": 86,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 92,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/ef897ff134c8ec170ad5b4e4c6d5463b7f11b1248bc9ca10795eba30c160cfda.npz",
+    "archive_sha256": "111b5370941ec36c2ee99a838470b5510ec397a513c3fef7f28e09a0dcb0662d",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 6,
+    "content_id": "11fb37da3824f205e2cf9348b5a3ede04deb6bcba8401e2b935c4d3ec5c3fbc8",
+    "source_ordinal": 418,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 88,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/11fb37da3824f205e2cf9348b5a3ede04deb6bcba8401e2b935c4d3ec5c3fbc8.npz",
+    "archive_sha256": "72ab7de56a50d922d5b914aefd50810c9836cda6a21d069a232f1c454bc4da5f",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 7,
+    "content_id": "9931b62e23c3323796bca75becd073300ff69a59ef48dd38c5e1a73a42505c05",
+    "source_ordinal": 188,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 93,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/9931b62e23c3323796bca75becd073300ff69a59ef48dd38c5e1a73a42505c05.npz",
+    "archive_sha256": "a4825866c1d7168cf3e6c1eed67bb5a1a962562fbb17d71d0ae87cfbd3f8a780",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 8,
+    "content_id": "44dead8a359715495aa78436ffbd30499a8dc6480094066f071ed97af4383fd4",
+    "source_ordinal": 239,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 91,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/44dead8a359715495aa78436ffbd30499a8dc6480094066f071ed97af4383fd4.npz",
+    "archive_sha256": "1a0591c1e2709f78e9d2033cfec745a5302f6ff1cd8d74010271c5fadb24b762",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 9,
+    "content_id": "28d036813d577c3a02d5bb4df90a64a3a65c1fb0611c82eb4a9f24bf6a5ca742",
+    "source_ordinal": 134,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 87,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/28d036813d577c3a02d5bb4df90a64a3a65c1fb0611c82eb4a9f24bf6a5ca742.npz",
+    "archive_sha256": "9faf7df37f0f7eae50328969b6a6cb1d75fb2a9a291443eea69b11af7ce77e7a",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 10,
+    "content_id": "bc3cb56f06c1cc7ee513735c3e0d2c9299db439fa24237a12fda910f36023ac5",
+    "source_ordinal": 149,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 89,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/bc3cb56f06c1cc7ee513735c3e0d2c9299db439fa24237a12fda910f36023ac5.npz",
+    "archive_sha256": "e64c41ff42b06fd109efac0d5dad13f0ba623db1c52924ff402c8e4b626fabb3",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 11,
+    "content_id": "7198446e0f445d9639057971943a52d193c04886b3a942d36d3aac1dd3a65fc0",
+    "source_ordinal": 356,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 92,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/7198446e0f445d9639057971943a52d193c04886b3a942d36d3aac1dd3a65fc0.npz",
+    "archive_sha256": "7b531834e04a9a5c72f874174613af3c8fabfae1b878090285ca6592ffbc2b39",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 12,
+    "content_id": "b24bc684bb07dfdc1e6c53683c3a346e37551be7ed3c16ad94b6c7e72344de7c",
+    "source_ordinal": 243,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 89,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/b24bc684bb07dfdc1e6c53683c3a346e37551be7ed3c16ad94b6c7e72344de7c.npz",
+    "archive_sha256": "f72c2bfcba628a70b1d39b188a2ea6d9b8ddc8385cea99e25fe3a6e64a9799a8",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 13,
+    "content_id": "d62cccbd1f8e76ae72388a1a64d6ae3bb56783f1661076396a64bfdbbfed62f1",
+    "source_ordinal": 69,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 168,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/d62cccbd1f8e76ae72388a1a64d6ae3bb56783f1661076396a64bfdbbfed62f1.npz",
+    "archive_sha256": "e517e2d6c426681e2fe755ab35295d9285cd67d907a02c4dab82537667c324af",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 14,
+    "content_id": "da38ff210c66045726e148ace7bbf7e8a8b922126b376959049c5551b6499379",
+    "source_ordinal": 341,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 95,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/da38ff210c66045726e148ace7bbf7e8a8b922126b376959049c5551b6499379.npz",
+    "archive_sha256": "c42541be30e33ba0efc9fcb15d61cfe031dd038240786cbc28f03792afc16263",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 15,
+    "content_id": "bfb5cdbef8998baa1cbb3a569d80c60af8374e8925806716d431c5d5a93c6eeb",
+    "source_ordinal": 306,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 92,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/bfb5cdbef8998baa1cbb3a569d80c60af8374e8925806716d431c5d5a93c6eeb.npz",
+    "archive_sha256": "3c19ae987ce6255a7adcd0e13cd572455a51ad18672a09235bacde9bcd054d76",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 16,
+    "content_id": "5e1b2302040cdb42179d95269ae4334a6105044ba523a209cdace25e335af574",
+    "source_ordinal": 91,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 96,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/5e1b2302040cdb42179d95269ae4334a6105044ba523a209cdace25e335af574.npz",
+    "archive_sha256": "e76ebafe9f28434cd936405b9c252ee4d22226e2ea03e288dde1752aa629a059",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 17,
+    "content_id": "9bb74f5a66dd6e27293bffe209d363ff819f2a099ebb6e2225cc62ae4c4769bb",
+    "source_ordinal": 322,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 97,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/9bb74f5a66dd6e27293bffe209d363ff819f2a099ebb6e2225cc62ae4c4769bb.npz",
+    "archive_sha256": "e12b2d9b749ff7f977300a42f0c5838defb7de016c7256415562fa171c2efe4e",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 18,
+    "content_id": "7b7a10dc8a585822a33a1194a8c500a29acbba93f768e59ad72220dccdc10928",
+    "source_ordinal": 354,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 90,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/7b7a10dc8a585822a33a1194a8c500a29acbba93f768e59ad72220dccdc10928.npz",
+    "archive_sha256": "7b09bfdab9e54b5d92542d74d484229ea11889656a0481c0cecad1575fd8315a",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 19,
+    "content_id": "d1ca1f83c0264b6e06821f21af4e4f102e2e3f2e1e065c22dd3112c185980efd",
+    "source_ordinal": 12,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 85,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/d1ca1f83c0264b6e06821f21af4e4f102e2e3f2e1e065c22dd3112c185980efd.npz",
+    "archive_sha256": "9a13b7c70a7b978ac349b80e2fe7947c1de0ba5920a95821e967e74bea7815b8",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 20,
+    "content_id": "1f5dc387132f625dc0d38a2c24663f5d03680337c8b650c0e99aaf098a90ffdd",
+    "source_ordinal": 230,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 100,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/1f5dc387132f625dc0d38a2c24663f5d03680337c8b650c0e99aaf098a90ffdd.npz",
+    "archive_sha256": "f1447a85a36337176dd159fa2d86482ba3f973a5634aaeed8b0b197c855dd143",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 21,
+    "content_id": "30e7a5441071c458dfb1f54c73f62df4d4fc3b26cb811267836380f5bcb5049f",
+    "source_ordinal": 411,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 113,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/30e7a5441071c458dfb1f54c73f62df4d4fc3b26cb811267836380f5bcb5049f.npz",
+    "archive_sha256": "6924b8eb1dc8925c1214547dc89eb1bd0a5b2519357efc03a4fc8d66982cd625",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 22,
+    "content_id": "4d19b596a5a00dfa9154d5827b2f746d5eee13b9f1c949692e37e38f1249af2f",
+    "source_ordinal": 14,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 128,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/4d19b596a5a00dfa9154d5827b2f746d5eee13b9f1c949692e37e38f1249af2f.npz",
+    "archive_sha256": "a3b3e0bd7ae40bc7441ba53f9a70789cee233f9666aca667707105309c33d9bf",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 23,
+    "content_id": "585671437a481711dba23399d853440749ae17a7c05658f9f8b0a6e6c4e3b825",
+    "source_ordinal": 336,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 96,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/585671437a481711dba23399d853440749ae17a7c05658f9f8b0a6e6c4e3b825.npz",
+    "archive_sha256": "bad4097afa7f7653d42bf306b6993ca986e301ec584d149c4b1c92916d942aef",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 24,
+    "content_id": "70761d0b6c3769071c51fa22d9f8cb4a930225e706b4abe0dc7bd6c4660705d8",
+    "source_ordinal": 39,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 102,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/70761d0b6c3769071c51fa22d9f8cb4a930225e706b4abe0dc7bd6c4660705d8.npz",
+    "archive_sha256": "ddf5abfd8db60971f89b43e2af321c5c8d18d833b94b87cb0c35cb4d748d56a4",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 25,
+    "content_id": "7cc19df6cac6d037d8080616cf8bf7f0240538552dd98001a43d76faae3f19f7",
+    "source_ordinal": 328,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 93,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/7cc19df6cac6d037d8080616cf8bf7f0240538552dd98001a43d76faae3f19f7.npz",
+    "archive_sha256": "c8024199b521e16d3771316484156496280d8735c9ad054cd76649b2922b5469",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 26,
+    "content_id": "88fb6b236f2280d5597fedb610ab38a4288ebd5bf294a1f34530bcb1ed845a74",
+    "source_ordinal": 266,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 134,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/88fb6b236f2280d5597fedb610ab38a4288ebd5bf294a1f34530bcb1ed845a74.npz",
+    "archive_sha256": "cbb0c8a88ea4e11773b9e1c375b0c275d01d4adb50c016454c23d1b908b93784",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 27,
+    "content_id": "94aaec69db29b7486e6435ec54206a9d526e5917feec419fb796bedc837c3ef9",
+    "source_ordinal": 140,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 89,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/94aaec69db29b7486e6435ec54206a9d526e5917feec419fb796bedc837c3ef9.npz",
+    "archive_sha256": "810db8d8fef9cb1244fe4e4376be91a3b96fcd05e074f7fcffa311fae1852f7b",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 28,
+    "content_id": "97729c3ec28b83a4262b3f61b42859cd288428bca4fc3fbcd99ac7d14c2ebb2e",
+    "source_ordinal": 121,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 121,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/97729c3ec28b83a4262b3f61b42859cd288428bca4fc3fbcd99ac7d14c2ebb2e.npz",
+    "archive_sha256": "0fa5670d2deb52e6fb9b0eedada58f9270936bba4d68c42b539617cf04541103",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 29,
+    "content_id": "b21ccfb3fe44f579b13138ad96b73215f59c148b9a1f11c937ecbc62f7e02db5",
+    "source_ordinal": 302,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 151,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/b21ccfb3fe44f579b13138ad96b73215f59c148b9a1f11c937ecbc62f7e02db5.npz",
+    "archive_sha256": "c464d0b776f31e99d1ab8d30020dffa0dfad3e56e7e96181e16b0a33b1acb878",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 30,
+    "content_id": "bb173c5c318341421a81d057107412a5cd2d9e7e98b51e7e4a431e992eb41484",
+    "source_ordinal": 107,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 88,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/bb173c5c318341421a81d057107412a5cd2d9e7e98b51e7e4a431e992eb41484.npz",
+    "archive_sha256": "1ec5fef87a1a88f57b797e6536ea65e31a64837c5bd905acdc23c7c686b2d073",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 31,
+    "content_id": "bcc3c512776956854749025d35c7cddc33ecbc1a674cbf19e7a6532cbc9a9208",
+    "source_ordinal": 189,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 92,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/bcc3c512776956854749025d35c7cddc33ecbc1a674cbf19e7a6532cbc9a9208.npz",
+    "archive_sha256": "9cfa0c13176e082c421340177f4782c8bba11569f24169706a3b4aecf19cd3fe",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 32,
+    "content_id": "be412e8a7af268895735072f1d02396abf219b35fe6db3b48e05024f1fbadb59",
+    "source_ordinal": 299,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 105,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/be412e8a7af268895735072f1d02396abf219b35fe6db3b48e05024f1fbadb59.npz",
+    "archive_sha256": "4b3ded552b70fddd6cb2dbaec8867989c2ac338e88cb2ae2ba5a2d9ef0ff8907",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 33,
+    "content_id": "c5b422f03e68e17e2e8f84eecc3a1d84135968610a1aded71acb36057832b8ed",
+    "source_ordinal": 21,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 84,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/c5b422f03e68e17e2e8f84eecc3a1d84135968610a1aded71acb36057832b8ed.npz",
+    "archive_sha256": "e768932e139d75361104f00a8a403901cf6ad9b6d711d741591ec758253bf507",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 34,
+    "content_id": "c6345636562643b8e8af5d9886ebaf7bb3a2e63dff67070b2a40bc2550c28086",
+    "source_ordinal": 408,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 98,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/c6345636562643b8e8af5d9886ebaf7bb3a2e63dff67070b2a40bc2550c28086.npz",
+    "archive_sha256": "827d6caec9038907a4841e4f3dd5c826a4a9949abbfbb4d522ba90e03cbd1fe7",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 35,
+    "content_id": "ca55ea80a22e4e793ef2ac7a14a5d2db062ed7545974b619e3ea887e70339d0d",
+    "source_ordinal": 271,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 96,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/ca55ea80a22e4e793ef2ac7a14a5d2db062ed7545974b619e3ea887e70339d0d.npz",
+    "archive_sha256": "4e61e4534cf97c4e35a6ab03a190036a20dd2e03c4bc6d209d21273b49584d27",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 36,
+    "content_id": "d2fce6fb49a7c854781f2ef1af0ccc451a19a4a22bf4a39cc57791721c4f2b32",
+    "source_ordinal": 313,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 105,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/d2fce6fb49a7c854781f2ef1af0ccc451a19a4a22bf4a39cc57791721c4f2b32.npz",
+    "archive_sha256": "ad3121af91333099472375f8c3db03162e8ca138763bdef27fba7fc00da62b58",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 37,
+    "content_id": "ddb06cc3f288f1a2d27de68195a1debfda5fc7295ab6b74c8c35fa65ceaf7563",
+    "source_ordinal": 66,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 124,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/ddb06cc3f288f1a2d27de68195a1debfda5fc7295ab6b74c8c35fa65ceaf7563.npz",
+    "archive_sha256": "5086c52d2c64d86ce749bfbc268ed4740f716e4cbb8c97c35ca32460f550e702",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 38,
+    "content_id": "ddd9c265a0ced2b4be5c09365e07b33ab90949b9b30936de208aafcd06ad1514",
+    "source_ordinal": 399,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 92,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/ddd9c265a0ced2b4be5c09365e07b33ab90949b9b30936de208aafcd06ad1514.npz",
+    "archive_sha256": "fca549784ad8d85c3eefe3c79410f0c99b72d57e11ce0a1a67e9366dc88a4dbf",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "lerobot_episode_index": 39,
+    "content_id": "e500e3506f75035ca32e72b09687c9e48a693a615f4c4b20d4ff8be0600fae38",
+    "source_ordinal": 164,
+    "source_provenance_path": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "frames": 86,
+    "archive": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z/candidate_episodes/e500e3506f75035ca32e72b09687c9e48a693a615f4c4b20d4ff8be0600fae38.npz",
+    "archive_sha256": "e2c0e6af67f1999e673b641c995ea9d4d87dc0ee664227b44c5b5ecd1032a59e",
+    "image_shape": [
+      256,
+      256,
+      3
+    ],
+    "raw_gripper_values": [
+      -1.0,
+      1.0
+    ],
+    "standardized_gripper_values": [
+      0.0,
+      1.0
+    ]
+  }
+]

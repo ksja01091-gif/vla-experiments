@@ -1,0 +1,40 @@
+{
+  "base_model": "openvla/openvla-7b",
+  "base_snapshot": "/home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+  "dataset_root": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "public_data_description": "public LIBERO demonstrations selected and preprocessed into an experimental split",
+  "train_episodes": 20,
+  "train_frames": 1928,
+  "validation_episodes": 5,
+  "validation_frames": 462,
+  "epochs": 1,
+  "batch_size": 4,
+  "gradient_accumulation_steps": 1,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0,
+  "gradient_clip_norm": 1.0,
+  "scheduler": "constant",
+  "lora_rank": 8,
+  "lora_alpha": 8,
+  "lora_dropout": 0.0,
+  "lora_targets": [
+    "language_model q_proj",
+    "language_model v_proj"
+  ],
+  "base_dtype": "bfloat16",
+  "lora_dtype": "float32",
+  "seed": 7,
+  "validation_every_optimizer_steps": 241,
+  "image_preprocessing": "existing native HF image processor on unchanged 256px source; no augmentation; same as connection test",
+  "action_normalization": "training split q01/q99 on first six dimensions; gripper unchanged; constant dimensions zero",
+  "loss": "teacher-forced cross entropy on seven action tokens plus EOS; prompt ignored",
+  "normalized_action_l1": "decoded argmax action versus continuous normalized demonstration action; teacher-forced",
+  "checkpoint_selection": "lowest full validation loss among trained checkpoints; baseline excluded",
+  "evaluation_initial_state_disjointness": "not established; data split is at demonstration level",
+  "reference_functions": {
+    "/home/jovyan/projects/openvla/prismatic/vla/action_tokenizer.py": "fdc98fcbf5b0926ef2181db71946d23ffbfa052cf8443dc933d52c42a191352c",
+    "/home/jovyan/projects/openvla/prismatic/models/backbones/llm/prompting/base_prompter.py": "13640ed54b055c0fcd8daf7212be9f4faf76cec779fdd2e0f7ea5a866b0b6d51"
+  }
+}

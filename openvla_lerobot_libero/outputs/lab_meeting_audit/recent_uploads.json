@@ -1,0 +1,28 @@
+{
+  "verified": true,
+  "new_entries": [
+    {
+      "id": "swap0c8f21919e49",
+      "name": "DIAG-01_gripper_swap-state0",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap0c8f21919e49"
+    },
+    {
+      "id": "swap4234fc88b434",
+      "name": "DIAG-02_arm_swap-state0",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap4234fc88b434"
+    },
+    {
+      "id": "swap775b13f92a44",
+      "name": "DIAG-01_position_only-state0",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap775b13f92a44"
+    },
+    {
+      "id": "swap77fdbe15beb0",
+      "name": "DIAG-02_angle_only-state0",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap77fdbe15beb0"
+    }
+  ],
+  "total_records": 38,
+  "scope": "Completed scientific runs and diagnosis results. Setup-only import checks are retained locally.",
+  "duplicates_removed_with_user_approval": true
+}

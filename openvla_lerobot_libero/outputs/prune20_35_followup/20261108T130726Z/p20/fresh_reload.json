@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "action_exact": true,
+  "actor_hash_exact": true,
+  "first_validation_batch_loss_exact": true,
+  "shape": [
+    1,
+    7
+  ],
+  "finite": true
+}

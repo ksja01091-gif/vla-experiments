@@ -1,0 +1,22 @@
+{
+  "scores": [
+    4.0,
+    3.0,
+    2.0,
+    1.0
+  ],
+  "eta": 0.9,
+  "official_code_selected_indices": [
+    0,
+    1
+  ],
+  "official_retained_energy": 0.8333333333333334,
+  "paper_smallest_crossing_indices": [
+    0,
+    1,
+    2
+  ],
+  "paper_retained_energy": 0.9666666666666667,
+  "kind": "pure Python toy boundary check, not a model experiment",
+  "conclusion": "The official <= mask can omit the component crossing the target. Decide code-faithful vs paper-faithful implementation before comparison."
+}

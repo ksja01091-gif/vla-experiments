@@ -1,0 +1,25 @@
+{
+  "completed": true,
+  "train_frames": 160,
+  "train_episodes": 40,
+  "validation_used": false,
+  "source_adapter_unchanged": true,
+  "source_adapter_hash": "f866d2d6b9532e4daa61e14b18e0c5b2c93f2c68af0ec1055879ecbee5aa6d12",
+  "exports": [
+    {
+      "variant": "sp_pruned96",
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261105T085625_138557Z/checkpoints/sp_pruned96",
+      "adapter_file_bytes": 236021016,
+      "adapter_parameters": 58992640,
+      "mean_retained_calibration_importance": 0.9791061222703034
+    },
+    {
+      "variant": "sp_pruned64",
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261105T085625_138557Z/checkpoints/sp_pruned64",
+      "adapter_file_bytes": 168912008,
+      "adapter_parameters": 42215424,
+      "mean_retained_calibration_importance": 0.9071856735025107
+    }
+  ],
+  "seconds": 130.3661288265139
+}

@@ -1,0 +1,10 @@
+{
+  "transitions_each": 696,
+  "source_counts": {
+    "dense": 817,
+    "pruned": 699
+  },
+  "passes": 2,
+  "optimizer_updates_each": 348,
+  "selection": "same-size deterministic subset"
+}

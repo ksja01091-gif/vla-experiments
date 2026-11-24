@@ -1,0 +1,98 @@
+{
+  "status": "awaiting_user_experiment_choices",
+  "paper": {
+    "path": "C:/Users/User/Desktop/공부/VLA_study/IEEE RCRL 논문.pdf",
+    "sha256": "e91d69f9c6edce268ac10a7bd85ad809f5cda46ba64f146b8494de55ca07c137",
+    "pages": 8,
+    "doi": "10.1109/LRA.2026.3700379",
+    "verified_sections": [
+      "IV-A structured pruning",
+      "IV-B SFT and PPO recovery",
+      "V-A setup",
+      "V-B training cost"
+    ],
+    "paper_full_scope_not_yet_reproduced": true
+  },
+  "remote": {
+    "host": "hpc",
+    "project": "/home/jovyan/projects/lerobot-openvla",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "memory_total_mib": 40960,
+    "memory_used_mib_at_audit": 0,
+    "free_disk_gib_at_audit": 447.7,
+    "training_performed": false,
+    "model_weights_changed": false,
+    "existing_environments_changed": false,
+    "observed_versions": {
+      "torch": "2.7.1",
+      "transformers": "4.40.1",
+      "peft": "0.11.1",
+      "accelerate": "1.15.0"
+    },
+    "not_installed_in_lerobot312": [
+      "rlinf",
+      "torch-pruning",
+      "trl"
+    ]
+  },
+  "public_code": {
+    "repository": "https://github.com/FengRobotics/RLRC",
+    "tree_sha": "21a82cb402c8b1eda3a7d1989eb998d818e2bfe9",
+    "author_official_status": "not established; public repository self-identifies as RLRC and references author Transformers fork",
+    "not_a_verified_match_to_attached_2026_version": true,
+    "confirmed_mismatches": [
+      "Paper uses RLinf; public RL script uses SimplerEnv train_ms3_ppo for ManiSkill.",
+      "Paper main pruning target is 90%; public prune.sh specifies 0.95.",
+      "Paper Taylor importance uses robotic demonstrations; public hf_prune.py uses BookCorpus language-model loss.",
+      "Public SFT script uses rank32, batch8, 4 GPU processes; current experiments use rank8, batch4, one A100.",
+      "Public install pins torch2.2, Python3.10 and modified Transformers; current LeRobot environment is Python3.12/torch2.7.1.",
+      "Public prune.sh contains shell assignments with spaces; it is not ready to run unchanged."
+    ]
+  },
+  "fixed_recommended_conditions_pending_user_choice": {
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "train_demonstrations": 40,
+    "train_frames": 4025,
+    "validation_demonstrations": 5,
+    "validation_frames": 462,
+    "data": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/data",
+    "normalization": "fixed original train20 statistics, no validation calibration",
+    "simulation_states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "horizon": 220,
+    "seed": 7,
+    "base_dtype": "BF16",
+    "reference_adapter": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+    "reference_method": "ordinary LoRA rank8, five epochs; do not silently substitute SP96",
+    "same_merged_starting_checkpoint_for_dense_control_and_pruned_branch": true,
+    "baseline_after_merge_must_be_rechecked": true,
+    "reference_SP96_kept_separate": true
+  },
+  "user_choices": {
+    "comparison": "pending: matched additional training control vs quick compressed-only pilot",
+    "scope": "pending: structured pruning + SFT first vs SFT + PPO with resource budget determined after smoke test",
+    "target_pruning": "pending: 20%, 50%, or paper-like 90%; actual whole-model compression measured separately"
+  },
+  "implementation_notes": [
+    "Preserve openvla310, lerobot312, eval310 and all previous experiment outputs.",
+    "Use a separate environment if additional dependencies are needed.",
+    "Couple q/k/v head removal with o_proj input removal; couple gate/up MLP output removal with down_proj input removal.",
+    "Current Llama attention reshapes using per-module hidden_size, num_heads, head_dim; do not delete matrix rows without matching metadata and loader plan.",
+    "Protect first and last decoder layers as described in the paper.",
+    "Recheck save/reload, finite (1,7) actions and actual parameter/file/GPU memory changes before long training.",
+    "An SFT-only pilot is a partial method test, not full RLRC reproduction.",
+    "Matched controls need equal additional optimizer budget and data; adding RL later needs matching rollout/update budgets.",
+    "The paper reports about 320 GPU-hours for OpenVLA-OFT RLRC, not a prediction of this single-task run."
+  ],
+  "next_steps_after_answers": [
+    "Set explicit training/rollout budgets from selected scope.",
+    "Prepare isolated implementation and short resource smoke test on remote Linux.",
+    "Measure expected wall time and peak GPU memory before long training.",
+    "Run agreed branches; evaluate teacher-forced validation and matched robot rollouts; record W&B and local outputs."
+  ]
+}

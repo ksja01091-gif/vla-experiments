@@ -1,0 +1,184 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run swap0c8f21919e49
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053927-swap0c8f21919e49
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DIAG-01_gripper_swap-state0
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap0c8f21919e49
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading summary
+wandb: uploading media/videos/video_summary_bc4f2255265994cffdc4.mp4; uploading 01_gripper_swap/steps.jsonl
+wandb: uploading summary
+wandb: 
+wandb: Run summary:
+wandb:                                       diagnosis/arm p50
+wandb: diagnosis/both_initial_model_actions_match_previous True
+wandb:                   diagnosis/both_pads_at_final_step False
+wandb:                    diagnosis/final_bowl_plate_xy_cm 11.56737
+wandb:                                   diagnosis/gripper dense_sft
+wandb:                      diagnosis/initial_image_sha256 e4b4708283973f4d5c61...
+wandb:                       diagnosis/libero_task_success False
+wandb:                          diagnosis/max_bowl_rise_cm 0.84795
+wandb:          diagnosis/max_consecutive_grasp_lift_steps 0
+wandb:                                     diagnosis/scope One previously used ...
+wandb:                                                  +6 ...
+wandb: 
+wandb: 🚀 View run DIAG-01_gripper_swap-state0 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap0c8f21919e49
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053927-swap0c8f21919e49/logs
+wandb: setting up run swap4234fc88b434
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053931-swap4234fc88b434
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DIAG-02_arm_swap-state0
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap4234fc88b434
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading summary
+wandb: uploading 02_arm_swap/steps.jsonl
+wandb: 
+wandb: Run summary:
+wandb:                                       diagnosis/arm dense_sft
+wandb: diagnosis/both_initial_model_actions_match_previous True
+wandb:                   diagnosis/both_pads_at_final_step True
+wandb:                    diagnosis/final_bowl_plate_xy_cm 2.10891
+wandb:                      diagnosis/first_both_pads_step 59
+wandb:              diagnosis/first_stable_grasp_lift_step 66
+wandb:                                   diagnosis/gripper p50
+wandb:                      diagnosis/initial_image_sha256 e4b4708283973f4d5c61...
+wandb:                       diagnosis/libero_task_success True
+wandb:                          diagnosis/max_bowl_rise_cm 11.30829
+wandb:                                                  +8 ...
+wandb: 
+wandb: 🚀 View run DIAG-02_arm_swap-state0 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap4234fc88b434
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053931-swap4234fc88b434/logs
+wandb: setting up run swap775b13f92a44
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053934-swap775b13f92a44
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DIAG-01_position_only-state0
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap775b13f92a44
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading summary
+wandb: uploading media/videos/video_summary_340c213e1e930563047f.mp4; uploading 01_position_only/steps.jsonl
+wandb: uploading summary
+wandb: 
+wandb: Run summary:
+wandb: diagnosis/both_initial_model_actions_match_previous True
+wandb:                   diagnosis/both_pads_at_final_step False
+wandb:                    diagnosis/final_bowl_plate_xy_cm 5.05355
+wandb:                      diagnosis/first_both_pads_step 54
+wandb:              diagnosis/first_stable_grasp_lift_step 61
+wandb:                                   diagnosis/gripper p50
+wandb:                      diagnosis/initial_image_sha256 e4b4708283973f4d5c61...
+wandb:                       diagnosis/libero_task_success False
+wandb:                          diagnosis/max_bowl_rise_cm 11.99674
+wandb:          diagnosis/max_consecutive_grasp_lift_steps 22
+wandb:                                                  +9 ...
+wandb: 
+wandb: 🚀 View run DIAG-01_position_only-state0 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap775b13f92a44
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053934-swap775b13f92a44/logs
+wandb: setting up run swap77fdbe15beb0
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053938-swap77fdbe15beb0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DIAG-02_angle_only-state0
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap77fdbe15beb0
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading summary
+wandb: uploading media/videos/video_summary_73985dc2331416fd44d6.mp4; uploading results.json; uploading 02_angle_only/steps.jsonl; uploading wandb-summary.json
+wandb: uploading media/videos/video_summary_73985dc2331416fd44d6.mp4; uploading 02_angle_only/steps.jsonl
+wandb: 
+wandb: Run summary:
+wandb: diagnosis/both_initial_model_actions_match_previous True
+wandb:                   diagnosis/both_pads_at_final_step False
+wandb:                    diagnosis/final_bowl_plate_xy_cm 10.48969
+wandb:                                   diagnosis/gripper p50
+wandb:                      diagnosis/initial_image_sha256 e4b4708283973f4d5c61...
+wandb:                       diagnosis/libero_task_success False
+wandb:                          diagnosis/max_bowl_rise_cm 18.34192
+wandb:          diagnosis/max_consecutive_grasp_lift_steps 0
+wandb:                                  diagnosis/rotation dense_sft
+wandb:                                     diagnosis/scope One previously used ...
+wandb:                                                  +7 ...
+wandb: 
+wandb: 🚀 View run DIAG-02_angle_only-state0 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/swap77fdbe15beb0
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053938-swap77fdbe15beb0/logs
+wandb: setting up run historical20lora
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053941-historical20lora
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Historical-20demo-LoRA1epoch
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/historical20lora
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml; uploading simulation_summary.csv; uploading training_result.json
+wandb: 
+wandb: Run history:
+wandb:           validation/action_token_accuracy ▁█
+wandb:                          validation/frames ▁▁
+wandb:               validation/gpu_allocated_gib ▁▁
+wandb:          validation/gpu_peak_allocated_gib ▁▁
+wandb:                validation/gpu_reserved_gib ▁▁
+wandb:                            validation/loss █▁
+wandb:            validation/normalized_action_l1 █▁
+wandb:                  validation/optimizer_step ▁█
+wandb: validation/predicted_action_token_fraction ▁▁
+wandb:                         validation/seconds ▁█
+wandb: 
+wandb: Run summary:
+wandb:              simulation/attempts 5
+wandb:          simulation/success_rate 0
+wandb:             simulation/successes 0
+wandb:             train/demonstrations 20
+wandb:                     train/frames 1928
+wandb: validation/action_token_accuracy 0.35498
+wandb:            validation/after_loss 3.22201
+wandb:           validation/before_loss 11.82725
+wandb:                validation/frames 462
+wandb:     validation/gpu_allocated_gib 14.1537
+wandb:                               +7 ...
+wandb: 
+wandb: 🚀 View run Historical-20demo-LoRA1epoch at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/historical20lora
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 0 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053941-historical20lora/logs
+wandb: setting up run historical20reference
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053945-historical20reference
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Historical-Public-LIBERO-Spatial-reference
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/historical20reference
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading summary
+wandb: uploading summary
+wandb: 
+wandb: Run summary:
+wandb:     simulation/attempts 5
+wandb: simulation/success_rate 0.8
+wandb:    simulation/successes 4
+wandb: 
+wandb: 🚀 View run Historical-Public-LIBERO-Spatial-reference at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/historical20reference
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 0 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lab_meeting_audit/wandb/run-20261108_053945-historical20reference/logs
+UPLOAD_COMPLETE 6 40

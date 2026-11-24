@@ -1,0 +1,61 @@
+{
+  "data": "public LIBERO selected/preprocessed experimental split",
+  "train_index": 0,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "raw_image_shape": [
+    3,
+    256,
+    256
+  ],
+  "demonstration_action_not_prediction": [
+    0.4446428716182709,
+    0.12321428209543228,
+    0.3508928716182709,
+    0.0,
+    0.13928571343421936,
+    -0.0,
+    1.0
+  ],
+  "normalized_demonstration_action": [
+    0.46256184577941895,
+    -0.10072320699691772,
+    0.3762519359588623,
+    -0.14851945638656616,
+    0.8472549915313721,
+    0.22454261779785156,
+    1.0
+  ],
+  "gold_action_token_ids": [
+    31813,
+    31885,
+    31824,
+    31891,
+    31764,
+    31843,
+    31744
+  ],
+  "EOS_token_id": 2,
+  "ignored_prompt_label": -100,
+  "prepared_shapes": {
+    "input_ids": [
+      1,
+      43
+    ],
+    "attention_mask": [
+      1,
+      43
+    ],
+    "pixel_values": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "labels": [
+      1,
+      43
+    ]
+  },
+  "model_weights_loaded": false,
+  "purpose": "trace real data preprocessing; no model prediction or optimization"
+}

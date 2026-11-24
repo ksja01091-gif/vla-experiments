@@ -1,0 +1,6 @@
+{
+  "error": "8bit .to() during dispatch",
+  "confirmed_call_order": "transformers dispatch before quantizer postprocess sets is_loaded_in_8bit",
+  "solution": "process scoped force_hooks=True during quantized from_pretrained only",
+  "packages_changed": false
+}

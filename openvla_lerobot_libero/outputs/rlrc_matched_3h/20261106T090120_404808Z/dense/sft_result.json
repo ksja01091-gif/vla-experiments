@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "epochs": 1,
+  "frames_seen": 4025,
+  "unique_frames": 4025,
+  "updates": 1007,
+  "coverage_sha256": "25c334401fa311cef4cc47fa8741e6ba47744b9ac9b5516f63b6698887162b00",
+  "training_metrics": {
+    "loss": 1.0806857491964879,
+    "action_token_accuracy": 0.6567169469928149,
+    "normalized_action_l1": 0.02723056672889847,
+    "predicted_action_token_fraction": 1.0
+  },
+  "before_validation": {
+    "loss": 4.5756160769111665,
+    "action_token_accuracy": 0.27643785009652505,
+    "normalized_action_l1": 0.20453971454465694,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 19.599334076046944,
+    "gpu_allocated_gib": 14.1296968460083,
+    "gpu_reserved_gib": 14.8671875,
+    "gpu_peak_allocated_gib": 14.599462509155273
+  },
+  "after_validation": {
+    "loss": 6.405733203475093,
+    "action_token_accuracy": 0.25819418995411364,
+    "normalized_action_l1": 0.20497757047304557,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 18.999306712299585,
+    "gpu_allocated_gib": 14.169339179992676,
+    "gpu_reserved_gib": 15.0625,
+    "gpu_peak_allocated_gib": 14.940228462219238
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/dense/after_sft",
+  "checkpoint_weight_bytes": 16794424,
+  "seconds": 412.8558997474611,
+  "memory": {
+    "allocated_gib": 14.184963703155518,
+    "reserved_gib": 15.0625,
+    "peak_gib": 14.940228462219238
+  },
+  "frozen_samples_unchanged": true
+}

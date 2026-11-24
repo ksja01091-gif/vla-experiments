@@ -1,0 +1,6 @@
+epoch,optimizer_step,loss,action_token_accuracy,normalized_action_l1,checkpoint
+1,1007,3.12671033644573,0.359616576399638,0.24042052550003445,/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007
+2,2014,3.212144830010154,0.3447742759536355,0.21836622968347352,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_002014
+3,3021,3.5229939805480823,0.330241187632858,0.2015530178969206,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_003021
+4,4028,4.008708716470958,0.3024118754577327,0.20109101081233596,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_004028
+5,5035,4.5756160769111665,0.27643785009652505,0.20453971454465694,/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035

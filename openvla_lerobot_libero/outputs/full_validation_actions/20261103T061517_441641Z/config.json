@@ -1,0 +1,27 @@
+{
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007",
+  "adapter_hash": "090038820092952a94326c23083e87e9b1b46ec8eee9804800e91a40b94e6719",
+  "base_model": "openvla/openvla-7b",
+  "train_episodes_for_checkpoint": 40,
+  "validation_episodes": 5,
+  "validation_frames": 462,
+  "preprocessing": "source RGB 256 directly to native HF processor; exact match to training",
+  "generation": "original cached predict_action; do_sample=False; all seven action tokens freely generated",
+  "normalization": "fixed original train20 statistics, identical to checkpoint training",
+  "diagnostic_motion_threshold": {
+    "expert_active_max_abs_arm_command_at_least": 0.1,
+    "predicted_near_zero_max_abs_arm_command_at_most": 0.01,
+    "arm_dimensions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "gripper_excluded": true
+  },
+  "generation_hook": "Records generated token IDs and returns the original generated tensor unchanged",
+  "training_performed": false,
+  "simulator_rollouts_performed": false
+}

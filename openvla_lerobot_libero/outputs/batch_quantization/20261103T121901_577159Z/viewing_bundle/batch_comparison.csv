@@ -1,0 +1,3 @@
+batch_size,measured_frames,optimizer_updates,wall_seconds,frames_per_second,peak_allocated_gib,estimated_five_epoch_train_minutes_excluding_validation
+4,128,32,12.541784843429923,10.205883899136847,14.924129962921143,32.865028642451456
+8,128,16,11.098114652559161,11.533490507820979,15.68898868560791,29.08197361754598

@@ -1,0 +1,13 @@
+{
+  "mode": "offline",
+  "uploaded": false,
+  "comparison_directory": "/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/wandb/offline-run-20261102_101714-bzrd4ivu/files",
+  "local_only_files": [
+    "checkpoints",
+    "optimizer states",
+    "source snapshots",
+    "datasets",
+    "simulator videos"
+  ],
+  "sync_instructions": "After user login, use wandb sync on each offline-run directory under the experiment wandb folder"
+}

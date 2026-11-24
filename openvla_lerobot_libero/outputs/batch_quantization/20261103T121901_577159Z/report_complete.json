@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "comparisons": [
+    {
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/viewing_bundle/02_BF16_vs_INT8_state_01.mp4",
+      "decoded_frames": 221,
+      "state": 1
+    },
+    {
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/viewing_bundle/02_BF16_vs_INT8_state_04.mp4",
+      "decoded_frames": 221,
+      "state": 4
+    }
+  ],
+  "files": 9
+}

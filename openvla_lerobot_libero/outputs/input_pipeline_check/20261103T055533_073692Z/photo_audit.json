@@ -1,0 +1,338 @@
+[
+  {
+    "validation_index": 0,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.10722503811120987,
+    "no_crop_only_model_input_mean_abs_difference": 0.014740152284502983,
+    "train_input_sha256": "6101c587215d007bc396e9af296e4b50b7c73ab3d62b44c1f9ac2dce259e298d",
+    "matched_input_sha256": "6101c587215d007bc396e9af296e4b50b7c73ab3d62b44c1f9ac2dce259e298d",
+    "old_action": [
+      [
+        0.9339037537574768,
+        0.4648454785346985,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.300435870885849,
+    "matched_free_generation_normalized_l1": 0.058015525341033936,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 65,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.15415047109127045,
+    "no_crop_only_model_input_mean_abs_difference": 0.01618589274585247,
+    "train_input_sha256": "8caff7981df052ab20df3176aa00f492978e9bf833a22ccf137c3fe648d6fc6f",
+    "matched_input_sha256": "8caff7981df052ab20df3176aa00f492978e9bf833a22ccf137c3fe648d6fc6f",
+    "old_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.9338287711143494,
+        0.1321152150630951,
+        -0.08638642728328705,
+        0.00044462032383307815,
+        0.0
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.9338287711143494,
+        0.07055521011352539,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.0
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.4024205207824707,
+    "matched_free_generation_normalized_l1": 0.39233651757240295,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 131,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.13908037543296814,
+    "no_crop_only_model_input_mean_abs_difference": 0.01610824652016163,
+    "train_input_sha256": "b6527c04249d11fe963ed1620cbe5341035a94bc38c127afe5e1050c59e86bd9",
+    "matched_input_sha256": "b6527c04249d11fe963ed1620cbe5341035a94bc38c127afe5e1050c59e86bd9",
+    "old_action": [
+      [
+        0.9339037537574768,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.0
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        -0.18661117553710938,
+        0.0
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.473510205745697,
+    "matched_free_generation_normalized_l1": 0.48369282484054565,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 197,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.13881482183933258,
+    "no_crop_only_model_input_mean_abs_difference": 0.015761777758598328,
+    "train_input_sha256": "b6a37c870f91f5a85bce33fa6ff77271cc430ae724f5608444c3fa7e0543afce",
+    "matched_input_sha256": "b6a37c870f91f5a85bce33fa6ff77271cc430ae724f5608444c3fa7e0543afce",
+    "old_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.0
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        -0.0013392865657806396,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.0
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.06424655765295029,
+    "matched_free_generation_normalized_l1": 0.06424655765295029,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 263,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.14964476227760315,
+    "no_crop_only_model_input_mean_abs_difference": 0.016362372785806656,
+    "train_input_sha256": "f193fa1689c2448d1f8f72f6369e4b0b9c0209a10053857a44f2c7315c64dda3",
+    "matched_input_sha256": "f193fa1689c2448d1f8f72f6369e4b0b9c0209a10053857a44f2c7315c64dda3",
+    "old_action": [
+      [
+        -0.3175985515117645,
+        -0.2879936099052429,
+        -0.0013392865657806396,
+        0.1321152150630951,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        0.00017446554556954652,
+        0.9311501979827881,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.8112026453018188,
+    "matched_free_generation_normalized_l1": 0.7498294711112976,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 329,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.1444464772939682,
+    "no_crop_only_model_input_mean_abs_difference": 0.01606667786836624,
+    "train_input_sha256": "ccb16893907443dd1f2df9305fedb7161b2586f5c7b9a22221baf6cf812639ce",
+    "matched_input_sha256": "ccb16893907443dd1f2df9305fedb7161b2586f5c7b9a22221baf6cf812639ce",
+    "old_action": [
+      [
+        -0.0011267198715358973,
+        -0.2879936099052429,
+        -0.0013392865657806396,
+        0.1321152150630951,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        -0.2879936099052429,
+        -0.0013392865657806396,
+        0.1321152150630951,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.0
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.6603245139122009,
+    "matched_free_generation_normalized_l1": 0.5180276036262512,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 395,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.11933080106973648,
+    "no_crop_only_model_input_mean_abs_difference": 0.015421200543642044,
+    "train_input_sha256": "090e63f868c885ce1bb766cc5aec651409cc2f3ae6a70c2cb4267c2a29b3075e",
+    "matched_input_sha256": "090e63f868c885ce1bb766cc5aec651409cc2f3ae6a70c2cb4267c2a29b3075e",
+    "old_action": [
+      [
+        0.9339037537574768,
+        0.36758875846862793,
+        -0.3464338183403015,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "training_matched_action": [
+      [
+        0.9339037537574768,
+        0.00017446554556954652,
+        -0.9338287711143494,
+        -5.7728906540432945e-05,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.36543676257133484,
+    "matched_free_generation_normalized_l1": 0.17640386521816254,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  },
+  {
+    "validation_index": 461,
+    "train_input_shape": [
+      1,
+      6,
+      224,
+      224
+    ],
+    "matched_pixel_values_exact": true,
+    "inference_prefix_matches_training": true,
+    "original_eval_pixel_values_exact": false,
+    "original_eval_model_input_mean_abs_difference": 0.15941239893436432,
+    "no_crop_only_model_input_mean_abs_difference": 0.01668575592339039,
+    "train_input_sha256": "6a4ad361f513d203169f78da791e77417516ed882b9297b583572f2c9c8a2a0b",
+    "matched_input_sha256": "6a4ad361f513d203169f78da791e77417516ed882b9297b583572f2c9c8a2a0b",
+    "old_action": [
+      [
+        -0.0011267198715358973,
+        -0.2879936099052429,
+        -0.0013392865657806396,
+        0.1321152150630951,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "training_matched_action": [
+      [
+        -0.0011267198715358973,
+        -0.2879936099052429,
+        -0.0013392865657806396,
+        0.1321152150630951,
+        -0.0004992811591364443,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "old_free_generation_normalized_l1": 0.4154936373233795,
+    "matched_free_generation_normalized_l1": 0.4154936373233795,
+    "teacher_forced_metric": false,
+    "small_diagnostic_sample_only": true
+  }
+]

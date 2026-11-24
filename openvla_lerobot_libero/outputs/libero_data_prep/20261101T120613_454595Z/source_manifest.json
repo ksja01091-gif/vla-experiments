@@ -1,0 +1,84 @@
+{
+  "repo_id": "openvla/modified_libero_rlds",
+  "revision": "6ce6aaaaabdbe590b1eef5cd29c0d33f14a08551",
+  "prefix": "libero_spatial_no_noops/1.0.0/",
+  "files": [
+    {
+      "path": "libero_spatial_no_noops/1.0.0/dataset_info.json",
+      "size": 930
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/features.json",
+      "size": 9195
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00000-of-00016",
+      "size": 118202941
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00001-of-00016",
+      "size": 117638784
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00002-of-00016",
+      "size": 124105247
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00003-of-00016",
+      "size": 114001484
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00004-of-00016",
+      "size": 123511634
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00005-of-00016",
+      "size": 119156456
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00006-of-00016",
+      "size": 125554213
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00007-of-00016",
+      "size": 116016812
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00008-of-00016",
+      "size": 115049321
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00009-of-00016",
+      "size": 123912982
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00010-of-00016",
+      "size": 125254897
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00011-of-00016",
+      "size": 115996912
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00012-of-00016",
+      "size": 120268059
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00013-of-00016",
+      "size": 119776671
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00014-of-00016",
+      "size": 116903288
+    },
+    {
+      "path": "libero_spatial_no_noops/1.0.0/libero_spatial-train.tfrecord-00015-of-00016",
+      "size": 119276849
+    }
+  ],
+  "raw_root": "/home/jovyan/projects/datasets/openvla_modified_libero_rlds",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "requested_train_episodes": 20,
+  "requested_validation_episodes": 5,
+  "selection_seed": 7
+}

@@ -1,0 +1,19 @@
+{
+  "samples": 32,
+  "warmup": 3,
+  "mean_seconds": 0.2893588957376778,
+  "median_seconds": 0.2898400891572237,
+  "all_finite_1x7": true,
+  "memory": {
+    "allocated_gib": 14.129697322845459,
+    "reserved_gib": 15.08984375,
+    "peak_gib": 14.452723026275635
+  },
+  "parameters": {
+    "model_parameters": 7549625792,
+    "recovery_parameters": 4194304,
+    "model_tensor_bytes": 15149591424,
+    "critic_parameters": 4097
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_recovery/20261108T101044Z/checkpoints/dense/after_ppo"
+}

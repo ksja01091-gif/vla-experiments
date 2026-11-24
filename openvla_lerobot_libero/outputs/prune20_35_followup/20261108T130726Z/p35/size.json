@@ -1,0 +1,15 @@
+{
+  "before": {
+    "model_parameters": 7549625792,
+    "recovery_parameters": 4194304,
+    "model_tensor_bytes": 15149591424,
+    "critic_parameters": 4097
+  },
+  "after": {
+    "model_parameters": 5435844032,
+    "recovery_parameters": 3518464,
+    "model_tensor_bytes": 10919324544,
+    "critic_parameters": 4097
+  },
+  "whole_parameter_reduction": 0.27998497120743115
+}

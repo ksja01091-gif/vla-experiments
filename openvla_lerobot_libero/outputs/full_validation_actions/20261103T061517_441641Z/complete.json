@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "frames": 462,
+  "episodes": 5,
+  "training_performed": false,
+  "checkpoint_unchanged": true,
+  "exact_input_checks": 462,
+  "preservation_audit_passed": true
+}

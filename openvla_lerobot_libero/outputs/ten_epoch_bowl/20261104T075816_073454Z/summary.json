@@ -1,0 +1,231 @@
+{
+  "training_completed": true,
+  "epochs_completed": 10,
+  "resumed_from_epoch": 5,
+  "additional_epochs": 5,
+  "new_training_frames_seen": 20125,
+  "unique_train_frames_per_epoch": 4025,
+  "validation_frames_per_epoch": 462,
+  "new_simulator_trials": 25,
+  "reused_simulator_trials": 25,
+  "epoch5_successes": 3,
+  "epoch10_successes": 3,
+  "first_observed_5of5_epoch": null,
+  "best_observed_successes": 3,
+  "best_observed_epochs": [
+    5,
+    8,
+    10
+  ],
+  "rows": [
+    {
+      "epoch": 1,
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "mean_policy_steps": 220.0,
+      "training_loss": null,
+      "validation_loss": 3.12671033644573,
+      "validation_action_token_accuracy": 0.359616576399638,
+      "validation_normalized_action_l1_teacher_forced": 0.24042052550003445,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation_epoch1.json",
+      "newly_evaluated": false
+    },
+    {
+      "epoch": 2,
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "mean_policy_steps": 220.0,
+      "training_loss": 2.780234373637608,
+      "validation_loss": 3.212144830010154,
+      "validation_action_token_accuracy": 0.3447742759536355,
+      "validation_normalized_action_l1_teacher_forced": 0.21836622968347352,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_002014",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation_epoch2.json",
+      "newly_evaluated": false
+    },
+    {
+      "epoch": 3,
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "mean_policy_steps": 220.0,
+      "training_loss": 2.4494854157015404,
+      "validation_loss": 3.5229939805480823,
+      "validation_action_token_accuracy": 0.330241187632858,
+      "validation_normalized_action_l1_teacher_forced": 0.2015530178969206,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_003021",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation_epoch3.json",
+      "newly_evaluated": false
+    },
+    {
+      "epoch": 4,
+      "successes": 2,
+      "attempts": 5,
+      "success_rate": 0.4,
+      "mean_policy_steps": 161.6,
+      "training_loss": 2.0914951579170937,
+      "validation_loss": 4.008708716470958,
+      "validation_action_token_accuracy": 0.3024118754577327,
+      "validation_normalized_action_l1_teacher_forced": 0.20109101081233596,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_004028",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation_epoch4.json",
+      "newly_evaluated": false
+    },
+    {
+      "epoch": 5,
+      "successes": 3,
+      "attempts": 5,
+      "success_rate": 0.6,
+      "mean_policy_steps": 135.8,
+      "training_loss": 1.7125715509556836,
+      "validation_loss": 4.5756160769111665,
+      "validation_action_token_accuracy": 0.27643785009652505,
+      "validation_normalized_action_l1_teacher_forced": 0.20453971454465694,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/simulation_epoch5.json",
+      "newly_evaluated": false
+    },
+    {
+      "epoch": 6,
+      "successes": 2,
+      "attempts": 5,
+      "success_rate": 0.4,
+      "mean_policy_steps": 161.4,
+      "training_loss": 1.3088837494761307,
+      "validation_loss": 5.3256876974394824,
+      "validation_action_token_accuracy": 0.2662337685560251,
+      "validation_normalized_action_l1_teacher_forced": 0.20344429676782563,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/checkpoints/step_006042",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation_epoch6.json",
+      "newly_evaluated": true
+    },
+    {
+      "epoch": 7,
+      "successes": 1,
+      "attempts": 5,
+      "success_rate": 0.2,
+      "mean_policy_steps": 192.8,
+      "training_loss": 0.9313346519825622,
+      "validation_loss": 6.283142690534715,
+      "validation_action_token_accuracy": 0.26097712033625803,
+      "validation_normalized_action_l1_teacher_forced": 0.20467785251884038,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/checkpoints/step_007049",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation_epoch7.json",
+      "newly_evaluated": true
+    },
+    {
+      "epoch": 8,
+      "successes": 3,
+      "attempts": 5,
+      "success_rate": 0.6,
+      "mean_policy_steps": 137.8,
+      "training_loss": 0.6413223886452847,
+      "validation_loss": 7.7353640077434065,
+      "validation_action_token_accuracy": 0.24984539506626335,
+      "validation_normalized_action_l1_teacher_forced": 0.207704908546674,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/checkpoints/step_008056",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation_epoch8.json",
+      "newly_evaluated": true
+    },
+    {
+      "epoch": 9,
+      "successes": 2,
+      "attempts": 5,
+      "success_rate": 0.4,
+      "mean_policy_steps": 164.6,
+      "training_loss": 0.43550149396154453,
+      "validation_loss": 8.563610326676141,
+      "validation_action_token_accuracy": 0.24582560595882919,
+      "validation_normalized_action_l1_teacher_forced": 0.2127613676532919,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/checkpoints/step_009063",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation_epoch9.json",
+      "newly_evaluated": true
+    },
+    {
+      "epoch": 10,
+      "successes": 3,
+      "attempts": 5,
+      "success_rate": 0.6,
+      "mean_policy_steps": 138.4,
+      "training_loss": 0.2994073735816138,
+      "validation_loss": 9.388864719506467,
+      "validation_action_token_accuracy": 0.2523191124523357,
+      "validation_normalized_action_l1_teacher_forced": 0.2115897395073156,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/checkpoints/step_010070",
+      "evaluation_source": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/simulation_epoch10.json",
+      "newly_evaluated": true
+    }
+  ],
+  "additional_training_wall_seconds": 2489.8486018311232,
+  "training_wall_time_is_not_an_isolated_speed_benchmark": true,
+  "training_peak_allocated_gib": 14.924588203430176,
+  "epoch10_inference": {
+    "samples": 32,
+    "mean_action_seconds": 0.28510684077627957,
+    "peak_allocated_gib": 14.436872005462646,
+    "peak_reserved_gib": 14.51953125
+  },
+  "fresh_process_checkpoint_check": {
+    "fresh_python_process_reload": true,
+    "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/checkpoints/step_010070",
+    "adapter_hash_exact": true,
+    "same_validation_batch_loss_matches": true,
+    "loss": 6.022513389587402,
+    "action_shape": [
+      1,
+      7
+    ],
+    "all_actions_finite": true,
+    "action": [
+      [
+        0.797245442867279,
+        0.4792538583278656,
+        0.16019432246685028,
+        -0.024500669911503792,
+        0.056273575872182846,
+        0.00044462032383307815,
+        0.9960784316062927
+      ]
+    ],
+    "metrics": {
+      "loss": 6.022513389587402,
+      "action_token_accuracy": 0.3571428656578064,
+      "normalized_action_l1": 0.16835398705733592,
+      "predicted_action_token_fraction": 1.0
+    },
+    "simulator_rollout": false
+  },
+  "source_preservation": {
+    "original_source_files": 292,
+    "changed_original_sources": [],
+    "existing_sources_unchanged": true,
+    "environments": {
+      "openvla310": {
+        "packages_unchanged": true
+      },
+      "lerobot312": {
+        "packages_unchanged": true
+      },
+      "eval310": {
+        "packages_unchanged": true
+      }
+    }
+  },
+  "protected_preservation": {
+    "files_checked": 24,
+    "changed_files": []
+  },
+  "lora_sp_comparison_executed": false,
+  "evaluation_schedule": {
+    "used": true,
+    "status": "done",
+    "returncode": 0,
+    "no_training_running_during_parallel_rollouts": true,
+    "ready_marker_restored": true
+  },
+  "lora_sp_preparation": "/home/jovyan/projects/lerobot-openvla/outputs/ten_epoch_bowl/20261104T075816_073454Z/lora_sp_preparation.json",
+  "caveat": "Same five previously used states, checkpoint selection may overfit them. Not an independent benchmark success estimate."
+}

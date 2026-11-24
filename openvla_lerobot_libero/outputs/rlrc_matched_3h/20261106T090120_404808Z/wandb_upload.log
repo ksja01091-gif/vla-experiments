@@ -1,0 +1,94 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run rlrc63ec1a886f5ddense
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/wandb/run-20261106_103618-rlrc63ec1a886f5ddense
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run RLRC90-dense-control-SFT1-PPO4
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrc63ec1a886f5ddense
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading artifact run-rlrc63ec1a886f5ddense-evaluationtrials-XxJedg
+wandb: uploading artifact run-rlrc63ec1a886f5ddense-evaluationtrials-XxJedg
+wandb: uploading history steps 0-132, summary
+wandb: 
+wandb: Run history:
+wandb:     ppo/actor_loss ▇█▄█▇▆▇█▇█▄▅▇▆▇▆▇█▄▃▆▇▆▅▁▇▇▁▇▇▄
+wandb:  ppo/allocated_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        ppo/bc_loss ▄▁▁▄▂▂▄▂▃▆▁▆▂▂▃▄▃▁▄▂▅▃▃▃▃▅▇▁▅█▆
+wandb: ppo/bc_train_index ▆▁▅▅█▅▄▄▅▂▁▇▁▇▅█▃▁▂▆█▄▇▄▂▇▂▂▆▆▆
+wandb:        ppo/entropy ▃▃▅▃▃█▅▂▃▅▆▆▄▄▂▅▅▅▇▇▃▃▅▅▆▄▂▆▄▁▄
+wandb:  ppo/gradient_norm ▂▂▄▂▁▂▁▂▂▁▄▃▂▂▁▂▁▂▁▁▁▁▁▁▁▁▁█▁▁▁
+wandb:       ppo/peak_gib ▁██████████████████████████████
+wandb:       ppo/ppo_pass ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁████████████████
+wandb:          ppo/ratio ▃▃▂▃▂▃▂▃▃▂▃▃▂▃▂▂▂▃▃▃▃▁▂▂▅▂▁▃▂▁█
+wandb:   ppo/reserved_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                +14 ...
+wandb: 
+wandb: Run summary:
+wandb:     comparison/action_token_accuracy 0.25696
+wandb: comparison/after_ppo_validation_loss 6.56797
+wandb: comparison/after_sft_validation_loss 6.40573
+wandb:                  comparison/attempts 5
+wandb:        comparison/inference_peak_GiB 14.45272
+wandb:   comparison/initial_validation_loss 4.57562
+wandb:        comparison/mean_episode_steps 167.6
+wandb:      comparison/normalized_action_l1 0.20416
+wandb:              comparison/parameters_B 7.54963
+wandb:              comparison/ppo_peak_GiB 14.36948
+wandb:                                  +63 ...
+wandb: 
+wandb: 🚀 View run RLRC90-dense-control-SFT1-PPO4 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrc63ec1a886f5ddense
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 2 media file(s), 2 artifact file(s) and 4 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_103618-rlrc63ec1a886f5ddense/logs
+wandb: setting up run rlrc63ec1a886f5dpruned
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/wandb/run-20261106_103624-rlrc63ec1a886f5dpruned
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run RLRC90-pruned-2B-SFT1-PPO4
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrc63ec1a886f5dpruned
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading artifact run-rlrc63ec1a886f5dpruned-evaluationtrials-xriFMw
+wandb: uploading artifact run-rlrc63ec1a886f5dpruned-evaluationtrials-xriFMw
+wandb: uploading media/table/evaluation/trials_summary_b26f6238d874ad36bda7.table.json; uploading media/videos/evaluation/representative_video_summary_470e61f0e7e15cccfb3f.mp4; uploading comparison.csv; uploading RESULTS_KO.txt; uploading experiment_config.json (+ 3 more)
+wandb: uploading history steps 0-132, summary
+wandb: 
+wandb: Run history:
+wandb:     ppo/actor_loss █▆█▇▇▆▇███▃█▇█▇▇▇▇▃▆▆▆▇▇▅▅▇▁▇█▇
+wandb:  ppo/allocated_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        ppo/bc_loss ▅▁▅▆▆▆▃▇▅▇▄▄▄▇▅▂▇▂▄▂▅▆▂▄▅▄▆▃█▇▅
+wandb: ppo/bc_train_index ▆▁▅▅█▅▄▄▅▂▁▇▁▇▅█▃▁▂▆█▄▇▄▂▇▂▂▆▆▆
+wandb:        ppo/entropy ▁▆▆▅▃▇▅▅▇▅▇▆▆▅▄▅▆▅█▇▆▅▁▇▄▇▆▇▄▅▆
+wandb:  ppo/gradient_norm ▂▄▃▂▂▂▂▂▂▃▄▂▂▂▁▂▁▁▁▃▃▂▂▂▇█▂▅▁▂▂
+wandb:       ppo/peak_gib ▁██████████████████████████████
+wandb:       ppo/ppo_pass ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁████████████████
+wandb:          ppo/ratio ▄▅▆▄▅▄▅▄▅▇▄▄▁▅▂▂▂▂▃▁▆▄▅▂▁█▂▅▁▁▄
+wandb:   ppo/reserved_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                +14 ...
+wandb: 
+wandb: Run summary:
+wandb:     comparison/action_token_accuracy 0.3423
+wandb: comparison/after_ppo_validation_loss 3.25558
+wandb: comparison/after_sft_validation_loss 3.26704
+wandb:                  comparison/attempts 5
+wandb:        comparison/inference_peak_GiB 4.00088
+wandb:   comparison/initial_validation_loss 21.56335
+wandb:        comparison/mean_episode_steps 220
+wandb:      comparison/normalized_action_l1 0.27792
+wandb:              comparison/parameters_B 2.06463
+wandb:              comparison/ppo_peak_GiB 4.13944
+wandb:                                  +63 ...
+wandb: 
+wandb: 🚀 View run RLRC90-pruned-2B-SFT1-PPO4 at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrc63ec1a886f5dpruned
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 2 media file(s), 2 artifact file(s) and 4 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_103624-rlrc63ec1a886f5dpruned/logs
+WANDB_RESULTS_VERIFIED [{"branch": "dense", "id": "rlrc63ec1a886f5ddense", "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrc63ec1a886f5ddense"}, {"branch": "pruned", "id": "rlrc63ec1a886f5dpruned", "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrc63ec1a886f5dpruned"}]

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "no_model_execution": true,
+  "videos": [
+    {
+      "branch": "dense",
+      "decoded_without_error": true,
+      "sha256": "6977253c448152e241aaa63ef6a3d5473a3d1246db5354e865193e1421af3aab",
+      "bytes": 76757
+    },
+    {
+      "branch": "pruned",
+      "decoded_without_error": true,
+      "sha256": "470e61f0e7e15cccfb3f2e48f34f743e259a7115cf45c3cca9ac35c85e158e90",
+      "bytes": 138325
+    }
+  ]
+}

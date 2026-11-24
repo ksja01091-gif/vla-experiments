@@ -1,0 +1,96 @@
+{
+  "previous": {
+    "policy_steps": 220,
+    "max_hand_displacement_mm": 293.25193361887636,
+    "dominant_action_count": 156,
+    "dominant_raw_action": [
+      -0.0011267198715358973,
+      0.00017446554556954652,
+      -0.0013392865657806396,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ],
+    "gripper_open_steps": 220,
+    "gripper_close_steps": 0,
+    "motion_command_unchanged_before_execution": true
+  },
+  "training_matched": {
+    "policy_steps": 220,
+    "max_hand_displacement_mm": 12.020597783722032,
+    "dominant_action_count": 219,
+    "dominant_raw_action": [
+      -0.0011267198715358973,
+      0.00017446554556954652,
+      -0.0013392865657806396,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ],
+    "gripper_open_steps": 220,
+    "gripper_close_steps": 0,
+    "motion_command_unchanged_before_execution": true
+  },
+  "train_demonstrations": {
+    "frames": 4025,
+    "gripper_open_frames": 2091,
+    "gripper_closed_frames": 1934
+  },
+  "validation_demonstrations": {
+    "frames": 462,
+    "gripper_open_frames": 234,
+    "gripper_closed_frames": 228
+  },
+  "eight_photo_gripper_comparison": [
+    {
+      "validation_index": 0,
+      "demonstration_gripper": 1.0,
+      "previous_predicted_gripper": 0.9960784316062927,
+      "matched_predicted_gripper": 0.9960784316062927
+    },
+    {
+      "validation_index": 65,
+      "demonstration_gripper": 0.0,
+      "previous_predicted_gripper": 0.0,
+      "matched_predicted_gripper": 0.0
+    },
+    {
+      "validation_index": 131,
+      "demonstration_gripper": 0.0,
+      "previous_predicted_gripper": 0.0,
+      "matched_predicted_gripper": 0.0
+    },
+    {
+      "validation_index": 197,
+      "demonstration_gripper": 0.0,
+      "previous_predicted_gripper": 0.0,
+      "matched_predicted_gripper": 0.0
+    },
+    {
+      "validation_index": 263,
+      "demonstration_gripper": 0.0,
+      "previous_predicted_gripper": 0.9960784316062927,
+      "matched_predicted_gripper": 0.9960784316062927
+    },
+    {
+      "validation_index": 329,
+      "demonstration_gripper": 0.0,
+      "previous_predicted_gripper": 0.9960784316062927,
+      "matched_predicted_gripper": 0.0
+    },
+    {
+      "validation_index": 395,
+      "demonstration_gripper": 1.0,
+      "previous_predicted_gripper": 0.9960784316062927,
+      "matched_predicted_gripper": 0.9960784316062927
+    },
+    {
+      "validation_index": 461,
+      "demonstration_gripper": 1.0,
+      "previous_predicted_gripper": 0.9960784316062927,
+      "matched_predicted_gripper": 0.9960784316062927
+    }
+  ]
+}

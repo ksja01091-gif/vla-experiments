@@ -1,0 +1,641 @@
+{
+  "complete": true,
+  "primary_comparison": [
+    {
+      "method": "dense_sft",
+      "stage": "after_sft_before_PPO",
+      "parameters_B": 7.549625792,
+      "successes": 3,
+      "attempts": 5,
+      "success_rate": 0.6,
+      "mean_episode_steps": 140.6,
+      "validation_loss": 6.405733203475093,
+      "action_token_accuracy": 0.25819418995411364,
+      "normalized_action_l1": 0.20497757047304557,
+      "prediction_ms": 294.95468124514446,
+      "inference_peak_GiB": 14.452722549438477,
+      "sft_peak_GiB": 14.940228462219238,
+      "sft_seconds": 412.8558997474611,
+      "sft_resource_measurement": "prior isolated run",
+      "model_tensor_bytes": 15149591424,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/dense/after_sft"
+    },
+    {
+      "method": "p50",
+      "stage": "after_sft_before_PPO",
+      "parameters_B": 4.512032192,
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "mean_episode_steps": 220.0,
+      "validation_loss": 3.2830816048048277,
+      "action_token_accuracy": 0.3509585674836006,
+      "normalized_action_l1": 0.2235690210011194,
+      "prediction_ms": 290.77288310509175,
+      "inference_peak_GiB": 8.668455600738525,
+      "sft_peak_GiB": 9.271405220031738,
+      "sft_seconds": 355.3615315929055,
+      "sft_resource_measurement": "this run",
+      "model_tensor_bytes": 9070472064,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/after_sft"
+    }
+  ],
+  "diagnostics_two_states": {
+    "p90_sft": {
+      "complete": true,
+      "tag": "p90_sft",
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/pruned/after_sft",
+      "stage": "after_sft_before_any_PPO",
+      "attempts": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_episode_steps": 220.0,
+      "states": [
+        5,
+        8
+      ],
+      "trials": [
+        {
+          "trial_executed": true,
+          "model_tag": "p90_sft_diagnostic",
+          "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "task_id": 0,
+          "init_state_index": 5,
+          "success": false,
+          "termination_reason": "horizon_exhausted",
+          "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+          "policy_steps": 220,
+          "max_policy_steps": 220,
+          "warmup_steps": 10,
+          "environment_seed": 0,
+          "global_seed": 7,
+          "action_shape": [
+            1,
+            7
+          ],
+          "all_actions_finite": true,
+          "action_clipping_used": false,
+          "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+          "worker_original_reference_check_passed": true,
+          "initial_image_sha256": "d2bd75692f92d3289228aac71aa222a00e12040ee7bd8c0a577b8f64a5a50cf8",
+          "selected_init_state_sha256": "678aa25f84c405228908ba057fed51462f8222237bc2ae3841b916f9578f31c3",
+          "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+          "reference_sha256": {
+            "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+            "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+          },
+          "simulator_versions": {
+            "mujoco": "2.3.7",
+            "robosuite": "1.4.1",
+            "numpy": "1.26.4",
+            "tensorflow-cpu": "2.15.1"
+          },
+          "initial_eef_position": [
+            -0.19911164941841225,
+            -0.001007793294591051,
+            1.180095828677058
+          ],
+          "final_eef_position": [
+            0.09790634128591096,
+            0.09984521909442086,
+            1.0792076557470618
+          ],
+          "wall_seconds": 189.92171007953584,
+          "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p90_sft_diagnostic/state_05/episode.mp4",
+          "overview": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p90_sft_diagnostic/state_05/episode_overview.png"
+        },
+        {
+          "trial_executed": true,
+          "model_tag": "p90_sft_diagnostic",
+          "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "task_id": 0,
+          "init_state_index": 8,
+          "success": false,
+          "termination_reason": "horizon_exhausted",
+          "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+          "policy_steps": 220,
+          "max_policy_steps": 220,
+          "warmup_steps": 10,
+          "environment_seed": 0,
+          "global_seed": 7,
+          "action_shape": [
+            1,
+            7
+          ],
+          "all_actions_finite": true,
+          "action_clipping_used": false,
+          "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+          "worker_original_reference_check_passed": true,
+          "initial_image_sha256": "7a8bb02e6bfa5b90fc6b257aebb9e04f2c03f8ceef5834f2532f285db03d0789",
+          "selected_init_state_sha256": "bdec5baa16eb03f4a030d536ef973a5cfcc63c6163fd111f0f0e8b62b6bf4e7e",
+          "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+          "reference_sha256": {
+            "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+            "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+          },
+          "simulator_versions": {
+            "mujoco": "2.3.7",
+            "robosuite": "1.4.1",
+            "numpy": "1.26.4",
+            "tensorflow-cpu": "2.15.1"
+          },
+          "initial_eef_position": [
+            -0.21569620949146548,
+            -0.010807568513316124,
+            1.1689968523694954
+          ],
+          "final_eef_position": [
+            0.015933425292107395,
+            0.1147666278447759,
+            1.0289094551336497
+          ],
+          "wall_seconds": 190.96281187981367,
+          "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p90_sft_diagnostic/state_08/episode.mp4",
+          "overview": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p90_sft_diagnostic/state_08/episode_overview.png"
+        }
+      ],
+      "technical_errors": 0,
+      "actor_unchanged": true,
+      "diagnostic_only": true,
+      "scope": "one bowl task, fixed previously used initial states; no independent generalization claim"
+    },
+    "p50": {
+      "complete": true,
+      "tag": "p50",
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/after_sft",
+      "stage": "after_sft_before_any_PPO",
+      "attempts": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_episode_steps": 220.0,
+      "states": [
+        5,
+        8
+      ],
+      "trials": [
+        {
+          "trial_executed": true,
+          "model_tag": "p50_diagnostic",
+          "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "task_id": 0,
+          "init_state_index": 5,
+          "success": false,
+          "termination_reason": "horizon_exhausted",
+          "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+          "policy_steps": 220,
+          "max_policy_steps": 220,
+          "warmup_steps": 10,
+          "environment_seed": 0,
+          "global_seed": 7,
+          "action_shape": [
+            1,
+            7
+          ],
+          "all_actions_finite": true,
+          "action_clipping_used": false,
+          "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+          "worker_original_reference_check_passed": true,
+          "initial_image_sha256": "d2bd75692f92d3289228aac71aa222a00e12040ee7bd8c0a577b8f64a5a50cf8",
+          "selected_init_state_sha256": "678aa25f84c405228908ba057fed51462f8222237bc2ae3841b916f9578f31c3",
+          "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+          "reference_sha256": {
+            "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+            "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+          },
+          "simulator_versions": {
+            "mujoco": "2.3.7",
+            "robosuite": "1.4.1",
+            "numpy": "1.26.4",
+            "tensorflow-cpu": "2.15.1"
+          },
+          "initial_eef_position": [
+            -0.19911164941841225,
+            -0.001007793294591051,
+            1.180095828677058
+          ],
+          "final_eef_position": [
+            0.16905602064825814,
+            0.1634539860666379,
+            1.1736292979253728
+          ],
+          "wall_seconds": 189.6816948391497,
+          "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p50_diagnostic/state_05/episode.mp4",
+          "overview": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p50_diagnostic/state_05/episode_overview.png"
+        },
+        {
+          "trial_executed": true,
+          "model_tag": "p50_diagnostic",
+          "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "task_id": 0,
+          "init_state_index": 8,
+          "success": false,
+          "termination_reason": "horizon_exhausted",
+          "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+          "policy_steps": 220,
+          "max_policy_steps": 220,
+          "warmup_steps": 10,
+          "environment_seed": 0,
+          "global_seed": 7,
+          "action_shape": [
+            1,
+            7
+          ],
+          "all_actions_finite": true,
+          "action_clipping_used": false,
+          "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+          "worker_original_reference_check_passed": true,
+          "initial_image_sha256": "7a8bb02e6bfa5b90fc6b257aebb9e04f2c03f8ceef5834f2532f285db03d0789",
+          "selected_init_state_sha256": "bdec5baa16eb03f4a030d536ef973a5cfcc63c6163fd111f0f0e8b62b6bf4e7e",
+          "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+          "reference_sha256": {
+            "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+            "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+          },
+          "simulator_versions": {
+            "mujoco": "2.3.7",
+            "robosuite": "1.4.1",
+            "numpy": "1.26.4",
+            "tensorflow-cpu": "2.15.1"
+          },
+          "initial_eef_position": [
+            -0.21569620949146548,
+            -0.010807568513316124,
+            1.1689968523694954
+          ],
+          "final_eef_position": [
+            -0.06115248422280131,
+            0.1331732743410886,
+            1.036045633639313
+          ],
+          "wall_seconds": 188.89935489743948,
+          "video": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p50_diagnostic/state_08/episode.mp4",
+          "overview": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/simulation/p50_diagnostic/state_08/episode_overview.png"
+        }
+      ],
+      "technical_errors": 0,
+      "actor_unchanged": true,
+      "diagnostic_only": true,
+      "scope": "one bowl task, fixed previously used initial states; no independent generalization claim"
+    }
+  },
+  "prior_PPO_results_reference_only": [
+    {
+      "method": "dense",
+      "parameters_B": 7.549625792,
+      "initial_validation_loss": 4.5756160769111665,
+      "after_sft_validation_loss": 6.405733203475093,
+      "after_ppo_validation_loss": 6.567969190093862,
+      "action_token_accuracy": 0.25695733197065657,
+      "normalized_action_l1": 0.2041609497508427,
+      "successes": 2,
+      "attempts": 5,
+      "success_rate": 0.4,
+      "mean_episode_steps": 167.6,
+      "sft_peak_GiB": 14.940228462219238,
+      "ppo_peak_GiB": 14.369484424591064,
+      "inference_peak_GiB": 14.452723026275635,
+      "prediction_ms": 290.84264737321064,
+      "sft_seconds": 412.8558997474611,
+      "ppo_seconds": 476.04358395934105,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/dense/after_ppo",
+      "reference_only_different_PPO_stage": true
+    },
+    {
+      "method": "pruned",
+      "parameters_B": 2.064631232,
+      "initial_validation_loss": 21.563353030712573,
+      "after_sft_validation_loss": 3.267037112991531,
+      "after_ppo_validation_loss": 3.255575705400277,
+      "action_token_accuracy": 0.3423005591481279,
+      "normalized_action_l1": 0.2779169757816871,
+      "successes": 0,
+      "attempts": 5,
+      "success_rate": 0.0,
+      "mean_episode_steps": 220.0,
+      "sft_peak_GiB": 4.7125444412231445,
+      "ppo_peak_GiB": 4.139435291290283,
+      "inference_peak_GiB": 4.000875949859619,
+      "prediction_ms": 290.33048858400434,
+      "sft_seconds": 359.47404924966395,
+      "ppo_seconds": 460.335277331993,
+      "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/pruned/after_ppo",
+      "reference_only_different_PPO_stage": true
+    }
+  ],
+  "config": {
+    "base_model": "openvla/openvla-7b",
+    "starting_adapter": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+    "previous_run": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z",
+    "data_root": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/data",
+    "train_demonstrations": 40,
+    "train_frames": 4025,
+    "validation_demonstrations": 5,
+    "validation_frames": 462,
+    "data_description": "public LIBERO demonstrations selected and preprocessed into an experimental split",
+    "runtime_cap_seconds": 3600,
+    "user_selected_cap": true,
+    "target_internal_removal": 0.5,
+    "head_keep": 16,
+    "mlp_keep": 5504,
+    "protected_layers": [
+      0,
+      31
+    ],
+    "calibration_train_frames": 160,
+    "calibration_source": "/home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261105T085625_138557Z/calibration_indices.json",
+    "sft_epochs": 1,
+    "sft_batch_size": 4,
+    "sft_optimizer_updates": 1007,
+    "sft_learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0,
+    "gradient_clip": 1.0,
+    "seed": 7,
+    "recovery_lora_rank": 8,
+    "lora_targets": [
+      "language_model q_proj",
+      "language_model v_proj"
+    ],
+    "base_dtype": "BF16",
+    "recovery_dtype": "FP32",
+    "original_base_and_starting_adapter_frozen": true,
+    "new_zero_initialized_recovery_adapter": true,
+    "reinforcement_learning": false,
+    "quantization": false,
+    "primary_reference": "reuse exact unpruned after_sft checkpoint from prior run; fresh5state evaluation",
+    "diagnostic_states": [
+      5,
+      8
+    ],
+    "evaluation_states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evaluation_runs_even_if_diagnostic_fails": true,
+    "max_policy_steps": 220,
+    "warmup_steps": 10,
+    "environment_seed": 0,
+    "global_seed": 7,
+    "action_sampling": "deterministic greedy, same previous matched helper",
+    "image_preprocessing": "raw upright256 RGB -> existing native HF processor, no augmentation, matched old evaluation",
+    "action_normalization": "fixed original train20 q01/q99, unchanged; no validation calibration",
+    "prior_PPO_results_are_reference_only": true,
+    "checkpoint_selection": "fixed final extraSFT1epoch, no tuning or selection using finalevaluation",
+    "scope": "one task, five previously used states; no unseen-state generalization claim",
+    "not_exact_paper_reproduction": true,
+    "package_installation": false,
+    "estimated_compute_minutes": "35-55 based on previous measuredSFT and220step timings; hard cap60minutes"
+  },
+  "pruning": {
+    "complete": true,
+    "before": {
+      "model_parameters": 7549625792,
+      "recovery_parameters": 4194304,
+      "model_tensor_bytes": 15149591424,
+      "critic_parameters": 4097
+    },
+    "after": {
+      "model_parameters": 4512032192,
+      "recovery_parameters": 3211264,
+      "model_tensor_bytes": 9070472064,
+      "critic_parameters": 4097
+    },
+    "importance_frames": 160,
+    "importance_seconds": 126.61160812526941,
+    "importance_memory": {
+      "allocated_gib": 14.137821674346924,
+      "reserved_gib": 26.458984375,
+      "peak_gib": 25.950363159179688
+    },
+    "target_internal_removal": 0.5,
+    "actual_head_removal": 0.5,
+    "actual_mlp_removal": 0.5,
+    "protected_outer_layers_exact": true,
+    "pruned_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/initial",
+    "pruned_weights_bytes": 9037070776,
+    "whole_parameter_reduction": 0.40235022022135214,
+    "prior90_selection_nesting": [
+      {
+        "layer": 1,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 2,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 3,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 4,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 5,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 6,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 7,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 8,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 9,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 10,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 11,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 12,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 13,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 14,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 15,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 16,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 17,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 18,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 19,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 20,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 21,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 22,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 23,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 24,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 25,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 26,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 27,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 28,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 29,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      },
+      {
+        "layer": 30,
+        "p90_heads_subset_of_p50": true,
+        "p90_neurons_subset_of_p50": true
+      }
+    ]
+  },
+  "new_sft": {
+    "complete": true,
+    "epochs": 1,
+    "frames_seen": 4025,
+    "unique_frames": 4025,
+    "updates": 1007,
+    "coverage_sha256": "25c334401fa311cef4cc47fa8741e6ba47744b9ac9b5516f63b6698887162b00",
+    "coverage_same_as_dense_and_p90": true,
+    "training_metrics": {
+      "loss": 2.9610043599738836,
+      "action_token_accuracy": 0.34693877659229017,
+      "normalized_action_l1": 0.18563482560016717,
+      "predicted_action_token_fraction": 1.0
+    },
+    "seconds": 355.3615315929055,
+    "memory": {
+      "allocated_gib": 8.514309406280518,
+      "reserved_gib": 9.388671875,
+      "peak_gib": 9.271405220031738
+    },
+    "before_validation": {
+      "loss": 8.126329455024752,
+      "action_token_accuracy": 0.13821892688671747,
+      "normalized_action_l1": 0.3479234176338517,
+      "predicted_action_token_fraction": 1.0,
+      "frames": 462,
+      "optimizer_step": 0,
+      "seconds": 15.248069524765015,
+      "gpu_allocated_gib": 8.4700288772583,
+      "gpu_reserved_gib": 9.20703125,
+      "gpu_peak_allocated_gib": 14.153027057647705
+    },
+    "after_validation": {
+      "loss": 3.2830816048048277,
+      "action_token_accuracy": 0.3509585674836006,
+      "normalized_action_l1": 0.2235690210011194,
+      "predicted_action_token_fraction": 1.0,
+      "frames": 462,
+      "optimizer_step": 1007,
+      "seconds": 14.710352275520563,
+      "gpu_allocated_gib": 8.502346992492676,
+      "gpu_reserved_gib": 9.388671875,
+      "gpu_peak_allocated_gib": 9.271405220031738
+    },
+    "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/after_sft",
+    "checkpoint_weight_bytes": 9037070776,
+    "frozen_samples_unchanged": true,
+    "no_reinforcement_learning": true
+  },
+  "preservation": {
+    "protected_files": 458,
+    "changed_files": [],
+    "environments_unchanged": {
+      "lerobot312": true,
+      "openvla310": true,
+      "eval310": true
+    },
+    "run_sources_unchanged": true
+  },
+  "limitations": [
+    "Single bowl task, five previously reused states; not independent generalization.",
+    "No new reinforcement learning. Primary controls are both after the same extra SFT1 epoch.",
+    "P90 diagnostic is two greedy episodes after SFT, not a new five-state success rate.",
+    "The earlier 2/5 versus0/5 results included PPO and are separate reference results.",
+    "Recovery rank8 is fixed but trainable parameter count changes with physical structure.",
+    "Current pruned model loader constructs original7B first; inference CUDA peak excludes model loading.",
+    "Frozen sample hashes and protected original checkpoint file hashes do not compare every frozen tensor byte after every update."
+  ]
+}

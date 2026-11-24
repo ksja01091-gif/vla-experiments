@@ -1,0 +1,19 @@
+2026-11-01 12:12:31.191436: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-01 12:12:31.227947: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+TARGET_DEMOS_FOUND: 5 scanned 40 of 432
+SCAN: 50 of 432 target demos: 5
+TARGET_DEMOS_FOUND: 10 scanned 92 of 432
+SCAN: 100 of 432 target demos: 10
+TARGET_DEMOS_FOUND: 15 scanned 137 of 432
+TARGET_DEMOS_FOUND: 20 scanned 190 of 432
+SCAN: 200 of 432 target demos: 20
+TARGET_DEMOS_FOUND: 25 scanned 246 of 432
+SCAN: 250 of 432 target demos: 25
+TARGET_DEMOS_FOUND: 30 scanned 303 of 432
+TARGET_DEMOS_FOUND: 35 scanned 323 of 432
+SCAN: 350 of 432 target demos: 38
+TARGET_DEMOS_FOUND: 40 scanned 357 of 432
+TARGET_DEMOS_FOUND: 45 scanned 419 of 432
+EXTRACTION_COMPLETE: 45 unique target demos; selected 20 train + 5 validation
+SELECTED_FRAMES: 1928 462

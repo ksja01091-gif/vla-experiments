@@ -1,0 +1,23 @@
+{
+  "epochs": 1,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "lora_rank": 8,
+  "lora_targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "train_frames": 1928,
+  "validation_frames": 462,
+  "optimizer_steps": 482,
+  "validation_steps": [
+    0,
+    241,
+    482
+  ],
+  "estimated_minutes_range": [
+    5,
+    8
+  ],
+  "measured_peak_allocated_gpu_gib": 14.8928804397583
+}

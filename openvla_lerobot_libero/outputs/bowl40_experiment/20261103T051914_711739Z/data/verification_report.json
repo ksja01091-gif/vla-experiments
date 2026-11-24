@@ -1,0 +1,18 @@
+{
+  "train": {
+    "episodes": 40,
+    "frames": 4025,
+    "all_actions_states_joints_exact": true,
+    "first_last_images_exact": 80,
+    "finite_actions": true,
+    "all_tasks_match": true
+  },
+  "validation": {
+    "episodes": 5,
+    "frames": 462,
+    "all_actions_states_joints_exact": true,
+    "first_last_images_exact": 10,
+    "finite_actions": true,
+    "all_tasks_match": true
+  }
+}

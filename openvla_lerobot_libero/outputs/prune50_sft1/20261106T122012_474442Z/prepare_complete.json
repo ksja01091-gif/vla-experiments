@@ -1,0 +1,181 @@
+{
+  "complete": true,
+  "before": {
+    "model_parameters": 7549625792,
+    "recovery_parameters": 4194304,
+    "model_tensor_bytes": 15149591424,
+    "critic_parameters": 4097
+  },
+  "after": {
+    "model_parameters": 4512032192,
+    "recovery_parameters": 3211264,
+    "model_tensor_bytes": 9070472064,
+    "critic_parameters": 4097
+  },
+  "importance_frames": 160,
+  "importance_seconds": 126.61160812526941,
+  "importance_memory": {
+    "allocated_gib": 14.137821674346924,
+    "reserved_gib": 26.458984375,
+    "peak_gib": 25.950363159179688
+  },
+  "target_internal_removal": 0.5,
+  "actual_head_removal": 0.5,
+  "actual_mlp_removal": 0.5,
+  "protected_outer_layers_exact": true,
+  "pruned_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/initial",
+  "pruned_weights_bytes": 9037070776,
+  "whole_parameter_reduction": 0.40235022022135214,
+  "prior90_selection_nesting": [
+    {
+      "layer": 1,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 2,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 3,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 4,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 5,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 6,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 7,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 8,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 9,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 10,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 11,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 12,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 13,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 14,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 15,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 16,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 17,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 18,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 19,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 20,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 21,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 22,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 23,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 24,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 25,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 26,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 27,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 28,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 29,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    },
+    {
+      "layer": 30,
+      "p90_heads_subset_of_p50": true,
+      "p90_neurons_subset_of_p50": true
+    }
+  ]
+}

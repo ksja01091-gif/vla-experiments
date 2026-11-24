@@ -1,0 +1,16 @@
+model,state,success,policy_steps,video
+base,0,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_00/episode.mp4
+base,1,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_01/episode.mp4
+base,2,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_02/episode.mp4
+base,3,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_03/episode.mp4
+base,4,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/base/state_04/episode.mp4
+train20,0,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_00/episode.mp4
+train20,1,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_01/episode.mp4
+train20,2,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_02/episode.mp4
+train20,3,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_03/episode.mp4
+train20,4,False,220,/home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z/simulation/lora/state_04/episode.mp4
+train40,0,False,220,/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/simulation/lora/state_00/episode.mp4
+train40,1,False,220,/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/simulation/lora/state_01/episode.mp4
+train40,2,False,220,/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/simulation/lora/state_02/episode.mp4
+train40,3,False,220,/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/simulation/lora/state_03/episode.mp4
+train40,4,False,220,/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/simulation/lora/state_04/episode.mp4

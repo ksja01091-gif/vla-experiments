@@ -1,0 +1,66 @@
+{
+  "base_model": "openvla/openvla-7b",
+  "data_root": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/data",
+  "train_demonstrations": 40,
+  "train_frames": 4025,
+  "validation_demonstrations": 5,
+  "validation_frames": 462,
+  "epochs": 5,
+  "batch_size": 4,
+  "lr": 0.0001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0,
+  "gradient_clip": 1.0,
+  "seed": 7,
+  "target_modules": [
+    "language_model q_proj",
+    "language_model v_proj"
+  ],
+  "base_dtype": "BF16",
+  "adapter_dtype": "FP32",
+  "lora_scale_alpha_over_rank": 1.0,
+  "image_preprocessing": "unchanged 256 RGB, native processor; no augmentation",
+  "normalization": "fixed original train20 q01/q99, identical to prior comparisons; no validation calibration",
+  "checkpoint_selection": "final epoch5, fixed in advance",
+  "sp": {
+    "initial_bank_rank": 128,
+    "eta": 0.9,
+    "router_hidden": 32,
+    "router": "two Linear layers; SiLU then Softplus for nonnegative scores",
+    "A_init": "Gaussian std=1/128",
+    "B_init": "zeros",
+    "scale": 1.0,
+    "spec_weight": 0.01,
+    "router_weight": 0.001,
+    "router_regularizer": "Switch top1 load balance + mean(logsumexp(raw logits)^2)",
+    "selection": "minimum sorted squared-score prefix reaching eta; include crossing component; selector FP64 detached; differentiable energy FP32",
+    "dense_full_bank": true,
+    "orthogonal_basis_constraint": false,
+    "score_energy_not_a_guaranteed_true_matrix_SVD_error_bound": true,
+    "adaptation_not_exact_paper_replication": "OpenVLA LIBERO single-task q/v only; paper pi0/SmolVLA PiPER multi-task all-module study; hidden/activation/init explicitly chosen"
+  },
+  "threshold_ablation": {
+    "trained_eta": 0.9,
+    "inference_only": [
+      0.9,
+      0.8,
+      0.7
+    ],
+    "same_SP_checkpoint": true,
+    "retraining": false
+  },
+  "simulation": {
+    "states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "horizon": 220,
+    "new_state_generalization_test": false
+  },
+  "lora8_primary_reuse": "existing 5 epoch checkpoint and same-state simulation; fresh isolated resource benchmark",
+  "package_installation": false,
+  "paper": "arXiv:2603.07404v1"
+}

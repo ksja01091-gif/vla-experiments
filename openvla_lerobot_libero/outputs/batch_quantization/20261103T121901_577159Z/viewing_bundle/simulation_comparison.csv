@@ -1,0 +1,11 @@
+mode,state,success,steps,termination_reason,failure_detail
+bf16,0,True,86,task_success,
+bf16,1,False,220,horizon_exhausted,LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis
+bf16,2,False,220,horizon_exhausted,LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis
+bf16,3,True,83,task_success,
+bf16,4,True,70,task_success,
+int8,0,True,74,task_success,
+int8,1,True,164,task_success,
+int8,2,False,220,horizon_exhausted,LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis
+int8,3,True,78,task_success,
+int8,4,False,220,horizon_exhausted,LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis

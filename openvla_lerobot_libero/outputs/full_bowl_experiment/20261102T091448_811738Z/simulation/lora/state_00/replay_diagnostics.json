@@ -1,0 +1,18 @@
+{
+  "model_tag": "lora",
+  "init_state_index": 0,
+  "goal_bowl": "akita_black_bowl_1",
+  "goal_plate": "plate_1",
+  "success": false,
+  "replayed_policy_steps": 220,
+  "original_actions_unchanged": true,
+  "maximum_eef_replay_error_m": 0.0,
+  "success_flags_match_original": true,
+  "maximum_bowl_height_increase_m": 0.007433826536070831,
+  "maximum_bowl_xy_displacement_m": 0.0033134622435805785,
+  "minimum_eef_to_bowl_center_distance_m": 0.10103732883631966,
+  "initial_bowl_plate_xy_distance_m": 0.11693418981041075,
+  "final_bowl_plate_xy_distance_m": 0.12016352231167589,
+  "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm",
+  "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."
+}

@@ -1,0 +1,48 @@
+{
+  "verified_trials": [
+    {
+      "state": 0,
+      "success": true,
+      "actions": 85,
+      "video_frames": 86,
+      "videos_decoded": true,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104246_331756Z/result.json"
+    },
+    {
+      "state": 1,
+      "success": false,
+      "actions": 220,
+      "video_frames": 221,
+      "videos_decoded": true,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104434_402280Z/result.json"
+    },
+    {
+      "state": 2,
+      "success": true,
+      "actions": 79,
+      "video_frames": 80,
+      "videos_decoded": true,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104746_649991Z/result.json"
+    },
+    {
+      "state": 3,
+      "success": true,
+      "actions": 102,
+      "video_frames": 103,
+      "videos_decoded": true,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T104927_840207Z/result.json"
+    },
+    {
+      "state": 4,
+      "success": true,
+      "actions": 74,
+      "video_frames": 75,
+      "videos_decoded": true,
+      "result_path": "/home/jovyan/projects/lerobot-openvla/outputs/libero_single_task/20261101T105124_053076Z/result.json"
+    }
+  ],
+  "distinct_selected_states": 5,
+  "distinct_start_images": 5,
+  "all_media_decoded": true,
+  "original_sources_and_environments_unchanged": true
+}

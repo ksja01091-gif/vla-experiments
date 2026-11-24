@@ -1,0 +1,62 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.73it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  4.23it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.61it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.44it/s]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 4.5756160769111665, "action_token_accuracy": 0.27643785009652505, "normalized_action_l1": 0.20453971454465694, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 0, "seconds": 19.599334076046944, "gpu_allocated_gib": 14.1296968460083, "gpu_reserved_gib": 14.8671875, "gpu_peak_allocated_gib": 14.599462509155273}
+SFT dense 1 4 / 4025 loss 1.465636134147644
+SFT dense 25 100 / 4025 loss 1.4672350883483887
+SFT dense 50 200 / 4025 loss 0.9997565746307373
+SFT dense 75 300 / 4025 loss 1.3442612886428833
+SFT dense 100 400 / 4025 loss 1.3008687496185303
+SFT dense 125 500 / 4025 loss 1.6974761486053467
+SFT dense 150 600 / 4025 loss 0.8849979043006897
+SFT dense 175 700 / 4025 loss 0.9207074642181396
+SFT dense 200 800 / 4025 loss 1.0014121532440186
+SFT dense 225 900 / 4025 loss 1.4502829313278198
+SFT dense 250 1000 / 4025 loss 1.2612266540527344
+SFT dense 275 1100 / 4025 loss 0.5646013617515564
+SFT dense 300 1200 / 4025 loss 0.9052895307540894
+SFT dense 325 1300 / 4025 loss 0.9325699210166931
+SFT dense 350 1400 / 4025 loss 0.9520627856254578
+SFT dense 375 1500 / 4025 loss 1.3034957647323608
+SFT dense 400 1600 / 4025 loss 0.8283459544181824
+SFT dense 425 1700 / 4025 loss 1.1415988206863403
+SFT dense 450 1800 / 4025 loss 1.3214988708496094
+SFT dense 475 1900 / 4025 loss 0.927922248840332
+SFT dense 500 2000 / 4025 loss 0.8881229162216187
+SFT dense 525 2100 / 4025 loss 0.9581552743911743
+SFT dense 550 2200 / 4025 loss 0.8950591683387756
+SFT dense 575 2300 / 4025 loss 0.793422520160675
+SFT dense 600 2400 / 4025 loss 1.1542491912841797
+SFT dense 625 2500 / 4025 loss 1.0503942966461182
+SFT dense 650 2600 / 4025 loss 1.4488972425460815
+SFT dense 675 2700 / 4025 loss 1.4465961456298828
+SFT dense 700 2800 / 4025 loss 0.8676319718360901
+SFT dense 725 2900 / 4025 loss 1.3620046377182007
+SFT dense 750 3000 / 4025 loss 1.2210991382598877
+SFT dense 775 3100 / 4025 loss 0.8587735295295715
+SFT dense 800 3200 / 4025 loss 1.651732087135315
+SFT dense 825 3300 / 4025 loss 0.9185769557952881
+SFT dense 850 3400 / 4025 loss 0.7063366174697876
+SFT dense 875 3500 / 4025 loss 0.7317942380905151
+SFT dense 900 3600 / 4025 loss 1.1875311136245728
+SFT dense 925 3700 / 4025 loss 0.7608951926231384
+SFT dense 950 3800 / 4025 loss 1.2474207878112793
+SFT dense 975 3900 / 4025 loss 0.8268179893493652
+SFT dense 1000 4000 / 4025 loss 1.62942373752594
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 6.405733203475093, "action_token_accuracy": 0.25819418995411364, "normalized_action_l1": 0.20497757047304557, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 0, "seconds": 18.999306712299585, "gpu_allocated_gib": 14.169339179992676, "gpu_reserved_gib": 15.0625, "gpu_peak_allocated_gib": 14.940228462219238}
+PHASE_COMPLETE sft dense

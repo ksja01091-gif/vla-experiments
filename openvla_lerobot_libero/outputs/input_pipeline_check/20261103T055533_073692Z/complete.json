@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "evidence": [
+    "8 exact image and prefix checks",
+    "same checkpoint",
+    "one paired diagnostic rollout",
+    "physical replay parity",
+    "video decoded",
+    "sources and 3 environments unchanged"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "training_frames_evaluated": 480,
+  "training_demonstrations": 40,
+  "validation_predictions_reused": 462,
+  "training_performed": false,
+  "checkpoint_unchanged": true,
+  "preservation_audit_passed": true
+}

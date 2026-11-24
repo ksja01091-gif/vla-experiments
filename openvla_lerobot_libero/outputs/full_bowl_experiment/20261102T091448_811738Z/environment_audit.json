@@ -1,0 +1,17 @@
+{
+  "openvla310": {
+    "freeze_returncode": 0,
+    "versions": "{\"numpy\": \"1.26.4\", \"torch\": \"2.2.0+cu121\"}\n/home/jovyan/anaconda3/envs/openvla310/bin/python",
+    "interpreter": "/home/jovyan/anaconda3/envs/openvla310/bin/python"
+  },
+  "lerobot312": {
+    "freeze_returncode": 0,
+    "versions": "{\"numpy\": \"2.2.6\", \"torch\": \"2.7.1\"}\n/home/jovyan/anaconda3/envs/lerobot312/bin/python",
+    "interpreter": "/home/jovyan/anaconda3/envs/lerobot312/bin/python"
+  },
+  "eval310": {
+    "freeze_returncode": 0,
+    "versions": "{\"numpy\": \"1.26.4\", \"torch\": \"2.2.0+cu121\"}\n/home/jovyan/projects/venvs/openvla_eval310/bin/python",
+    "interpreter": "/home/jovyan/projects/venvs/openvla_eval310/bin/python"
+  }
+}

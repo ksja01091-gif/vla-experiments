@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "files": 20,
+  "videos": [
+    {
+      "file": "06_compare_state_00.mp4",
+      "decoded_frames": 115,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "06_compare_state_01.mp4",
+      "decoded_frames": 105,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "06_compare_state_02.mp4",
+      "decoded_frames": 221,
+      "successes": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "file": "06_compare_state_03.mp4",
+      "decoded_frames": 103,
+      "successes": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "file": "06_compare_state_04.mp4",
+      "decoded_frames": 221,
+      "successes": [
+        true,
+        true,
+        false
+      ]
+    }
+  ]
+}

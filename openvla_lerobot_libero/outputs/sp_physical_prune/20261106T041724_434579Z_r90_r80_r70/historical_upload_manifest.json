@@ -1,0 +1,281 @@
+{
+  "runs": [
+    {
+      "id": "7ba92d4e9740",
+      "name": "LoRA-r8-1epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/7ba92d4e9740",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 0,
+        "simulation/success_rate": 0.0,
+        "simulation/mean_episode_steps": 220.0,
+        "epoch": 1,
+        "validation/final_task_loss": 3.12671033644573,
+        "validation/final_action_token_accuracy": 0.359616576399638,
+        "validation/final_normalized_action_l1": 0.24042052550003445,
+        "storage/adapter_mb": 16.79612
+      }
+    },
+    {
+      "id": "a8644a3d6976",
+      "name": "LoRA-r8-2epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/a8644a3d6976",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 0,
+        "simulation/success_rate": 0.0,
+        "simulation/mean_episode_steps": 220.0,
+        "epoch": 2,
+        "validation/final_task_loss": 3.212144830010154,
+        "validation/final_action_token_accuracy": 0.3447742759536355,
+        "validation/final_normalized_action_l1": 0.21836622968347352,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 2.780234373637608
+      }
+    },
+    {
+      "id": "4820db7ad442",
+      "name": "LoRA-r8-3epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/4820db7ad442",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 0,
+        "simulation/success_rate": 0.0,
+        "simulation/mean_episode_steps": 220.0,
+        "epoch": 3,
+        "validation/final_task_loss": 3.5229939805480823,
+        "validation/final_action_token_accuracy": 0.330241187632858,
+        "validation/final_normalized_action_l1": 0.2015530178969206,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 2.4494854157015404
+      }
+    },
+    {
+      "id": "354d946b72ab",
+      "name": "LoRA-r8-4epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/354d946b72ab",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 2,
+        "simulation/success_rate": 0.4,
+        "simulation/mean_episode_steps": 161.6,
+        "epoch": 4,
+        "validation/final_task_loss": 4.008708716470958,
+        "validation/final_action_token_accuracy": 0.3024118754577327,
+        "validation/final_normalized_action_l1": 0.20109101081233596,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 2.0914951579170937
+      }
+    },
+    {
+      "id": "a623baacbc79",
+      "name": "LoRA-r8-6epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/a623baacbc79",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 2,
+        "simulation/success_rate": 0.4,
+        "simulation/mean_episode_steps": 161.4,
+        "epoch": 6,
+        "validation/final_task_loss": 5.3256876974394824,
+        "validation/final_action_token_accuracy": 0.2662337685560251,
+        "validation/final_normalized_action_l1": 0.20344429676782563,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 1.3088837494761307
+      }
+    },
+    {
+      "id": "396bdaff04cb",
+      "name": "LoRA-r8-7epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/396bdaff04cb",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 1,
+        "simulation/success_rate": 0.2,
+        "simulation/mean_episode_steps": 192.8,
+        "epoch": 7,
+        "validation/final_task_loss": 6.283142690534715,
+        "validation/final_action_token_accuracy": 0.26097712033625803,
+        "validation/final_normalized_action_l1": 0.20467785251884038,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 0.9313346519825622
+      }
+    },
+    {
+      "id": "3c91e57092f3",
+      "name": "LoRA-r8-8epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/3c91e57092f3",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 3,
+        "simulation/success_rate": 0.6,
+        "simulation/mean_episode_steps": 137.8,
+        "epoch": 8,
+        "validation/final_task_loss": 7.7353640077434065,
+        "validation/final_action_token_accuracy": 0.24984539506626335,
+        "validation/final_normalized_action_l1": 0.207704908546674,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 0.6413223886452847
+      }
+    },
+    {
+      "id": "fd4e05318ae6",
+      "name": "LoRA-r8-9epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/fd4e05318ae6",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 2,
+        "simulation/success_rate": 0.4,
+        "simulation/mean_episode_steps": 164.6,
+        "epoch": 9,
+        "validation/final_task_loss": 8.563610326676141,
+        "validation/final_action_token_accuracy": 0.24582560595882919,
+        "validation/final_normalized_action_l1": 0.2127613676532919,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 0.43550149396154453
+      }
+    },
+    {
+      "id": "f2ee3a673c4a",
+      "name": "LoRA-r8-10epoch-train40",
+      "family": "epoch-checkpoint",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f2ee3a673c4a",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 3,
+        "simulation/success_rate": 0.6,
+        "simulation/mean_episode_steps": 138.4,
+        "epoch": 10,
+        "validation/final_task_loss": 9.388864719506467,
+        "validation/final_action_token_accuracy": 0.2523191124523357,
+        "validation/final_normalized_action_l1": 0.2115897395073156,
+        "storage/adapter_mb": 16.79612,
+        "epoch_metrics/training_loss": 0.2994073735816138,
+        "inference/mean_action_ms": 285.10684077627957,
+        "inference/peak_gpu_gib": 14.436872005462646
+      }
+    },
+    {
+      "id": "f7dc24dba3b2",
+      "name": "Batch4-128frames-speed-only",
+      "family": "batch-microbenchmark",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f7dc24dba3b2",
+      "verified": true,
+      "metrics": {
+        "benchmark/train_frames_per_second": 10.205883899136847,
+        "benchmark/train_128_frame_seconds": 12.541784843429923,
+        "benchmark/train_peak_gpu_gib": 14.924129962921143
+      }
+    },
+    {
+      "id": "f02dcb60756f",
+      "name": "Batch8-128frames-speed-only",
+      "family": "batch-microbenchmark",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/f02dcb60756f",
+      "verified": true,
+      "metrics": {
+        "benchmark/train_frames_per_second": 11.533490507820979,
+        "benchmark/train_128_frame_seconds": 11.098114652559161,
+        "benchmark/train_peak_gpu_gib": 15.68898868560791
+      }
+    },
+    {
+      "id": "c75cd5c4d8a8",
+      "name": "LoRA-r8-5epoch-BF16-quant-comparison",
+      "family": "quantization",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/c75cd5c4d8a8",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 3,
+        "simulation/success_rate": 0.6,
+        "simulation/mean_episode_steps": 135.8,
+        "inference/mean_action_ms": 283.48136343993247,
+        "inference/peak_gpu_gib": 14.437081813812256,
+        "model/in_memory_tensor_bytes": 15132814208,
+        "model/quantized_linear_count": 0
+      }
+    },
+    {
+      "id": "d51781d74a53",
+      "name": "LoRA-r8-5epoch-INT8-quant-comparison",
+      "family": "quantization",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/d51781d74a53",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 3,
+        "simulation/success_rate": 0.6,
+        "simulation/mean_episode_steps": 151.2,
+        "inference/mean_action_ms": 799.1359849111177,
+        "inference/peak_gpu_gib": 8.51369857788086,
+        "model/in_memory_tensor_bytes": 8656808832,
+        "model/quantized_linear_count": 224
+      }
+    },
+    {
+      "id": "046a46f638e1",
+      "name": "OpenVLA-base-no-finetuning",
+      "family": "initial-train20-study",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/046a46f638e1",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 0,
+        "simulation/success_rate": 0.0,
+        "simulation/mean_episode_steps": 220.0,
+        "validation/final_task_loss": 11.827245295305788,
+        "validation/final_action_token_accuracy": 0.09029066517497554,
+        "validation/final_normalized_action_l1": 0.46049829614697724
+      }
+    },
+    {
+      "id": "067ccc33df5d",
+      "name": "LoRA-r8-1epoch-train20",
+      "family": "initial-train20-study",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/067ccc33df5d",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 0,
+        "simulation/success_rate": 0.0,
+        "simulation/mean_episode_steps": 220.0,
+        "validation/final_task_loss": 3.222014300234906,
+        "validation/final_action_token_accuracy": 0.35497835723610666,
+        "validation/final_normalized_action_l1": 0.2408098010338772
+      }
+    },
+    {
+      "id": "bd04c61c3f75",
+      "name": "REFERENCE-published-LIBERO-Spatial",
+      "family": "initial-train20-study",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/bd04c61c3f75",
+      "verified": true,
+      "metrics": {
+        "simulation/attempts": 5,
+        "simulation/successes": 4,
+        "simulation/success_rate": 0.8,
+        "simulation/mean_episode_steps": 112.0
+      }
+    }
+  ],
+  "recording_only_no_new_experiments": true,
+  "complete": true
+}

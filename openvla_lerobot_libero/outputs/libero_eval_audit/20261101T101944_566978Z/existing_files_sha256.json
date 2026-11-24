@@ -1,0 +1,10 @@
+{
+  "src/lerobot/policies/openvla/configuration_openvla.py": "985e3c0cf9f417b37bf0415671e9e215c8bcde7cabe4316b0da114204036e068",
+  "src/lerobot/policies/openvla/modeling_openvla.py": "155207fa01dd607c093339a8816609d4032bdddd64d4b7880584a2a7e5e36b09",
+  "src/lerobot/policies/groot/__init__.py": "d0f4d2da71fbba018a3d4cfb4ddf37f28a48aefd4899d336f4fdaba9540fa5d0",
+  "src/lerobot/policies/pi0/__init__.py": "7ee61066cd42b055490facae8afd0e02483bdbe725d86ad43b8b0f7e8fa1d139",
+  "src/lerobot/policies/pi05/__init__.py": "05d99911df2bd7c2af774e5a210e93cb3d82333f26bed9df143f3ff2787ff630",
+  "examples/openvla_select_action.py": "bed27bfefb94f0fb521e67f86173fef46ac0edfed083919dd4be12edbf88557a",
+  "examples/libero_motion_worker.py": "9900a52882e3009f07557986ee6e67069b673d21be20be05b51a6bf03346d656",
+  "examples/openvla_libero_motion.py": "c597c63a979b93bfabfd053adbf266a38c306440a16c72037c9c6cd33e038ee9"
+}

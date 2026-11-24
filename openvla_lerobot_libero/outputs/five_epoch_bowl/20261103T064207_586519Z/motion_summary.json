@@ -1,0 +1,76 @@
+{
+  "epoch1": [
+    {
+      "state": 0,
+      "rise_mm": 0.0002786076397365278,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 1,
+      "rise_mm": 0.0002786076397365278,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 2,
+      "rise_mm": 0.0,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 3,
+      "rise_mm": 1.6905456978181244,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 4,
+      "rise_mm": 0.7838751324990012,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    }
+  ],
+  "epoch5": [
+    {
+      "state": 0,
+      "rise_mm": 152.44094363475003,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": true
+    },
+    {
+      "state": 1,
+      "rise_mm": 3.6466363226751453,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 2,
+      "rise_mm": 0.0,
+      "bilateral_contact_frames": 0,
+      "simultaneous_contact_and_rise_frames": 0,
+      "success": false
+    },
+    {
+      "state": 3,
+      "rise_mm": 129.9859295092596,
+      "bilateral_contact_frames": 33,
+      "simultaneous_contact_and_rise_frames": 31,
+      "success": true
+    },
+    {
+      "state": 4,
+      "rise_mm": 104.84574674807234,
+      "bilateral_contact_frames": 26,
+      "simultaneous_contact_and_rise_frames": 21,
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.59it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  3.82it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.93it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.87it/s]
+trainable params: 67,108,864 || all params: 7,608,346,048 || trainable%: 0.8820
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+VALIDATION_PROGRESS 0 100 / 462
+VALIDATION_PROGRESS 0 200 / 462
+VALIDATION_PROGRESS 0 300 / 462
+VALIDATION_PROGRESS 0 400 / 462
+VALIDATION_PROGRESS 0 462 / 462
+VALIDATION_COMPLETE {"loss": 11.827245295305788, "action_token_accuracy": 0.09029066517497554, "normalized_action_l1": 0.46049829614697724, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 0, "seconds": 33.49212211370468, "gpu_allocated_gib": 14.348827838897705, "gpu_reserved_gib": 15.205078125, "gpu_peak_allocated_gib": 14.936025142669678}
+wandb: Tracking run with wandb version 0.21.4
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/wandb/offline-run-20261104_093228-r00h5tdv
+TRAIN_PROGRESS lora128 1 100 /4025 25
+TRAIN_PROGRESS lora128 1 200 /4025 50
+TRAIN_PROGRESS lora128 1 300 /4025 75
+TRAIN_PROGRESS lora128 1 400 /4025 100
+TRAIN_PROGRESS lora128 1 500 /4025 125
+TRAIN_PROGRESS lora128 1 600 /4025 150
+TRAIN_PROGRESS lora128 1 700 /4025 175
+TRAIN_PROGRESS lora128 1 800 /4025 200
+TRAIN_PROGRESS lora128 1 900 /4025 225
+TRAIN_PROGRESS lora128 1 1000 /4025 250
+TRAIN_PROGRESS lora128 1 1100 /4025 275
+TRAIN_PROGRESS lora128 1 1200 /4025 300
+TRAIN_PROGRESS lora128 1 1300 /4025 325
+TRAIN_PROGRESS lora128 1 1400 /4025 350
+TRAIN_PROGRESS lora128 1 1500 /4025 375
+TRAIN_PROGRESS lora128 1 1600 /4025 400
+TRAIN_PROGRESS lora128 1 1700 /4025 425
+TRAIN_PROGRESS lora128 1 1800 /4025 450
+TRAIN_PROGRESS lora128 1 1900 /4025 475
+TRAIN_PROGRESS lora128 1 2000 /4025 500
+TRAIN_PROGRESS lora128 1 2100 /4025 525
+TRAIN_PROGRESS lora128 1 2200 /4025 550
+TRAIN_PROGRESS lora128 1 2300 /4025 575
+TRAIN_PROGRESS lora128 1 2400 /4025 600
+TRAIN_PROGRESS lora128 1 2500 /4025 625
+TRAIN_PROGRESS lora128 1 2600 /4025 650
+TRAIN_PROGRESS lora128 1 2700 /4025 675
+TRAIN_PROGRESS lora128 1 2800 /4025 700
+TRAIN_PROGRESS lora128 1 2900 /4025 725
+TRAIN_PROGRESS lora128 1 3000 /4025 750
+TRAIN_PROGRESS lora128 1 3100 /4025 775
+TRAIN_PROGRESS lora128 1 3200 /4025 800
+TRAIN_PROGRESS lora128 1 3300 /4025 825
+TRAIN_PROGRESS lora128 1 3400 /4025 850
+TRAIN_PROGRESS lora128 1 3500 /4025 875
+TRAIN_PROGRESS lora128 1 3600 /4025 900
+TRAIN_PROGRESS lora128 1 3700 /4025 925
+TRAIN_PROGRESS lora128 1 3800 /4025 950
+TRAIN_PROGRESS lora128 1 3900 /4025 975
+TRAIN_PROGRESS lora128 1 4000 /4025 1000
+TRAIN_PROGRESS lora128 1 4025 /4025 1007
+VALIDATION_PROGRESS 1007 100 / 462
+VALIDATION_PROGRESS 1007 200 / 462
+VALIDATION_PROGRESS 1007 300 / 462
+VALIDATION_PROGRESS 1007 400 / 462
+VALIDATION_PROGRESS 1007 462 / 462
+VALIDATION_COMPLETE {"loss": 3.142583569406947, "action_token_accuracy": 0.3571428597231448, "normalized_action_l1": 0.23426836260853956, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 1007, "seconds": 33.8369319550693, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643}
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f - will assume that the vocabulary was not modified.
+  warnings.warn(
+EPOCH_COMPLETE lora128 1 3.142583569406947
+TRAIN_PROGRESS lora128 2 72 /4025 1025
+TRAIN_PROGRESS lora128 2 172 /4025 1050
+TRAIN_PROGRESS lora128 2 272 /4025 1075
+TRAIN_PROGRESS lora128 2 372 /4025 1100
+TRAIN_PROGRESS lora128 2 472 /4025 1125
+TRAIN_PROGRESS lora128 2 572 /4025 1150
+TRAIN_PROGRESS lora128 2 672 /4025 1175
+TRAIN_PROGRESS lora128 2 772 /4025 1200
+TRAIN_PROGRESS lora128 2 872 /4025 1225
+TRAIN_PROGRESS lora128 2 972 /4025 1250
+TRAIN_PROGRESS lora128 2 1072 /4025 1275
+TRAIN_PROGRESS lora128 2 1172 /4025 1300
+TRAIN_PROGRESS lora128 2 1272 /4025 1325
+TRAIN_PROGRESS lora128 2 1372 /4025 1350
+TRAIN_PROGRESS lora128 2 1472 /4025 1375
+TRAIN_PROGRESS lora128 2 1572 /4025 1400
+TRAIN_PROGRESS lora128 2 1672 /4025 1425
+TRAIN_PROGRESS lora128 2 1772 /4025 1450
+TRAIN_PROGRESS lora128 2 1872 /4025 1475
+TRAIN_PROGRESS lora128 2 1972 /4025 1500
+TRAIN_PROGRESS lora128 2 2072 /4025 1525
+TRAIN_PROGRESS lora128 2 2172 /4025 1550
+TRAIN_PROGRESS lora128 2 2272 /4025 1575
+TRAIN_PROGRESS lora128 2 2372 /4025 1600
+TRAIN_PROGRESS lora128 2 2472 /4025 1625
+TRAIN_PROGRESS lora128 2 2572 /4025 1650
+TRAIN_PROGRESS lora128 2 2672 /4025 1675
+TRAIN_PROGRESS lora128 2 2772 /4025 1700
+TRAIN_PROGRESS lora128 2 2872 /4025 1725
+TRAIN_PROGRESS lora128 2 2972 /4025 1750
+TRAIN_PROGRESS lora128 2 3072 /4025 1775
+TRAIN_PROGRESS lora128 2 3172 /4025 1800
+TRAIN_PROGRESS lora128 2 3272 /4025 1825
+TRAIN_PROGRESS lora128 2 3372 /4025 1850
+TRAIN_PROGRESS lora128 2 3472 /4025 1875
+TRAIN_PROGRESS lora128 2 3572 /4025 1900
+TRAIN_PROGRESS lora128 2 3672 /4025 1925
+TRAIN_PROGRESS lora128 2 3772 /4025 1950
+TRAIN_PROGRESS lora128 2 3872 /4025 1975
+TRAIN_PROGRESS lora128 2 3972 /4025 2000
+TRAIN_PROGRESS lora128 2 4025 /4025 2014
+VALIDATION_PROGRESS 2014 100 / 462
+VALIDATION_PROGRESS 2014 200 / 462
+VALIDATION_PROGRESS 2014 300 / 462
+VALIDATION_PROGRESS 2014 400 / 462
+VALIDATION_PROGRESS 2014 462 / 462
+VALIDATION_COMPLETE {"loss": 3.3348401077898036, "action_token_accuracy": 0.3354978368524865, "normalized_action_l1": 0.20864909762520434, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 2014, "seconds": 33.746650932356715, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643}
+EPOCH_COMPLETE lora128 2 3.3348401077898036
+TRAIN_PROGRESS lora128 3 44 /4025 2025
+TRAIN_PROGRESS lora128 3 144 /4025 2050
+TRAIN_PROGRESS lora128 3 244 /4025 2075
+TRAIN_PROGRESS lora128 3 344 /4025 2100
+TRAIN_PROGRESS lora128 3 444 /4025 2125
+TRAIN_PROGRESS lora128 3 544 /4025 2150
+TRAIN_PROGRESS lora128 3 644 /4025 2175
+TRAIN_PROGRESS lora128 3 744 /4025 2200
+TRAIN_PROGRESS lora128 3 844 /4025 2225
+TRAIN_PROGRESS lora128 3 944 /4025 2250
+TRAIN_PROGRESS lora128 3 1044 /4025 2275
+TRAIN_PROGRESS lora128 3 1144 /4025 2300
+TRAIN_PROGRESS lora128 3 1244 /4025 2325
+TRAIN_PROGRESS lora128 3 1344 /4025 2350
+TRAIN_PROGRESS lora128 3 1444 /4025 2375
+TRAIN_PROGRESS lora128 3 1544 /4025 2400
+TRAIN_PROGRESS lora128 3 1644 /4025 2425
+TRAIN_PROGRESS lora128 3 1744 /4025 2450
+TRAIN_PROGRESS lora128 3 1844 /4025 2475
+TRAIN_PROGRESS lora128 3 1944 /4025 2500
+TRAIN_PROGRESS lora128 3 2044 /4025 2525
+TRAIN_PROGRESS lora128 3 2144 /4025 2550
+TRAIN_PROGRESS lora128 3 2244 /4025 2575
+TRAIN_PROGRESS lora128 3 2344 /4025 2600
+TRAIN_PROGRESS lora128 3 2444 /4025 2625
+TRAIN_PROGRESS lora128 3 2544 /4025 2650
+TRAIN_PROGRESS lora128 3 2644 /4025 2675
+TRAIN_PROGRESS lora128 3 2744 /4025 2700
+TRAIN_PROGRESS lora128 3 2844 /4025 2725
+TRAIN_PROGRESS lora128 3 2944 /4025 2750
+TRAIN_PROGRESS lora128 3 3044 /4025 2775
+TRAIN_PROGRESS lora128 3 3144 /4025 2800
+TRAIN_PROGRESS lora128 3 3244 /4025 2825
+TRAIN_PROGRESS lora128 3 3344 /4025 2850
+TRAIN_PROGRESS lora128 3 3444 /4025 2875
+TRAIN_PROGRESS lora128 3 3544 /4025 2900
+TRAIN_PROGRESS lora128 3 3644 /4025 2925
+TRAIN_PROGRESS lora128 3 3744 /4025 2950
+TRAIN_PROGRESS lora128 3 3844 /4025 2975
+TRAIN_PROGRESS lora128 3 3944 /4025 3000
+TRAIN_PROGRESS lora128 3 4025 /4025 3021
+VALIDATION_PROGRESS 3021 100 / 462
+VALIDATION_PROGRESS 3021 200 / 462
+VALIDATION_PROGRESS 3021 300 / 462
+VALIDATION_PROGRESS 3021 400 / 462
+VALIDATION_PROGRESS 3021 462 / 462
+VALIDATION_COMPLETE {"loss": 3.6202657955549498, "action_token_accuracy": 0.3256029696949633, "normalized_action_l1": 0.20467610589726493, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 3021, "seconds": 34.05323978327215, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643}
+EPOCH_COMPLETE lora128 3 3.6202657955549498
+TRAIN_PROGRESS lora128 4 16 /4025 3025
+TRAIN_PROGRESS lora128 4 116 /4025 3050
+TRAIN_PROGRESS lora128 4 216 /4025 3075
+TRAIN_PROGRESS lora128 4 316 /4025 3100
+TRAIN_PROGRESS lora128 4 416 /4025 3125
+TRAIN_PROGRESS lora128 4 516 /4025 3150
+TRAIN_PROGRESS lora128 4 616 /4025 3175
+TRAIN_PROGRESS lora128 4 716 /4025 3200
+TRAIN_PROGRESS lora128 4 816 /4025 3225
+TRAIN_PROGRESS lora128 4 916 /4025 3250
+TRAIN_PROGRESS lora128 4 1016 /4025 3275
+TRAIN_PROGRESS lora128 4 1116 /4025 3300
+TRAIN_PROGRESS lora128 4 1216 /4025 3325
+TRAIN_PROGRESS lora128 4 1316 /4025 3350
+TRAIN_PROGRESS lora128 4 1416 /4025 3375
+TRAIN_PROGRESS lora128 4 1516 /4025 3400
+TRAIN_PROGRESS lora128 4 1616 /4025 3425
+TRAIN_PROGRESS lora128 4 1716 /4025 3450
+TRAIN_PROGRESS lora128 4 1816 /4025 3475
+TRAIN_PROGRESS lora128 4 1916 /4025 3500
+TRAIN_PROGRESS lora128 4 2016 /4025 3525
+TRAIN_PROGRESS lora128 4 2116 /4025 3550
+TRAIN_PROGRESS lora128 4 2216 /4025 3575
+TRAIN_PROGRESS lora128 4 2316 /4025 3600
+TRAIN_PROGRESS lora128 4 2416 /4025 3625
+TRAIN_PROGRESS lora128 4 2516 /4025 3650
+TRAIN_PROGRESS lora128 4 2616 /4025 3675
+TRAIN_PROGRESS lora128 4 2716 /4025 3700
+TRAIN_PROGRESS lora128 4 2816 /4025 3725
+TRAIN_PROGRESS lora128 4 2916 /4025 3750
+TRAIN_PROGRESS lora128 4 3016 /4025 3775
+TRAIN_PROGRESS lora128 4 3116 /4025 3800
+TRAIN_PROGRESS lora128 4 3216 /4025 3825
+TRAIN_PROGRESS lora128 4 3316 /4025 3850
+TRAIN_PROGRESS lora128 4 3416 /4025 3875
+TRAIN_PROGRESS lora128 4 3516 /4025 3900
+TRAIN_PROGRESS lora128 4 3616 /4025 3925
+TRAIN_PROGRESS lora128 4 3716 /4025 3950
+TRAIN_PROGRESS lora128 4 3816 /4025 3975
+TRAIN_PROGRESS lora128 4 3916 /4025 4000
+TRAIN_PROGRESS lora128 4 4016 /4025 4025
+TRAIN_PROGRESS lora128 4 4025 /4025 4028
+VALIDATION_PROGRESS 4028 100 / 462
+VALIDATION_PROGRESS 4028 200 / 462
+VALIDATION_PROGRESS 4028 300 / 462
+VALIDATION_PROGRESS 4028 400 / 462
+VALIDATION_PROGRESS 4028 462 / 462
+VALIDATION_COMPLETE {"loss": 4.393489152322084, "action_token_accuracy": 0.29220779549765896, "normalized_action_l1": 0.2004720945331216, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 4028, "seconds": 33.636785147711635, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643}
+EPOCH_COMPLETE lora128 4 4.393489152322084
+TRAIN_PROGRESS lora128 5 88 /4025 4050
+TRAIN_PROGRESS lora128 5 188 /4025 4075
+TRAIN_PROGRESS lora128 5 288 /4025 4100
+TRAIN_PROGRESS lora128 5 388 /4025 4125
+TRAIN_PROGRESS lora128 5 488 /4025 4150
+TRAIN_PROGRESS lora128 5 588 /4025 4175
+TRAIN_PROGRESS lora128 5 688 /4025 4200
+TRAIN_PROGRESS lora128 5 788 /4025 4225
+TRAIN_PROGRESS lora128 5 888 /4025 4250
+TRAIN_PROGRESS lora128 5 988 /4025 4275
+TRAIN_PROGRESS lora128 5 1088 /4025 4300
+TRAIN_PROGRESS lora128 5 1188 /4025 4325
+TRAIN_PROGRESS lora128 5 1288 /4025 4350
+TRAIN_PROGRESS lora128 5 1388 /4025 4375
+TRAIN_PROGRESS lora128 5 1488 /4025 4400
+TRAIN_PROGRESS lora128 5 1588 /4025 4425
+TRAIN_PROGRESS lora128 5 1688 /4025 4450
+TRAIN_PROGRESS lora128 5 1788 /4025 4475
+TRAIN_PROGRESS lora128 5 1888 /4025 4500
+TRAIN_PROGRESS lora128 5 1988 /4025 4525
+TRAIN_PROGRESS lora128 5 2088 /4025 4550
+TRAIN_PROGRESS lora128 5 2188 /4025 4575
+TRAIN_PROGRESS lora128 5 2288 /4025 4600
+TRAIN_PROGRESS lora128 5 2388 /4025 4625
+TRAIN_PROGRESS lora128 5 2488 /4025 4650
+TRAIN_PROGRESS lora128 5 2588 /4025 4675
+TRAIN_PROGRESS lora128 5 2688 /4025 4700
+TRAIN_PROGRESS lora128 5 2788 /4025 4725
+TRAIN_PROGRESS lora128 5 2888 /4025 4750
+TRAIN_PROGRESS lora128 5 2988 /4025 4775
+TRAIN_PROGRESS lora128 5 3088 /4025 4800
+TRAIN_PROGRESS lora128 5 3188 /4025 4825
+TRAIN_PROGRESS lora128 5 3288 /4025 4850
+TRAIN_PROGRESS lora128 5 3388 /4025 4875
+TRAIN_PROGRESS lora128 5 3488 /4025 4900
+TRAIN_PROGRESS lora128 5 3588 /4025 4925
+TRAIN_PROGRESS lora128 5 3688 /4025 4950
+TRAIN_PROGRESS lora128 5 3788 /4025 4975
+TRAIN_PROGRESS lora128 5 3888 /4025 5000
+TRAIN_PROGRESS lora128 5 3988 /4025 5025
+TRAIN_PROGRESS lora128 5 4025 /4025 5035
+VALIDATION_PROGRESS 5035 100 / 462
+VALIDATION_PROGRESS 5035 200 / 462
+VALIDATION_PROGRESS 5035 300 / 462
+VALIDATION_PROGRESS 5035 400 / 462
+VALIDATION_PROGRESS 5035 462 / 462
+VALIDATION_COMPLETE {"loss": 5.269436468809714, "action_token_accuracy": 0.2792207816075453, "normalized_action_l1": 0.20090407962914267, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 33.04737778566778, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643}
+EPOCH_COMPLETE lora128 5 5.269436468809714
+TRAINING_COMPLETE lora128 {"method": "lora128", "training_completed": true, "epochs_completed": 5, "frames_seen": 20125, "optimizer_steps": 5035, "baseline_validation": {"loss": 11.827245295305788, "action_token_accuracy": 0.09029066517497554, "normalized_action_l1": 0.46049829614697724, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 0, "seconds": 33.49212211370468, "gpu_allocated_gib": 14.348827838897705, "gpu_reserved_gib": 15.205078125, "gpu_peak_allocated_gib": 14.936025142669678}, "final_validation": {"epoch": 5, "training_loss_frame_weighted": 1.0228511214996716, "training_total_loss": 1.0228511214996716, "epoch_seconds": 779.7502892259508, "loss": 5.269436468809714, "action_token_accuracy": 0.2792207816075453, "normalized_action_l1": 0.20090407962914267, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 33.04737778566778, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/checkpoints/step_005035"}, "final_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/checkpoints/step_005035", "selected_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/checkpoints/step_005035", "selected_validation": {"epoch": 5, "training_loss_frame_weighted": 1.0228511214996716, "training_total_loss": 1.0228511214996716, "epoch_seconds": 779.7502892259508, "loss": 5.269436468809714, "action_token_accuracy": 0.2792207816075453, "normalized_action_l1": 0.20090407962914267, "predicted_action_token_fraction": 1.0, "frames": 462, "optimizer_step": 5035, "seconds": 33.04737778566778, "gpu_allocated_gib": 14.85795259475708, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643, "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/checkpoints/step_005035"}, "adapter_changed": true, "frozen_parameter_samples_unchanged": true, "validation_uses_optimizer": false, "training_wall_seconds": 3884.6249793153256, "gpu_allocated_gib": 14.857952117919922, "gpu_reserved_gib": 15.9921875, "gpu_peak_allocated_gib": 15.746029376983643}
+wandb: 
+wandb: Run history:
+wandb:  action_token_accuracy ▁▁▁▃▂▃▁▃▃▁▄▁▁▁▄▂▃▄▄▂▄▅▆▆▅▄▃▂▃▄▅███▆▆▄▆▅▆
+wandb:           batch_frames ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        elapsed_seconds ▁▁▁▁▁▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▆▆▆▆▆▇▇███
+wandb:                  epoch ▁▁▁▁▁▁▃▃▃▃▃▃▃▃▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆▆▆▆███
+wandb:            frames_seen ▁▁▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇▇▇█
+wandb:      gpu_allocated_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: gpu_peak_allocated_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       gpu_reserved_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:          gradient_norm █▁▁▁▁▁▁▂▂▂▂▂▂▂▁▃▃▃▃▃▃▃▃▃▄▄▅▄▄▄▃▅▄▄▆▅▅▇█▅
+wandb:                   loss █▇▇▅▇▇▇▆▆▅▆▅▅▆▆▆▃▃▄▄▅▄▁▂▂▃▄▃▄▃▄▄▂▃▃▁▁▂▂▂
+wandb:                    +13 ...
+wandb: 
+wandb: Run summary:
+wandb:  action_token_accuracy 0.67857
+wandb:           batch_frames 4
+wandb:        elapsed_seconds 3845.82196
+wandb:                  epoch 5
+wandb:            frames_seen 20108
+wandb:      gpu_allocated_gib 15.11432
+wandb: gpu_peak_allocated_gib 15.74603
+wandb:       gpu_reserved_gib 15.99219
+wandb:          gradient_norm 8.08287
+wandb:                   loss 0.93279
+wandb:                    +13 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home/jovyan/projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/wandb/offline-run-20261104_093228-r00h5tdv
+wandb: Find logs at: ./projects/lerobot-openvla/outputs/lora_sp_compare/20261104T091818_826396Z/lora128/wandb/offline-run-20261104_093228-r00h5tdv/logs

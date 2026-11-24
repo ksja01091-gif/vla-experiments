@@ -1,0 +1,149 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run b63d8b500818
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_045609-b63d8b500818
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run SP90-physical-pruning-no-retraining
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/b63d8b500818
+wandb: updating run metadata; uploading artifact run-b63d8b500818-simulationtrials-vSLOpw
+wandb: uploading artifact run-b63d8b500818-simulationtrials-vSLOpw
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:      inference/mean_action_ms ▁
+wandb:        inference/peak_gpu_gib ▁
+wandb:   inference/round_mean_std_ms ▁
+wandb:           simulation/attempts ▁
+wandb: simulation/mean_episode_steps ▁
+wandb:       simulation/success_rate ▁
+wandb:          simulation/successes ▁
+wandb:           sp/mean_active_rank ▁
+wandb:         sp/physical_bank_rank ▁
+wandb:            storage/adapter_mb ▁
+wandb:                            +3 ...
+wandb: 
+wandb: Run summary:
+wandb:      inference/mean_action_ms 517.87086
+wandb:        inference/peak_gpu_gib 14.63248
+wandb:   inference/round_mean_std_ms 14.58546
+wandb:           simulation/attempts 5
+wandb: simulation/mean_episode_steps 171
+wandb:       simulation/success_rate 0.4
+wandb:          simulation/successes 2
+wandb:           sp/mean_active_rank 52.75584
+wandb:         sp/physical_bank_rank 90
+wandb:            storage/adapter_mb 223.43808
+wandb:                            +5 ...
+wandb: 
+wandb: 🚀 View run SP90-physical-pruning-no-retraining at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/b63d8b500818
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_045609-b63d8b500818/logs
+UPLOADED_AND_VERIFIED 90 https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/b63d8b500818
+wandb: setting up run 09349676607d
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_045618-09349676607d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run SP80-physical-pruning-no-retraining
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/09349676607d
+wandb: updating run metadata; uploading artifact run-09349676607d-simulationtrials-q2vpSw
+wandb: uploading artifact run-09349676607d-simulationtrials-q2vpSw
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:      inference/mean_action_ms ▁
+wandb:        inference/peak_gpu_gib ▁
+wandb:   inference/round_mean_std_ms ▁
+wandb:           simulation/attempts ▁
+wandb: simulation/mean_episode_steps ▁
+wandb:       simulation/success_rate ▁
+wandb:          simulation/successes ▁
+wandb:           sp/mean_active_rank ▁
+wandb:         sp/physical_bank_rank ▁
+wandb:            storage/adapter_mb ▁
+wandb:                            +3 ...
+wandb: 
+wandb: Run summary:
+wandb:      inference/mean_action_ms 493.16492
+wandb:        inference/peak_gpu_gib 14.61246
+wandb:   inference/round_mean_std_ms 0.17257
+wandb:           simulation/attempts 5
+wandb: simulation/mean_episode_steps 149.8
+wandb:       simulation/success_rate 0.6
+wandb:          simulation/successes 3
+wandb:           sp/mean_active_rank 47.93114
+wandb:         sp/physical_bank_rank 80
+wandb:            storage/adapter_mb 202.46652
+wandb:                            +5 ...
+wandb: 
+wandb: 🚀 View run SP80-physical-pruning-no-retraining at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/09349676607d
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_045618-09349676607d/logs
+UPLOADED_AND_VERIFIED 80 https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/09349676607d
+wandb: setting up run 00d0b5ee0c1d
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_045625-00d0b5ee0c1d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run SP70-physical-pruning-no-retraining
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/00d0b5ee0c1d
+wandb: updating run metadata; uploading artifact run-00d0b5ee0c1d-simulationtrials-SdtEag
+wandb: uploading artifact run-00d0b5ee0c1d-simulationtrials-SdtEag
+wandb: uploading history steps 0-1, summary
+wandb: 
+wandb: Run history:
+wandb:      inference/mean_action_ms ▁
+wandb:        inference/peak_gpu_gib ▁
+wandb:   inference/round_mean_std_ms ▁
+wandb:           simulation/attempts ▁
+wandb: simulation/mean_episode_steps ▁
+wandb:       simulation/success_rate ▁
+wandb:          simulation/successes ▁
+wandb:           sp/mean_active_rank ▁
+wandb:         sp/physical_bank_rank ▁
+wandb:            storage/adapter_mb ▁
+wandb:                            +3 ...
+wandb: 
+wandb: Run summary:
+wandb:      inference/mean_action_ms 492.78538
+wandb:        inference/peak_gpu_gib 14.59628
+wandb:   inference/round_mean_std_ms 0.60087
+wandb:           simulation/attempts 5
+wandb: simulation/mean_episode_steps 119
+wandb:       simulation/success_rate 0.8
+wandb:          simulation/successes 4
+wandb:           sp/mean_active_rank 43.20862
+wandb:         sp/physical_bank_rank 70
+wandb:            storage/adapter_mb 181.49495
+wandb:                            +5 ...
+wandb: 
+wandb: 🚀 View run SP70-physical-pruning-no-retraining at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/00d0b5ee0c1d
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_045625-00d0b5ee0c1d/logs
+UPLOADED_AND_VERIFIED 70 https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/00d0b5ee0c1d
+wandb: setting up run 5b56994b908a
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261106T041724_434579Z_r90_r80_r70/wandb/run-20261106_045638-5b56994b908a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 00-ALL-EXPERIMENTS-COMPARISON
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a
+wandb: updating run metadata; uploading artifact run-5b56994b908a-comparisonall_experiments-DCN6Mg; uploading artifact run-5b56994b908a-comparisonphysical_ranks-oYCDbg; uploading summary
+wandb: uploading artifact run-5b56994b908a-comparisonall_experiments-DCN6Mg; uploading artifact run-5b56994b908a-comparisonphysical_ranks-oYCDbg
+wandb: uploading media/videos/videos/state_01_SP96_SP90_SP80_SP70_2_b47e29bdb4c85097e270.mp4; uploading media/videos/videos/state_03_SP96_SP90_SP80_SP70_4_48dd63fa88b96444677b.mp4; uploading wandb-summary.json; uploading config.yaml; uploading media/table/comparison/physical_ranks_0_a98837b2543db620142d.table.json (+ 5 more)
+wandb: uploading media/videos/videos/state_01_SP96_SP90_SP80_SP70_2_b47e29bdb4c85097e270.mp4; uploading media/videos/videos/state_03_SP96_SP90_SP80_SP70_4_48dd63fa88b96444677b.mp4; uploading media/images/figures/rank_comparison_0_b9f54b2a47f8f819b678.png; uploading media/videos/videos/state_02_SP96_SP90_SP80_SP70_3_4ce0bcd3c7d645c9b1b4.mp4; uploading media/videos/videos/state_04_SP96_SP90_SP80_SP70_5_a591db679e4c04ab1769.mp4 (+ 1 more)
+wandb: uploading media/videos/videos/state_03_SP96_SP90_SP80_SP70_4_48dd63fa88b96444677b.mp4; uploading media/videos/videos/state_02_SP96_SP90_SP80_SP70_3_4ce0bcd3c7d645c9b1b4.mp4
+wandb: 
+wandb: Run summary:
+wandb: verification/completed_experiments 11
+wandb: 
+wandb: 🚀 View run 00-ALL-EXPERIMENTS-COMPARISON at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 8 media file(s), 4 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_045638-5b56994b908a/logs
+ALL_EXPERIMENTS_VISIBLE {"entity": "ksja01091-gwangju-institute-of-science-and-technology", "project": "openvla-libero-bowl-baseline", "runs": [{"id": "b63d8b500818", "name": "SP90-physical-pruning-no-retraining", "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/b63d8b500818", "verified": true}, {"id": "09349676607d", "name": "SP80-physical-pruning-no-retraining", "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/09349676607d", "verified": true}, {"id": "00d0b5ee0c1d", "name": "SP70-physical-pruning-no-retraining", "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/00d0b5ee0c1d", "verified": true}], "overview": {"id": "5b56994b908a", "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a", "verified": true}, "complete": true, "verified_experiment_count": 11, "previous_eight_verified": true}

@@ -1,0 +1,11 @@
+{
+  "epoch": 1,
+  "optimizer_step": 1007,
+  "seen_frames": 4025,
+  "adapter_hash": "090038820092952a94326c23083e87e9b1b46ec8eee9804800e91a40b94e6719",
+  "optimizer_parameter_order_exact": true,
+  "optimizer_moments_loaded": true,
+  "same_validation_batch_loss": 2.5676510334014893,
+  "old_validation_batch_loss": 2.5676510334014893,
+  "new_training_not_started_yet": true
+}

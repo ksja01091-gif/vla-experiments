@@ -1,0 +1,27 @@
+{
+  "source_run": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_recovery/20261108T101044Z",
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "no_training": true,
+  "no_optimizer": true,
+  "recorded_action_replay_only_initially": true,
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "tags": [
+    "pruned_sft3",
+    "dense_sft3",
+    "pruned",
+    "dense"
+  ],
+  "target_object": "akita_black_bowl_1",
+  "goal_object": "plate_1",
+  "lift_criterion_m": 0.05,
+  "contact_definition": "robosuite _check_grasp: both fingerpad groups touching target; not alone proof of stable lift",
+  "replay_validation": "compare every saved EEF/joint/time/success; initial and periodic camera pixels",
+  "additional_frozen_model_check": "if needed compare both models on the very same stored images, no updates",
+  "scope": "diagnosis of existing5fixedstate trials, notnewaccuracybenchmark"
+}

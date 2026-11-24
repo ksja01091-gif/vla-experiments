@@ -1,0 +1,8 @@
+{
+  "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007/adapter_sha256.txt": "d40eb2e0a0abc67d0207491e543cacc21fa76b65f1ef3200aec60b3aaff3f5aa",
+  "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007/adapter_model.safetensors": "38168f1eb7d3a8c4acd5b575181a5e370903c205e8452ec058dc334684ed0a1e",
+  "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007/base_model.json": "e7144ebf43ca0b81bba06d32d3dee0f6cd8e2ae79f1e50579bc6201221e4833a",
+  "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007/action_normalization.json": "36930dbebf1d9bc5c06d9f7665a3fc1a94bc21b4f4c911e68e320242321d4c74",
+  "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007/trainer_state.json": "0c9b99660f957652390c5bd9d6838f0749145ba20a88ae0e634df2060679d172",
+  "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007/adapter_config.json": "888190bc919cb1aa611634d86e7318e50c2393372a0da3ee4a096cfec92b4f20"
+}

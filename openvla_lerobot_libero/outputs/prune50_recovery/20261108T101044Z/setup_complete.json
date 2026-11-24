@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "source_checkpoints": {
+    "dense": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/dense/after_sft",
+    "pruned": "/home/jovyan/projects/lerobot-openvla/outputs/prune50_sft1/20261106T122012_474442Z/checkpoints/p50/after_sft"
+  },
+  "source_code_hashes": {
+    "policy.py": "37cee829559c69811352b3e98825af0b13a74c6f3cd72fb5c5a0c67dc97246b5",
+    "rl_probe.py": "5ee5a72c48700da978e4b142bc339d017c7c35c3fb4e07ebafc9ee149b12c566",
+    "previous_worker.py": "0fda08b1023c8d55c0dc1cde3959670e960804a11b180fd3e64489c325173e65",
+    "replay.py": "1866326da427ff10bb379230090e2a79687e01c514844ed7b9db477747d5f9ec"
+  }
+}

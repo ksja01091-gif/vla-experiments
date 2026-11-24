@@ -1,0 +1,107 @@
+[
+  {
+    "epoch": 2,
+    "state": 0,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch2/state_00/episode.mp4"
+  },
+  {
+    "epoch": 2,
+    "state": 1,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch2/state_01/episode.mp4"
+  },
+  {
+    "epoch": 2,
+    "state": 2,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch2/state_02/episode.mp4"
+  },
+  {
+    "epoch": 2,
+    "state": 3,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch2/state_03/episode.mp4"
+  },
+  {
+    "epoch": 2,
+    "state": 4,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch2/state_04/episode.mp4"
+  },
+  {
+    "epoch": 3,
+    "state": 0,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch3/state_00/episode.mp4"
+  },
+  {
+    "epoch": 3,
+    "state": 1,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch3/state_01/episode.mp4"
+  },
+  {
+    "epoch": 3,
+    "state": 2,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch3/state_02/episode.mp4"
+  },
+  {
+    "epoch": 3,
+    "state": 3,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch3/state_03/episode.mp4"
+  },
+  {
+    "epoch": 3,
+    "state": 4,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch3/state_04/episode.mp4"
+  },
+  {
+    "epoch": 4,
+    "state": 0,
+    "frames": 73,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch4/state_00/episode.mp4"
+  },
+  {
+    "epoch": 4,
+    "state": 1,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch4/state_01/episode.mp4"
+  },
+  {
+    "epoch": 4,
+    "state": 2,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch4/state_02/episode.mp4"
+  },
+  {
+    "epoch": 4,
+    "state": 3,
+    "frames": 77,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch4/state_03/episode.mp4"
+  },
+  {
+    "epoch": 4,
+    "state": 4,
+    "frames": 221,
+    "fps": 20.0,
+    "video": "/home/jovyan/projects/lerobot-openvla/outputs/minimum_epoch_search/20261103T083647_304730Z/simulation/epoch4/state_04/episode.mp4"
+  }
+]

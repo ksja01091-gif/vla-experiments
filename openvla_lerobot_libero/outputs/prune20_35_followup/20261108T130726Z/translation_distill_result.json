@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "teacher": "openvla-7b-finetuned-libero-spatial",
+  "source_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/checkpoints/p20/after_ppo",
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/prune20_35_followup/20261108T130726Z/checkpoints/p20/after_translation_distill",
+  "train_frames": 4025,
+  "validation_frames": 462,
+  "target": "teacher translation coordinates 0,1,2; demonstrated rotation/gripper coordinates 3-6",
+  "teacher_translation_outside_student_q01_q99_fraction": 0.010434782608695653,
+  "epochs": 1,
+  "batch_size": 4,
+  "lr": 1e-05,
+  "training_metrics": {
+    "loss": 1.8881592831404312,
+    "action_token_accuracy": 0.5711801244457316,
+    "normalized_action_l1": 0.05819607343713031,
+    "predicted_action_token_fraction": 1.0
+  },
+  "validation": {
+    "loss": 5.0521305051200835,
+    "action_token_accuracy": 0.27798392307577713,
+    "normalized_action_l1": 0.21065877568100616,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 0,
+    "seconds": 20.97480933740735,
+    "gpu_allocated_gib": 11.96252155303955,
+    "gpu_reserved_gib": 14.794921875,
+    "gpu_peak_allocated_gib": 12.719120979309082
+  },
+  "seconds": 508.3782054632902,
+  "memory": {
+    "allocated_gib": 11.962521076202393,
+    "reserved_gib": 14.794921875,
+    "peak_gib": 12.719120979309082
+  },
+  "frozen_samples_unchanged": true,
+  "warning": "This uses an extra LIBERO-Spatial-trained teacher, so outcomes cannot be attributed to PPO alone."
+}

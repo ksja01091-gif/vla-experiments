@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "branch": "p20",
+  "stage": "after_ppo",
+  "validation_frames": 462,
+  "mean_absolute_error_by_coordinate": [
+    0.25383374905133077,
+    0.1354389935959616,
+    0.2828500484604211,
+    0.03554543530477232,
+    0.05765538886834533,
+    0.03461453369105521,
+    0.12919107027900167
+  ],
+  "mean_signed_error_by_coordinate": [
+    0.0233525895328136,
+    -0.027683889516937954,
+    0.06038381270580478,
+    -0.0014582465542426805,
+    0.004874673675296191,
+    -0.00780380728795169,
+    -0.03001442990261755
+  ],
+  "translation_mae": 0.2240409303692378,
+  "rotation_mae": 0.042605119288057616,
+  "gripper_mae": 0.12919107027900167,
+  "seconds": 139.79004049301147,
+  "warning": "Action coordinates use different scales; compare the same coordinate across stages, not translation versus rotation magnitude directly."
+}

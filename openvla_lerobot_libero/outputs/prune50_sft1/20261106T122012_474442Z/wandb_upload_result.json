@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "runs": [
+    {
+      "method": "dense_sft",
+      "id": "p508211d8c64cbbdense_sft",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/p508211d8c64cbbdense_sft"
+    },
+    {
+      "method": "p50",
+      "id": "p508211d8c64cbbp50",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/p508211d8c64cbbp50"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007",
+  "adapter_sha256": "090038820092952a94326c23083e87e9b1b46ec8eee9804800e91a40b94e6719",
+  "training_performed": false,
+  "photo_samples": [
+    0,
+    65,
+    131,
+    197,
+    263,
+    329,
+    395,
+    461
+  ],
+  "simulator_state": 2,
+  "state_selection": "Previously observed bowl rise, chosen for targeted diagnosis; not an unbiased success-rate sample.",
+  "changed": "entire pre-model image pipeline: no extra JPEG, external resize or center crop; unchanged native HF processor",
+  "held_fixed": [
+    "checkpoint",
+    "action normalization",
+    "task",
+    "initial state",
+    "seed",
+    "controller conversion",
+    "horizon 220",
+    "warmup 10"
+  ],
+  "not_a_crop_only_ablation": true,
+  "not_an_official_benchmark_result": true
+}

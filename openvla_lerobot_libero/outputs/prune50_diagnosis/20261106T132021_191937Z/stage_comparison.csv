@@ -1,0 +1,11 @@
+﻿model,state,failure_stage,first_move_5mm_step,first_grasp_step,first_lift_5cm_step,first_grasp_and_lift_step,stable_grasp_and_lift,max_lift_cm,final_plate_xy_cm,max_both_pad_contact_ms,official_success,success_with_grasp_contact,first_close_command_step,first_open_after_grasp_command,gripper_command_switches,gripper_switches_per_100_actions,gripper_switches_in_actions_60_to_100,replay_exact
+dense_sft,0,접시 위 도달 성공(손 완전 해제는 별도),2,69,77,77,True,12.296004904452396,2.221209503074487,1734.0,True,True,39,,5,4.8076923076923075,0,True
+dense_sft,1,접시 위 도달 성공(손 완전 해제는 별도),2,50,57,57,True,10.380972163618175,0.7567168759277518,1164.0,True,False,41,75,5,6.097560975609756,4,True
+dense_sft,2,대상 그릇을 양쪽 손가락으로 잡지 못함,2,,,,False,0.594368222167696,17.115324806165184,0.0,False,False,32,,21,9.545454545454545,0,True
+dense_sft,3,접시 위 도달 성공(손 완전 해제는 별도),2,46,54,54,True,10.604427164493524,0.2858974206740519,1492.0,True,False,36,76,2,2.5974025974025974,1,True
+dense_sft,4,대상 그릇을 양쪽 손가락으로 잡지 못함,2,,,,False,3.859514311477241e-05,11.881880800257456,0.0,False,False,29,,1,0.45454545454545453,0,True
+p50,0,대상 그릇을 양쪽 손가락으로 잡지 못함,25,,132,,False,6.206745026397664,11.226127488132708,0.0,False,False,67,,41,18.636363636363637,15,True
+p50,1,대상 그릇을 양쪽 손가락으로 잡지 못함,64,,,,False,0.5068716322843003,12.445223806374365,0.0,False,False,113,,9,4.090909090909091,0,True
+p50,2,대상 그릇을 양쪽 손가락으로 잡지 못함,3,,,,False,1.861228990872421,18.29089872344131,0.0,False,False,46,,43,19.545454545454547,0,True
+p50,3,대상 그릇을 양쪽 손가락으로 잡지 못함,2,,,,False,1.3086590812411814,12.808546674807102,0.0,False,False,40,,59,26.818181818181817,9,True
+p50,4,대상 그릇을 양쪽 손가락으로 잡지 못함,5,,,,False,3.379283774680175,10.23504229917754,0.0,False,False,45,,36,16.363636363636363,5,True

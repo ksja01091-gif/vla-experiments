@@ -1,0 +1,68 @@
+{
+  "tag": "p50",
+  "state": 0,
+  "target": "akita_black_bowl_1",
+  "plate": "plate_1",
+  "target_contact_geoms": [
+    "akita_black_bowl_1_g1",
+    "akita_black_bowl_1_g2",
+    "akita_black_bowl_1_g3",
+    "akita_black_bowl_1_g4",
+    "akita_black_bowl_1_g5",
+    "akita_black_bowl_1_g6",
+    "akita_black_bowl_1_g7",
+    "akita_black_bowl_1_g8",
+    "akita_black_bowl_1_g9",
+    "akita_black_bowl_1_g10",
+    "akita_black_bowl_1_g11",
+    "akita_black_bowl_1_g12",
+    "akita_black_bowl_1_g13",
+    "akita_black_bowl_1_g14",
+    "akita_black_bowl_1_g15",
+    "akita_black_bowl_1_g16",
+    "akita_black_bowl_1_g17",
+    "akita_black_bowl_1_g18",
+    "akita_black_bowl_1_g19",
+    "akita_black_bowl_1_g20",
+    "akita_black_bowl_1_g21",
+    "akita_black_bowl_1_g22",
+    "akita_black_bowl_1_g23",
+    "akita_black_bowl_1_g24",
+    "akita_black_bowl_1_g25",
+    "akita_black_bowl_1_g26",
+    "akita_black_bowl_1_g27",
+    "akita_black_bowl_1_g28",
+    "akita_black_bowl_1_g29",
+    "akita_black_bowl_1_g30",
+    "akita_black_bowl_1_g31",
+    "akita_black_bowl_1_g32",
+    "akita_black_bowl_1_g33",
+    "akita_black_bowl_1_g34",
+    "akita_black_bowl_1_g35",
+    "akita_black_bowl_1_g36",
+    "akita_black_bowl_1_g37",
+    "akita_black_bowl_1_g38",
+    "akita_black_bowl_1_g39",
+    "akita_black_bowl_1_g40"
+  ],
+  "left_fingerpads": [
+    "gripper0_finger1_pad_collision"
+  ],
+  "right_fingerpads": [
+    "gripper0_finger2_pad_collision"
+  ],
+  "baseline_target_z": 0.8984038715812133,
+  "initial_target_pos": [
+    -0.06347436697969927,
+    0.20202566461956376,
+    0.8984038715812133
+  ],
+  "initial_plate_pos": [
+    0.05341726860458882,
+    0.20518007059330337,
+    0.9024995808477997
+  ],
+  "source_action_log_sha256": "cf664cc205a859b461eb53896d11a3cab73549233fd52491b5aa01e649ead9ad",
+  "simulation_timestep": 0.002,
+  "sampled_every_physics_step": true
+}

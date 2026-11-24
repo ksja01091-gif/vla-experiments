@@ -1,0 +1,266 @@
+{
+  "move_but_near_zero": {
+    "validation_index": 1,
+    "episode_index": 0,
+    "source_step_index": 1,
+    "true_action": [
+      0.12857143580913544,
+      0.06160714104771614,
+      0.06964285671710968,
+      0.0,
+      0.029999999329447746,
+      -0.0,
+      1.0
+    ],
+    "predicted_action": [
+      -0.0011267198715358973,
+      0.00017446554556954652,
+      -0.0013392865657806396,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ],
+    "true_normalized_action": [
+      0.11790049076080322,
+      -0.2348652482032776,
+      0.07582271099090576,
+      -0.14851945638656616,
+      0.2584425210952759,
+      0.22454261779785156,
+      1.0
+    ],
+    "predicted_normalized_action": [
+      -0.02352941176470591,
+      -0.3686274509803922,
+      0.0,
+      -0.14901960784313728,
+      0.09411764705882353,
+      0.22745098039215694,
+      0.996078431372549
+    ],
+    "true_action_token_ids": [
+      31857,
+      31902,
+      31862,
+      31891,
+      31839,
+      31843,
+      31744
+    ],
+    "predicted_action_token_ids": [
+      31875,
+      31919,
+      31872,
+      31891,
+      31860,
+      31843,
+      31744
+    ],
+    "action_token_correct": 3,
+    "token_correct_per_dimension": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    "valid_generated_action_tokens": 7,
+    "normalized_action_l1": 0.07466711042975847,
+    "normalized_action_l1_per_dimension": [
+      0.14142990252550913,
+      0.1337622027771146,
+      0.07582271099090576,
+      0.0005001514565711185,
+      0.16432487403645235,
+      0.0029083625943053804,
+      0.0039215686274509665
+    ],
+    "true_gripper_class": "open",
+    "predicted_gripper_class": "open",
+    "true_arm_max_abs": 0.12857143580913544,
+    "predicted_arm_max_abs": 0.0013392865657806396,
+    "true_translation_max_abs": 0.12857143580913544,
+    "predicted_translation_max_abs": 0.0013392865657806396,
+    "image_and_prompt_match_training": true,
+    "prediction_seconds": 0.2816760092973709
+  },
+  "should_close_but_open": {
+    "validation_index": 34,
+    "episode_index": 0,
+    "source_step_index": 34,
+    "true_action": [
+      0.0,
+      0.17678570747375488,
+      -0.7232142686843872,
+      -0.013928571715950966,
+      0.04821428656578064,
+      -0.0,
+      0.0
+    ],
+    "predicted_action": [
+      -0.893001914024353,
+      0.00017446554556954652,
+      -0.9338287711143494,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.9960784316062927
+    ],
+    "true_normalized_action": [
+      -0.022300779819488525,
+      0.015922069549560547,
+      -0.7711015343666077,
+      -0.2691915035247803,
+      0.35657787322998047,
+      0.22454261779785156,
+      0.0
+    ],
+    "predicted_normalized_action": [
+      -0.996078431372549,
+      -0.3686274509803922,
+      -0.996078431372549,
+      -0.14901960784313728,
+      0.09411764705882353,
+      0.22745098039215694,
+      0.996078431372549
+    ],
+    "true_action_token_ids": [
+      31875,
+      31870,
+      31970,
+      31906,
+      31827,
+      31843,
+      31872
+    ],
+    "predicted_action_token_ids": [
+      31999,
+      31919,
+      31999,
+      31891,
+      31860,
+      31843,
+      31744
+    ],
+    "action_token_correct": 1,
+    "token_correct_per_dimension": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "valid_generated_action_tokens": 7,
+    "normalized_action_l1": 0.42356042641551556,
+    "normalized_action_l1_per_dimension": [
+      0.9737776515530605,
+      0.3845495205299527,
+      0.22497689700594137,
+      0.12017189568164299,
+      0.26246022617115694,
+      0.0029083625943053804,
+      0.996078431372549
+    ],
+    "true_gripper_class": "close",
+    "predicted_gripper_class": "open",
+    "true_arm_max_abs": 0.7232142686843872,
+    "predicted_arm_max_abs": 0.9338287711143494,
+    "true_translation_max_abs": 0.7232142686843872,
+    "predicted_translation_max_abs": 0.9338287711143494,
+    "image_and_prompt_match_training": true,
+    "prediction_seconds": 0.2709598895162344
+  },
+  "correct_close": {
+    "validation_index": 35,
+    "episode_index": 0,
+    "source_step_index": 35,
+    "true_action": [
+      0.0,
+      0.0,
+      -0.34285715222358704,
+      -0.009642857126891613,
+      0.0,
+      -0.04928571358323097,
+      0.0
+    ],
+    "predicted_action": [
+      -0.0011267198715358973,
+      0.00017446554556954652,
+      -0.0013392865657806396,
+      -5.7728906540432945e-05,
+      -0.0004992811591364443,
+      0.00044462032383307815,
+      0.0
+    ],
+    "true_normalized_action": [
+      -0.022300779819488525,
+      -0.3690073490142822,
+      -0.3648068308830261,
+      -0.23206162452697754,
+      0.09680771827697754,
+      -0.09783446788787842,
+      0.0
+    ],
+    "predicted_normalized_action": [
+      -0.02352941176470591,
+      -0.3686274509803922,
+      0.0,
+      -0.14901960784313728,
+      0.09411764705882353,
+      0.22745098039215694,
+      0.0
+    ],
+    "true_action_token_ids": [
+      31875,
+      31919,
+      31919,
+      31902,
+      31860,
+      31884,
+      31872
+    ],
+    "predicted_action_token_ids": [
+      31875,
+      31919,
+      31872,
+      31891,
+      31860,
+      31843,
+      31872
+    ],
+    "action_token_correct": 4,
+    "token_correct_per_dimension": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    "valid_generated_action_tokens": 7,
+    "normalized_action_l1": 0.11106184243488046,
+    "normalized_action_l1_per_dimension": [
+      0.0012286319452173844,
+      0.00037989803389004706,
+      0.3648068308830261,
+      0.08304201668384026,
+      0.002690071218154011,
+      0.32528544828003536,
+      0.0
+    ],
+    "true_gripper_class": "close",
+    "predicted_gripper_class": "close",
+    "true_arm_max_abs": 0.34285715222358704,
+    "predicted_arm_max_abs": 0.0013392865657806396,
+    "true_translation_max_abs": 0.34285715222358704,
+    "predicted_translation_max_abs": 0.0013392865657806396,
+    "image_and_prompt_match_training": true,
+    "prediction_seconds": 0.2707478255033493
+  }
+}

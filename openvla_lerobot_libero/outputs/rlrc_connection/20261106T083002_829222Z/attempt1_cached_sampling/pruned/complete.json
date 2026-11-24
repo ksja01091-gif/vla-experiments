@@ -1,0 +1,163 @@
+{
+  "complete": true,
+  "branch": "pruned",
+  "load_seconds": 14.639747817069292,
+  "load_memory": {
+    "allocated_gib": 3.9107327461242676,
+    "reserved_gib": 3.9765625,
+    "peak_gib": 14.129577159881592
+  },
+  "parameters": {
+    "model_parameters": 2064631232,
+    "recovery_parameters": 2412544,
+    "model_tensor_bytes": 4172475264,
+    "critic_parameters": 4097
+  },
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_connection/20261106T083002_829222Z/pruned/disposable_after_ppo",
+  "saved_file_bytes": 4139073648,
+  "sft": {
+    "updates": 4,
+    "training_frames": 16,
+    "batch_size": 4,
+    "lr": 0.0001,
+    "rank": 8,
+    "not_full_training": true,
+    "mean_update_seconds_excluding_first": 0.2972246129065752,
+    "all_update_seconds": [
+      1.037095008417964,
+      0.2980381101369858,
+      0.2997211441397667,
+      0.29391458444297314
+    ],
+    "validation_four_frame_seconds": 0.11255589500069618,
+    "memory": {
+      "allocated_gib": 3.9535646438598633,
+      "reserved_gib": 4.982421875,
+      "peak_gib": 4.712316036224365
+    },
+    "frozen_samples_unchanged": true,
+    "rows": [
+      {
+        "optimizer_step": 1,
+        "train_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seconds": 1.037095008417964,
+        "gradient_norm": 165.54844665527344,
+        "loss": 10.758514404296875,
+        "action_token_accuracy": 0.0714285746216774,
+        "normalized_action_l1": 0.5504784764946342,
+        "predicted_action_token_fraction": 1.0
+      },
+      {
+        "optimizer_step": 2,
+        "train_indices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "seconds": 0.2980381101369858,
+        "gradient_norm": 161.28030395507812,
+        "loss": 10.863863945007324,
+        "action_token_accuracy": 0.0,
+        "normalized_action_l1": 0.4894865027328833,
+        "predicted_action_token_fraction": 1.0
+      },
+      {
+        "optimizer_step": 3,
+        "train_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "seconds": 0.2997211441397667,
+        "gradient_norm": 136.3227081298828,
+        "loss": 10.426338195800781,
+        "action_token_accuracy": 0.0,
+        "normalized_action_l1": 0.5939786195087164,
+        "predicted_action_token_fraction": 1.0
+      },
+      {
+        "optimizer_step": 4,
+        "train_indices": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "seconds": 0.29391458444297314,
+        "gradient_norm": 113.29254913330078,
+        "loss": 9.894192695617676,
+        "action_token_accuracy": 0.0714285746216774,
+        "normalized_action_l1": 0.4911645582493614,
+        "predicted_action_token_fraction": 1.0
+      }
+    ]
+  },
+  "inference_seconds": 0.29448119457811117,
+  "inference_peak_gib": 4.010069847106934,
+  "rollout": {
+    "steps": 8,
+    "max_steps": 8,
+    "success_rate_not_evaluated": true,
+    "truncated": true,
+    "bootstrap": 0.0,
+    "mean_sample_and_score_seconds": 0.42135420721024275,
+    "mean_transition_wall_seconds": 0.8403721491340548,
+    "worker_initialization_seconds": 22.033824490383267,
+    "total_rollout_wall_seconds": 29.733412755653262,
+    "max_generation_teacher_logp_difference": 0.14957284927368164,
+    "reward": "task success +1, step penalty -0.001; smoke adaptation, not a verified paper coefficient",
+    "sampler": "on-policy categorical over 256 action tokens; seven autoregressive tokens; temperature1",
+    "gamma": 0.99,
+    "gae_lambda": 0.95
+  },
+  "ppo": {
+    "critic_warmup_steps": 2,
+    "critic_warmup_seconds": 0.16252451576292515,
+    "actor_unchanged_during_critic_warmup": true,
+    "ppo_optimizer_steps": 1,
+    "ppo_transitions": 4,
+    "ppo_update_seconds": 1.5225865561515093,
+    "ppo_gradient_norm": 98.32145690917969,
+    "bc_training_only_loss": 6.0878496170043945,
+    "actor_changed": true,
+    "frozen_samples_unchanged": true,
+    "rows": [
+      {
+        "ratio": 1.0,
+        "actor_loss": 1.4341071844100952,
+        "value_loss": 0.0006375500233843923,
+        "entropy": 4.658778667449951
+      },
+      {
+        "ratio": 1.0,
+        "actor_loss": 1.073751449584961,
+        "value_loss": 0.0002048634341917932,
+        "entropy": 4.178567886352539
+      },
+      {
+        "ratio": 1.0,
+        "actor_loss": 0.6905983686447144,
+        "value_loss": 0.00017841729277279228,
+        "entropy": 4.307252407073975
+      },
+      {
+        "ratio": 1.0,
+        "actor_loss": 0.2832052707672119,
+        "value_loss": 0.00016232579946517944,
+        "entropy": 3.6331217288970947
+      }
+    ],
+    "allocated_gib": 3.954224109649658,
+    "reserved_gib": 4.2265625,
+    "peak_gib": 4.120896816253662
+  },
+  "not_a_full_episode_or_quality_test": true,
+  "original_start_adapter_unchanged": true
+}

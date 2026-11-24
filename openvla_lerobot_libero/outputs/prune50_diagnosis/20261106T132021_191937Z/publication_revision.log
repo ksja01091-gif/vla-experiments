@@ -1,0 +1,38 @@
+KEYFRAME_CAPTIONS_VERIFIED_CHRONOLOGICAL
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run graspdiag2144af15490d
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/prune50_diagnosis/20261106T132021_191937Z/wandb/run-20261106_133814-graspdiag2144af15490d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run P50-grasp-failure-DIAGNOSIS-NO-TRAINING
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/graspdiag2144af15490d
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading artifact run-graspdiag2144af15490d-diagnosisstage_table-KDphhw
+wandb: WARNING Artifact "run-graspdiag2144af15490d-diagnosisstage_table-KDphhw" already exists with the same content. No new version will be created.
+wandb: uploading media/table/diagnosis/stage_table_summary_986e623bb61d7d377f5a.table.json; uploading same_image_comparison.json; uploading wandb-summary.json; uploading config.yaml; uploading media/images/evidence/state0_keyframes_summary_95877ba1430f34af745c.png (+ 6 more)
+wandb: uploading summary
+wandb: 
+wandb: Run summary:
+wandb:  diagnosis/dense_sft/any_both_pad_contact 3
+wandb:            diagnosis/dense_sft/lifted_5cm 3
+wandb:      diagnosis/dense_sft/official_success 3
+wandb: diagnosis/dense_sft/stable_grasp_and_lift 3
+wandb:                diagnosis/dense_sft/trials 5
+wandb:                      diagnosis/main_limit Identifies contact/l...
+wandb:                     diagnosis/no_training True
+wandb:        diagnosis/p50/any_both_pad_contact 0
+wandb:                  diagnosis/p50/lifted_5cm 1
+wandb:            diagnosis/p50/official_success 0
+wandb:                                        +8 ...
+wandb: 
+wandb: 🚀 View run P50-grasp-failure-DIAGNOSIS-NO-TRAINING at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/graspdiag2144af15490d
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 5 media file(s), 0 artifact file(s) and 5 other file(s)
+wandb: Find logs at: ./wandb/run-20261106_133814-graspdiag2144af15490d/logs
+DIAGNOSIS_BUNDLE_READY 51 945307

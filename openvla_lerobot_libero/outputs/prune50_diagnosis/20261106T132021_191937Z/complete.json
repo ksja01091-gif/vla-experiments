@@ -1,0 +1,9 @@
+{
+  "diagnosis_complete": true,
+  "no_training": true,
+  "no_optimizer_updates": true,
+  "all_ten_trajectories_reproduced": true,
+  "same_image_probe_completed": true,
+  "bundle_files": 51,
+  "wandb_verified": true
+}

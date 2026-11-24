@@ -1,0 +1,188 @@
+{
+  "frames": 462,
+  "episodes": 5,
+  "all_frames_exactly_once": true,
+  "training_performed": false,
+  "simulator_rollouts_performed": false,
+  "free_generation_action_token_accuracy": 0.34137291280148424,
+  "free_generation_normalized_action_l1": 0.2842743744340404,
+  "free_generation_l1_per_dimension": [
+    0.36211034218895405,
+    0.3200680612222555,
+    0.37253649926642957,
+    0.24573414024275894,
+    0.30037102552355194,
+    0.26637752398895503,
+    0.12272302860538085
+  ],
+  "free_generation_token_accuracy_per_dimension": [
+    0.12121212121212122,
+    0.17965367965367965,
+    0.23160173160173161,
+    0.3398268398268398,
+    0.23160173160173161,
+    0.4069264069264069,
+    0.8787878787878788
+  ],
+  "valid_generated_action_token_fraction": 1.0,
+  "gripper_confusion": {
+    "close": {
+      "close": 199,
+      "open": 29,
+      "neutral": 0
+    },
+    "open": {
+      "close": 27,
+      "open": 207,
+      "neutral": 0
+    }
+  },
+  "gripper_correct_frames": 406,
+  "gripper_accuracy": 0.8787878787878788,
+  "arm_near_zero_frames": 100,
+  "expert_active_but_predicted_near_zero": {
+    "expert_active_threshold": 0.1,
+    "predicted_near_zero_threshold": 0.01,
+    "expert_active_frames": 453,
+    "active_but_predicted_near_zero_frames": 91,
+    "fraction": 0.20088300220750552
+  },
+  "motion_threshold_sensitivity": [
+    {
+      "expert_active_threshold": 0.05,
+      "predicted_near_zero_threshold": 0.005,
+      "expert_active_frames": 460,
+      "active_but_predicted_near_zero_frames": 98,
+      "fraction": 0.21304347826086956
+    },
+    {
+      "expert_active_threshold": 0.05,
+      "predicted_near_zero_threshold": 0.01,
+      "expert_active_frames": 460,
+      "active_but_predicted_near_zero_frames": 98,
+      "fraction": 0.21304347826086956
+    },
+    {
+      "expert_active_threshold": 0.05,
+      "predicted_near_zero_threshold": 0.05,
+      "expert_active_frames": 460,
+      "active_but_predicted_near_zero_frames": 98,
+      "fraction": 0.21304347826086956
+    },
+    {
+      "expert_active_threshold": 0.1,
+      "predicted_near_zero_threshold": 0.005,
+      "expert_active_frames": 453,
+      "active_but_predicted_near_zero_frames": 91,
+      "fraction": 0.20088300220750552
+    },
+    {
+      "expert_active_threshold": 0.1,
+      "predicted_near_zero_threshold": 0.01,
+      "expert_active_frames": 453,
+      "active_but_predicted_near_zero_frames": 91,
+      "fraction": 0.20088300220750552
+    },
+    {
+      "expert_active_threshold": 0.1,
+      "predicted_near_zero_threshold": 0.05,
+      "expert_active_frames": 453,
+      "active_but_predicted_near_zero_frames": 91,
+      "fraction": 0.20088300220750552
+    },
+    {
+      "expert_active_threshold": 0.2,
+      "predicted_near_zero_threshold": 0.005,
+      "expert_active_frames": 420,
+      "active_but_predicted_near_zero_frames": 67,
+      "fraction": 0.1595238095238095
+    },
+    {
+      "expert_active_threshold": 0.2,
+      "predicted_near_zero_threshold": 0.01,
+      "expert_active_frames": 420,
+      "active_but_predicted_near_zero_frames": 67,
+      "fraction": 0.1595238095238095
+    },
+    {
+      "expert_active_threshold": 0.2,
+      "predicted_near_zero_threshold": 0.05,
+      "expert_active_frames": 420,
+      "active_but_predicted_near_zero_frames": 67,
+      "fraction": 0.1595238095238095
+    }
+  ],
+  "dominant_predicted_action_token_ids": [
+    31744,
+    31919,
+    31872,
+    31891,
+    31860,
+    31843,
+    31872
+  ],
+  "dominant_predicted_action_frames": 96,
+  "unique_predicted_action_token_sequences": 76,
+  "reused_teacher_forced_validation": {
+    "loss": 3.12671033644573,
+    "action_token_accuracy": 0.359616576399638,
+    "normalized_action_l1": 0.24042052550003445,
+    "predicted_action_token_fraction": 1.0,
+    "frames": 462,
+    "optimizer_step": 1007,
+    "seconds": 18.51361967995763,
+    "gpu_allocated_gib": 14.153698921203613,
+    "gpu_reserved_gib": 15.046875,
+    "gpu_peak_allocated_gib": 14.924588203430176,
+    "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/checkpoints/step_001007"
+  },
+  "teacher_metrics_source": "/home/jovyan/projects/lerobot-openvla/outputs/bowl40_experiment/20261103T051914_711739Z/training_result.json",
+  "per_episode": [
+    {
+      "episode_index": 0,
+      "frames": 84,
+      "action_token_accuracy": 0.3758503401360544,
+      "normalized_action_l1": 0.22685505347608392,
+      "gripper_correct": 79
+    },
+    {
+      "episode_index": 1,
+      "frames": 75,
+      "action_token_accuracy": 0.3180952380952381,
+      "normalized_action_l1": 0.30174265914270526,
+      "gripper_correct": 67
+    },
+    {
+      "episode_index": 2,
+      "frames": 127,
+      "action_token_accuracy": 0.3048368953880765,
+      "normalized_action_l1": 0.3600078842655647,
+      "gripper_correct": 102
+    },
+    {
+      "episode_index": 3,
+      "frames": 92,
+      "action_token_accuracy": 0.35248447204968947,
+      "normalized_action_l1": 0.28371370183885813,
+      "gripper_correct": 81
+    },
+    {
+      "episode_index": 4,
+      "frames": 84,
+      "action_token_accuracy": 0.3707482993197279,
+      "normalized_action_l1": 0.21220922845156012,
+      "gripper_correct": 77
+    }
+  ],
+  "limitations": [
+    "held-out demonstrations but their images are correlated within five episodes",
+    "free-generation imitation metrics, not a simulator success rate",
+    "near-zero controller values are a diagnostic threshold, not measured physical immobility",
+    "teacher forcing reveals previous correct action tokens; free generation uses its own previous token predictions"
+  ],
+  "checkpoint_unchanged": true,
+  "all_462_image_and_prompt_checks_passed": true,
+  "wall_seconds": 146.1826977636665,
+  "prediction_seconds": 127.6959717310965,
+  "gpu_peak_allocated_gib": 14.437081813812256
+}

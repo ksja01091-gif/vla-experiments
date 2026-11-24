@@ -1,0 +1,7 @@
+W&B 전체 비교 화면
+https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/5b56994b908a
+
+00-ALL-EXPERIMENTS-COMPARISON
+총 27개 실험·측정 기록: 기존8 + 새rank3 + 누락된 과거16.
+rank 비교 그래프·영상5개, epoch1~10, batch4/8, BF16/int8 비교 포함.
+빈칸은 해당 측정을 하지 않았다는 뜻이며 0이 아님. 서로 다른 실험 종류는 개별 비교표로 보기.

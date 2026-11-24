@@ -1,0 +1,10 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/jovyan/anaconda3/envs/openvla310/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /home/jovyan/projects/LIBERO/libero/libero/../datasets does not exist!
+LORA_ZERO_MOTION_COMPLETE {"model_tag": "lora", "init_state_index": 0, "goal_bowl": "akita_black_bowl_1", "goal_plate": "plate_1", "success": false, "replayed_policy_steps": 220, "original_actions_unchanged": true, "maximum_eef_replay_error_m": 0.0, "success_flags_match_original": true, "maximum_bowl_height_increase_m": 0.007433826536070831, "maximum_bowl_xy_displacement_m": 0.0033134622435805785, "minimum_eef_to_bowl_center_distance_m": 0.10103732883631966, "initial_bowl_plate_xy_distance_m": 0.11693418981041075, "final_bowl_plate_xy_distance_m": 0.12016352231167589, "observed_failure_pattern": "target_bowl_did_not_rise_by_2cm", "interpretation_limit": "Height and distance are observations, not proof of grasp/contact or a causal explanation of model errors."}

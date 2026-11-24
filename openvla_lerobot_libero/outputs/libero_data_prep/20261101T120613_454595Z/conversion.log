@@ -1,0 +1,71 @@
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  86%|████████▌ | 96/112 [00:00<00:00, 940.91 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 868.69 examples/s]
+EXPORTED train 1 / 20 frames 112
+Map:   0%|          | 0/79 [00:00<?, ? examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 869.72 examples/s]
+EXPORTED train 2 / 20 frames 79
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map:  99%|█████████▉| 94/95 [00:00<00:00, 924.98 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 846.84 examples/s]
+EXPORTED train 3 / 20 frames 95
+Map:   0%|          | 0/90 [00:00<?, ? examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 899.61 examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 878.29 examples/s]
+EXPORTED train 4 / 20 frames 90
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  91%|█████████ | 98/108 [00:00<00:00, 965.24 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 888.10 examples/s]
+EXPORTED train 5 / 20 frames 108
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 876.47 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 859.32 examples/s]
+EXPORTED train 6 / 20 frames 92
+Map:   0%|          | 0/88 [00:00<?, ? examples/s]Map: 100%|██████████| 88/88 [00:00<00:00, 868.39 examples/s]Map: 100%|██████████| 88/88 [00:00<00:00, 848.87 examples/s]
+EXPORTED train 7 / 20 frames 88
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 898.78 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 878.70 examples/s]
+EXPORTED train 8 / 20 frames 93
+Map:   0%|          | 0/91 [00:00<?, ? examples/s]Map: 100%|██████████| 91/91 [00:00<00:00, 873.42 examples/s]Map: 100%|██████████| 91/91 [00:00<00:00, 852.01 examples/s]
+EXPORTED train 9 / 20 frames 91
+Map:   0%|          | 0/87 [00:00<?, ? examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 893.98 examples/s]
+EXPORTED train 10 / 20 frames 87
+Map:   0%|          | 0/89 [00:00<?, ? examples/s]Map: 100%|██████████| 89/89 [00:00<00:00, 885.18 examples/s]Map: 100%|██████████| 89/89 [00:00<00:00, 864.39 examples/s]
+EXPORTED train 11 / 20 frames 89
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 879.23 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 862.20 examples/s]
+EXPORTED train 12 / 20 frames 92
+Map:   0%|          | 0/89 [00:00<?, ? examples/s]Map: 100%|██████████| 89/89 [00:00<00:00, 876.55 examples/s]
+EXPORTED train 13 / 20 frames 89
+Map:   0%|          | 0/168 [00:00<?, ? examples/s]Map:  56%|█████▌    | 94/168 [00:00<00:00, 922.28 examples/s]Map: 100%|██████████| 168/168 [00:00<00:00, 879.54 examples/s]
+EXPORTED train 14 / 20 frames 168
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 871.41 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 854.03 examples/s]
+EXPORTED train 15 / 20 frames 95
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 895.38 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 873.96 examples/s]
+EXPORTED train 16 / 20 frames 92
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  99%|█████████▉| 95/96 [00:00<00:00, 932.70 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 837.88 examples/s]
+EXPORTED train 17 / 20 frames 96
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  99%|█████████▉| 96/97 [00:00<00:00, 944.00 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 781.34 examples/s]
+EXPORTED train 18 / 20 frames 97
+Map:   0%|          | 0/90 [00:00<?, ? examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 872.46 examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 854.84 examples/s]
+EXPORTED train 19 / 20 frames 90
+Map:   0%|          | 0/85 [00:00<?, ? examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 877.12 examples/s]
+EXPORTED train 20 / 20 frames 85
+VERIFIED train episodes 20 frames 1928 image_checks 40
+Map:   0%|          | 0/84 [00:00<?, ? examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 842.23 examples/s]
+EXPORTED validation 1 / 5 frames 84
+Map:   0%|          | 0/75 [00:00<?, ? examples/s]Map: 100%|██████████| 75/75 [00:00<00:00, 838.36 examples/s]
+EXPORTED validation 2 / 5 frames 75
+Map:   0%|          | 0/127 [00:00<?, ? examples/s]Map:  78%|███████▊  | 99/127 [00:00<00:00, 969.62 examples/s]Map: 100%|██████████| 127/127 [00:00<00:00, 889.26 examples/s]
+EXPORTED validation 3 / 5 frames 127
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 878.81 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 859.38 examples/s]
+EXPORTED validation 4 / 5 frames 92
+Map:   0%|          | 0/84 [00:00<?, ? examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 840.49 examples/s]
+EXPORTED validation 5 / 5 frames 84
+VERIFIED validation episodes 5 frames 462 image_checks 10
+DATA_PREPARATION_COMPLETE /home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z
+{
+  "train": {
+    "episodes": 20,
+    "frames": 1928,
+    "all_actions_states_joints_exact": true,
+    "first_last_images_exact": 40,
+    "finite_actions": true,
+    "all_tasks_match": true
+  },
+  "validation": {
+    "episodes": 5,
+    "frames": 462,
+    "all_actions_states_joints_exact": true,
+    "first_last_images_exact": 10,
+    "finite_actions": true,
+    "all_tasks_match": true
+  }
+}

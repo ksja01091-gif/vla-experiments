@@ -1,0 +1,34 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from /home/jovyan/.netrc.
+wandb: Currently logged in as: ksja01091 (ksja01091-gwangju-institute-of-science-and-technology) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run rlrcsmoke96672af32122
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/jovyan/projects/lerobot-openvla/outputs/rlrc_connection/20261106T083002_829222Z/publication/wandb/run-20261106_085130-rlrcsmoke96672af32122
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run RLRC-90pct-CONNECTION-ONLY
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrcsmoke96672af32122
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: updating run metadata; uploading artifact run-rlrcsmoke96672af32122-connectionresource_comparison-vEZk8Q
+wandb: uploading artifact run-rlrcsmoke96672af32122-connectionresource_comparison-vEZk8Q
+wandb: uploading summary
+wandb: 
+wandb: Run summary:
+wandb:         connection/dense/greedy_prediction_ms 290.88045
+wandb:                 connection/dense/parameters_B 7.54963
+wandb:                 connection/dense/ppo_peak_GiB 14.33824
+wandb:        connection/dense/rl_transition_seconds 0.99429
+wandb: connection/dense/sampling_logp_max_difference 0
+wandb:                 connection/dense/sft_peak_GiB 14.93977
+wandb:           connection/dense/sft_update_seconds 0.36105
+wandb:                     connection/interpretation Connection checks on...
+wandb:                connection/preservation_passed True
+wandb:        connection/pruned/greedy_prediction_ms 290.13222
+wandb:                                            +7 ...
+wandb: 
+wandb: 🚀 View run RLRC-90pct-CONNECTION-ONLY at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrcsmoke96672af32122
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline
+wandb: Synced 2 W&B file(s), 1 media file(s), 2 artifact file(s) and 3 other file(s)
+wandb: Find logs at: ./publication/wandb/run-20261106_085130-rlrcsmoke96672af32122/logs
+WB_CONNECTION_VERIFIED https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/rlrcsmoke96672af32122

@@ -1,0 +1,14 @@
+{
+  "openvla310": {
+    "interpreter": "/home/jovyan/anaconda3/envs/openvla310/bin/python",
+    "freeze_returncode": 0
+  },
+  "lerobot312": {
+    "interpreter": "/home/jovyan/anaconda3/envs/lerobot312/bin/python",
+    "freeze_returncode": 0
+  },
+  "eval310": {
+    "interpreter": "/home/jovyan/projects/venvs/openvla_eval310/bin/python",
+    "freeze_returncode": 0
+  }
+}

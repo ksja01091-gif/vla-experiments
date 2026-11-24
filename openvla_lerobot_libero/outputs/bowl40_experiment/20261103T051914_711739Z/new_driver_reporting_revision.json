@@ -1,0 +1,9 @@
+{
+  "file": "/home/jovyan/projects/lerobot-openvla/examples/run_openvla_bowl40.py",
+  "initial_hash": "91a33c6d9c548cf516e374b422c72d760d719cec6daec7d11575623ac8d18bb8",
+  "final_hash": "08d6522fb891de85156ec47d500b96a6b315c398581088a960d76486bd7d16fa",
+  "scope": "newly created experiment driver only; all pre-existing project sources remain audited",
+  "reason": "report-only fallback to existing openvla310 matplotlib; no package changes; training code unchanged",
+  "excluded_from_preexisting_source_audit": true,
+  "reporting_retry_logs_preserved": true
+}

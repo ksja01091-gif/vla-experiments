@@ -1,0 +1,14 @@
+MEASURED_ESTIMATE_MINUTES 4.550910527457793 PEAK_GPU_GIB 14.8928804397583
+PHASE_STARTED simulation_base 126221
+PHASE_COMPLETE simulation_base
+PHASE_STARTED simulation_lora 127878
+PHASE_COMPLETE simulation_lora
+PHASE_STARTED simulation_reference 129586
+PHASE_COMPLETE simulation_reference
+PHASE_STARTED preservation 131015
+PHASE_COMPLETE preservation
+PHASE_STARTED report 131101
+PHASE_COMPLETE report
+PHASE_STARTED wandb_summary 131165
+PHASE_COMPLETE wandb_summary
+EXPERIMENT_COMPLETE /home/jovyan/projects/lerobot-openvla/outputs/full_bowl_experiment/20261102T091448_811738Z

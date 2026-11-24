@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "minimum_crossing_rule": true,
+  "eta_monotonicity": true,
+  "zero_update_base_equivalence": true,
+  "base_gradients_absent": true,
+  "router_gradients_present": true,
+  "nonreentrant_checkpoint_loss_and_gradients_match": true
+}

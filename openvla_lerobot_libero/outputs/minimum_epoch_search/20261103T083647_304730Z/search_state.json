@@ -1,0 +1,10 @@
+{
+  "phase": "verify",
+  "evaluated_epochs": [
+    2,
+    3,
+    4
+  ],
+  "minimum_any": 4,
+  "minimum_target": 5
+}

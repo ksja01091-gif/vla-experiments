@@ -1,0 +1,24 @@
+[
+  {
+    "state": 0,
+    "bf16_success": true,
+    "int8_success": true,
+    "conditions_match": {
+      "initial_image_sha256": true,
+      "selected_init_state_sha256": true,
+      "reference_sha256": true,
+      "simulator_versions": true
+    }
+  },
+  {
+    "state": 1,
+    "bf16_success": false,
+    "int8_success": true,
+    "conditions_match": {
+      "initial_image_sha256": true,
+      "selected_init_state_sha256": true,
+      "reference_sha256": true,
+      "simulator_versions": true
+    }
+  }
+]

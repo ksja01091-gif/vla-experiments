@@ -1,0 +1,52 @@
+{
+  "training_frames": 4025,
+  "per_dimension_mode_token_ids": [
+    31875,
+    31919,
+    31999,
+    31891,
+    31860,
+    31843,
+    31744
+  ],
+  "per_dimension_mode_normalized_actions": [
+    -0.02352941176470591,
+    -0.3686274509803922,
+    -0.996078431372549,
+    -0.14901960784313728,
+    0.09411764705882353,
+    0.22745098039215694,
+    0.996078431372549
+  ],
+  "fixed_mode_validation_token_accuracy": 0.2850958565244279,
+  "fixed_mode_validation_normalized_l1": 0.42290297907358926,
+  "actual_model_validation_normalized_l1": 0.2842743744340404,
+  "actual_model_validation_token_accuracy": 0.34137291280148424,
+  "shuffle_pairing": {
+    "permutations": 500,
+    "seed": 7,
+    "shuffled_l1_mean": 0.47411383447623584,
+    "shuffled_l1_min": 0.4547075157618443,
+    "shuffled_l1_max": 0.49518344188995,
+    "note": "Descriptive association check only; correlated frames and shared task prevent an independent-sample causal claim."
+  },
+  "training_mode_frequency_per_dimension": [
+    0.0862111801242236,
+    0.2181366459627329,
+    0.20173913043478262,
+    0.28645962732919256,
+    0.2146583850931677,
+    0.30906832298136644,
+    0.5195031055900621
+  ],
+  "model_validation_mode_frequency_per_dimension": [
+    0.40476190476190477,
+    0.7965367965367965,
+    0.2987012987012987,
+    0.9329004329004329,
+    0.9177489177489178,
+    0.8593073593073594,
+    0.5108225108225108
+  ],
+  "encoding_control": "Normalization and token mapping are the exact training functions; no semantic relabeling."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "awaiting_user_runtime_cap",
+  "not_authorized_to_start_long_training": true,
+  "options": [
+    {
+      "sft_epochs_each": 1,
+      "rl_training_episodes_each": 4,
+      "projected_training_minutes_with_30pct_margin": 83.46120100332425,
+      "projected_final_evaluation_minutes": 29.848363641571876,
+      "startup_calibration_save_allowance_minutes": 10,
+      "projected_total_minutes": 123.30956464489613,
+      "proposed_cap_hours": 3
+    },
+    {
+      "sft_epochs_each": 3,
+      "rl_training_episodes_each": 12,
+      "projected_training_minutes_with_30pct_margin": 247.54137989301856,
+      "projected_final_evaluation_minutes": 29.848363641571876,
+      "startup_calibration_save_allowance_minutes": 10,
+      "projected_total_minutes": 287.3897435345904,
+      "proposed_cap_hours": 6
+    },
+    {
+      "sft_epochs_each": 5,
+      "rl_training_episodes_each": 20,
+      "projected_training_minutes_with_30pct_margin": 411.6215587827129,
+      "projected_final_evaluation_minutes": 29.848363641571876,
+      "startup_calibration_save_allowance_minutes": 10,
+      "projected_total_minutes": 451.4699224242848,
+      "proposed_cap_hours": 9
+    }
+  ],
+  "same_starting_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "calibration_train_frames_final": 160,
+  "sft_train_demos": 40,
+  "sft_train_frames": 4025,
+  "validation_demos": 5,
+  "validation_frames": 462,
+  "rl_train_initial_states_proposed": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "evaluation_initial_states": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "eval_states_previously_reused_not_unseen_generalization": true,
+  "maximum_episode_steps": 220,
+  "ppo_passes_per_collection": 2,
+  "sft_learning_rate": 0.0001,
+  "ppo_learning_rate": 1e-05,
+  "recovery_lora_rank": 8,
+  "reward_success": 1.0,
+  "reward_step_penalty": -0.001,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "ppo_clip": 0.2,
+  "bc_weight": 0.1,
+  "not_exact_paper_coefficients": true,
+  "reward_and_ppo_scope": "small single-task adaptation; not full paper training",
+  "matched_extra_learning_budget_not_equal_wall_time": true,
+  "budget_stop_policy": "save state on deadline; incomplete matched comparison reported as incomplete, not a success-rate conclusion"
+}

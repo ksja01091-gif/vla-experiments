@@ -1,0 +1,15 @@
+START prepare 145394
+DONE prepare
+START train 145479
+DONE train
+START checkpoint_check 147684
+DONE checkpoint_check
+START free_action_eval 147774
+DONE free_action_eval
+START paired_epoch5 147949
+DONE paired_epoch5
+START motion_epoch5 149975
+DONE motion_epoch5
+START preservation 150198
+DONE preservation
+CORE_COMPLETE /home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z

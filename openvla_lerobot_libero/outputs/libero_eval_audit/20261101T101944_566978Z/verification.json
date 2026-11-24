@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "policy_steps": 85,
+  "warmup_steps": 10,
+  "max_policy_steps": 220,
+  "frames": 86,
+  "simulated_seconds": 4.249999999999699,
+  "init_state_index": 0,
+  "available_initial_states": 50,
+  "max_pixel_error": 0,
+  "attention_backend": "sdpa",
+  "existing_files_unchanged": 8,
+  "original_environments_unchanged": true,
+  "video_decoding_passed": true,
+  "single_trial_only": true
+}

@@ -1,0 +1,40 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.59s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.63s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.72s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.96s/it]
+trainable params: 4,194,304 || all params: 7,545,431,488 || trainable%: 0.0556
+CALIBRATION 1 /160
+CALIBRATION 5 /160
+CALIBRATION 10 /160
+CALIBRATION 15 /160
+CALIBRATION 20 /160
+CALIBRATION 25 /160
+CALIBRATION 30 /160
+CALIBRATION 35 /160
+CALIBRATION 40 /160
+CALIBRATION 45 /160
+CALIBRATION 50 /160
+CALIBRATION 55 /160
+CALIBRATION 60 /160
+CALIBRATION 65 /160
+CALIBRATION 70 /160
+CALIBRATION 75 /160
+CALIBRATION 80 /160
+CALIBRATION 85 /160
+CALIBRATION 90 /160
+CALIBRATION 95 /160
+CALIBRATION 100 /160
+CALIBRATION 105 /160
+CALIBRATION 110 /160
+CALIBRATION 115 /160
+CALIBRATION 120 /160
+CALIBRATION 125 /160
+CALIBRATION 130 /160
+CALIBRATION 135 /160
+CALIBRATION 140 /160
+CALIBRATION 145 /160
+CALIBRATION 150 /160
+CALIBRATION 155 /160
+CALIBRATION 160 /160
+CALIBRATION_COMPLETE [{"variant": "sp_pruned96", "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261105T085625_138557Z/checkpoints/sp_pruned96", "adapter_file_bytes": 236021016, "adapter_parameters": 58992640, "mean_retained_calibration_importance": 0.9791061222703034}, {"variant": "sp_pruned64", "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/sp_physical_prune/20261105T085625_138557Z/checkpoints/sp_pruned64", "adapter_file_bytes": 168912008, "adapter_parameters": 42215424, "mean_retained_calibration_importance": 0.9071856735025107}]

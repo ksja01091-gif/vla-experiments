@@ -1,0 +1,884 @@
+{
+  "mode": "int8",
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "sample_count": 32,
+  "all_actions_finite": true,
+  "mean_action_seconds": 0.7991359849111177,
+  "median_action_seconds": 0.7965805139392614,
+  "allocated_gib": 8.184457302093506,
+  "peak_allocated_gib": 8.51369857788086,
+  "peak_reserved_gib": 8.603515625,
+  "gpu_process_mib": [],
+  "model_tensor_footprint_bytes": 8656808832,
+  "quantized_linear_count": 224,
+  "quantized_modules": [
+    "base_model.model.language_model.model.layers.0.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.0.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.0.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.0.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.0.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.0.mlp.up_proj",
+    "base_model.model.language_model.model.layers.0.mlp.down_proj",
+    "base_model.model.language_model.model.layers.1.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.1.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.1.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.1.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.1.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.1.mlp.up_proj",
+    "base_model.model.language_model.model.layers.1.mlp.down_proj",
+    "base_model.model.language_model.model.layers.2.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.2.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.2.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.2.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.2.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.2.mlp.up_proj",
+    "base_model.model.language_model.model.layers.2.mlp.down_proj",
+    "base_model.model.language_model.model.layers.3.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.3.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.3.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.3.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.3.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.3.mlp.up_proj",
+    "base_model.model.language_model.model.layers.3.mlp.down_proj",
+    "base_model.model.language_model.model.layers.4.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.4.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.4.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.4.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.4.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.4.mlp.up_proj",
+    "base_model.model.language_model.model.layers.4.mlp.down_proj",
+    "base_model.model.language_model.model.layers.5.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.5.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.5.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.5.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.5.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.5.mlp.up_proj",
+    "base_model.model.language_model.model.layers.5.mlp.down_proj",
+    "base_model.model.language_model.model.layers.6.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.6.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.6.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.6.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.6.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.6.mlp.up_proj",
+    "base_model.model.language_model.model.layers.6.mlp.down_proj",
+    "base_model.model.language_model.model.layers.7.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.7.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.7.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.7.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.7.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.7.mlp.up_proj",
+    "base_model.model.language_model.model.layers.7.mlp.down_proj",
+    "base_model.model.language_model.model.layers.8.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.8.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.8.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.8.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.8.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.8.mlp.up_proj",
+    "base_model.model.language_model.model.layers.8.mlp.down_proj",
+    "base_model.model.language_model.model.layers.9.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.9.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.9.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.9.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.9.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.9.mlp.up_proj",
+    "base_model.model.language_model.model.layers.9.mlp.down_proj",
+    "base_model.model.language_model.model.layers.10.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.10.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.10.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.10.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.10.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.10.mlp.up_proj",
+    "base_model.model.language_model.model.layers.10.mlp.down_proj",
+    "base_model.model.language_model.model.layers.11.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.11.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.11.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.11.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.11.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.11.mlp.up_proj",
+    "base_model.model.language_model.model.layers.11.mlp.down_proj",
+    "base_model.model.language_model.model.layers.12.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.12.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.12.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.12.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.12.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.12.mlp.up_proj",
+    "base_model.model.language_model.model.layers.12.mlp.down_proj",
+    "base_model.model.language_model.model.layers.13.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.13.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.13.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.13.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.13.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.13.mlp.up_proj",
+    "base_model.model.language_model.model.layers.13.mlp.down_proj",
+    "base_model.model.language_model.model.layers.14.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.14.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.14.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.14.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.14.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.14.mlp.up_proj",
+    "base_model.model.language_model.model.layers.14.mlp.down_proj",
+    "base_model.model.language_model.model.layers.15.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.15.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.15.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.15.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.15.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.15.mlp.up_proj",
+    "base_model.model.language_model.model.layers.15.mlp.down_proj",
+    "base_model.model.language_model.model.layers.16.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.16.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.16.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.16.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.16.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.16.mlp.up_proj",
+    "base_model.model.language_model.model.layers.16.mlp.down_proj",
+    "base_model.model.language_model.model.layers.17.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.17.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.17.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.17.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.17.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.17.mlp.up_proj",
+    "base_model.model.language_model.model.layers.17.mlp.down_proj",
+    "base_model.model.language_model.model.layers.18.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.18.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.18.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.18.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.18.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.18.mlp.up_proj",
+    "base_model.model.language_model.model.layers.18.mlp.down_proj",
+    "base_model.model.language_model.model.layers.19.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.19.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.19.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.19.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.19.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.19.mlp.up_proj",
+    "base_model.model.language_model.model.layers.19.mlp.down_proj",
+    "base_model.model.language_model.model.layers.20.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.20.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.20.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.20.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.20.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.20.mlp.up_proj",
+    "base_model.model.language_model.model.layers.20.mlp.down_proj",
+    "base_model.model.language_model.model.layers.21.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.21.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.21.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.21.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.21.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.21.mlp.up_proj",
+    "base_model.model.language_model.model.layers.21.mlp.down_proj",
+    "base_model.model.language_model.model.layers.22.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.22.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.22.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.22.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.22.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.22.mlp.up_proj",
+    "base_model.model.language_model.model.layers.22.mlp.down_proj",
+    "base_model.model.language_model.model.layers.23.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.23.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.23.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.23.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.23.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.23.mlp.up_proj",
+    "base_model.model.language_model.model.layers.23.mlp.down_proj",
+    "base_model.model.language_model.model.layers.24.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.24.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.24.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.24.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.24.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.24.mlp.up_proj",
+    "base_model.model.language_model.model.layers.24.mlp.down_proj",
+    "base_model.model.language_model.model.layers.25.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.25.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.25.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.25.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.25.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.25.mlp.up_proj",
+    "base_model.model.language_model.model.layers.25.mlp.down_proj",
+    "base_model.model.language_model.model.layers.26.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.26.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.26.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.26.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.26.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.26.mlp.up_proj",
+    "base_model.model.language_model.model.layers.26.mlp.down_proj",
+    "base_model.model.language_model.model.layers.27.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.27.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.27.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.27.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.27.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.27.mlp.up_proj",
+    "base_model.model.language_model.model.layers.27.mlp.down_proj",
+    "base_model.model.language_model.model.layers.28.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.28.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.28.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.28.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.28.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.28.mlp.up_proj",
+    "base_model.model.language_model.model.layers.28.mlp.down_proj",
+    "base_model.model.language_model.model.layers.29.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.29.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.29.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.29.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.29.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.29.mlp.up_proj",
+    "base_model.model.language_model.model.layers.29.mlp.down_proj",
+    "base_model.model.language_model.model.layers.30.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.30.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.30.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.30.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.30.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.30.mlp.up_proj",
+    "base_model.model.language_model.model.layers.30.mlp.down_proj",
+    "base_model.model.language_model.model.layers.31.self_attn.q_proj.base_layer",
+    "base_model.model.language_model.model.layers.31.self_attn.k_proj",
+    "base_model.model.language_model.model.layers.31.self_attn.v_proj.base_layer",
+    "base_model.model.language_model.model.layers.31.self_attn.o_proj",
+    "base_model.model.language_model.model.layers.31.mlp.gate_proj",
+    "base_model.model.language_model.model.layers.31.mlp.up_proj",
+    "base_model.model.language_model.model.layers.31.mlp.down_proj"
+  ],
+  "scope": "language model linear layers except lm_head; vision/projector remain BF16; adapter FP32",
+  "rows": [
+    {
+      "validation_index": 0,
+      "seconds_including_image_preprocessing": 0.8075517248362303,
+      "action": [
+        [
+          0.49515867233276367,
+          0.3423740267753601,
+          0.13082458078861237,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 14,
+      "seconds_including_image_preprocessing": 0.8067128788679838,
+      "action": [
+        [
+          0.9339037537574768,
+          0.3711908459663391,
+          -0.2876943349838257,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 29,
+      "seconds_including_image_preprocessing": 0.7935345489531755,
+      "action": [
+        [
+          -0.3247911036014557,
+          0.1442584991455078,
+          -0.9338287711143494,
+          0.012616388499736786,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 44,
+      "seconds_including_image_preprocessing": 0.7973452210426331,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.18222163617610931,
+          -5.7728906540432945e-05,
+          0.11159072071313858,
+          -0.039124876260757446,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 59,
+      "seconds_including_image_preprocessing": 0.7916253935545683,
+      "action": [
+        [
+          0.9339037537574768,
+          0.00017446554556954652,
+          -0.052736345678567886,
+          0.006279329769313335,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 74,
+      "seconds_including_image_preprocessing": 0.803989639505744,
+      "action": [
+        [
+          -0.5621449947357178,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          0.04068050533533096,
+          -0.09657642245292664,
+          0.00044462032383307815,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 89,
+      "seconds_including_image_preprocessing": 0.7968541756272316,
+      "action": [
+        [
+          0.725320041179657,
+          0.590919017791748,
+          -0.0013392865657806396,
+          0.05154403671622276,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 104,
+      "seconds_including_image_preprocessing": 0.8140588942915201,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.10463538765907288,
+          -0.9338287711143494,
+          0.03705932945013046,
+          -0.10385499894618988,
+          0.022027982398867607,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 118,
+      "seconds_including_image_preprocessing": 0.8130272179841995,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.03619547188282013,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.026702137663960457,
+          0.00044462032383307815,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 133,
+      "seconds_including_image_preprocessing": 0.8008720278739929,
+      "action": [
+        [
+          0.8404006958007812,
+          0.00017446554556954652,
+          0.37312498688697815,
+          -5.7728906540432945e-05,
+          0.011146432720124722,
+          -0.04871748015284538,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 148,
+      "seconds_including_image_preprocessing": 0.8031847216188908,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 163,
+      "seconds_including_image_preprocessing": 0.8173588085919619,
+      "action": [
+        [
+          0.35130783915519714,
+          0.27753621339797974,
+          0.020688023418188095,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 178,
+      "seconds_including_image_preprocessing": 0.7961526960134506,
+      "action": [
+        [
+          0.5958542823791504,
+          0.21269841492176056,
+          -0.9338287711143494,
+          0.03253285959362984,
+          -0.10239928215742111,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 193,
+      "seconds_including_image_preprocessing": 0.7959329225122929,
+      "action": [
+        [
+          -0.7347660064697266,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          0.00990050658583641,
+          -0.09220927953720093,
+          -0.02833319455385208,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 208,
+      "seconds_including_image_preprocessing": 0.7915857825428247,
+      "action": [
+        [
+          0.4520034193992615,
+          0.00017446554556954652,
+          0.8063287734985352,
+          -0.02269008196890354,
+          0.059185005724430084,
+          -0.11946294456720352,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 223,
+      "seconds_including_image_preprocessing": 0.8081780038774014,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.3831460177898407,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.07629621773958206,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 237,
+      "seconds_including_image_preprocessing": 0.7903509736061096,
+      "action": [
+        [
+          0.23622716963291168,
+          0.08302278071641922,
+          0.6007405519485474,
+          -0.028121845796704292,
+          0.05336214601993561,
+          -0.11946294456720352,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 252,
+      "seconds_including_image_preprocessing": 0.7945376895368099,
+      "action": [
+        [
+          0.7684752941131592,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0019549953285604715,
+          -0.0942823514342308,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 267,
+      "seconds_including_image_preprocessing": 0.7956849485635757,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.9311501979827881,
+          -5.7728906540432945e-05,
+          0.03152643144130707,
+          -0.07989344745874405,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 282,
+      "seconds_including_image_preprocessing": 0.7944026701152325,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.7622741460800171,
+          0.01895344816148281,
+          0.062096431851387024,
+          -0.07869437336921692,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 297,
+      "seconds_including_image_preprocessing": 0.7960475105792284,
+      "action": [
+        [
+          0.761282742023468,
+          0.6269400119781494,
+          -0.060078781098127365,
+          -0.01906890608370304,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 312,
+      "seconds_including_image_preprocessing": 0.8003832250833511,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.14065639674663544,
+          -0.9338287711143494,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          -0.006749833468347788,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 327,
+      "seconds_including_image_preprocessing": 0.7917530033737421,
+      "action": [
+        [
+          -0.10182230919599533,
+          0.00017446554556954652,
+          -0.6915283799171448,
+          0.03615403547883034,
+          0.002412147354334593,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 342,
+      "seconds_including_image_preprocessing": 0.7805565446615219,
+      "action": [
+        [
+          -0.893001914024353,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          0.06150227040052414,
+          -0.08638642728328705,
+          0.04241226613521576,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 356,
+      "seconds_including_image_preprocessing": 0.8010310363024473,
+      "action": [
+        [
+          0.042028531432151794,
+          0.00017446554556954652,
+          -0.8677468299865723,
+          0.023479918017983437,
+          -0.0936649963259697,
+          0.00044462032383307815,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 371,
+      "seconds_including_image_preprocessing": 0.7947006579488516,
+      "action": [
+        [
+          0.027643447741866112,
+          0.00017446554556954652,
+          0.865068256855011,
+          -5.7728906540432945e-05,
+          0.08102072030305862,
+          -0.06670361757278442,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 386,
+      "seconds_including_image_preprocessing": 0.7931751888245344,
+      "action": [
+        [
+          0.9267112016677856,
+          0.53328537940979,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          -0.0004992811591364443,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 401,
+      "seconds_including_image_preprocessing": 0.80160141736269,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.20189210772514343,
+          -0.7576103210449219,
+          -5.7728906540432945e-05,
+          -0.0936649963259697,
+          0.00044462032383307815,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 416,
+      "seconds_including_image_preprocessing": 0.8134710546582937,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          -0.0013392865657806396,
+          -5.7728906540432945e-05,
+          0.014057861641049385,
+          -0.03432857245206833,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 431,
+      "seconds_including_image_preprocessing": 0.7906711716204882,
+      "action": [
+        [
+          0.7468976378440857,
+          0.00017446554556954652,
+          0.8063287734985352,
+          -0.010921258479356766,
+          0.04462786018848419,
+          -0.06910176575183868,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 446,
+      "seconds_including_image_preprocessing": 0.7963068522512913,
+      "action": [
+        [
+          -0.12339993566274643,
+          0.00017446554556954652,
+          -0.9338287711143494,
+          0.012616388499736786,
+          -0.0980321392416954,
+          0.00044462032383307815,
+          0.0
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    },
+    {
+      "validation_index": 461,
+      "seconds_including_image_preprocessing": 0.7997129149734974,
+      "action": [
+        [
+          -0.0011267198715358973,
+          0.00017446554556954652,
+          0.7402468323707581,
+          0.012616388499736786,
+          0.028615005314350128,
+          -0.08109252154827118,
+          0.9960784316062927
+        ]
+      ],
+      "shape": [
+        1,
+        7
+      ],
+      "finite": true
+    }
+  ],
+  "loading_and_test_seconds": 46.28670114092529
+}

@@ -1,0 +1,52 @@
+{
+  "base_model": "openvla/openvla-7b",
+  "base_snapshot": "/home/jovyan/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+  "data_root": "/home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z",
+  "steps": 20,
+  "batch_size": 1,
+  "learning_rate": 0.0001,
+  "seed": 7,
+  "lora_rank": 8,
+  "targets": [
+    "language_model q_proj",
+    "language_model v_proj"
+  ],
+  "train_frame_indices": [
+    56,
+    151,
+    238,
+    331,
+    430,
+    530,
+    620,
+    710,
+    802,
+    891,
+    979,
+    1070,
+    1160,
+    1289,
+    1420,
+    1514,
+    1608,
+    1704,
+    1798,
+    1885
+  ],
+  "validation_frame_indices": [
+    42,
+    121,
+    222,
+    332,
+    420
+  ],
+  "frame_selection": "one midpoint per episode; short connection test only",
+  "image_preprocessing": "native Hugging Face processor on source 256px images; no augmentation; not full official RLDS preprocessing reproduction",
+  "normalization": "training-20-episode q01/q99; arm mask only; constant dimensions zero",
+  "loss": "cross entropy on seven action tokens plus EOS; prompt masked",
+  "validation": "teacher-forced one midpoint per validation episode; no simulator rollout",
+  "reference_hashes": {
+    "/home/jovyan/projects/openvla/prismatic/vla/action_tokenizer.py": "fdc98fcbf5b0926ef2181db71946d23ffbfa052cf8443dc933d52c42a191352c",
+    "/home/jovyan/projects/openvla/prismatic/models/backbones/llm/prompting/base_prompter.py": "13640ed54b055c0fcd8daf7212be9f4faf76cec779fdd2e0f7ea5a866b0b6d51"
+  }
+}

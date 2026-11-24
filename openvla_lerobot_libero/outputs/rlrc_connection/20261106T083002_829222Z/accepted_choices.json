@@ -1,0 +1,15 @@
+{
+  "matched_dense_control": true,
+  "scope": "structured pruning + SFT + PPO recovery; only smoke calibration authorized before joint runtime cap decision",
+  "target_internal_pruning": 0.9,
+  "protect_layers": [
+    0,
+    31
+  ],
+  "starting_model": "ordinary LoRA rank8, 5epoch",
+  "reference_checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/five_epoch_bowl/20261103T064207_586519Z/checkpoints/step_005035",
+  "environment": "/home/jovyan/projects/venvs/rlrc-smoke312",
+  "environment_inherits_existing_packages_read_only": true,
+  "package_installation": false,
+  "long_training_budget": "pending after measured smoke"
+}

@@ -1,0 +1,12 @@
+{
+  "rl_sampler": "same-shape uncached autoregression over 256 valid action token IDs; temperature1; generator seed71000+state; seven tokens per simulator action",
+  "ppo_probability_check": "sampling logp and teacher-forced scoring must match within1e-4 pertoken; firstupdate ratios must be1",
+  "final_evaluation_policy": "existing deterministic matched_select_action/native greedy action generation, same as prior benchmarks",
+  "frozen_weight_check_scope": "sample hashes of all frozen tensors plus original checkpoint/source full-file SHA256 checks; not a full cloned tensor comparison each training update",
+  "loader_limitation": "custom loader constructs the original7B model before applying structural plan and loading pruned tensors; startup memory is not the reduced steady-state inference memory",
+  "memory_measurement_scope": "SFT/PPO/inference CUDA allocated peaks measured after model loading; one-time structural-calibration peak is separate in prepare_complete.json",
+  "existing_helper_validation_optimizer_step": "legacy helper called with optimizer_step0; actual stage/update counts are recorded separately in sft_result/ppo_result and stage-named validation files",
+  "success_definition": "LIBERO env.check_success() within220policy actions after10warmup; technical error never counted as completed failure",
+  "pruning_importance": "grouped first-order absolute effective_weight times gradient; frozen oldLoRA contributions included for q/v importance; not second-order Hessian or exact paper training",
+  "full_reproduction": false
+}

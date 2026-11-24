@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "videos": [
+    {
+      "file": "05_compare_state_00.mp4",
+      "decoded_frames": 117
+    },
+    {
+      "file": "05_compare_state_01.mp4",
+      "decoded_frames": 104
+    },
+    {
+      "file": "05_compare_state_02.mp4",
+      "decoded_frames": 221
+    },
+    {
+      "file": "05_compare_state_03.mp4",
+      "decoded_frames": 221
+    },
+    {
+      "file": "05_compare_state_04.mp4",
+      "decoded_frames": 221
+    }
+  ],
+  "files": 20
+}

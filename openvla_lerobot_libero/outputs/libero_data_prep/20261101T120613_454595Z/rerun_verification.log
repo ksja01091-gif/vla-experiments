@@ -1,0 +1,21 @@
+VERIFIED train episodes 20 frames 1928 image_checks 40
+VERIFIED validation episodes 5 frames 462 image_checks 10
+DATA_PREPARATION_COMPLETE /home/jovyan/projects/datasets/libero_bowl_25/20261101T120613_454595Z
+{
+  "train": {
+    "episodes": 20,
+    "frames": 1928,
+    "all_actions_states_joints_exact": true,
+    "first_last_images_exact": 40,
+    "finite_actions": true,
+    "all_tasks_match": true
+  },
+  "validation": {
+    "episodes": 5,
+    "frames": 462,
+    "all_actions_states_joints_exact": true,
+    "first_last_images_exact": 10,
+    "finite_actions": true,
+    "all_tasks_match": true
+  }
+}

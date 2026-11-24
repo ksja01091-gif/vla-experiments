@@ -1,0 +1,28 @@
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2350: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.34s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:10<00:05,  5.45s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.27s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.75s/it]
+Traceback (most recent call last):
+  File "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/experiment.py", line 181, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/experiment.py", line 176, in main
+    elif a.phase=="infer":infer(a.mode)
+                          ^^^^^^^^^^^^^
+  File "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/experiment.py", line 104, in infer
+    policy,val=make_inference(mode);sync()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/projects/lerobot-openvla/outputs/batch_quantization/20261103T121901_577159Z/experiment.py", line 82, in make_inference
+    base=AutoModelForVision2Seq.from_pretrained(cfg["base_snapshot"],trust_remote_code=True,local_files_only=True,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 558, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3735, in from_pretrained
+    dispatch_model(model, **device_map_kwargs)
+  File "/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/accelerate/big_modeling.py", line 514, in dispatch_model
+    model.to(device)
+  File "/home/jovyan/anaconda3/envs/lerobot312/lib/python3.12/site-packages/transformers/modeling_utils.py", line 2670, in to
+    raise ValueError(
+ValueError: `.to` is not supported for `4-bit` or `8-bit` bitsandbytes models. Please use the model as it is, since the model has already been set to the correct devices and casted to the correct `dtype`.

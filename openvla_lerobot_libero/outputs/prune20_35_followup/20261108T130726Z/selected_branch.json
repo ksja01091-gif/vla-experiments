@@ -1,0 +1,5 @@
+{
+  "branch": "p20",
+  "selection": "higher epoch3 five-state task success, then lower validation loss on same 462 frames",
+  "warning": "Selecting using repeatedly inspected states is exploratory, not held-out evidence"
+}

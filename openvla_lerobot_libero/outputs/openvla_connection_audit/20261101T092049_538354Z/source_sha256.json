@@ -1,0 +1,5 @@
+{
+  "src/lerobot/policies/openvla/configuration_openvla.py": "985e3c0cf9f417b37bf0415671e9e215c8bcde7cabe4316b0da114204036e068",
+  "src/lerobot/policies/openvla/modeling_openvla.py": "155207fa01dd607c093339a8816609d4032bdddd64d4b7880584a2a7e5e36b09",
+  "examples/openvla_select_action.py": "bed27bfefb94f0fb521e67f86173fef46ac0edfed083919dd4be12edbf88557a"
+}

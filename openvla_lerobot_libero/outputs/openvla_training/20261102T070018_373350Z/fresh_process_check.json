@@ -1,0 +1,23 @@
+{
+  "fresh_process_adapter_load": true,
+  "loss_matches_saved_run": true,
+  "loss": 7.946763515472412,
+  "select_action_shape": [
+    1,
+    7
+  ],
+  "select_action_finite": true,
+  "action": [
+    [
+      -0.4470643103122711,
+      0.2703320384025574,
+      0.16019432246685028,
+      -0.010921258479356766,
+      -0.0004992811591364443,
+      -0.043921176344156265,
+      0.0
+    ]
+  ],
+  "simulator_rollout": false,
+  "note": "One resized held-out source image; valid action prediction, not a success-rate measurement"
+}

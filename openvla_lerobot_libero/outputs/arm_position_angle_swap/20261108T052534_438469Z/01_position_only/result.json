@@ -1,0 +1,19 @@
+{
+  "trial": "01_position_only",
+  "translation": "dense_sft",
+  "rotation": "p50",
+  "gripper": "p50",
+  "state": 0,
+  "initial_image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+  "both_initial_model_actions_match_previous": true,
+  "first_both_pads_step": 54,
+  "max_bowl_rise_cm": 11.996737614598828,
+  "max_consecutive_grasp_lift_steps": 22,
+  "stable_grasp_and_lift": true,
+  "first_stable_grasp_lift_step": 61,
+  "libero_task_success": false,
+  "both_pads_at_final_step": false,
+  "final_bowl_plate_xy_cm": 5.053547643456068,
+  "steps": 220,
+  "wall_seconds": 248.43505264259875
+}

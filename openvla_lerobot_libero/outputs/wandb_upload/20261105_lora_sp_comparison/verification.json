@@ -1,0 +1,48 @@
+{
+  "runs": [
+    {
+      "name": "LoRA-r8-5epoch",
+      "state": "finished",
+      "validation_epochs": 5,
+      "successes": 3,
+      "attempts": 5
+    },
+    {
+      "name": "LoRA-r128-5epoch",
+      "state": "finished",
+      "validation_epochs": 5,
+      "successes": 3,
+      "attempts": 5
+    },
+    {
+      "name": "LoRA-SP-r128-eta0.9-5epoch",
+      "state": "finished",
+      "validation_epochs": 5,
+      "successes": 4,
+      "attempts": 5
+    },
+    {
+      "name": "LoRA-SP-r128-eta0.8-inference-only",
+      "state": "finished",
+      "validation_epochs": 0,
+      "successes": 4,
+      "attempts": 5
+    },
+    {
+      "name": "LoRA-SP-r128-eta0.7-inference-only",
+      "state": "finished",
+      "validation_epochs": 0,
+      "successes": 4,
+      "attempts": 5
+    }
+  ],
+  "project_access": "PRIVATE",
+  "environments_unchanged": {
+    "lerobot312": true,
+    "openvla310": true,
+    "eval310": true
+  },
+  "protected_files": 312,
+  "changed_files": [],
+  "training_not_rerun": true
+}

@@ -1,0 +1,28 @@
+{
+  "project": "openvla-libero-bowl-baseline",
+  "entity": "ksja01091-gwangju-institute-of-science-and-technology",
+  "runs": [
+    {
+      "id": "72b82eb051a0",
+      "name": "SP128-physical-pruning-control",
+      "path": "ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/72b82eb051a0",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/72b82eb051a0",
+      "verified": true
+    },
+    {
+      "id": "102d4d0f0267",
+      "name": "SP96-physical-pruning-no-retraining",
+      "path": "ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/102d4d0f0267",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/102d4d0f0267",
+      "verified": true
+    },
+    {
+      "id": "63b67f9184b2",
+      "name": "SP64-physical-pruning-no-retraining",
+      "path": "ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/63b67f9184b2",
+      "url": "https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/openvla-libero-bowl-baseline/runs/63b67f9184b2",
+      "verified": true
+    }
+  ],
+  "complete": true
+}

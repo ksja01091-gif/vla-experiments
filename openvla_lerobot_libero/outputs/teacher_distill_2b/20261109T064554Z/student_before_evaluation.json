@@ -1,0 +1,2473 @@
+{
+  "complete": true,
+  "checkpoint": "/home/jovyan/projects/lerobot-openvla/outputs/rlrc_matched_3h/20261106T090120_404808Z/checkpoints/pruned/after_ppo",
+  "all_50": {
+    "successes": 0,
+    "attempts": 50
+  },
+  "groups": {
+    "training_states_5_44": {
+      "successes": 0,
+      "attempts": 40,
+      "mean_steps": 220.0
+    },
+    "evaluation_only_0_4_45_49": {
+      "successes": 0,
+      "attempts": 10,
+      "mean_steps": 220.0
+    }
+  },
+  "note": "40 states are used for new teacher data; only 10 states are evaluation-only. No independent-50 generalization claim.",
+  "trials": [
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 0,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "e4b4708283973f4d5c61929ccbcb891a8936e3dfb71f2f8b4a0758e8b41437a8",
+      "selected_init_state_sha256": "2db16a59a2cee33333ebbc16619a35fc2f28a892e467da4465b661329fdd4f54",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21124162683394712,
+        -0.01109060188932142,
+        1.17424951769824
+      ],
+      "final_eef_position": [
+        -0.04073832452527891,
+        0.1442888921404525,
+        0.9437987709354018
+      ],
+      "wall_seconds": 195.41009860113263,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_00/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_00/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 1,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "88a52a9e608da836ef97b64acb110ee3aa3882ed2eb59ee5bc407eb6b4df82c0",
+      "selected_init_state_sha256": "dc07820a5a4f658d4a5bf944be479ca58a901d881ecd3b6c84cf0a69da4adffb",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20685084988127975,
+        -0.0223248190022488,
+        1.173981271495001
+      ],
+      "final_eef_position": [
+        -0.04599713365206291,
+        0.13031968904700048,
+        0.9759710863295004
+      ],
+      "wall_seconds": 194.77466264739633,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_01/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_01/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 2,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "70610abd48d7156401416d0c713f95846c3ebced2a158e3a00668e83542c1dad",
+      "selected_init_state_sha256": "5a22bed5962664504c91a9c6d1ecec83151f64dcf8a0e86da28be1e2b2e29409",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2005013414552943,
+        -0.0032684940542503284,
+        1.187241832249189
+      ],
+      "final_eef_position": [
+        0.08237706213274447,
+        0.08866124972524274,
+        1.0294252373538377
+      ],
+      "wall_seconds": 196.15145451761782,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_02/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_02/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 3,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "173904d8b1d1f988e3020ae5edf52150914f06ae72a5157f58a833abbfeca9c3",
+      "selected_init_state_sha256": "5187dd15c07c8e048aa84e3893802111de17692873b5162bcb3168162440c45e",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21632407063190337,
+        -0.011194121509003814,
+        1.166517938344849
+      ],
+      "final_eef_position": [
+        -0.07595527576203748,
+        0.13120444875107798,
+        0.9382935485543312
+      ],
+      "wall_seconds": 201.33598218858242,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_03/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_03/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 4,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "a3804e49e604bbf64a13ecad455b508e27b944f26784b77d895e4aa48d63cb3f",
+      "selected_init_state_sha256": "43c0066709942b2c3d4c0162c92a2b24aea5997f832ed46945ca49669bd4737a",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.208346927546807,
+        0.0024688882079501903,
+        1.164408618740248
+      ],
+      "final_eef_position": [
+        -0.16399952610339502,
+        0.13084242502949836,
+        0.9088741886000953
+      ],
+      "wall_seconds": 195.80627136863768,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_04/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_04/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 5,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "d2bd75692f92d3289228aac71aa222a00e12040ee7bd8c0a577b8f64a5a50cf8",
+      "selected_init_state_sha256": "678aa25f84c405228908ba057fed51462f8222237bc2ae3841b916f9578f31c3",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.19911164941841225,
+        -0.001007793294591051,
+        1.180095828677058
+      ],
+      "final_eef_position": [
+        0.0831752847629191,
+        0.10032932655939705,
+        1.0753860297122737
+      ],
+      "wall_seconds": 193.37293513305485,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_05/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_05/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 6,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "8ed4bec548053c663756d716a407a1e6b09404d0fb5cb9f0c8971a231f50ea56",
+      "selected_init_state_sha256": "999fd9aba435bcb50bc1db77a46c0beea45e549f737653df06146737bc0ac25e",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20505720158952045,
+        0.001285372201419198,
+        1.1745331715704292
+      ],
+      "final_eef_position": [
+        -0.042729336144372604,
+        0.14315803697136134,
+        0.9286735713015265
+      ],
+      "wall_seconds": 196.56729973480105,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_06/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_06/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 7,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "0dd18bb4d9838d996c76fc78b4e2625a2166f99eb628b8b72fc10da8c1529d2c",
+      "selected_init_state_sha256": "843f7e9f8a5c8b37a42c5fef56b37baa4192e91585e9882b4fe3e7fcf716a538",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20672887659824848,
+        -0.0010391224152890904,
+        1.1876590467452688
+      ],
+      "final_eef_position": [
+        -0.16788770566477115,
+        0.14852876615048294,
+        0.9097918319570273
+      ],
+      "wall_seconds": 193.87613865174353,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_07/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_07/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 8,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "7a8bb02e6bfa5b90fc6b257aebb9e04f2c03f8ceef5834f2532f285db03d0789",
+      "selected_init_state_sha256": "bdec5baa16eb03f4a030d536ef973a5cfcc63c6163fd111f0f0e8b62b6bf4e7e",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21569620949146548,
+        -0.010807568513316124,
+        1.1689968523694954
+      ],
+      "final_eef_position": [
+        0.04740242866972977,
+        0.1046639290649752,
+        1.0439160499433084
+      ],
+      "wall_seconds": 195.24177921190858,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_08/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_08/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 9,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "e91aeb47c77e7bafdacbac3fa1d4bc9768c18bdcb664a2cf7d0df719c3f94740",
+      "selected_init_state_sha256": "105e35bf2d0e4d0fd289dfaaf5e9231bdedc0fc9ac88bc12b06f7b369133c317",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20519207754405586,
+        -0.010822710199925032,
+        1.1735130000892455
+      ],
+      "final_eef_position": [
+        0.02808649999639757,
+        0.08423545855079692,
+        1.0107228834553148
+      ],
+      "wall_seconds": 193.38790810480714,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_09/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_09/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 10,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "02a2127667b75ea5ae27d507013957dbb3a41709a93173fb715c20ebe53baf1c",
+      "selected_init_state_sha256": "6b31a4607f7bf19bfb5e7960c97b4439d5b287fb437ac6aabc91a02eb74c9994",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2121872840605491,
+        -0.009831875508675232,
+        1.1681898389282268
+      ],
+      "final_eef_position": [
+        0.07043624939307574,
+        0.09970031219445184,
+        1.0515603236354925
+      ],
+      "wall_seconds": 193.0913691446185,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_10/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_10/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 11,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "29a09f738dde0c13cc1985392dce2d8ca92c14c9a06f2e5de9485f61a1c742b2",
+      "selected_init_state_sha256": "cf4b752770a6bd839e14f3e046afa7d6e0a4c60cae40e5ddb061732cce3deb0c",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21063906579770647,
+        0.017820370684346786,
+        1.1814347653871229
+      ],
+      "final_eef_position": [
+        -0.014743186774496965,
+        0.11598228291625777,
+        0.9390558954360743
+      ],
+      "wall_seconds": 193.51440217904747,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_11/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_11/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 12,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "1fed62010d22d71f92d248a9d336e6ae94e96405023b82987e6c513c8e34a0ff",
+      "selected_init_state_sha256": "aa16f2537a0b13f48230767457c8df09882b6a15e7c34ee5cb1296762cc4e2e6",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2070624297887181,
+        -0.00495634688636258,
+        1.1752707915303968
+      ],
+      "final_eef_position": [
+        0.02008603741953957,
+        0.09138716860630614,
+        0.9813858058354337
+      ],
+      "wall_seconds": 193.976020347327,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_12/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_12/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 13,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "7a22a9fe4869d5431ca63d35ee8e95a3899bccd195f6bfabf1c27a2ff77f5aaf",
+      "selected_init_state_sha256": "e77d4a41aac122eb9bc6b748df1bef2ec918af62a5cc9e055e41f3c2c5ee423b",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20922228658322037,
+        -0.013983801822402796,
+        1.177774415562195
+      ],
+      "final_eef_position": [
+        0.030448041659853514,
+        0.026197006678993995,
+        1.0206737020519898
+      ],
+      "wall_seconds": 194.16045876592398,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_13/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_13/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 14,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "1b81cbae45042a0776f417ea0f43c8f905f64c9d11b57183e67736db3d5f45cc",
+      "selected_init_state_sha256": "8ae17affe78a798f9711a6016765d16883f2268138556cbadddfb0512ebb36db",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20600435615667329,
+        -0.005964511664758313,
+        1.186491438777159
+      ],
+      "final_eef_position": [
+        0.003129556829304242,
+        0.04958437404791583,
+        0.9933490658431601
+      ],
+      "wall_seconds": 195.06778181903064,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_14/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_14/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 15,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "6f3181d7e94733dcfdb2814e07e2458e36178836471f257c619dadd0feb9a004",
+      "selected_init_state_sha256": "348ffdf95e86970588a0dc8925c238a7a8dda72de806c250850393b966e0c595",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2064997745183095,
+        0.003746259902810296,
+        1.171469096171601
+      ],
+      "final_eef_position": [
+        -0.038220139407593404,
+        0.15169245465062633,
+        0.9903365130195432
+      ],
+      "wall_seconds": 193.37859318219125,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_15/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_15/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 16,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "7d9be5ce276e58b7e6216d7aa2c35466acc55718c4828f2dc7cdad3516b9a3ea",
+      "selected_init_state_sha256": "31e3b1bb473aa1eb076723a61d1a2950d00ffb80f6d99ade22e34dddb551ad93",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.1947508799476015,
+        -0.0014645369865978232,
+        1.1860082359901565
+      ],
+      "final_eef_position": [
+        0.015761842734128013,
+        0.07461206317508676,
+        0.9895508361093835
+      ],
+      "wall_seconds": 193.6433387938887,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_16/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_16/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 17,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "6e31f569227735a2fdaf1ba546c57ee1c557eef6709be081eac98cd904c7452c",
+      "selected_init_state_sha256": "ab6f62276f24f81cf049671209beb645cbddc03abe30dbb6ae5586f381d2ce5f",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21690969588447748,
+        0.009814052638936881,
+        1.1638103673302072
+      ],
+      "final_eef_position": [
+        -0.04521911138494837,
+        0.1528178900997999,
+        1.0916489835901495
+      ],
+      "wall_seconds": 193.56616082414985,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_17/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_17/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 18,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "3010dc078ed6d0fa9a376c6392e499fa9831c2f9ff29dacbf18d8419a5aa2315",
+      "selected_init_state_sha256": "a752bf9bca4dfd16d17ca47a59858cfb0c1213a5ef0b2571421925febf874dea",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2069953481010765,
+        -0.009812763901826418,
+        1.183892464012734
+      ],
+      "final_eef_position": [
+        0.022454379079927075,
+        0.09982493967094676,
+        1.0164984714950012
+      ],
+      "wall_seconds": 194.62643284909427,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_18/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_18/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 19,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "0fff3f125abeb1d5026711fe2850428a966c906591dde15d793decb682e6686c",
+      "selected_init_state_sha256": "d37df8f18a8127a6ae8941944c5f6cde78b0dfc8ac43c4f9ef8caa64f309b350",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20739854468090288,
+        -9.166231900116357e-05,
+        1.1758836777020933
+      ],
+      "final_eef_position": [
+        -0.08514195261329893,
+        0.14628938279000261,
+        0.9896288193297924
+      ],
+      "wall_seconds": 204.15306097641587,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_19/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_19/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 20,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "3115ab8a886838595886c851b57f507db2e015cc415e8f0aaee24be8fcaffe72",
+      "selected_init_state_sha256": "4bcef85b47e7296951f6a1467ca57221954d3c96f6ec6a37f60570df5d280e0a",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20695392070465565,
+        -0.0016295515787036001,
+        1.1845516379902907
+      ],
+      "final_eef_position": [
+        0.012891452890131425,
+        0.12179075442930318,
+        0.9838109552411899
+      ],
+      "wall_seconds": 194.5873952228576,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_20/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_20/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 21,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "a3fb5aa1bae5733b5f103348226c2aa84a8bc2cd8662ca824f2f488d1f1dbe88",
+      "selected_init_state_sha256": "f01f698158970b03a97cd0e5d48f1a3a79eb2d0e7fc18ea0b2603e1757407cdd",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.210496836056702,
+        -0.004207576118352817,
+        1.161439144131635
+      ],
+      "final_eef_position": [
+        0.040938279236112256,
+        0.0696297790162975,
+        0.9880899655023986
+      ],
+      "wall_seconds": 193.07927202433348,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_21/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_21/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 22,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "4e15027a17ea3851c7030dddd3584664f637f81c302643cfa6983b71bd9b5b39",
+      "selected_init_state_sha256": "8be3220613c74b66c7a4baa2507ef0e6baf909fa883b7e68c8b98274ff3b4fd5",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21192880112282078,
+        -0.011714044790560738,
+        1.1690173488992892
+      ],
+      "final_eef_position": [
+        -0.1258281699594601,
+        0.15825799183912634,
+        0.9290549395998795
+      ],
+      "wall_seconds": 193.7036145441234,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_22/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_22/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 23,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "fde293b427be6989a74bf808ea7711faab29cda29b904626e97780ca049b1e0f",
+      "selected_init_state_sha256": "052c5365d25f5d275be33a02e74d15802a2920a046d4befaa533ff3fd83db924",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.22427930511832148,
+        0.0035054464143714943,
+        1.158259694963543
+      ],
+      "final_eef_position": [
+        -0.21880703036726196,
+        0.1667282601993511,
+        0.9097880227475433
+      ],
+      "wall_seconds": 196.16469375416636,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_23/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_23/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 24,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "ae1d37993d910b1528a2686342b43b05a688fd33b8d3bf33468d963167658897",
+      "selected_init_state_sha256": "3b25bede153ddb16c416aab2c89ee55bb07bf36a749c3e2181779b32cfd4e85f",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20038828971822215,
+        0.005756516428298787,
+        1.1767945271321352
+      ],
+      "final_eef_position": [
+        -0.1337256821136949,
+        0.13840694735177703,
+        0.9224871592011988
+      ],
+      "wall_seconds": 204.87573551014066,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_24/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_24/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 25,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "8a69485733415995f84ae0fdc48301066a5dc378a684a42d3366e1d59bc817c0",
+      "selected_init_state_sha256": "98868ef335b225983c16ef6a1512fd90973a6527a3aa1eef07b6c5aa73b0b8b9",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21020083839459375,
+        0.0009700683770753604,
+        1.1605168512201072
+      ],
+      "final_eef_position": [
+        0.08928646656451442,
+        0.1032250416613119,
+        1.0565300212837758
+      ],
+      "wall_seconds": 193.05653312057257,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_25/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_25/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 26,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "1a58a0827bf752745f8accf2c1408db032f5feef5e002262ada6503dbcef176e",
+      "selected_init_state_sha256": "563b2592b4f8a9f0471ed6559f0a48327efd9453fe216715f4288aab195c6381",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2055391621565457,
+        -0.008938474792112076,
+        1.176585962255704
+      ],
+      "final_eef_position": [
+        -0.11571983489699493,
+        0.1261606531736748,
+        0.9090384325780174
+      ],
+      "wall_seconds": 194.61200084723532,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_26/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_26/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 27,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "dbc6cc3b647baf1740ed6b620df8009525cdef91ef856e823d16cdac8964df9a",
+      "selected_init_state_sha256": "516d7b9ebcbcb724b3de3e1187852db1ff73d796864c1e168a2e7cafef6d7411",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2138921567859398,
+        -0.020931547423326664,
+        1.1692190321614322
+      ],
+      "final_eef_position": [
+        -0.0026133600936390985,
+        0.09207871117524376,
+        1.0046204574394706
+      ],
+      "wall_seconds": 201.61325370520353,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_27/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_27/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 28,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "ae4b0a380b11c19d8afab4eb57fae41beba2149c868e996389027a3474956b7c",
+      "selected_init_state_sha256": "f8ae69dfd07b21e6d169bd02983c75d1ab3bce6e7d4fbc61ffe0fd460ae88196",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20311098200105185,
+        -0.0010775764816342347,
+        1.1708901567968235
+      ],
+      "final_eef_position": [
+        0.017915454002993318,
+        0.09864083016597774,
+        1.0218333271815214
+      ],
+      "wall_seconds": 195.30414102971554,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_28/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_28/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 29,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "b7bb1e3a0b44f0747d47f8f74d712d9ba39944a2e13f14fe688f85280f72103b",
+      "selected_init_state_sha256": "6524b9ec5f19f61cee6e7824f663847c4b882612389e081f20ef6a3471eca666",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20704046680205784,
+        0.008805894483815323,
+        1.1740540313075076
+      ],
+      "final_eef_position": [
+        -0.052879645784731116,
+        0.12542548998696895,
+        1.0951942294104866
+      ],
+      "wall_seconds": 192.71354323998094,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_29/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_29/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 30,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "b6035bcbc8553f135ae7135f477e392617bb9f3dff5968156ec67bb7897b5d18",
+      "selected_init_state_sha256": "3cdcc37b600db37f28b474244bae87a7d7c9c7ad7a5ea253819913bed1745fa6",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20272998221242142,
+        -0.00538730854580662,
+        1.179577675415074
+      ],
+      "final_eef_position": [
+        -0.015016150539468975,
+        0.11743214403740387,
+        0.9979545156808318
+      ],
+      "wall_seconds": 198.44498432055116,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_30/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_30/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 31,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "58a5b10b8a4fc1ea22a3a4ecb91745158feb7ab8100f07b52f5c12d8b6aed798",
+      "selected_init_state_sha256": "d6a4e39b4bc042dcfdc56b832d9b10be176a4834d6b9161badb4ae2b56378196",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2181407155516275,
+        -0.007103519310214365,
+        1.167113512357258
+      ],
+      "final_eef_position": [
+        -0.15382019754524007,
+        0.15021920589546753,
+        0.9278845695291131
+      ],
+      "wall_seconds": 191.85227221436799,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_31/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_31/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 32,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "643ce950b278711b132f87cdfc828a31a0ac6a5573d0b1dbb45e18df1f3e21c1",
+      "selected_init_state_sha256": "636dd96962de5e6bb972f9f98e3b5f04a5ab1430c1d132625cfac81b48031758",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2126451898607604,
+        -0.020777597461181616,
+        1.1725325817356391
+      ],
+      "final_eef_position": [
+        -0.03763356410665476,
+        0.13150501717690188,
+        0.9559811558384904
+      ],
+      "wall_seconds": 192.18077005632222,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_32/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_32/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 33,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "04c21f2a5eaa1cb071ad84928f1c5cf201c2ebfd3739c372bb7411e918cf0f0e",
+      "selected_init_state_sha256": "26a8dcfb6c490acd0b122ad5ab56dd8b70ea902eb3b70666accb163462ac194e",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21657335258658347,
+        -0.0007370051326855109,
+        1.1679399807855462
+      ],
+      "final_eef_position": [
+        -0.1501101534830342,
+        0.13342463707707555,
+        0.908753725260274
+      ],
+      "wall_seconds": 189.66268988326192,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_33/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_33/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 34,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "ddc783aa8e850c827d547fd98f76310c4ced9b32381008c4feaa8a563c1aefc2",
+      "selected_init_state_sha256": "02ed80eefd5c66722a9462f2e846b66325827e8071c216ba0944822ff9265be3",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21178640209618788,
+        -0.005273753249415489,
+        1.1634754552242002
+      ],
+      "final_eef_position": [
+        0.019149291633571493,
+        0.09674763922859372,
+        1.0134401487021027
+      ],
+      "wall_seconds": 193.80884736403823,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_34/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_34/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 35,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "dad11c2945b9d29cfc09155b8335b57aa7777f217934ed8ef38434a96ba1df22",
+      "selected_init_state_sha256": "6298b8369c3e5807507727083ba163b67d73b3ec9d5104425611e34589c8bfab",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20121726296426234,
+        -0.01500228418527951,
+        1.176668024991937
+      ],
+      "final_eef_position": [
+        0.023235358317034348,
+        0.08203008267740282,
+        0.9970029142380752
+      ],
+      "wall_seconds": 195.136763677001,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_35/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_35/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 36,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "e909c0a6a6392c84e9a66ea91fcb77638bff65cfbb1de2c8e6ea683fcda7c737",
+      "selected_init_state_sha256": "9b55e70083b2978a2a2ef2539e3f29ea087e7dcf06ff003090def916c7e079d6",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21325359780832293,
+        -0.0031563811396852783,
+        1.1658518262035407
+      ],
+      "final_eef_position": [
+        0.008713417514205006,
+        0.0811636962043261,
+        0.9930310778965672
+      ],
+      "wall_seconds": 192.04785249195993,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_36/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_36/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 37,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "13f2dbef28f954de508a8660a0086fa4f592cbf5dc28eac1d804a6306a20981f",
+      "selected_init_state_sha256": "d0487a558c32c9e0aebbfd5f38f3e319dbf95e3a0856a04f847391b2e48c51c8",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20354534205155328,
+        -0.0012286677355592879,
+        1.1845830446491563
+      ],
+      "final_eef_position": [
+        -0.09970577215581748,
+        0.13624920161059853,
+        0.9761297673468384
+      ],
+      "wall_seconds": 192.53732628561556,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_37/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_37/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 38,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "ad1c959a12769640bea04dd3ebb1cabe5baeaa2e2609b080acde0b5b55ea0e81",
+      "selected_init_state_sha256": "cf99793ecee0f5fb63c83fb573c54e17584b3128951a3deb88c7d0c008e8295a",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20378560066535378,
+        -0.004170991341684147,
+        1.1767495832926451
+      ],
+      "final_eef_position": [
+        0.07326458141102675,
+        0.08785586782339955,
+        1.0732755156083762
+      ],
+      "wall_seconds": 193.43134705536067,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_38/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_38/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 39,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "667bd0ddfdd30836b2dbb6b7710f03f295766c6bdb4c6669c6be8e5fc6d613bf",
+      "selected_init_state_sha256": "0ed839231d5aa066647890b32b3313ceadc4bab376d4faf1b80f9e6578b5250e",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20277931918693104,
+        0.011428011321045331,
+        1.1809199271898276
+      ],
+      "final_eef_position": [
+        -0.06101751259852278,
+        0.13758713034239128,
+        0.9580356276922738
+      ],
+      "wall_seconds": 190.9837624784559,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_39/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_39/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 40,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "6f04389a79c61418118ab2417d54ce0584553363f43c41999aabcaefa877de4f",
+      "selected_init_state_sha256": "17e46e95c50ae8ceb6970a8fb7f86ef0932e7c3183a3ddfda74ecb798ba0943f",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21617998302228608,
+        0.0076085470963564664,
+        1.1690574408976653
+      ],
+      "final_eef_position": [
+        -0.16294827661235547,
+        0.1332535663530698,
+        0.909165749774733
+      ],
+      "wall_seconds": 191.43708367086947,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_40/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_40/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 41,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "45357a8915211599a01c95274063b2c9d46fc92cd9d404383c38a6322b905cf8",
+      "selected_init_state_sha256": "f8c8180e8d8bc6633d37564dc07c3a36fc4708fe59f5db1f76e7d59f2e296cb6",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20424145352660672,
+        -0.0004181386679721745,
+        1.1761378034149874
+      ],
+      "final_eef_position": [
+        -0.06643126605995404,
+        0.11749084561603414,
+        0.9290530956334847
+      ],
+      "wall_seconds": 190.99324109777808,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_41/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_41/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 42,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "7d07c8b4fc70d87f580ebdc04635652d468fc12d73e8d35c08bf0d8d4d3ec23a",
+      "selected_init_state_sha256": "eeac631026341c56c90c125a8f9466022e15e119d0a2366bada0a7652136f59c",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20738152280961678,
+        0.00976080722859687,
+        1.18129877354728
+      ],
+      "final_eef_position": [
+        -0.04453359978898774,
+        0.13164580064705256,
+        0.9634324249200217
+      ],
+      "wall_seconds": 199.78985491767526,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_42/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_42/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 43,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "341f37ed2b59fb5dd4bf8416e364f300bbddb8bd61ef59d078201abf03b13b3d",
+      "selected_init_state_sha256": "1560660f49230151d894c033c151f19a35c12ce5491d43ee074405821de2d7b1",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20063063199191017,
+        0.004559767235294379,
+        1.1741356987292049
+      ],
+      "final_eef_position": [
+        -0.09034120072454571,
+        0.11756022178510497,
+        0.995216997950853
+      ],
+      "wall_seconds": 192.74123129807413,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_43/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_43/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 44,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "647ce84315fea164add8f8e99de0157de730ca1daa80f44dde37d5a272033cbc",
+      "selected_init_state_sha256": "3180fd9a8cb2135d231ad884168458daef4f031cb95736f034405d66d7211122",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.2049651562952737,
+        0.007393050570848936,
+        1.1667644648457245
+      ],
+      "final_eef_position": [
+        -0.052319573201005116,
+        0.1170922841812696,
+        0.9340359907287307
+      ],
+      "wall_seconds": 191.07476077787578,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_44/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_44/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 45,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "174faffd5f6af01ffe28d4943edd5d230b9cd939b7b1b5b672b10f36fe03a166",
+      "selected_init_state_sha256": "862d65c2a179b0546e71619290d6309053f9eb977b20b4b20e937fd51196cb4a",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21711943256873967,
+        -0.0057820936566630975,
+        1.1628343509221506
+      ],
+      "final_eef_position": [
+        -0.21710644443813956,
+        -0.004195085886701968,
+        1.1627866592062832
+      ],
+      "wall_seconds": 190.79395453631878,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_45/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_45/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 46,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "132d4f13384bedf20fd3431ea1bc542f7163983b0fe467cb1369fd3673ce4ced",
+      "selected_init_state_sha256": "8808a965e19600aedbbcf4dc7964088a3964a0210d82871417f2e197db4833d8",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.22280071123927678,
+        -0.0030323062572471257,
+        1.1632105194335989
+      ],
+      "final_eef_position": [
+        -0.10831015973877153,
+        0.13376212654920647,
+        0.9178839164199062
+      ],
+      "wall_seconds": 193.23264131322503,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_46/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_46/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 47,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "32bc176e8fbd554f19a8fc4b2edf39963126db57a5de6d2fe4cdb0b9e15ae7db",
+      "selected_init_state_sha256": "b6353fc53c21004739abca8d16d73751fbda09beb13d8cfcf7dd72b934a7f22f",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20112114896247554,
+        -0.0025255358483886785,
+        1.183774868097988
+      ],
+      "final_eef_position": [
+        -0.07735521471372961,
+        0.13501899236523407,
+        0.913377793522761
+      ],
+      "wall_seconds": 192.1351294517517,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_47/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_47/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 48,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "fd1923437d0f88558e5e69cec87ac37a7909e141941a89a18840cea0db5d62cb",
+      "selected_init_state_sha256": "e768d29eaf554fc3b34c1e65bf5c1821181c065b54c9b4ce4820ee8cdc459a07",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.20665096573938033,
+        0.008731183395628082,
+        1.176055981935502
+      ],
+      "final_eef_position": [
+        -0.08028952020245489,
+        0.11747028264781381,
+        0.9584659856734992
+      ],
+      "wall_seconds": 190.56650783121586,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_48/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_48/episode_overview.png"
+    },
+    {
+      "trial_executed": true,
+      "model_tag": "student_before",
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "task_id": 0,
+      "init_state_index": 49,
+      "success": false,
+      "termination_reason": "horizon_exhausted",
+      "failure_detail": "LIBERO success predicate not reached within the fixed 220-action horizon; see video for motion-level diagnosis",
+      "policy_steps": 220,
+      "max_policy_steps": 220,
+      "warmup_steps": 10,
+      "environment_seed": 0,
+      "global_seed": 7,
+      "action_shape": [
+        1,
+        7
+      ],
+      "all_actions_finite": true,
+      "action_clipping_used": false,
+      "actual_policy_preprocessing": "raw upright 256px RGB to native HF processor, exactly matching training",
+      "worker_original_reference_check_passed": true,
+      "initial_image_sha256": "b05b05b9aba0c14b0c5170dd49858259acbfe059efa84ece66a557b993a2fed2",
+      "selected_init_state_sha256": "ca7a61b052181a1b324fa80ba5fd3a122201e0b288b5a04d44ebbe4c521cda1e",
+      "init_state_file_sha256": "cbbc73792ce546c9bec181fd328a411d3183074840b282671dee481511381d0a",
+      "reference_sha256": {
+        "/home/jovyan/projects/openvla/experiments/robot/libero/libero_utils.py": "6c162ce0954c8659018ee8ff1604a33904b50ac0631a8ca0f8bf1f7a4d25181d",
+        "/home/jovyan/projects/openvla/experiments/robot/openvla_utils.py": "72a1a382172c67068c96f47d1c2d8f16925d2e0deda9c745829a7f2ee6b1c865"
+      },
+      "simulator_versions": {
+        "mujoco": "2.3.7",
+        "robosuite": "1.4.1",
+        "numpy": "1.26.4",
+        "tensorflow-cpu": "2.15.1"
+      },
+      "initial_eef_position": [
+        -0.21332636688616627,
+        0.0047364159717887145,
+        1.1627856642861272
+      ],
+      "final_eef_position": [
+        -0.09301324516806045,
+        0.14851886094246844,
+        0.9220138992181659
+      ],
+      "wall_seconds": 192.62191513553262,
+      "video": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_49/episode.mp4",
+      "overview": "/home/jovyan/projects/lerobot-openvla/outputs/teacher_distill_2b/20261109T064554Z/simulation/student_before/state_49/episode_overview.png"
+    }
+  ]
+}

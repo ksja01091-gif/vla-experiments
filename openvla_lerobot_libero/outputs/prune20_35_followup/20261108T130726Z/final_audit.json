@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "same_initial_conditions": true,
+  "finite_actions": true,
+  "p20_checkpoints_verified": 3,
+  "old_states": 5,
+  "new_states": 5,
+  "status": "all_checks_passed"
+}
