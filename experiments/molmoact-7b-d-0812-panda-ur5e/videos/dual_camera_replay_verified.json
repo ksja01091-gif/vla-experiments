@@ -1,0 +1,126 @@
+{
+  "panda": [
+    {
+      "file": "01_Panda_base_model_timeout_141steps_seed1007_dual_camera.mp4",
+      "source_rollout": "panda_seed1007",
+      "seed": 1007,
+      "steps": 141,
+      "success": false,
+      "termination": "wall_time_limit",
+      "original_exterior_max_rgb_mae": 3.647,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    },
+    {
+      "file": "02_Panda_trained_LoRA_1step_smoke_test_seed1007_dual_camera.mp4",
+      "source_rollout": "panda_trained_smoke_seed1007",
+      "seed": 1007,
+      "steps": 1,
+      "success": false,
+      "termination": "horizon",
+      "original_exterior_max_rgb_mae": 3.651,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    },
+    {
+      "file": "03_Panda_trained_LoRA_timeout_582steps_seed1007_dual_camera.mp4",
+      "source_rollout": "panda_trained_seed1007",
+      "seed": 1007,
+      "steps": 582,
+      "success": false,
+      "termination": "wall_time_limit",
+      "original_exterior_max_rgb_mae": 3.651,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    },
+    {
+      "file": "04_Panda_trained_LoRA_full_eval_800steps_seed1007_dual_camera.mp4",
+      "source_rollout": "panda_trained_full_seed1007",
+      "seed": 1007,
+      "steps": 800,
+      "success": false,
+      "termination": "horizon",
+      "original_exterior_max_rgb_mae": 3.651,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    }
+  ],
+  "ur5e": [
+    {
+      "file": "01_UR5e_base_model_timeout_144steps_seed1007_dual_camera.mp4",
+      "source_rollout": "ur5e_seed1007",
+      "seed": 1007,
+      "steps": 144,
+      "success": false,
+      "termination": "wall_time_limit",
+      "original_exterior_max_rgb_mae": 3.506,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    },
+    {
+      "file": "02_UR5e_trained_LoRA_1step_smoke_test_seed1007_dual_camera.mp4",
+      "source_rollout": "ur5e_trained_smoke_seed1007",
+      "seed": 1007,
+      "steps": 1,
+      "success": false,
+      "termination": "horizon",
+      "original_exterior_max_rgb_mae": 3.502,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    },
+    {
+      "file": "03_UR5e_trained_LoRA_timeout_566steps_seed1007_dual_camera.mp4",
+      "source_rollout": "ur5e_trained_seed1007",
+      "seed": 1007,
+      "steps": 566,
+      "success": false,
+      "termination": "wall_time_limit",
+      "original_exterior_max_rgb_mae": 3.502,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    },
+    {
+      "file": "04_UR5e_trained_LoRA_full_eval_800steps_seed1007_dual_camera.mp4",
+      "source_rollout": "ur5e_trained_full_seed1007",
+      "seed": 1007,
+      "steps": 800,
+      "success": false,
+      "termination": "horizon",
+      "original_exterior_max_rgb_mae": 3.502,
+      "fps": 20.0,
+      "resolution": [
+        512,
+        288
+      ],
+      "codec": "H.264"
+    }
+  ]
+}
