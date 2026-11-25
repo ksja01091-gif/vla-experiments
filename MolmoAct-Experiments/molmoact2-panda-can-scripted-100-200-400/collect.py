@@ -113,31 +113,39 @@ def replay(row, actions, recorder=None):
 
 
 def record(task):
-    output, row, actions, pilot = task
-    receipt = output / "dataset" / f"seed-{row['seed']}.record.json"
+    output, row, actions = task
+    path = output / "dataset" / f"seed-{row['seed']}.npz"
+    receipt = path.with_suffix(".record.json")
     if receipt.exists():
         saved = json.loads(receipt.read_text())
         assert saved["initial_state_hash"] == row["initial_state_hash"] and (output / saved["file"]).exists()
         return saved
-    recorder = EpisodeRecorder()
-    result, metadata, fps = replay(row, actions, recorder)
+    decoded = canonical_to_robosuite_osc(robosuite_osc_to_canonical(actions))
+    np.testing.assert_allclose(decoded, actions, atol=1e-7, rtol=0)
+    converted, _, fps = replay(row, decoded)
+    if converted["final_stable_steps"] < 10:
+        return {"seed": row["seed"], "converted_replay": converted, "success": False,
+                "reason": "converted_replay_did_not_place"}
+    if path.exists():
+        with np.load(path, allow_pickle=False) as saved:
+            np.testing.assert_array_equal(saved["action"], actions)
+        result, _, fps = replay(row, actions)
+    else:
+        recorder = EpisodeRecorder()
+        result, metadata, fps = replay(row, actions, recorder)
+        if result["final_stable_steps"] >= 10:
+            recorder.save(output, row | {"success": True}, {"environment": SCENE,
+                          "policy": {"backend": "center_alignment"}}, metadata)
     if result["final_stable_steps"] < 10:
-        return {"seed": row["seed"], "raw_replay": result, "success": False}
-    replay_report = {"raw": result}
-    if pilot:
-        decoded = canonical_to_robosuite_osc(robosuite_osc_to_canonical(actions))
-        np.testing.assert_allclose(decoded, actions, atol=1e-7, rtol=0)
-        replay_report["converted"] = replay(row, decoded)[0]
-        assert replay_report["converted"]["final_stable_steps"] >= 10, (row["seed"], replay_report)
-    row.update(success=True, steps=len(actions), control_hz=fps, replay=replay_report,
+        return {"seed": row["seed"], "raw_replay": result, "success": False,
+                "reason": "raw_replay_did_not_place"}
+    row.update(success=True, steps=len(actions), control_hz=fps, replay={"raw": result, "converted": converted},
                success_criterion=SUCCESS_CRITERION)
-    relative = recorder.save(output, row, {"environment": SCENE,
-                             "policy": {"backend": "center_alignment"}}, metadata)
-    row["file"] = relative
+    row["file"] = str(path.relative_to(output))
     row["task_id"] = "panda_can_to_bin_in_pick_place_scene"
     row["initial_layout_id"] = f"sim-seed-{row['seed']}"
     row["source"] = "xenoarm_center_alignment"
-    meta_file = (output / relative).with_suffix(".json")
+    meta_file = path.with_suffix(".json")
     meta = json.loads(meta_file.read_text())
     meta.update({key: row[key] for key in ("task_id", "success_criterion", "source", "control_hz")})
     write_json(meta_file, meta)
@@ -163,21 +171,28 @@ def collect(output, target, workers):
             count = min(workers, target - len(accepted))
             candidates = list(pool.map(generate, range(seed, seed + count)))
             requests = []
+            attempt_by_seed = {}
             for row, actions in candidates:
                 key = can_position_key(row)
                 eligible = row["can_placed_and_stable"] and key not in used
                 if eligible:
                     used.add(key)
-                    requests.append((output, row, actions, target <= 10))
-                state["attempts"].append({"seed": row["seed"], "can_start_m": row["can_start_m"],
-                                          "script_success": row["can_placed_and_stable"],
-                                          "unique_training_position": bool(eligible)})
+                    requests.append((output, row, actions))
+                attempt_by_seed[row["seed"]] = {"seed": row["seed"], "can_start_m": row["can_start_m"],
+                                                "script_success": row["can_placed_and_stable"],
+                                                "unique_training_position": key not in reserved and (
+                                                    eligible or key not in used), "accepted": False}
             for row in pool.map(record, requests):
                 if row["success"]:
                     accepted.append(row)
+                attempt = attempt_by_seed[row["seed"]]
+                attempt["accepted"] = row["success"]
+                if not row["success"]:
+                    attempt["rejection"] = row
                 print(json.dumps({"stage": "record", "seed": row["seed"], "success": row["success"],
-                                  "count": len(accepted), "target": target}), flush=True)
+                                  "count": len(accepted), "target": target, "reason": row.get("reason")}), flush=True)
             seed += count
+            state["attempts"].extend(attempt_by_seed.values())
             write_json(manifest, state)
             if seed > START_SEED + 2000:
                 raise RuntimeError("Collection did not reach its requested size in 2,000 attempts")
