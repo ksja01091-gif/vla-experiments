@@ -1,0 +1,202 @@
+[
+  {
+    "seed": 10000,
+    "frames": 915,
+    "raw": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19369776685797835,
+        0.3965256641481371,
+        0.865365061674908
+      ]
+    },
+    "converted": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.1935565995907369,
+        0.3966504428441163,
+        0.8653270825252367
+      ]
+    },
+    "max_action_difference": 3.22847601985643e-08
+  },
+  {
+    "seed": 10001,
+    "frames": 915,
+    "raw": {
+      "lift_step": 286,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19360770551808204,
+        0.39744316391310147,
+        0.86510529477659
+      ]
+    },
+    "converted": {
+      "lift_step": 286,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19537196614088181,
+        0.39757591445037616,
+        0.8651552810258162
+      ]
+    },
+    "max_action_difference": 3.3257708587086654e-08
+  },
+  {
+    "seed": 10002,
+    "frames": 915,
+    "raw": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19312834747086718,
+        0.39679845157681265,
+        0.8649490712865521
+      ]
+    },
+    "converted": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19312338503286547,
+        0.3967943727569341,
+        0.8649487000928016
+      ]
+    },
+    "max_action_difference": 3.3103041197080074e-08
+  },
+  {
+    "seed": 10003,
+    "frames": 915,
+    "raw": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19291170741629757,
+        0.3972244451405373,
+        0.8648505984711619
+      ]
+    },
+    "converted": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19291201566329308,
+        0.39722284258969276,
+        0.8648516365357465
+      ]
+    },
+    "max_action_difference": 3.181462182588746e-08
+  },
+  {
+    "seed": 10004,
+    "frames": 915,
+    "raw": {
+      "lift_step": 284,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.1965266191069841,
+        0.3973974447809353,
+        0.8652728501097965
+      ]
+    },
+    "converted": {
+      "lift_step": 284,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.18995552581591993,
+        0.3966277268319761,
+        0.8646975337823901
+      ]
+    },
+    "max_action_difference": 3.268611692419654e-08
+  },
+  {
+    "seed": 10006,
+    "frames": 915,
+    "raw": {
+      "lift_step": 284,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19243579256718463,
+        0.3965250746942719,
+        0.8652282569479589
+      ]
+    },
+    "converted": {
+      "lift_step": 284,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.19216286941130334,
+        0.39648435429644296,
+        0.8652279026801504
+      ]
+    },
+    "max_action_difference": 3.3036511637440924e-08
+  },
+  {
+    "seed": 10008,
+    "frames": 915,
+    "raw": {
+      "lift_step": 285,
+      "place_step": 784,
+      "final_stable_steps": 141,
+      "can_final_m": [
+        0.19377903881660732,
+        0.3985490503352945,
+        0.8651091450695291
+      ]
+    },
+    "converted": {
+      "lift_step": 285,
+      "place_step": 784,
+      "final_stable_steps": 141,
+      "can_final_m": [
+        0.19365240440370762,
+        0.39860218586059193,
+        0.8651008323926873
+      ]
+    },
+    "max_action_difference": 3.281949467748291e-08
+  },
+  {
+    "seed": 10009,
+    "frames": 915,
+    "raw": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 140,
+      "can_final_m": [
+        0.1927417698577403,
+        0.39714262221123015,
+        0.8652157895446468
+      ]
+    },
+    "converted": {
+      "lift_step": 285,
+      "place_step": 785,
+      "final_stable_steps": 82,
+      "can_final_m": [
+        0.21973328499683736,
+        0.4100102465724145,
+        0.8600523123582955
+      ]
+    },
+    "max_action_difference": 3.3294521362137175e-08
+  }
+]
