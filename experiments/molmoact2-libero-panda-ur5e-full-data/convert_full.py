@@ -1,5 +1,6 @@
 """Convert the existing full MimicGen split to XenoArm's MolmoAct2 layout."""
 import argparse
+import fcntl
 import hashlib
 import json
 from pathlib import Path
@@ -92,6 +93,14 @@ def main():
     parser.add_argument("--split", choices=("train", "validation", "test"), required=True)
     parser.add_argument("--limit", type=int)
     args = parser.parse_args()
+    target = args.output / args.robot / args.split
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with target.with_suffix(".conversion.lock").open("a") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        convert(args, target)
+
+
+def convert(args, target):
     robot, split = args.robot, args.split
     audit = json.loads((args.source / "data_audit.json").read_text())[robot]
     reader = LeRobotV3(args.source / "datasets" / robot)
@@ -101,7 +110,6 @@ def main():
     assert audit["source"] == REPOS[robot] and len(membership) == len(set(membership)) == len(episodes) == 500
     assert set(membership) == set(episodes)
     ids = sorted(splits[split])[:args.limit]
-    target = args.output / robot / split
     partial = target.with_name(target.name + ".partial")
     if (target / "conversion_verified.json").exists():
         print(f"Already verified: {target}", flush=True)
