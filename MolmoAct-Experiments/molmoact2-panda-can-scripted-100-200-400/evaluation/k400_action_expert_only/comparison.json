@@ -1,0 +1,380 @@
+{
+  "both": {
+    "scopes": [
+      "vlm_attn",
+      "vlm_ffn",
+      "expert_attn",
+      "expert_ffn"
+    ],
+    "trials": 50,
+    "lifted": 31,
+    "placed": 8,
+    "trainable_parameters": 79331328,
+    "training_wall_seconds": 4614,
+    "peak_training_allocated_vram_gib": 13.228647708892822
+  },
+  "expert_only": {
+    "scopes": [
+      "expert_attn",
+      "expert_ffn"
+    ],
+    "trials": 50,
+    "lifted": 7,
+    "placed": 0,
+    "trainable_parameters": 22118400,
+    "training_wall_seconds": 4250,
+    "peak_training_allocated_vram_gib": 12.403664112091064
+  },
+  "paired": [
+    {
+      "seed": 30000,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30001,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30002,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30003,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30004,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30005,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30006,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30007,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30008,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30009,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30010,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30011,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30012,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30013,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30014,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30015,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30016,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30017,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30018,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30019,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30020,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30021,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30022,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30023,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30024,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30025,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30026,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30027,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30028,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30029,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30030,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30031,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30032,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30033,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30034,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30035,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30036,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30037,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30038,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30039,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30040,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": true,
+      "expert_placed": false
+    },
+    {
+      "seed": 30041,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30042,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30043,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30044,
+      "both_lifted": true,
+      "both_placed": true,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30045,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30046,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30047,
+      "both_lifted": false,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30048,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    },
+    {
+      "seed": 30049,
+      "both_lifted": true,
+      "both_placed": false,
+      "expert_lifted": false,
+      "expert_placed": false
+    }
+  ]
+}
