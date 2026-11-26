@@ -17,3 +17,9 @@ Each condition starts independently from `allenai/MolmoAct2-LIBERO-LeRobot` and 
 On HPC, this directory is staged beside `source`, `full_train_src`, and the previous `convert_full.py`. `collect.py` uses the simulator environment, and `convert.py` uses the existing LeRobot environment and `VideoWriter`. `run.sh` coordinates the data and GPU jobs. W&B records training and assessment in `gist-infonet/xenoarm-proposal` under `MolmoAct2 Panda Can Scripted Data Scale`.
 
 The first completed outputs are `pilot_replay_verified.json` and per-size `conversion_verified.json` files. The final output includes `RESULTS.md`, `results.json`, and the per-seed evaluations. The GPU job waits for earlier scheduled experiments on the shared A100.
+
+## 400-demo LoRA scope comparison
+
+After the 400-demo baseline has completed training and evaluation, run `bash run_action_expert.sh` in the same HPC work directory. The script waits on the baseline job's GPU lock and starts from the same MolmoAct2 checkpoint. It uses the same 400 demonstrations, seed 777, rank 32, batch size 4, and 4,000 optimizer steps. Only the action expert attention and feed-forward layers receive LoRA in this run.
+
+Both runs use the same 50 MuJoCo initial states (seeds 30000–30049). The comparison records grasp-and-lift successes, stable placements, wall-clock training time through the final checkpoint, and peak CUDA memory allocated by PyTorch during training (GiB). It includes per-seed outcomes, a summary table and a four-panel bar chart in `evaluation/k400_action_expert_only/`.
