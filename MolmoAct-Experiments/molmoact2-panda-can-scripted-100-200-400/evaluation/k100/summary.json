@@ -1,0 +1,1110 @@
+{
+  "trials": 50,
+  "lifted": 26,
+  "placed": 4,
+  "max_steps": 1000,
+  "replan_steps": 5,
+  "elapsed_seconds": 2286.932813477004,
+  "episodes": [
+    {
+      "seed": 30000,
+      "initial_state_hash": "ab31515f6eea0349449e61e7121e7e88c1db542ab6bfd97446d4da285c21e584",
+      "can_start_m": [
+        -0.003833213096328287,
+        -0.17014335671659012,
+        0.8608194305572223
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 91,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 790.2146385167725,
+      "video": "videos/Panda_Can_PickPlace_seed30000_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30001,
+      "initial_state_hash": "e5c4507627d66d089f54bcb3900039aaf1452b61861467b532b9dc87e653bb2c",
+      "can_start_m": [
+        0.010707795512527075,
+        -0.2920975070418443,
+        0.8600533356587965
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 427,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 785.2962874458171,
+      "video": "videos/Panda_Can_PickPlace_seed30001_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30002,
+      "initial_state_hash": "9248254cfcd6e93865e7a1354d0bb09691adeaa6f755d7b2b78c2f11ce850258",
+      "can_start_m": [
+        0.21017415446128226,
+        -0.3159919712662472,
+        0.8600481839578187
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 780.3013129159808,
+      "video": "videos/Panda_Can_PickPlace_seed30002_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30003,
+      "initial_state_hash": "be5bb7c65b5442e4e1709a6149cf79ae448ee3e0daf9fb111bffc3afc2c6a127",
+      "can_start_m": [
+        0.11477009600003373,
+        -0.16583020546218663,
+        0.8600743772414475
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 793,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 790.3131904895417,
+      "video": "videos/Panda_Can_PickPlace_seed30003_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30004,
+      "initial_state_hash": "61ca664beef01c89312682e551ccda096bb1ad50a52c1aed6a558bd0ba2d3cdf",
+      "can_start_m": [
+        0.20251922098237415,
+        -0.3508567832025842,
+        0.860058188346114
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 777.101976564154,
+      "video": "videos/Panda_Can_PickPlace_seed30004_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30005,
+      "initial_state_hash": "3f0837900fdc01485d43c02277af1a8c1a8f4b5990cb37baf6322ef45d515693",
+      "can_start_m": [
+        0.061913381497533476,
+        -0.17220853225763005,
+        0.8600545541681287
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 779.468561464455,
+      "video": "videos/Panda_Can_PickPlace_seed30005_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30006,
+      "initial_state_hash": "c4490df568eee32dd5fcc2629250c0ad6cd9103c90401ee2f688050e9d3def81",
+      "can_start_m": [
+        0.08568634623764201,
+        -0.16083261937187954,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 583,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 773.6648200079799,
+      "video": "videos/Panda_Can_PickPlace_seed30006_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30007,
+      "initial_state_hash": "22064169ec86ffda85f7775ca0bb3d6aa0d17034d3a67243e1a197557ab7dc18",
+      "can_start_m": [
+        0.20605304442542507,
+        -0.28176357408149144,
+        0.8600460477197496
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 239,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 770.4301674384624,
+      "video": "videos/Panda_Can_PickPlace_seed30007_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30008,
+      "initial_state_hash": "e457ced69c05048ca02b43436e2181844075bc1f4f4e471fc6ba6ab115a2d9e5",
+      "can_start_m": [
+        0.15694403355817282,
+        -0.3796486466105322,
+        0.8600509808029526
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 782.8275754582137,
+      "video": "videos/Panda_Can_PickPlace_seed30008_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30009,
+      "initial_state_hash": "6ae37204181aa70f5549e5bc5ae422ff7de60521e0d7a01d496b21efc2b0cf87",
+      "can_start_m": [
+        0.055501542950620014,
+        -0.1834760595976698,
+        0.8600504756131567
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 474,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 794.8814679984935,
+      "video": "videos/Panda_Can_PickPlace_seed30009_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30010,
+      "initial_state_hash": "73b859890333766b0740515f360cb161a9dc475d78054a57bfbce8cec4b8b3d4",
+      "can_start_m": [
+        0.012978495213184317,
+        -0.29833507072878324,
+        0.8600476126484708
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 795.019147451967,
+      "video": "videos/Panda_Can_PickPlace_seed30010_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30011,
+      "initial_state_hash": "fe2b1bf0129dc03c48d68d1875a154ab44e813adf53a2dbeb9345f436ed92e12",
+      "can_start_m": [
+        0.06173744650867113,
+        -0.3309258321203542,
+        0.8600580745329148
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 311,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 793.4235499706119,
+      "video": "videos/Panda_Can_PickPlace_seed30011_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30012,
+      "initial_state_hash": "c9bbafef414f2566bc08c8c12ab1ef5b9b04743a63fce58ef148cb2bc171289e",
+      "can_start_m": [
+        0.06407045102053863,
+        -0.3367502959062131,
+        0.8600533356587965
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 357,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 792.4988859449513,
+      "video": "videos/Panda_Can_PickPlace_seed30012_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30013,
+      "initial_state_hash": "74f888a65cf0b53ae022b9316de5afeab08bad7c078976b3cfd9a1c864f57b26",
+      "can_start_m": [
+        0.19111766206838654,
+        -0.11383367034160952,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 798.7756480579264,
+      "video": "videos/Panda_Can_PickPlace_seed30013_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30014,
+      "initial_state_hash": "ae0c10d68c79d24ac4ebe1154eb653fa71e1387b231beeed98e14422d92622de",
+      "can_start_m": [
+        -0.01557914939691501,
+        -0.24157347674484445,
+        0.8600463346824758
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 796.7307274811901,
+      "video": "videos/Panda_Can_PickPlace_seed30014_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30015,
+      "initial_state_hash": "7a7db538bc3a0164be1f293046b38dfb9c246091f6042d3e02ed7ab8cdbd4f05",
+      "can_start_m": [
+        0.07107552706018821,
+        -0.23525603593741046,
+        0.8600453366688631
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 78,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 786.9679030263796,
+      "video": "videos/Panda_Can_PickPlace_seed30015_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30016,
+      "initial_state_hash": "d977d921dc274e24e4f62d1061057a9c9a192d5934e30700c72e5ef679e19299",
+      "can_start_m": [
+        0.04708686484536963,
+        -0.1254641117420731,
+        0.8600463346824758
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 780.4531769943424,
+      "video": "videos/Panda_Can_PickPlace_seed30016_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30017,
+      "initial_state_hash": "26224ec1caaa5d14dfef69c27013fe641906e96c889574a5ecc9ec74a7274c46",
+      "can_start_m": [
+        0.021671083278154594,
+        -0.25696401461892254,
+        0.8600533356587965
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 780.6035584653728,
+      "video": "videos/Panda_Can_PickPlace_seed30017_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30018,
+      "initial_state_hash": "f4040ae61f9362cf61d44683000246662b4f4a742361f41dedea9be7922d227b",
+      "can_start_m": [
+        0.03081624615334438,
+        -0.17729661285198503,
+        0.8600530724683935
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 448,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 778.5266049904749,
+      "video": "videos/Panda_Can_PickPlace_seed30018_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30019,
+      "initial_state_hash": "ad06880428e0260bb521039b88bc0a15398cb79ace700782398420970c2e5ada",
+      "can_start_m": [
+        -0.017993170067516016,
+        -0.38858529417102367,
+        0.8600513999447703
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 665,
+      "lifted": true,
+      "placed": true,
+      "lift_step": 122,
+      "place_step": 665,
+      "clipped_actions": 0,
+      "median_request_ms": 770.3230730257928,
+      "video": "videos/Panda_Can_PickPlace_seed30019_success_665steps.mp4"
+    },
+    {
+      "seed": 30020,
+      "initial_state_hash": "9cdc3b123d45d26c0a2a43b1e005ad5a4d6eb23857a4cc6c143fac6815239698",
+      "can_start_m": [
+        0.03901680875837202,
+        -0.22294679628687752,
+        0.8600505198912838
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 782.6347715454176,
+      "video": "videos/Panda_Can_PickPlace_seed30020_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30021,
+      "initial_state_hash": "34fbbd7595570e68f44d3937e1ce80cc16dd2b18289afdbffb557fd5d428af93",
+      "can_start_m": [
+        0.031100038261727324,
+        -0.27281334996107,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 793.3589619351551,
+      "video": "videos/Panda_Can_PickPlace_seed30021_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30022,
+      "initial_state_hash": "49e5e484af68bf5a0a26feaa0b73a7edc8d205834e0034f19fdfa0bdaf667952",
+      "can_start_m": [
+        0.014821830271953267,
+        -0.3791320400140554,
+        0.8600453943402248
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 302,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 794.7707605198957,
+      "video": "videos/Panda_Can_PickPlace_seed30022_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30023,
+      "initial_state_hash": "d30f810b57333209e16b1b82b8aa58701584133f01d08f2a232cf9cc660de13a",
+      "can_start_m": [
+        0.2008527081315694,
+        -0.36581202916774075,
+        0.8600480161709823
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 769.696282048244,
+      "video": "videos/Panda_Can_PickPlace_seed30023_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30024,
+      "initial_state_hash": "1c68207f9b922da4dff9de1d8247d0f5c77c83ebb346c345b64b3b28190c0242",
+      "can_start_m": [
+        0.06675154314840301,
+        -0.3756063761832901,
+        0.8600470059801895
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 791.854445473291,
+      "video": "videos/Panda_Can_PickPlace_seed30024_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30025,
+      "initial_state_hash": "ee73cf9460312c3de3370019f28a24a7d38a46a7e2b566d7d2c81669525c855b",
+      "can_start_m": [
+        0.04997581207029447,
+        -0.2612070377653844,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 799.1417424636893,
+      "video": "videos/Panda_Can_PickPlace_seed30025_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30026,
+      "initial_state_hash": "cbefce316d78cae3998d0af753a445b4ef178c43ef0fc4702d8fdeb71f051d17",
+      "can_start_m": [
+        0.1958386747216349,
+        -0.2853830990970699,
+        0.8600492316338382
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 477,
+      "lifted": true,
+      "placed": true,
+      "lift_step": 153,
+      "place_step": 477,
+      "clipped_actions": 0,
+      "median_request_ms": 793.7069385079667,
+      "video": "videos/Panda_Can_PickPlace_seed30026_success_477steps.mp4"
+    },
+    {
+      "seed": 30027,
+      "initial_state_hash": "a42f103317c605c60e3c5e420844e3b6830f5e1cacee95c338bd046161176a0f",
+      "can_start_m": [
+        -0.00959523301824538,
+        -0.09364713269233753,
+        0.8600503507619931
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 859,
+      "lifted": true,
+      "placed": true,
+      "lift_step": 293,
+      "place_step": 859,
+      "clipped_actions": 0,
+      "median_request_ms": 790.3480239911005,
+      "video": "videos/Panda_Can_PickPlace_seed30027_success_859steps.mp4"
+    },
+    {
+      "seed": 30028,
+      "initial_state_hash": "4990f6f80705377088b3f20b2c47fa2be4d73dfecee54e1f9f797e69e800f5b0",
+      "can_start_m": [
+        0.21409694822252942,
+        -0.24527372731461058,
+        0.8600523754470182
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 788.7521079974249,
+      "video": "videos/Panda_Can_PickPlace_seed30028_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30029,
+      "initial_state_hash": "c8b6c91cb5d162b81949250a02442344b898ffa1fcaa2f91ad79b5b882b0cb6e",
+      "can_start_m": [
+        0.01891983343996822,
+        -0.2975552242289176,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 497,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 792.7726564812474,
+      "video": "videos/Panda_Can_PickPlace_seed30029_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30030,
+      "initial_state_hash": "b26fe8b1ed93f6bc55a6098ee07f457bc3faeacdba1ee7bdc256ff73c20e04f6",
+      "can_start_m": [
+        0.1982051419608841,
+        -0.08268214626512796,
+        0.8600509808029526
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 854,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 780.2345430245623,
+      "video": "videos/Panda_Can_PickPlace_seed30030_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30031,
+      "initial_state_hash": "9435b437d3369f56466a48213047d1af9c836ce497ebf67064e443e03a426a58",
+      "can_start_m": [
+        -0.014004306765232096,
+        -0.4012661144477676,
+        0.8600515982456474
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 120,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 779.2950500152074,
+      "video": "videos/Panda_Can_PickPlace_seed30031_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30032,
+      "initial_state_hash": "0ddca90a19dcd19c3d37adf633d184890d7b342d8d5ddac7a1319d5464697264",
+      "can_start_m": [
+        0.023985452271653378,
+        -0.38520050095515246,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 144,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 786.1411015037447,
+      "video": "videos/Panda_Can_PickPlace_seed30032_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30033,
+      "initial_state_hash": "1a929bc72bdc85eed1b0027220d8834dc7192c7aba11f97b8025bc0b9660ab12",
+      "can_start_m": [
+        0.21009739639699443,
+        -0.3689447295768646,
+        0.8600533356587964
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 772.3573324619792,
+      "video": "videos/Panda_Can_PickPlace_seed30033_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30034,
+      "initial_state_hash": "017775c793422785d2a856ff2235bd97cfc7b1ae699c992c47629465f1d881fd",
+      "can_start_m": [
+        0.1397602043009795,
+        -0.2759950105726566,
+        0.8600525215267191
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 147,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 777.3202889948152,
+      "video": "videos/Panda_Can_PickPlace_seed30034_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30035,
+      "initial_state_hash": "1227894ea4b5158d7deb90753d3e7b5bb1f02bae35c757ffb39bde46a58e71e4",
+      "can_start_m": [
+        0.18636630529957415,
+        -0.21437215357224976,
+        0.8600478565282217
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 783.5071615409106,
+      "video": "videos/Panda_Can_PickPlace_seed30035_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30036,
+      "initial_state_hash": "e1888c97d07ae107f3d6d36584f52b4592f9a471e0a7800a6e589a2407cb5621",
+      "can_start_m": [
+        0.18247314977921864,
+        -0.09518243223372352,
+        0.8600509808029526
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 780.5432114400901,
+      "video": "videos/Panda_Can_PickPlace_seed30036_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30037,
+      "initial_state_hash": "2b4db32c3fbb0f7f50fabd4a39d2118e9608bbf1acfccbce1f96124f93326e4f",
+      "can_start_m": [
+        0.146143315867192,
+        -0.3800606128031812,
+        0.8600533356587965
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 782.5331140193157,
+      "video": "videos/Panda_Can_PickPlace_seed30037_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30038,
+      "initial_state_hash": "c05e51eebc88438dc90be4fbba2d5ce9e4900e05e6b6b09bd460cc7b5e3ffc35",
+      "can_start_m": [
+        0.051234075755240374,
+        -0.2647230020482251,
+        0.8600509808029526
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 107,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 786.4337229984812,
+      "video": "videos/Panda_Can_PickPlace_seed30038_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30039,
+      "initial_state_hash": "92f68bbf241d0774de9691d329b2b6565a85673d8670aba91a970c1b166d047f",
+      "can_start_m": [
+        0.19772561285374685,
+        -0.40667721948970337,
+        0.8600509808029526
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 852,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 786.334031028673,
+      "video": "videos/Panda_Can_PickPlace_seed30039_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30040,
+      "initial_state_hash": "512ea97db7ab99f7a5c409b0f7840a2a9eacfc04cde2db3aff4f68913e736162",
+      "can_start_m": [
+        -0.019219958803951626,
+        -0.09719530155152079,
+        0.8600463346824758
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 254,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 792.3735334770754,
+      "video": "videos/Panda_Can_PickPlace_seed30040_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30041,
+      "initial_state_hash": "dfa379951ed73e48114ace89574be3bfbc92b0093b9c56d05b2a374914a4c4a3",
+      "can_start_m": [
+        0.04857021313430852,
+        -0.41303501153388383,
+        0.8600518893658925
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 613,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 798.1832365039736,
+      "video": "videos/Panda_Can_PickPlace_seed30041_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30042,
+      "initial_state_hash": "7f5ca6917043522f3781eb8b3f9240fb5b5667840762c34dd72c3b3e7bf2c1a9",
+      "can_start_m": [
+        0.20741792750363416,
+        -0.2190619703751346,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 801.0605375166051,
+      "video": "videos/Panda_Can_PickPlace_seed30042_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30043,
+      "initial_state_hash": "87de22ca45e4d71c367e159f481df3e9e8968d749ed724ce646534af2a3b4740",
+      "can_start_m": [
+        0.19170112439998865,
+        -0.418631773428338,
+        0.8600533356587965
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 800.0219970126636,
+      "video": "videos/Panda_Can_PickPlace_seed30043_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30044,
+      "initial_state_hash": "343671ae901f82d19b1c62c135b4cebdb1abd6a7b3a2af564a170bdcb1c800f9",
+      "can_start_m": [
+        0.1777346834356887,
+        -0.31108251561590466,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 905,
+      "lifted": true,
+      "placed": true,
+      "lift_step": 197,
+      "place_step": 905,
+      "clipped_actions": 0,
+      "median_request_ms": 781.7831999855116,
+      "video": "videos/Panda_Can_PickPlace_seed30044_success_905steps.mp4"
+    },
+    {
+      "seed": 30045,
+      "initial_state_hash": "bfa8a2f3dec0f6cfdedb47950399f6ccfd74a41215202cced45d2fc96f11e9af",
+      "can_start_m": [
+        0.04887476395379411,
+        -0.405667530762239,
+        0.8600470059801895
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 790.397817036137,
+      "video": "videos/Panda_Can_PickPlace_seed30045_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30046,
+      "initial_state_hash": "4fa927bd8c918b3e5f3868cb792fc1d7cc2a71915d4579b6db9e37b4500879a9",
+      "can_start_m": [
+        0.08592537853797814,
+        -0.15805991049827006,
+        0.8600454771435876
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 786.0095835058019,
+      "video": "videos/Panda_Can_PickPlace_seed30046_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30047,
+      "initial_state_hash": "740498019c4714e20f6d7fbd893d347e2f4b0b3e43cc3cd8d135760afc4f9fee",
+      "can_start_m": [
+        0.10590814298540914,
+        -0.19727138758497945,
+        0.8600463346824758
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 156,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 775.2060874481685,
+      "video": "videos/Panda_Can_PickPlace_seed30047_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30048,
+      "initial_state_hash": "2cc7639493e4355d74f8ff2a865a727af5e59d16dd1b76b0581aeee67fd02723",
+      "can_start_m": [
+        0.20220997068294103,
+        -0.35749964814785723,
+        0.8600509808029525
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": true,
+      "placed": false,
+      "lift_step": 406,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 562.0913004968315,
+      "video": "videos/Panda_Can_PickPlace_seed30048_failure_1000steps.mp4"
+    },
+    {
+      "seed": 30049,
+      "initial_state_hash": "b3c494f41a87ac1ee157dfe6b4e57f9979c630d874f24a64779d5502e13b018d",
+      "can_start_m": [
+        0.1661379508353528,
+        -0.32559468449368795,
+        0.8600561977497668
+      ],
+      "bin_target_m": [
+        0.1975,
+        0.4025,
+        0.8
+      ],
+      "steps": 1000,
+      "lifted": false,
+      "placed": false,
+      "lift_step": null,
+      "place_step": null,
+      "clipped_actions": 0,
+      "median_request_ms": 533.9520315174013,
+      "video": "videos/Panda_Can_PickPlace_seed30049_failure_1000steps.mp4"
+    }
+  ]
+}
