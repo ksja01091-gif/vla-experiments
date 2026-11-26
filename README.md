@@ -16,7 +16,7 @@ The demonstration images/actions and the trained model weights are stored outsid
 
 The π0.5 UR5e model lifted the block by at least 5 cm in **1/40 training-grid starts** and **0/50 new starts**. This is a lift test, not a completed pick-and-place test. Read [`pi05_ur5e/eval_seen40_unseen50_20261122/README.md`](pi05_ur5e/eval_seen40_unseen50_20261122/README.md) for all episodes and videos, or see the [W&B evaluation dashboard](https://forge.coreweave.com/wandb/ksja01091-gwangju-institute-of-science-and-technology/pi05-ur5e-mujoco/runs/pi05ur5e90nov22).
 
-## MolmoAct experiments
+## MolmoAct and ACT experiments
 
-- [MolmoAct-7B-D-0812 — Panda and UR5e LoRA pilot](experiments/molmoact-7b-d-0812-panda-ur5e/)
-- [MolmoAct2-LIBERO-LeRobot — Panda and UR5e full demonstration LoRA](experiments/molmoact2-libero-panda-ur5e-full-data/)
+- [MolmoAct-Experiments](MolmoAct-Experiments/README.md)에서 7B와 MolmoAct2의 학습 코드, 평가 결과, 영상을 찾을 수 있습니다.
+- [ACT-Experiments](ACT-Experiments/Panda-PickPlace-400-Demos/README.md)에는 Panda ACT 실험과 집게 위치를 맞춘 뒤 진행한 캔 집기·놓기 비교가 있습니다. [결과표](ACT-Experiments/Panda-PickPlace-400-Demos/RESULTS.md)

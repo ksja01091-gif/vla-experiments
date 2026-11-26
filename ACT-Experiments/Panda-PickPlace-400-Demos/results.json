@@ -1,0 +1,768 @@
+{
+  "model": "ACT",
+  "robot": "Panda",
+  "task": "XenoArm pp4",
+  "gpu": "TITAN RTX",
+  "training_demonstrations": 400,
+  "training_seed": 777,
+  "optimizer_steps": 3000,
+  "batch_size": 4,
+  "training_wall_seconds": 466,
+  "eval_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "successes": 0,
+  "trials": 50,
+  "success_rate": 0.0,
+  "episodes": [
+    {
+      "seed": 0,
+      "success": false,
+      "initial_state_hash": "cc2ef7cc1315607dadad3d2fd3ea90b9048b9deddf42f0e8ca423449ee932873",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 1,
+      "success": false,
+      "initial_state_hash": "8379d7cdb0cc4bd290371c34ee6be15e96144cc362422e9fa9f6ffb2660d731e",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 2,
+      "success": false,
+      "initial_state_hash": "195499ed8d1c737c7fefb37263291f749c84b9d34ace8bf63ca1bdbaa23b8b04",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 3,
+      "success": false,
+      "initial_state_hash": "bc1138b44f78d5cfbe61ea10415d91af1c9bcb73380bb817b5c115bf51644d86",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 1,
+        "objects_placed_fraction": 0.25,
+        "placed_milk": 0,
+        "placed_bread": 1,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 4,
+      "success": false,
+      "initial_state_hash": "af7b9cbc631b364f482bc8512cd1bb139a4bf3b974187994c8241f4c64ef6b2d",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 5,
+      "success": false,
+      "initial_state_hash": "962b3a5d4a79d18d1a1ababf944dc1a2c9972f22c6cf65083ddec796a60fe67c",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 6,
+      "success": false,
+      "initial_state_hash": "45035562e761b18f4e630d82b41fa1e35c3eb8e573792570049460917b6568c5",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 7,
+      "success": false,
+      "initial_state_hash": "6ed8e89838eac3c46ea5fbf3fd335f731a099c595401f31af2a15868eceeda80",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 8,
+      "success": false,
+      "initial_state_hash": "a8ed7857a6802b27be2bd945fd1ab32fd0b246681c844142ea29aa6466c8b68e",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 9,
+      "success": false,
+      "initial_state_hash": "8ca8ee535f99a16179e83666f4efdc3bb9f00f18a03e2ffa898e273de6881f82",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 10,
+      "success": false,
+      "initial_state_hash": "8ee8033754c9f0806b524e0cef5931e8c79f6b77243db18aca11984375aa7427",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 11,
+      "success": false,
+      "initial_state_hash": "5118d660da3ed2a049d2795512bf966f349528ab63b3e81679e4d7aeaba6f3b4",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 12,
+      "success": false,
+      "initial_state_hash": "339eb6055249b4b8a1db98627f678c0a802e508a6735ce72d51adf792bea623c",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 13,
+      "success": false,
+      "initial_state_hash": "4e089626e93f4b7dbc93f06ccc7e641fb062893fe54b761207d6d17cbc36ca3f",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 14,
+      "success": false,
+      "initial_state_hash": "1836a26880ce7851f7fd3a3e2e24ba6ec9a8236fdafd02d9b4b6006d5d0a7ebf",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 15,
+      "success": false,
+      "initial_state_hash": "9b83cf8fad7d1e4b12aa70aba19faf1746c87c438f34af31fa71c4255f2dfea3",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 16,
+      "success": false,
+      "initial_state_hash": "c3b1b61e48dd74ce46f718c365b007975ad636d7d5e06543dd8aab47a5ab8d32",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 17,
+      "success": false,
+      "initial_state_hash": "13dbfaff2492152a126a28234eeecbcac4d6a44307a128825172665d837d686c",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 18,
+      "success": false,
+      "initial_state_hash": "c6264f94dde5512918f5377561ffe42a8106b339a2a3fba4bd98301898092893",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 19,
+      "success": false,
+      "initial_state_hash": "17dea24c863b4405bdbbd817d5e5c2e242293202e0cc571eee6a7086f01740f8",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 20,
+      "success": false,
+      "initial_state_hash": "c4127e925b01afc9a4ca7e028d9c3b64de80397f4b6fff7f670925f3f1c4ef76",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 21,
+      "success": false,
+      "initial_state_hash": "d7571efb3068f6303da02d8f7b7d1976c1118f55c2f94ecd9cdcde124c35715a",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 22,
+      "success": false,
+      "initial_state_hash": "1f59566979161048dcf02ed82fa634c9ff93bf7729b10ef876fc933fa40a4069",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 23,
+      "success": false,
+      "initial_state_hash": "5c203fe760bde46c28df151eb2f1e5466c644aa35848930559c690bf666a3206",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 24,
+      "success": false,
+      "initial_state_hash": "fab4bb705a03916db7a104eb9abbaa25b266b9cf20f5979170fa087d26d84420",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 25,
+      "success": false,
+      "initial_state_hash": "fefd6c38933b95e1c9f08fc22bb0c42e8da1b81001c598f7724b2c6fd50fd56c",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 26,
+      "success": false,
+      "initial_state_hash": "f2b491668e8ee300d257fda0da396959346262d1c493f3cc143a487734d24b12",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 27,
+      "success": false,
+      "initial_state_hash": "d894a49d78722eb655578b69fe1e7dc71f43b0184433880a50e96b98e026a1fd",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 1,
+        "objects_placed_fraction": 0.25,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 1,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 28,
+      "success": false,
+      "initial_state_hash": "fa2a16262bcfa99490e3db0b8c650fba7757fe4467d25736de1bc631833e9b5c",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 29,
+      "success": false,
+      "initial_state_hash": "a237e428ee5af7cb5c01ce545f6b0fdd88784f4fd2725680bb8551c8c39bffa1",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 1,
+        "objects_placed_fraction": 0.25,
+        "placed_milk": 0,
+        "placed_bread": 1,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 30,
+      "success": false,
+      "initial_state_hash": "d5e32beb256622b1468c0606a29082290ec3cfb628873582d6dbf214d0ae52f9",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 31,
+      "success": false,
+      "initial_state_hash": "447f143f8c89fef5ce9126f77b71ace3c2bea3950f226cd5bc35b7502f4002c1",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 32,
+      "success": false,
+      "initial_state_hash": "8d77865ba8ccd52b1b0a8eeaa8547bdc587318cbed3a69cbc378fca4fb2bdeda",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 33,
+      "success": false,
+      "initial_state_hash": "50276f087c0915ed28a808cda5849045e0f29634e30fa541aaabf4e4df0ddf85",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 34,
+      "success": false,
+      "initial_state_hash": "82b0b26dc6b5f8f9337732b27fe111824b35a8b732c7c907ac6d894b678488ab",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 35,
+      "success": false,
+      "initial_state_hash": "4e5a0b7e73add744cdacd490fda94250e91ad784f2e8819f2abbd8cb42fa9f75",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 36,
+      "success": false,
+      "initial_state_hash": "4b453fe2d9141ed9481d682ccaeb2588da351f433d834eead901f1ccf9418c6a",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 37,
+      "success": false,
+      "initial_state_hash": "bced08c6e693a0f473a02838800dfc8d8d95aab24874fd0e720dc42864b795c5",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 38,
+      "success": false,
+      "initial_state_hash": "c6cee5a30422337a2d9154a34af51a4b0e0f4f910f8eb81de527f67a7bbfd8b8",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 39,
+      "success": false,
+      "initial_state_hash": "afd736f4edeeebc9c40f9aca00f475b54772a2a74737ffccfad5cb5780204cd5",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 40,
+      "success": false,
+      "initial_state_hash": "9276d37b906d299c92a1876667adac1d1e20b3e2a0923f5dd3ac95e2c2d5b04f",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 41,
+      "success": false,
+      "initial_state_hash": "7a9c4661527c11ff4f296829fa3e0488b77bee35b3205c48b4902d798325cafb",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 42,
+      "success": false,
+      "initial_state_hash": "5f4c804f40b605c5d1d4eafa5cf05de376e370313195e6ab0fd1574083296b6d",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 43,
+      "success": false,
+      "initial_state_hash": "a3f59ceee284f053918deb31bc3e6f6e34c87c66063ef4db6d0023afaa60a723",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 1,
+        "objects_placed_fraction": 0.25,
+        "placed_milk": 0,
+        "placed_bread": 1,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 44,
+      "success": false,
+      "initial_state_hash": "87609c2b62ec9ea9d14799b5e1d7b8efc7497fd05957b23323d903d41371fcb7",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 45,
+      "success": false,
+      "initial_state_hash": "912d55e91b71c8c6574ad4955f9cd373ebfc2ad95d54bc09cbfd729f07ebb37f",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 46,
+      "success": false,
+      "initial_state_hash": "725ebbb2487a370a7d73aabf1ec2a23d3902895fe8c78550d0198acd85ba771b",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 47,
+      "success": false,
+      "initial_state_hash": "aabe3aff5a6ba2d5c73b772cab67009b0c99c38f05dfaad79f00d55469bfecba",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 48,
+      "success": false,
+      "initial_state_hash": "3c6f0cd9464ec2788dbe9e4b163c1bdb845dfae5e787ef4d789c5c0160bdcc3c",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    },
+    {
+      "seed": 49,
+      "success": false,
+      "initial_state_hash": "69a519dcc4f9920fe835adb772228048356a8e91de53db06eea4afe1e109cf60",
+      "steps": 1000,
+      "task_metrics": {
+        "objects_placed": 0,
+        "objects_placed_fraction": 0.0,
+        "placed_milk": 0,
+        "placed_bread": 0,
+        "placed_cereal": 0,
+        "placed_can": 0
+      }
+    }
+  ]
+}
