@@ -1,0 +1,54 @@
+{
+  "training_seed": 777,
+  "training_steps": 67389,
+  "train_episodes": 400,
+  "lora_rank": 32,
+  "train_batch_size": 4,
+  "summary": {
+    "episodes": 50,
+    "successes": 29,
+    "success_rate": 0.58,
+    "median_episode_inference_p95_ms": 819.7904883185402,
+    "clipped_action_count": 2208,
+    "media": {
+      "showcase": 3,
+      "successes": 2,
+      "failures": 2
+    },
+    "task_metrics_success": {
+      "objects_placed": 4.0,
+      "objects_placed_fraction": 1.0,
+      "placed_bread": 1.0,
+      "placed_can": 1.0,
+      "placed_cereal": 1.0,
+      "placed_milk": 1.0
+    },
+    "task_metrics_all": {
+      "objects_placed": 3.12,
+      "objects_placed_fraction": 0.78,
+      "placed_bread": 0.78,
+      "placed_can": 0.66,
+      "placed_cereal": 0.74,
+      "placed_milk": 0.94
+    }
+  },
+  "placed_at_end_by_object": {
+    "milk": 47,
+    "bread": 39,
+    "cereal": 37,
+    "can": 33
+  },
+  "placed_at_end_histogram": {
+    "1": 8,
+    "2": 7,
+    "3": 6,
+    "4": 29
+  },
+  "matching_act_initial_state_hashes": 38,
+  "wandb_url": "https://forge.coreweave.com/wandb/gist-infonet/xenoarm-proposal/runs/molmoact2-pp4-panda-k400-r32-seed777-evaluation",
+  "exact_state_matched_comparison": {
+    "trials": 38,
+    "molmoact2_successes": 22,
+    "act_successes": 0
+  }
+}
