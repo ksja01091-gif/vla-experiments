@@ -11,3 +11,4 @@ MolmoAct2 LoRA rank 32, 학습 시드 777, 배치 4, 4,000 optimizer step으로 
 - [100·200·400판 비교표](../../RESULTS.md)
 - [400판 시드별 평가 기록](summary.json)
 - [400판 평가 영상 50개](videos/README.md)
+- [팀 W&B의 400판 기록](https://forge.coreweave.com/wandb/gist-infonet/xenoarm-proposal/runs/panda-can-k400-s777)
