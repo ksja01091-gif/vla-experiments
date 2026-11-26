@@ -1,0 +1,32 @@
+[
+  {
+    "demonstrations": 100,
+    "action_frames": 91500,
+    "lifted": 26,
+    "placed": 4,
+    "trials": 50,
+    "training_seconds": 4628,
+    "evaluation_seconds": 2286.932813477004,
+    "wandb_url": "https://forge.coreweave.com/wandb/gist-infonet/xenoarm-proposal/runs/panda-can-k100-s777"
+  },
+  {
+    "demonstrations": 200,
+    "action_frames": 183000,
+    "lifted": 34,
+    "placed": 21,
+    "trials": 50,
+    "training_seconds": 4802,
+    "evaluation_seconds": 1887.7561757720541,
+    "wandb_url": "https://forge.coreweave.com/wandb/gist-infonet/xenoarm-proposal/runs/panda-can-k200-s777"
+  },
+  {
+    "demonstrations": 400,
+    "action_frames": 366000,
+    "lifted": 31,
+    "placed": 8,
+    "trials": 50,
+    "training_seconds": 4614,
+    "evaluation_seconds": 2201.739934116951,
+    "wandb_url": null
+  }
+]
