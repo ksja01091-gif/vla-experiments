@@ -27,6 +27,6 @@
     "trials": 50,
     "training_seconds": 4614,
     "evaluation_seconds": 2201.739934116951,
-    "wandb_url": "https://forge.coreweave.com/wandb/gist-infonet/xenoarm-proposal/runs/panda-can-k400-s777"
+    "wandb_url": null
   }
 ]
