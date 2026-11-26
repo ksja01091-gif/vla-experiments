@@ -1,0 +1,51 @@
+seed,grasped,grasped_objects,placed,placed_objects,success,steps,video,same_initial_state
+0,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,772,videos/seed-00-success-4-of-4.mp4,True
+1,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,674,videos/seed-01-success-4-of-4.mp4,False
+2,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,817,videos/seed-02-success-4-of-4.mp4,False
+3,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,752,videos/seed-03-success-4-of-4.mp4,True
+4,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,828,videos/seed-04-success-4-of-4.mp4,True
+5,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,659,videos/seed-05-success-4-of-4.mp4,False
+6,2/4,"milk, cereal",1/4,cereal,False,1000,videos/seed-06-failure-1-of-4.mp4,False
+7,2/4,"cereal, can",1/4,cereal,False,1000,videos/seed-07-failure-1-of-4.mp4,True
+8,4/4,"milk, bread, cereal, can",3/4,"milk, cereal, can",False,1000,videos/seed-08-failure-3-of-4.mp4,False
+9,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,644,videos/seed-09-success-4-of-4.mp4,False
+10,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,732,videos/seed-10-success-4-of-4.mp4,True
+11,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,739,videos/seed-11-success-4-of-4.mp4,True
+12,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,880,videos/seed-12-success-4-of-4.mp4,True
+13,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,665,videos/seed-13-success-4-of-4.mp4,True
+14,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,682,videos/seed-14-success-4-of-4.mp4,True
+15,2/4,"milk, cereal",2/4,"milk, cereal",False,1000,videos/seed-15-failure-2-of-4.mp4,True
+16,4/4,"milk, bread, cereal, can",3/4,"milk, bread, can",False,1000,videos/seed-16-failure-3-of-4.mp4,True
+17,3/4,"milk, bread, can",3/4,"milk, bread, can",False,1000,videos/seed-17-failure-3-of-4.mp4,True
+18,1/4,milk,1/4,milk,False,1000,videos/seed-18-failure-1-of-4.mp4,True
+19,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,782,videos/seed-19-success-4-of-4.mp4,True
+20,3/4,"milk, bread, cereal",3/4,"milk, bread, cereal",False,1000,videos/seed-20-failure-3-of-4.mp4,True
+21,2/4,"milk, cereal",2/4,"milk, cereal",False,1000,videos/seed-21-failure-2-of-4.mp4,False
+22,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,780,videos/seed-22-success-4-of-4.mp4,True
+23,2/4,"milk, cereal",2/4,"milk, cereal",False,1000,videos/seed-23-failure-2-of-4.mp4,False
+24,4/4,"milk, bread, cereal, can",3/4,"milk, bread, cereal",False,1000,videos/seed-24-failure-3-of-4.mp4,False
+25,2/4,"milk, bread",2/4,"milk, bread",False,1000,videos/seed-25-failure-2-of-4.mp4,True
+26,3/4,"milk, bread, cereal",3/4,"milk, bread, cereal",False,1000,videos/seed-26-failure-3-of-4.mp4,True
+27,3/4,"milk, bread, can",3/4,"milk, bread, can",False,1000,videos/seed-27-failure-3-of-4.mp4,True
+28,4/4,"milk, bread, cereal, can",3/4,"milk, bread, cereal",False,1000,videos/seed-28-failure-3-of-4.mp4,True
+29,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,711,videos/seed-29-success-4-of-4.mp4,True
+30,3/4,"bread, cereal, can",3/4,"bread, cereal, can",False,1000,videos/seed-30-failure-3-of-4.mp4,True
+31,3/4,"milk, bread, cereal",3/4,"milk, bread, cereal",False,1000,videos/seed-31-failure-3-of-4.mp4,False
+32,4/4,"milk, bread, cereal, can",3/4,"milk, bread, cereal",False,1000,videos/seed-32-failure-3-of-4.mp4,False
+33,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,633,videos/seed-33-success-4-of-4.mp4,True
+34,2/4,"milk, cereal",2/4,"milk, cereal",False,1000,videos/seed-34-failure-2-of-4.mp4,False
+35,3/4,"milk, bread, cereal",3/4,"milk, bread, cereal",False,1000,videos/seed-35-failure-3-of-4.mp4,True
+36,1/4,milk,1/4,milk,False,1000,videos/seed-36-failure-1-of-4.mp4,True
+37,4/4,"milk, bread, cereal, can",3/4,"milk, bread, cereal",False,1000,videos/seed-37-failure-3-of-4.mp4,False
+38,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,748,videos/seed-38-success-4-of-4.mp4,True
+39,2/4,"milk, cereal",2/4,"milk, cereal",False,1000,videos/seed-39-failure-2-of-4.mp4,True
+40,3/4,"milk, bread, cereal",3/4,"milk, bread, cereal",False,1000,videos/seed-40-failure-3-of-4.mp4,True
+41,1/4,milk,1/4,milk,False,1000,videos/seed-41-failure-1-of-4.mp4,False
+42,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,719,videos/seed-42-success-4-of-4.mp4,True
+43,3/4,"milk, bread, cereal",3/4,"milk, bread, cereal",False,1000,videos/seed-43-failure-3-of-4.mp4,True
+44,1/4,milk,1/4,milk,False,1000,videos/seed-44-failure-1-of-4.mp4,False
+45,4/4,"milk, bread, cereal, can",3/4,"milk, bread, can",False,1000,videos/seed-45-failure-3-of-4.mp4,False
+46,4/4,"milk, bread, cereal, can",3/4,"milk, cereal, can",False,1000,videos/seed-46-failure-3-of-4.mp4,False
+47,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,694,videos/seed-47-success-4-of-4.mp4,True
+48,3/4,"milk, bread, cereal",2/4,"milk, cereal",False,1000,videos/seed-48-failure-2-of-4.mp4,False
+49,4/4,"milk, bread, cereal, can",4/4,"milk, bread, cereal, can",True,654,videos/seed-49-success-4-of-4.mp4,True

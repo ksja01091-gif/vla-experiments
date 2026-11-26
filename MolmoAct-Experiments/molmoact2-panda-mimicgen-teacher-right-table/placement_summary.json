@@ -1,0 +1,33 @@
+{
+  "trials": 50,
+  "completed_4_of_4": 20,
+  "full_success_rate": 0.4,
+  "placement_histogram": {
+    "0/4": 0,
+    "1/4": 6,
+    "2/4": 7,
+    "3/4": 17,
+    "4/4": 20
+  },
+  "grasp_histogram": {
+    "0/4": 0,
+    "1/4": 4,
+    "2/4": 8,
+    "3/4": 10,
+    "4/4": 28
+  },
+  "videos_saved": 50,
+  "same_initial_state_as_previous_evaluation": 32,
+  "objects_placed_by_type": {
+    "milk": 47,
+    "bread": 36,
+    "cereal": 41,
+    "can": 27
+  },
+  "objects_grasped_by_type": {
+    "milk": 48,
+    "bread": 39,
+    "cereal": 43,
+    "can": 32
+  }
+}
